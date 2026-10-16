@@ -1,7 +1,9 @@
-TomiTrack by TomiKing — the first foundation for your diecast collection.
+TomiTrack 0.2.0 — a refined collection experience and dark mode.
 
-Add models and photos, track quantities, variants, conditions and shelves, maintain a wishlist, and keep purchase prices alongside your own value estimates. Export JSON backups to move your collection between devices, or CSV for a spreadsheet. No account required.
+- Refined portfolio balance, history range controls, Overview/Collection/Statistics navigation, most-valuable model rows and collection cards.
+- Light, Dark and Follow device settings, remembered on each device. Native Android bars and Windows appearance follow the selected theme.
+- Secure-account client integration: email/password sign-up, email verification, sign-in, password reset/change, account-separated storage and explicit private backup upload/restore.
 
-**Early access:** Local storage only; no cloud sync or live market pricing. The starter catalog uses illustrative entries. Android APK uses development signing; Windows installer is unsigned and may trigger SmartScreen. Export a JSON backup before updates. Physical Android/Windows testing and production signing remain release milestones.
+**Account activation is pending:** the authentication service is not connected yet, so registration remains clearly disabled. No local passwords or fake accounts are created. Live email delivery and owner-only cloud access must be verified before enabling registration.
 
-Download the APK for Android or the Setup EXE for Windows. SHA256SUMS.txt contains asset checksums.
+Collections remain usable locally without an account. Manual value estimates; no live market pricing or automatic cloud sync. Export a JSON backup before updating. Android uses early-access development signing and Windows is unsigned. Physical-device testing remains needed.

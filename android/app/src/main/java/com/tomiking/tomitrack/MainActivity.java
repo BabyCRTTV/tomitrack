@@ -35,6 +35,8 @@ public class MainActivity extends Activity {
         web.setWebViewClient(new WebViewClient(){
             @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
                 if(HOST.equals(request.getUrl().getHost()))return loader.shouldInterceptRequest(request.getUrl());
+                String authHost = getString(R.string.auth_host);
+                if(!authHost.isEmpty() && "https".equals(request.getUrl().getScheme()) && authHost.equals(request.getUrl().getHost()))return null;
                 return new WebResourceResponse("text/plain","UTF-8",new java.io.ByteArrayInputStream(new byte[0]));
             }
             @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest request){
@@ -58,6 +60,20 @@ public class MainActivity extends Activity {
         web.loadUrl("https://"+HOST+"/assets/web/app/index.html");
     }
     public class ExportBridge {
+        @JavascriptInterface public void setTheme(String theme) {
+            if(!"dark".equals(theme) && !"light".equals(theme))return;
+            runOnUiThread(()->{
+                boolean dark="dark".equals(theme);
+                int background=dark?0xff10171f:0xfff8fafb;
+                web.setBackgroundColor(background);
+                getWindow().setStatusBarColor(background);
+                getWindow().setNavigationBarColor(background);
+                View decor=getWindow().getDecorView();
+                int flags=decor.getSystemUiVisibility();
+                int lightBars=View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR|View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
+                decor.setSystemUiVisibility(dark?(flags&~lightBars):(flags|lightBars));
+            });
+        }
         @JavascriptInterface public void saveFile(String name,String content,String mime) {
             if(content.length()>50000000)return;
             runOnUiThread(()->{

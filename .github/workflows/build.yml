@@ -43,7 +43,7 @@ jobs:
           key: tomitrack-development-signing-v1
       - run: npm run prepare:android
       - run: gradle -p android assembleDebug --no-daemon
-      - run: mkdir -p artifacts && cp android/app/build/outputs/apk/debug/app-debug.apk artifacts/TomiTrack-0.1.0-early-access.apk
+      - run: node scripts/collect-android.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: android-apk

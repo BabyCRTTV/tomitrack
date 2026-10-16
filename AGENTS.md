@@ -10,3 +10,7 @@
 - Bump package version, Android versionCode/versionName, app version and cache key together; update handoff and changelog for releases.
 - Run npm test and npm run check for functional changes. Verify storage, backups and narrow screens when possible.
 - Do not commit secrets or production signing keys. Keep GitHub Actions and Pages working.
+
+- Keep account registration disabled until provider, email delivery and owner-only RLS have been verified with a real project. Never replace managed authentication with local password storage.
+- Auth sessions stay in memory. Keep user storage namespaces distinct and confirm cloud/local replacement and sign-out cache removal.
+- Keep every app surface legible in light and dark themes; preserve the approved public landing page desktop appearance.

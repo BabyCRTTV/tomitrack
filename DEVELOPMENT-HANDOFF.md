@@ -1,14 +1,21 @@
-# Development handoff · 0.1.0
+# Development handoff · 0.2.0
 
-Initial foundation: shared vanilla JS app, IndexedDB local storage, photo resizing, record editing, separate wishlist, manual value history, searchable starter catalog, JSON import/export and CSV export. Responsive portfolio interface, custom diecast hero landing page, native Android and Electron wrappers.
+Shared web app used by GitHub Pages, Android WebViewAssetLoader and sandboxed Electron. Version 0.2 refines the portfolio interface and adds full Light/Dark/Follow device themes, stored as preferences only. Native system bars/title appearance follow the theme. Public landing page keeps the previously approved desktop layout and mobile refinements.
 
-Demo mode is isolated in memory. Imports validate schema/items and replace only after confirmation. History resets on import. No cloud/market service exists. Current values are USD per-unit manual estimates.
+## Accounts: implemented, awaiting activation
 
-Android builds use debug signing for early access, with the key retained by Actions cache where available. Move to a privately backed-up production signing key before public production adoption. Windows builds are unsigned NSIS installers. Physical-device smoke testing is still needed; CI compilation is not a substitute for it.
+Official Supabase JS client 2.118.0 is bundled locally. Account UI includes email/password registration, email-code confirmation, sign-in, password reset with code, password change and sign-out. Client passwords are not persisted; session tokens are memory-only. Account data is keyed by authenticated user ID; legacy guest data remains at `collection`. Manual sign-out asks before removing the account's local cache. Automatic session loss returns to guest without deleting cached unsaved account entries. Local collection storage is not encrypted at rest.
 
-Priorities: gather UI feedback, verify actual devices, establish production signing, then model a sourced catalog with variants and stable IDs before pricing and sync.
+The Supabase plugin was discovered but is not connected. `web/app/auth-config.js` is deliberately disabled and blank. The UI clearly reports registration is awaiting activation and never accepts a substitute local password. Read `backend/README.md` before enabling accounts. Apply the owner-only RLS migration and verify two users and anonymous access, configure real email delivery, require confirmation and configure the OTP email templates before activation. No real-provider sign-up, email, recovery or RLS tests have been run yet.
 
-Validation: five domain tests pass. A separate JSDOM/fake IndexedDB integration smoke check passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, and demo isolation with restoration of the real collection. Pages published successfully. Initial Android setup needed explicit SDK packages because the legacy tools package is no longer available.
-Windows packaging produced the installer but electron-builder attempted implicit publishing; --publish never delegates publishing to the dedicated release job.
+Optional private account backup upload/restore is implemented behind authentication. It is explicit, includes photos, supports 10 MB and requires confirmation before overwrites. It is not continuous synchronization. Guest collection copying is explicit and never automatic. Supabase API responses are outside service-worker caching. Android's native network allowlist is generated from the configured project host; it is empty until activation. INTERNET is the only additional Android permission; no camera or broad storage access.
 
-Website-only mobile refinement (2026-10-16): appended phone styles at max-width 650px, with a 359px compact adjustment. Added a Downloads navigation link hidden on desktop. Desktop CSS rules and existing DOM elements are unchanged. App binaries remain version 0.1.0.
+## Validation and release
+
+21 domain/account/theme unit tests pass. Account tests use a mocked SDK; they do not verify a live provider. JSDOM/fake IndexedDB smoke checks passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, demo isolation, dark theme persistence and the disabled account state. CSS syntax checks passed. Native CI builds and Pages publish are checked during release. Physical Android/Windows testing remains needed.
+
+Run `npm test` and `npm run check`. To regenerate the vendored SDK, run `npm ci` then `npm run bundle:auth`; the static site and native builds consume the tracked vendor bundle. `npm run prepare:android` bundles assets and generates the exact allowed auth host. Do not commit generated resources or any private credentials.
+
+Android retains early-access development signing via Actions cache. Production signing is still a separate milestone. Windows NSIS builds are unsigned. Export JSON before updating. All version fields and the service-worker cache are 0.2.0; Android versionCode is 2.
+
+Next: connect Supabase, provision/verify the backend and SMTP, then activate configuration and test all account flows. Afterwards focus on a verified catalog, better model imagery and priced data sources.

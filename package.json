@@ -1,6 +1,6 @@
 {
   "name": "tomitrack",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Your diecast collection, in focus. By TomiKing.",
   "author": "TomiKing",
   "private": true,
@@ -8,14 +8,17 @@
   "main": "desktop/main.cjs",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check web/app/app.js && node --check web/app/domain.js && node --check desktop/main.cjs",
+    "check": "node --check web/app/app.js && node --check web/app/accounts.js && node --check web/app/theme.js && node --check desktop/main.cjs && node --check desktop/preload.cjs",
     "start": "electron .",
     "dist:win": "electron-builder --win nsis --x64 --publish never",
-    "prepare:android": "node scripts/prepare-android.mjs"
+    "prepare:android": "node scripts/prepare-android.mjs",
+    "bundle:auth": "node scripts/bundle-auth.mjs"
   },
   "devDependencies": {
+    "@supabase/supabase-js": "2.118.0",
     "electron": "44.8.0",
-    "electron-builder": "26.15.3"
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.2"
   },
   "build": {
     "appId": "com.tomiking.tomitrack",

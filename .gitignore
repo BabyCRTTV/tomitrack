@@ -8,3 +8,6 @@ android/app/src/main/assets/
 *.keystore
 *.log
 test-results/
+
+android/app/src/main/res/values/auth.xml
+android/app/src/main/res/drawable/icon.png
