@@ -1,4 +1,4 @@
-# Development handoff · 0.2.1
+# Development handoff · 0.3.0
 
 Shared web app used by GitHub Pages, Android WebViewAssetLoader and sandboxed Electron. Version 0.2 refines the portfolio interface and adds full Light/Dark/Follow device themes, stored as preferences only. Native system bars/title appearance follow the theme. Public landing page keeps the previously approved desktop layout and mobile refinements.
 
@@ -12,7 +12,7 @@ Optional private account backup upload/restore is implemented behind authenticat
 
 ## Validation and release
 
-25 domain/account/theme/updater unit tests pass. Account tests use a mocked SDK; they do not verify a live provider. JSDOM/fake IndexedDB smoke checks passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, demo isolation, dark theme persistence and the disabled account state. CSS syntax checks passed. Native CI builds and Pages publish are checked during release. Physical Android/Windows testing remains needed.
+36 domain/account/theme/updater/catalog unit tests pass, including generated-data parity, all catalog references, barcode semantics, collection metadata round-trip and actual SQLite joins/FTS/integrity. Account tests use a mocked SDK; they do not verify a live provider. JSDOM/fake IndexedDB smoke checks passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, demo isolation, dark theme persistence and the disabled account state. CSS syntax checks passed. Native CI builds and Pages publish are checked during release. Physical Android/Windows testing remains needed.
 
 Run `npm test` and `npm run check`. To regenerate the vendored SDK, run `npm ci` then `npm run bundle:auth`; the static site and native builds consume the tracked vendor bundle. `npm run prepare:android` bundles assets and generates the exact allowed auth host. Do not commit generated resources or any private credentials.
 
@@ -20,6 +20,18 @@ Android 0.2.1 implements AppUpdater plus pure Java UpdatePolicy tests. Optional 
 
 The original signing cache never persisted; published 0.1.0/0.2.0 certificates differ. Neither original private key was recovered. Those installs require the documented one-time JSON backup/uninstall/install/import migration. A permanent PKCS12 identity is prepared; only its public certificate fingerprint is committed. The private recovery ZIP was saved separately for the owner (Library ID libfile_602ab5c921cc8191955ed3898d7017c7). Never commit its bytes/password. The owner authorized storing the signing identity on October 16, 2026. Repository Actions secret ANDROID_SIGNING_BUNDLE is installed; GitHub confirmed creation. The release workflow deliberately fails if it is missing or the certificate changes. The feature-branch validation workflow builds unsigned and runs five native policy tests. Both Android CI validation runs passed compilation and all five native policy tests. A 0.2.1 APK was signed locally from validated CI output; apksigner v2/v3 verification and the release verification script passed against the permanent fingerprint, package ID and versionCode 3. Signing-bundle preparation was validated privately. Native Settings smoke checks passed progress, busy buttons, install retry, auto-check and text escaping. Signed install/upgrade on a physical Android device remains unverified.
 
-Windows NSIS builds remain unsigned. All version fields and service-worker cache are 0.2.1; Android versionCode is 3. See ANDROID-UPDATES.md for release operations.
+Windows NSIS builds remain unsigned. All application version fields and service-worker cache are 0.3.0; Android versionCode is 4. Catalog snapshot is 2026.10.16.1. See ANDROID-UPDATES.md for release operations.
 
-Next: connect Supabase, provision/verify the backend and SMTP, then activate configuration and test all account flows. Afterwards focus on a verified catalog, better model imagery and priced data sources.
+## Catalog foundation
+
+Read catalog/README.md. Public inputs produce catalog/catalog.json and web/app/catalog/data.js using scripts/build-catalog.mjs. Runtime lazily loads the local ES module on catalog entry, which works with Pages, Android assets and Electron's file origin. The service worker precaches the catalog and modules. Search uses precomputed normalized fields and stable base ordering; 48 results are rendered per page. GTINs normalize to 14 digits after validating check digits; shared assortment references are separate from release links. No search queries, photos or collections go to catalog sources.
+
+There are 10,165 release records: 8,270 Hot Wheels and 1,895 Matchbox; 2,780 casting entities and 1,661 yearly series. Every 2014–2026 brand/year has partial records. Matchbox 2026 has 93 source-listed numbered basic positions; their MAN links remain provisional. Source snapshots, retrieval hashes, per-release references, unknown fields, duplicate merges and rejected rows are explicit. Wiki-derived text facts have CC BY-SA attribution; other reference sources are not falsely labeled CC. No source images or article prose are copied. Do not infer original photo rights from a wiki footer license.
+
+Collection records now retain catalogReleaseId/catalogCastingId, releaseYear, productCode, collectorNumber, seriesNumber, manNumber and upc. Existing v1 JSON backups remain compatible. The IDB/account namespaces are unchanged. Selecting a catalog release opens details first; Add to collection/wishlist opens an editable form with zero prices and unknown scale left blank. It never saves automatically. Per-copy color/photo/condition/prices/notes remain independent of catalog updates. Ownership and related casting/series browsing are implemented. Release provenance and annual coverage are visible in the app. The original eight illustrative entries remain demo fixtures only.
+
+scripts/build-catalog-db.py generates the public release asset artifacts/TomiTrack-catalog.sqlite with 12 related tables, FTS5, indexes, source evidence and coverage. Foreign-key and integrity checks are required before writing it. GitHub release generation adds it to SHA256SUMS. No cloud database was activated; independent catalog refresh/moderation is future work.
+
+Catalog UI smoke checks passed lazy load, SKU results, linked details, collection/wishlist saves, edits, duplicate ownership cue, related casting navigation, shared/exact UPC results, year filtering, provenance/coverage and text escaping. Existing collection and updater smoke checks remain passing. Native build, deployed browser layout and signed release verification are checked during publication. Physical-device installation and Windows execution remain unverified.
+
+Next: expand source coverage, validate remaining casting/release/UPC assignments, then connect Supabase, provision/verify the backend and SMTP, then activate configuration and test all account flows. Afterwards focus on a verified catalog, better model imagery and priced data sources.

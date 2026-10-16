@@ -1,0 +1,242 @@
+{
+  "version": "2026.10.16.1",
+  "total": 10165,
+  "castings": 2780,
+  "series": 1661,
+  "duplicatesMerged": 1804,
+  "rejected": [
+    {
+      "reason": "Missing or unsupported release identity",
+      "row": {
+        "name": "None",
+        "year": 2022,
+        "brandId": "hot-wheels",
+        "categoryId": "premium",
+        "seriesName": "Car Culture",
+        "productCode": "HW Classic Hydroplane",
+        "collectorNumber": null,
+        "seriesNumber": "",
+        "variant": "",
+        "color": "",
+        "tags": [],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "hw-snapshot",
+            "row": 13421
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "brandId": "hot-wheels",
+      "year": 2014,
+      "releases": 559,
+      "seriesNumbers": 430,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2015,
+      "releases": 500,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2016,
+      "releases": 524,
+      "seriesNumbers": 441,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2017,
+      "releases": 542,
+      "seriesNumbers": 450,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2018,
+      "releases": 610,
+      "seriesNumbers": 469,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2019,
+      "releases": 607,
+      "seriesNumbers": 449,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "releases": 628,
+      "seriesNumbers": 455,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2021,
+      "releases": 653,
+      "seriesNumbers": 455,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2022,
+      "releases": 724,
+      "seriesNumbers": 447,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2023,
+      "releases": 743,
+      "seriesNumbers": 125,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2024,
+      "releases": 683,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2025,
+      "releases": 768,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2026,
+      "releases": 729,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2014,
+      "releases": 127,
+      "seriesNumbers": 0,
+      "colorKnown": 125,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2015,
+      "releases": 125,
+      "seriesNumbers": 0,
+      "colorKnown": 121,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2016,
+      "releases": 126,
+      "seriesNumbers": 0,
+      "colorKnown": 126,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2017,
+      "releases": 135,
+      "seriesNumbers": 0,
+      "colorKnown": 135,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2018,
+      "releases": 130,
+      "seriesNumbers": 0,
+      "colorKnown": 129,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2019,
+      "releases": 110,
+      "seriesNumbers": 0,
+      "colorKnown": 108,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2020,
+      "releases": 125,
+      "seriesNumbers": 0,
+      "colorKnown": 124,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2021,
+      "releases": 157,
+      "seriesNumbers": 0,
+      "colorKnown": 156,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2022,
+      "releases": 185,
+      "seriesNumbers": 0,
+      "colorKnown": 184,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2023,
+      "releases": 188,
+      "seriesNumbers": 0,
+      "colorKnown": 186,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2024,
+      "releases": 186,
+      "seriesNumbers": 0,
+      "colorKnown": 185,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2025,
+      "releases": 208,
+      "seriesNumbers": 0,
+      "colorKnown": 208,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2026,
+      "releases": 93,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    }
+  ]
+}
