@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2 — 2026-10-16
+
+- Anchored brand artwork and captions to the top so long Limited Vintage labels cannot shift the card on narrow fold cover screens.
+- Brand taps now open a dedicated catalog view with a brand heading, isolated results and Back to brands navigation. Clear filters stays within that brand.
+
 ## 0.4.1 — 2026-10-16
 
 - Replaced cramped brand buttons with responsive logo cards, garage counts and clear selection states in light and dark themes.

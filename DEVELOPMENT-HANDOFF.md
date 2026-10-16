@@ -1,4 +1,12 @@
-# Development handoff · 0.4.1
+# Development handoff · 0.4.2
+
+## 0.4.2 brand alignment and catalog navigation · 2026-10-16
+
+Working version 0.4.2, Android versionCode 8; catalog snapshot/data unchanged. The Fold cover-screen screenshot showed the Limited Vintage artwork vertically offset when its caption wrapped. Brand grid items now align to start; each button explicitly uses a vertical flex layout with fixed non-shrinking artwork. Mobile labels reserve two lines so captions and counts line up across each row.
+
+Tapping a brand resets stale query/year/category/series/ownership/casting filters and opens its own catalog heading, count, search, filters and release results, hiding the brand grid. Back to brands restores the grid. Clear filters within a brand preserves its brand context. Related casting/series navigation also retains brand context. New garage entries remain catalog-only; existing copies, backups, native signing and storage namespaces are unchanged.
+
+Validation and publication status: pending final checks; record the verified source/CI/Pages/release below before claiming publication. Hardware cover-screen/folding tests still require the owner's device.
 
 ## 0.4.1 catalog-first collecting · 2026-10-16
 
