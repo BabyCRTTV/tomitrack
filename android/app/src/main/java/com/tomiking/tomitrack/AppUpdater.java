@@ -68,6 +68,7 @@ public final class AppUpdater {
         if(destroyed||!busy.compareAndSet(false,true))return;
         executor.execute(()->{
             candidate=null;readyFile=null;waitingForPermission=false;
+            prefs.edit().putLong("last-check",System.currentTimeMillis()).apply();
             emit("checking","Checking the latest TomiTrack release…",0);
             try{
                 HttpURLConnection connection=connect(RELEASE_API,true);
@@ -83,7 +84,6 @@ public final class AppUpdater {
                     if(found==null){candidate=null;throw new IOException("The new APK is not ready yet. Try again shortly.");}
                     candidate=found;emit("available","TomiTrack "+version+" is ready to download.",0);
                 }
-                prefs.edit().putLong("last-check",System.currentTimeMillis()).apply();
             }catch(Exception e){emit("error",friendly(e,"Could not check for updates. Please try again later."),0);}
             finally{busy.set(false);}
         });
