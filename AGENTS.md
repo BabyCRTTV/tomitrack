@@ -31,3 +31,5 @@
 - Tomica: preserve Japanese names and per-release aliases; never infer toy release years from vehicle years or assign dates to undated products. Keep future/date-uncertain announcements and unavailable archives explicit. Read catalog/README.md and input/tomica-fetch-report.json. Preserve the full Mattel-subset regression hash when adding brands.
 
 - New garage/wishlist entries must come from a real catalog selection. Do not reintroduce manual-entry fallbacks or demo-fixture creation paths. Keep linked release identity fixed on save while preserving per-copy details, existing legacy entries and backup compatibility. Brand card garage progress counts distinct linked owned releases, not quantities or wishlist entries.
+
+- Brand artwork must stay top-aligned when captions wrap on narrow screens. Brand cards open scoped catalog views with Back to brands; clearing filters must preserve the opened brand.
