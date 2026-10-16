@@ -1,15 +1,13 @@
-TomiTrack 0.3.0 — the release archive begins.
+TomiTrack 0.4.0 — historical Tomica catalog and easier collection management.
 
-- Search 10,165 Hot Wheels and Matchbox release references from 2014–2026, linked to 2,780 castings and 1,661 yearly series.
-- Search names, series, release years, product/toy codes, collector numbers, series positions, Matchbox MAN numbers and known UPC/EAN codes. Filter by brand, year, category, series or ownership.
-- Review a release and its sources, explore other releases of the casting, then add it to your collection or wishlist. Existing ownership is shown to help avoid accidental duplicates.
-- Catalog links and release details remain attached through edits, JSON backups, restores, CSV exports and local collection search.
-- The bundled catalog works offline in installed apps. A public SQLite catalog with full-text search is included as a separate download; it contains no personal collection data.
+- Search 17,920 references: 10,698 Hot Wheels, 2,954 Matchbox, 2,584 Tomica and 1,684 Tomica Limited Vintage-family records.
+- Hot Wheels/Matchbox coverage spans 2009–2026; Tomica references begin in 1970. All ranges are partial. Original Mattel records and collection links are preserved.
+- Search Japanese names or reviewed English aliases, series/product numbers, dates and known UPC/JAN codes. Official TOMYTEC data supplies 1,677 checksum-valid JAN links and published scale/date facts.
+- Review sources, then add a release to your collection or wishlist. Offline native catalogs and the public SQLite download contain the same records.
+- Collection navigation, removable filter chips, expandable add/edit sections, narrow-screen layouts and Android fold/resize handling are included from recovered unpublished 0.3.1 development.
 
-**Coverage is partial:** this is the foundation of a growing database, not every release or variant. Some ranges, exact colors, regional packages, series positions, tooling links and barcode assignments are still missing. Matchbox 2026 includes 93 listed basic positions with provisional casting links. Catalog references may contain errors; confirm packaging and variant before saving. No catalog photos or market pricing.
+**Research gaps:** Tomica Limited release dates, historical variants, packaging and commemoratives remain incomplete. 283 undated products are withheld, 72 requested monthly archive pages return 404, and 88 future or date-uncertain listings are excluded. Official announcements do not establish retail availability. Historical collector references are labeled separately from manufacturer evidence. No catalog photos or market prices are supplied.
 
-**UPC coverage:** five specifically cited 2020 Fast & Furious releases and two common basic-car assortment codes. Shared assortment codes return a range of candidates and cannot identify a unique casting or color. Search terms and barcodes stay on your device.
+**Updates:** Android 0.2.1 and later use the same permanent signing identity and can update in place. Original 0.1/0.2 installs require JSON backup/reinstall/restore; save the backup outside the app first. Android requests installation approval. Windows automatic updating remains outstanding.
 
-Android 0.2.1 users can install this update in place through Settings → App updates. Permanent signing is verified. The original 0.1.0/0.2.0 APKs still require a one-time JSON backup/reinstall/restore migration; verify your backup exists outside the app before uninstalling. Windows automatic updates are not included. Physical-device installation testing remains needed.
-
-Email/password account activation is still pending backend/email verification. Local collecting and backups remain available.
+Accounts remain disabled until backend/email/RLS verification. Local collecting and backups continue to work. Automated checks do not replace physical Android folding/upgrade or Windows execution testing.

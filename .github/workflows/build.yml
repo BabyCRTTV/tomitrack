@@ -2,6 +2,7 @@ name: Build TomiTrack
 on:
   push:
     branches: [main]
+    paths-ignore: ['**/*.md']
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: node scripts/build-catalog.mjs
+      - run: git diff --exit-code -- catalog/catalog.json catalog/import-report.json web/app/catalog/data.js
       - run: npm run check && npm test
   android:
     needs: verify

@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.4.0 — 2026-10-16
+
+- Recovered the unpublished 2009–2013 expansion and responsive collection/form/filter improvements; 0.3.1 was never published.
+- Added 4,268 Tomica-family references, bringing the catalog to 17,920 records. Tomica history starts in 1970; Limited Vintage-family references start in 2004. Every range remains partial.
+- Preserved Japanese names and added reviewed English search aliases, official release-date/scale fields, and 1,677 official checksum-valid JAN links.
+- Integrated Japanese catalogs with collection/wishlist workflows, coverage/source views, offline assets and SQLite aliases/full-text search.
+- Preserved all 13,652 existing Mattel records and stable IDs; private collection storage and backup schema remain unchanged.
+- Tracked 283 undated products, 72 unavailable monthly archives and 88 withheld future/date-uncertain listings. Tomica Limited and historical variants remain incomplete.
+- Added deterministic catalog generation checks to the release workflow. Accounts remain disabled pending backend verification.
+
+## Recovered 0.3.1 development — 2026-10-16
+
+- Extended the catalog to 2009–2026 with 3,487 additional 2009–2013 references: 2,428 Hot Wheels and 1,059 Matchbox. Total: 13,652 releases, 3,296 linked castings and 2,044 yearly series. Coverage remains partial.
+- Preserved all 10,165 existing release records and catalog links, and linked historical releases through casting and MAN identities.
+- Retained older Matchbox themed mainline sections, source citations and regional references. Expanded year filters and coverage tables from catalog data.
+- Updated the offline app catalog and public SQLite download. Barcode evidence remains unchanged.
+- Simplified mobile navigation and catalog filters with direct Collection access, removable filter chips and persistent filter-panel state.
+- Grouped add/edit fields into expandable sections; improved touch targets, compact dialogs, save controls and safe-area spacing. Added responsive cover/inner-display layouts for foldable phones and prevented Android Activity restarts during display-size/density changes. iPhone support is through the web/PWA.
+- Kept the permanent Android signing identity for in-place updates.
+
 ## 0.3.0 — 2026-10-16
 
 - Added an attributed public catalog with 10,165 Hot Wheels/Matchbox release references, 2,780 linked castings and 1,661 yearly series from 2014–2026. All annual coverage remains explicitly partial.

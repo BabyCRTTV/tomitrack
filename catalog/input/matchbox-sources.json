@@ -142,5 +142,65 @@
     "region": "R",
     "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2025&region=R&lty=man&lty=series&lty=pack",
     "sha256": "c8b8caedf590d0042f5a14a4c1049f372283f3b235e8c7257c66933f658f17d5"
+  },
+  {
+    "year": 2009,
+    "region": "U",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2009&region=U&lty=man&lty=series&lty=pack",
+    "sha256": "a815edc4df2bfe086c9a28f6468b313c0b4fe6741535dcae4b12995b24c16af7"
+  },
+  {
+    "year": 2009,
+    "region": "R",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2009&region=R&lty=man&lty=series&lty=pack",
+    "sha256": "a462d02a027e33d97c56532adf7824f4063aa7aee3af1fe82a368450a64edfac"
+  },
+  {
+    "year": 2010,
+    "region": "U",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2010&region=U&lty=man&lty=series&lty=pack",
+    "sha256": "cb344f04271ad64767a6e7ca0fc180d4507414f7a9637eee27223421879d2462"
+  },
+  {
+    "year": 2010,
+    "region": "R",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2010&region=R&lty=man&lty=series&lty=pack",
+    "sha256": "143774bc9468f9c5553b02ef3bef186ad3fbb88acf12feddc10872b77bf18150"
+  },
+  {
+    "year": 2011,
+    "region": "U",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2011&region=U&lty=man&lty=series&lty=pack",
+    "sha256": "30d20dac89ffb6de4206245363c92eaec5ac39c185b12ae907a0143a8e9079e3"
+  },
+  {
+    "year": 2011,
+    "region": "R",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2011&region=R&lty=man&lty=series&lty=pack",
+    "sha256": "a35d914ccaab54451c7efd130c3f996a487c772fc234b199084700fceb420ea9"
+  },
+  {
+    "year": 2012,
+    "region": "U",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2012&region=U&lty=man&lty=series&lty=pack",
+    "sha256": "96770725d2d45169986b3a85e758960b260e11a18ef4396f221fccba7f901785"
+  },
+  {
+    "year": 2012,
+    "region": "R",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2012&region=R&lty=man&lty=series&lty=pack",
+    "sha256": "35d3d7e2023df5d36c33035692fc45304ef55c742140d7fb425495417bbd06ab"
+  },
+  {
+    "year": 2013,
+    "region": "U",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2013&region=U&lty=man&lty=series&lty=pack",
+    "sha256": "5ade42ee13fd72158ad470f3c767692e676af13d1e812f02bfab5f3549cd6889"
+  },
+  {
+    "year": 2013,
+    "region": "R",
+    "url": "https://www.bamca.org/cgi-bin/lineup.cgi?year=2013&region=R&lty=man&lty=series&lty=pack",
+    "sha256": "f6a4d49f04e2783ceb8ea9bb0f588387c88ac0adbc57e5f955105aeafb958d39"
   }
 ]

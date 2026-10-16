@@ -23,3 +23,8 @@
 - Rebuild catalog projections and SQLite after reviewed input changes; verify relationships, generated-data parity, barcode check digits, search and linked collection entry. Do not run source scraping as part of app startup or automatic release builds.
 
 - Update only application version fields structurally. Never use a global string replacement across dependency lockfiles; validate installer dependency resolution when package metadata changes.
+
+- Catalog date ranges in the UI come from coverage records. When extending history, preserve the existing release subset and canonical casting names; read older source section headers within their own regional tables. Keep year/SKU enrichment evidence conservative.
+
+- Before resuming, inspect remote main, recent commits, releases and Actions. Record the distinction between local work, published web state and released binaries in DEVELOPMENT-HANDOFF.md. Never report release success from a version string alone.
+- Tomica: preserve Japanese names and per-release aliases; never infer toy release years from vehicle years or assign dates to undated products. Keep future/date-uncertain announcements and unavailable archives explicit. Read catalog/README.md and input/tomica-fetch-report.json. Preserve the full Mattel-subset regression hash when adding brands.

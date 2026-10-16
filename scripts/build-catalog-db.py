@@ -13,7 +13,7 @@ try:
  CREATE TABLE castings(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL);
  CREATE TABLE casting_aliases(casting_id TEXT NOT NULL REFERENCES castings(id),alias TEXT NOT NULL,PRIMARY KEY(casting_id,alias));
  CREATE TABLE series(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER NOT NULL,category_id TEXT NOT NULL,name TEXT NOT NULL,family TEXT NOT NULL);
- CREATE TABLE releases(id TEXT PRIMARY KEY,casting_id TEXT NOT NULL REFERENCES castings(id),series_id TEXT NOT NULL REFERENCES series(id),brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL,year INTEGER NOT NULL,category_id TEXT NOT NULL,product_code TEXT,man_number TEXT,collector_number TEXT,series_number TEXT,color TEXT,variant TEXT,regions TEXT NOT NULL,tags TEXT NOT NULL);
+ CREATE TABLE releases(id TEXT PRIMARY KEY,casting_id TEXT NOT NULL REFERENCES castings(id),series_id TEXT NOT NULL REFERENCES series(id),brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL,year INTEGER NOT NULL,category_id TEXT NOT NULL,product_code TEXT,man_number TEXT,collector_number TEXT,series_number TEXT,color TEXT,variant TEXT,regions TEXT NOT NULL,tags TEXT NOT NULL,aliases TEXT NOT NULL,release_date TEXT NOT NULL,scale TEXT NOT NULL);
  CREATE TABLE sources(id TEXT PRIMARY KEY,name TEXT NOT NULL,url TEXT NOT NULL,details TEXT NOT NULL);
  CREATE TABLE release_sources(release_id TEXT NOT NULL REFERENCES releases(id),source_id TEXT NOT NULL REFERENCES sources(id),reference TEXT NOT NULL,PRIMARY KEY(release_id,source_id,reference));
  CREATE TABLE identifiers(id INTEGER PRIMARY KEY,value TEXT NOT NULL,gtin14 TEXT NOT NULL,scope TEXT NOT NULL CHECK(scope IN ('release','assortment')),brand_id TEXT REFERENCES brands(id),category_id TEXT,source_id TEXT NOT NULL REFERENCES sources(id),note TEXT NOT NULL,source_url TEXT NOT NULL);
@@ -25,7 +25,7 @@ try:
  CREATE INDEX release_product ON releases(product_code);
  CREATE INDEX release_collector ON releases(collector_number);
  CREATE INDEX identifier_gtin ON identifiers(gtin14);
- CREATE VIRTUAL TABLE release_search USING fts5(release_id UNINDEXED,name,brand,series,year,product_code,collector_number,series_number,man_number,color,variant,tokenize='unicode61 remove_diacritics 2');
+ CREATE VIRTUAL TABLE release_search USING fts5(release_id UNINDEXED,name,brand,series,year,product_code,collector_number,series_number,man_number,color,variant,aliases,tokenize='unicode61 remove_diacritics 2');
  ''')
  for key in ['schema','version','builtAt','scope']:db.execute('INSERT INTO metadata VALUES (?,?)',(key,json.dumps(data[key])))
  for x in data['brands']:db.execute('INSERT INTO brands VALUES (?,?)',(x['id'],x['name']))
@@ -36,8 +36,8 @@ try:
  for x in data['sources']:db.execute('INSERT INTO sources VALUES (?,?,?,?)',(x['id'],x['name'],x['url'],json.dumps(x)))
  series={x['id']:x for x in data['series']};brands={x['id']:x['name']for x in data['brands']}
  for x in data['releases']:
-  db.execute('INSERT INTO releases VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['castingId'],x['seriesId'],x['brandId'],x['name'],x['year'],x['categoryId'],x['productCode'],x['manNumber'],x['collectorNumber'],x['seriesNumber'],x['color'],x['variant'],json.dumps(x['regions']),json.dumps(x['tags'])))
-  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['name'],brands[x['brandId']],series[x['seriesId']]['name'],str(x['year']),x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],x['color'],x['variant']))
+  db.execute('INSERT INTO releases VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['castingId'],x['seriesId'],x['brandId'],x['name'],x['year'],x['categoryId'],x['productCode'],x['manNumber'],x['collectorNumber'],x['seriesNumber'],x['color'],x['variant'],json.dumps(x['regions']),json.dumps(x['tags']),json.dumps(x.get('aliases',[])),x.get('releaseDate',''),x.get('scale','')))
+  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['name'],brands[x['brandId']],series[x['seriesId']]['name'],str(x['year']),x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],x['color'],x['variant'],' '.join(x.get('aliases',[]))))
   for ref in x['sourceRefs']:db.execute('INSERT INTO release_sources VALUES (?,?,?)',(x['id'],ref['sourceId'],json.dumps(ref,sort_keys=True)))
  for i,x in enumerate(data['identifiers'],1):
   gtin=''.join(c for c in x['value']if c.isdigit()).zfill(14)

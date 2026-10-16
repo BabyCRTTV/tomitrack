@@ -1,6 +1,47 @@
 # TomiTrack public release catalog
 
-This is a growing, interconnected reference catalog for Hot Wheels and Matchbox releases from 2014 onward. Snapshot `2026.10.16.1` contains **10,165 release records**, **2,780 casting records** and **1,661 yearly series records**. There are 8,270 Hot Wheels records and 1,895 Matchbox records, with entries in every year from 2014 through 2026. These are imported reference counts, not a complete production census.
+Snapshot `2026.10.16.3` contains **17,920 public references**, **6,807 casting entities**, and **2,311 yearly series**. Hot Wheels: 10,698; Matchbox: 2,954; Tomica: 2,584; Tomica Limited Vintage family: 1,684. All coverage is partial; entity counts are conservative reference links, not an authoritative count of tooling. No private collector data appears here.
+
+## Tomica history and provenance
+
+Tomica records span 1970–2026. Historical numbered editions and selected Foreign, Premium, Dream and international references are attributed to the CarLove collector-maintained number/edition list. These are explicitly collector references, not manufacturer verification. Official Takara Tomy monthly pages supply 2020–2026 announcements, including retailer exclusives, character releases, gift sets and separately categorized playsets. Official TOMYTEC product records supply Limited Vintage, Neo, 43 and related special families from 2004 onward. Every row retains source references; `input/tomica-sources.json` retains refreshed retrieval hashes. The reviewed normalized Tomica inputs were recovered from the hash-verified catalog blob after the interrupted workspace expired. No source images, prices or descriptive prose are copied. Original source content retains its owners’ rights; no Creative Commons license is asserted for these Japanese sources.
+
+Names are retained in Japanese with NFKC width/punctuation normalization. `input/tomica-search-aliases.json` is an editorial search lexicon, not official translations. Exact colors are populated only for recognizable published parenthesized colors. Dates are toy release dates, never the vehicle model year. Official JAN-13 values are taken from the product catalog’s `jancode` identifiers, check-digit validated, and linked to the corresponding official product. There are 1,677 such JAN links, five existing Mattel release UPCs, and two shared assortment codes. Confirm packaging variants before saving. Listed scale is copied only when explicitly supplied by TOMYTEC.
+
+All 13,652 recovered Hot Wheels/Matchbox records, IDs and metadata are protected by a full-subset hash test. Established ASCII identity normalization is frozen independently from the new Unicode search normalization. Tomica casting links use historical series/edition identities or official family/code links. Different source spellings and uncertain cross-family identities remain separate. Official matched historical editions merge references; uncertain duplicates are deliberately not merged. No private stored copy is rewritten when the public catalog changes.
+
+## Explicit research gaps
+
+`input/tomica-fetch-report.json` retains **283 undated products**, including Tomica Limited references; these are not assigned invented years or imported as dated releases. **72 official monthly URLs for 2014–2019 return 404**; their absence does not prove no products existed. **88 future or date-uncertain listings** are withheld. If only a month is provided, that month must have fully elapsed by the 2026-10-16 cutoff, preventing unconfirmed October products from appearing as released. Collector-only current-year rows require dated manufacturer corroboration. Manufacturer catalog/announcement facts still do not prove retail availability.
+
+Next research: recover dated Tomica Limited (2001–2013) evidence, review image-based official historical archives, expand 1970–2019 variants and commemoratives, reconcile collector/manufacturer name differences, and verify barcode/package assignments. Family/annual counts describe imported evidence only. No range is marked complete.
+
+Run `npm run catalog:fetch:tomica` manually to refresh the 84 public evidence snapshots. The fetcher uses at most three concurrent requests and fails on network/parser errors before replacing its output. It refreshes evidence only; reviewed normalized identities are never overwritten. Add/correct facts in `input/tomica.json` after reviewing new evidence; it contains the source-tagged normalized releases, castings, series and JAN links recovered from catalog blob 7ac10c4dcd46af7362847bee5d891983518d06d9. It does not run during startup or CI builds. `scripts/build-tomica.mjs` adds reviewed input facts to the established catalog, `npm run catalog:build` regenerates web/JSON/SQLite projections, and `npm test` checks multilingual search, identifiers, data preservation and SQLite. SQLite now has additive aliases/release_date/scale columns and alias full-text search; this downloadable public catalog is independent of private IndexedDB collection storage.
+
+Sources:
+
+- https://www.takaratomy.co.jp/products/tomica/new/
+- https://minicar.tomytec.co.jp/product/
+- https://sakuyaminicarjp.crayonsite.com/p/2/
+
+## Existing Hot Wheels and Matchbox catalog documentation
+
+
+This is a growing, interconnected reference catalog for Hot Wheels and Matchbox releases from 2009 onward. Snapshot `2026.10.16.2` contains **13,652 release records**, **3,296 casting records** and **2,044 yearly series records**. There are 10,698 Hot Wheels records and 2,954 Matchbox records, with entries in every year from 2009 through 2026. These are imported reference counts, not a complete production census.
+
+## 2009–2013 extension · app 0.3.1
+
+Added 3,487 release references: 2,428 Hot Wheels and 1,059 Matchbox. The 10,165 previously published release records and their IDs remain byte-for-byte equivalent after JSON serialization; saved collection links need no migration. Established casting names stay first in import order. Historical aliases and MAN links connect older releases to later ones.
+
+| Year | Hot Wheels added | Matchbox added |
+| --- | ---: | ---: |
+| 2009 | 392 | 258 |
+| 2010 | 483 | 234 |
+| 2011 | 459 | 226 |
+| 2012 | 502 | 210 |
+| 2013 | 592 | 131 |
+
+The same pinned Hot Wheels snapshots supply 2009–2013 release facts; 1,650 older series-position input references were reviewed through the existing year/SKU agreement rule. No 2013 position group met that rule, so those positions remain unrecorded. BAMCA's ten historical US/International annual pages provide Matchbox names, MANs, regional numbers and variant facts. Older themed headers are retained as mainline series (for example, Heritage Classics and Emergency Response), rather than treating every row as the first theme in its table. Regional numbering or series references may produce separate rows for the same casting and decoration. These are reference counts, not unique manufacturing variants. Multipack contents and other ranges are still incomplete; this extension adds no release-specific UPC evidence.
 
 ## Relationships
 
@@ -18,7 +59,7 @@ UPC/EAN/GTIN lookups validate check digits and normalize equivalent leading-zero
 
 `import-report.json` records counts by brand/year, duplicate references merged and rejected input. Every imported year is explicitly `partial`. Some Hot Wheels colors, yearly series positions, packaging regions, card variants, castings/retools, retailer exclusives, multipacks and special editions are absent. Matchbox currently covers basic lineups, selected Moving Parts/Collectors/promotional records and 93 listed 2026 basic positions; additional ranges and casting links remain to be reviewed. Blank fields mean unknown. The catalog does not infer scale from a brand, generate UPCs, invent current values or treat advance listings as proof an item reached retail.
 
-The source snapshot has known quality limitations. One malformed Hot Wheels row (`name: None`, product field containing a casting name) was rejected. 1,804 duplicate references were merged. Cross-source series-position enrichment is restricted to older row groups with at least 75% agreement by SKU with one known annual list, then requires an exact year/SKU match for each field. A repeated older 2020 group is deduplicated. Imported facts are references for the collector to check against packaging, not manufacturer verification.
+The source snapshot has known quality limitations. One malformed Hot Wheels row (`name: None`, product field containing a casting name) was rejected. 2,110 duplicate references were merged. Cross-source series-position enrichment is restricted to older row groups with at least 75% agreement by SKU with one known annual list, then requires an exact year/SKU match for each field. A repeated older 2020 group is deduplicated. Imported facts are references for the collector to check against packaging, not manufacturer verification.
 
 ## Files and build
 

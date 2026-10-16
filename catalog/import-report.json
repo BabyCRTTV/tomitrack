@@ -1,9 +1,10 @@
 {
-  "version": "2026.10.16.1",
-  "total": 10165,
-  "castings": 2780,
-  "series": 1661,
-  "duplicatesMerged": 1804,
+  "version": "2026.10.16.3",
+  "total": 17920,
+  "castings": 6807,
+  "series": 2311,
+  "duplicatesMerged": 2110,
+  "tomicaReferencesMerged": 130,
   "rejected": [
     {
       "reason": "Missing or unsupported release identity",
@@ -27,9 +28,84 @@
           }
         ]
       }
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "0000000000001",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1951"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "4543736284850",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=161"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "4543736282960",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=252"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "45437362623",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1150"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "4543736279848",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=827"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "4543736275826",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=842"
+    },
+    {
+      "reason": "Official catalog identifier is not a valid JAN-13",
+      "value": "45437362557",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=1151"
     }
   ],
   "coverage": [
+    {
+      "brandId": "hot-wheels",
+      "year": 2009,
+      "releases": 392,
+      "seriesNumbers": 342,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2010,
+      "releases": 483,
+      "seriesNumbers": 423,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2011,
+      "releases": 459,
+      "seriesNumbers": 427,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2012,
+      "releases": 502,
+      "seriesNumbers": 386,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "hot-wheels",
+      "year": 2013,
+      "releases": 592,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial"
+    },
     {
       "brandId": "hot-wheels",
       "year": 2014,
@@ -136,6 +212,46 @@
     },
     {
       "brandId": "matchbox",
+      "year": 2009,
+      "releases": 258,
+      "seriesNumbers": 0,
+      "colorKnown": 256,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2010,
+      "releases": 234,
+      "seriesNumbers": 0,
+      "colorKnown": 232,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2011,
+      "releases": 226,
+      "seriesNumbers": 0,
+      "colorKnown": 224,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2012,
+      "releases": 210,
+      "seriesNumbers": 0,
+      "colorKnown": 205,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
+      "year": 2013,
+      "releases": 131,
+      "seriesNumbers": 0,
+      "colorKnown": 129,
+      "status": "partial"
+    },
+    {
+      "brandId": "matchbox",
       "year": 2014,
       "releases": 127,
       "seriesNumbers": 0,
@@ -236,6 +352,646 @@
       "releases": 93,
       "seriesNumbers": 0,
       "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1970,
+      "releases": 7,
+      "seriesNumbers": 7,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1971,
+      "releases": 24,
+      "seriesNumbers": 24,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1972,
+      "releases": 32,
+      "seriesNumbers": 32,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1973,
+      "releases": 20,
+      "seriesNumbers": 20,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1974,
+      "releases": 17,
+      "seriesNumbers": 17,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1975,
+      "releases": 36,
+      "seriesNumbers": 36,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1976,
+      "releases": 29,
+      "seriesNumbers": 29,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1977,
+      "releases": 42,
+      "seriesNumbers": 42,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1978,
+      "releases": 47,
+      "seriesNumbers": 47,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1979,
+      "releases": 26,
+      "seriesNumbers": 26,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1980,
+      "releases": 43,
+      "seriesNumbers": 43,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1981,
+      "releases": 19,
+      "seriesNumbers": 19,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1982,
+      "releases": 12,
+      "seriesNumbers": 12,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1983,
+      "releases": 12,
+      "seriesNumbers": 12,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1984,
+      "releases": 16,
+      "seriesNumbers": 16,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1985,
+      "releases": 9,
+      "seriesNumbers": 9,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1986,
+      "releases": 10,
+      "seriesNumbers": 10,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1987,
+      "releases": 11,
+      "seriesNumbers": 11,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1988,
+      "releases": 46,
+      "seriesNumbers": 46,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1989,
+      "releases": 14,
+      "seriesNumbers": 14,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1990,
+      "releases": 7,
+      "seriesNumbers": 7,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1991,
+      "releases": 7,
+      "seriesNumbers": 7,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1992,
+      "releases": 16,
+      "seriesNumbers": 16,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1993,
+      "releases": 7,
+      "seriesNumbers": 7,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1994,
+      "releases": 4,
+      "seriesNumbers": 4,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1995,
+      "releases": 8,
+      "seriesNumbers": 8,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1996,
+      "releases": 6,
+      "seriesNumbers": 6,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1997,
+      "releases": 8,
+      "seriesNumbers": 8,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1998,
+      "releases": 8,
+      "seriesNumbers": 8,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 1999,
+      "releases": 12,
+      "seriesNumbers": 12,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2000,
+      "releases": 12,
+      "seriesNumbers": 12,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2001,
+      "releases": 17,
+      "seriesNumbers": 17,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2002,
+      "releases": 18,
+      "seriesNumbers": 18,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2003,
+      "releases": 13,
+      "seriesNumbers": 13,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2004,
+      "releases": 16,
+      "seriesNumbers": 16,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2005,
+      "releases": 18,
+      "seriesNumbers": 18,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2006,
+      "releases": 22,
+      "seriesNumbers": 22,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2007,
+      "releases": 24,
+      "seriesNumbers": 24,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2008,
+      "releases": 34,
+      "seriesNumbers": 34,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2009,
+      "releases": 33,
+      "seriesNumbers": 33,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2010,
+      "releases": 27,
+      "seriesNumbers": 27,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2011,
+      "releases": 33,
+      "seriesNumbers": 33,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2012,
+      "releases": 42,
+      "seriesNumbers": 42,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2013,
+      "releases": 39,
+      "seriesNumbers": 39,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2014,
+      "releases": 30,
+      "seriesNumbers": 30,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2015,
+      "releases": 50,
+      "seriesNumbers": 50,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2016,
+      "releases": 41,
+      "seriesNumbers": 41,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2017,
+      "releases": 43,
+      "seriesNumbers": 43,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2018,
+      "releases": 46,
+      "seriesNumbers": 46,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2019,
+      "releases": 40,
+      "seriesNumbers": 40,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2020,
+      "releases": 160,
+      "seriesNumbers": 43,
+      "colorKnown": 19,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2021,
+      "releases": 198,
+      "seriesNumbers": 46,
+      "colorKnown": 2,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2022,
+      "releases": 210,
+      "seriesNumbers": 50,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2023,
+      "releases": 191,
+      "seriesNumbers": 40,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2024,
+      "releases": 222,
+      "seriesNumbers": 41,
+      "colorKnown": 1,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2025,
+      "releases": 261,
+      "seriesNumbers": 40,
+      "colorKnown": 1,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica",
+      "year": 2026,
+      "releases": 189,
+      "seriesNumbers": 30,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2004,
+      "releases": 26,
+      "seriesNumbers": 25,
+      "colorKnown": 6,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2005,
+      "releases": 13,
+      "seriesNumbers": 11,
+      "colorKnown": 0,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2006,
+      "releases": 37,
+      "seriesNumbers": 37,
+      "colorKnown": 4,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2007,
+      "releases": 40,
+      "seriesNumbers": 36,
+      "colorKnown": 12,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2008,
+      "releases": 53,
+      "seriesNumbers": 42,
+      "colorKnown": 12,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2009,
+      "releases": 52,
+      "seriesNumbers": 44,
+      "colorKnown": 23,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2010,
+      "releases": 61,
+      "seriesNumbers": 53,
+      "colorKnown": 35,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2011,
+      "releases": 67,
+      "seriesNumbers": 57,
+      "colorKnown": 43,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2012,
+      "releases": 81,
+      "seriesNumbers": 74,
+      "colorKnown": 45,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2013,
+      "releases": 79,
+      "seriesNumbers": 71,
+      "colorKnown": 49,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2014,
+      "releases": 68,
+      "seriesNumbers": 55,
+      "colorKnown": 35,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2015,
+      "releases": 83,
+      "seriesNumbers": 62,
+      "colorKnown": 57,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2016,
+      "releases": 84,
+      "seriesNumbers": 69,
+      "colorKnown": 65,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2017,
+      "releases": 77,
+      "seriesNumbers": 68,
+      "colorKnown": 43,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2018,
+      "releases": 71,
+      "seriesNumbers": 62,
+      "colorKnown": 47,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2019,
+      "releases": 77,
+      "seriesNumbers": 61,
+      "colorKnown": 56,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2020,
+      "releases": 100,
+      "seriesNumbers": 79,
+      "colorKnown": 66,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2021,
+      "releases": 105,
+      "seriesNumbers": 82,
+      "colorKnown": 60,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2022,
+      "releases": 103,
+      "seriesNumbers": 78,
+      "colorKnown": 62,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2023,
+      "releases": 100,
+      "seriesNumbers": 79,
+      "colorKnown": 64,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2024,
+      "releases": 110,
+      "seriesNumbers": 88,
+      "colorKnown": 63,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2025,
+      "releases": 117,
+      "seriesNumbers": 95,
+      "colorKnown": 67,
+      "status": "partial"
+    },
+    {
+      "brandId": "tomica-limited-vintage",
+      "year": 2026,
+      "releases": 80,
+      "seriesNumbers": 63,
+      "colorKnown": 40,
       "status": "partial"
     }
   ]

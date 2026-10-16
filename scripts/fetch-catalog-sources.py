@@ -18,14 +18,16 @@ def save(name,data):
 hw_url='https://raw.githubusercontent.com/rkpacheco/hotwheels-database/04f57210dcba971bd9bdd8a5364493b9214c7b9c/HW_DB.json'
 old_url='https://raw.githubusercontent.com/pvwnthem/Hotwheels-Data/f8129cca1b34ad33a893d93ecfb0e5c0297eefe5/HotApi.json'
 hw_bytes=fetch(hw_url,'hot-wheels-pinned.json');old_bytes=fetch(old_url,'hot-wheels-positions-pinned.ndjson')
-raw=json.loads(hw_bytes);hw=[{**{k:v for k,v in x.items()if k!='image_url'},'sourceRow':i+1}for i,x in enumerate(raw)if isinstance(x.get('year'),int)and 2014<=x['year']<=2026];save('hot-wheels',hw)
+raw=json.loads(hw_bytes);hw=[{**{k:v for k,v in x.items()if k!='image_url'},'sourceRow':i+1}for i,x in enumerate(raw)if isinstance(x.get('year'),int)and 2009<=x['year']<=2026]
+# Keep the established 2014+ order first so extending history does not rename canonical castings.
+hw.sort(key=lambda x:x['year']<2014);save('hot-wheels',hw)
 chunks=[];chunk=[]
 for line in old_bytes.decode().splitlines():
  if not line.strip():continue
  row=json.loads(line)
  if any(str(v).startswith('By Year:')for v in row.values()):chunks.append(chunk);chunk=[]
  else:chunk.append(row)
-known={y:{str(x.get('toyNumber'))for x in hw if x['year']==y}for y in range(2014,2024)};enrichment=[]
+known={y:{str(x.get('toyNumber'))for x in hw if x['year']==y}for y in range(2009,2024)};enrichment=[]
 for items in chunks:
  scores={y:sum(x.get('id')in known[y]for x in items)for y in known};year=max(scores,key=scores.get)
  # Older source lacks year fields. Enrich only groups where >=75% of SKUs agree with one pinned annual set.
@@ -41,14 +43,21 @@ def lineup(arg):
   if not a:continue
   href=urljoin(url,a.get('href',''));man=parse_qs(urlparse(href).query).get('id',[''])[0]
   if not re.fullmatch(r'MB\d{1,5}[A-Z]?',man,re.I):continue
-  headers=[x.get_text(' ',strip=True)for x in cell.find_parent('table').select('th.rh')if x.get_text(' ',strip=True)];series=headers[0]if headers else'Matchbox Mainline'
-  category='moving-parts'if series=='Moving Parts'else'collectors'if series=='Matchbox Collectors'else'promotional'if 'Promotional'in series else'mainline'if series=='Matchbox Mainline'else'other'
+  table=cell.find_parent('table');headers=[x.get_text(' ',strip=True)for x in table.select('th.rh')if x.get_text(' ',strip=True)];series=headers[0]if headers else'Matchbox Mainline'
+  if year<2014 and table.select_one('th.sh'):
+   # 2009–2012 have several themed mainline sections inside one regional table.
+   section=''
+   for tr in cell.find_parent('tr').find_previous_siblings('tr'):
+    names=[x.get_text(' ',strip=True)for x in tr.select('th.rh')if x.get_text(' ',strip=True)]
+    if names:section=names[0];break
+   series='Matchbox Mainline'+(' · '+section if section else'')
+  category='moving-parts'if series=='Moving Parts'else'collectors'if series=='Matchbox Collectors'else'promotional'if 'Promotional'in series else'mainline'if series.startswith('Matchbox Mainline')else'other'
   num=cell.select_one('.modelnumber');number=num.get_text(' ',strip=True).strip('. ')if num else''
   for desc in [x.get_text(' ',strip=True)for x in cell.select('.varentry')]or['']:
    rows.append({'year':year,'name':title.get_text(' ',strip=True),'manNumber':man.upper(),'collectorNumber':number,'variant':desc,'seriesName':series,'categoryId':category,'region':'US'if region=='U'else'International','sourceUrl':href,'lineupUrl':url})
  if not rows:raise ValueError('No readable casting records: '+url)
  return {'year':year,'region':region,'url':url,'sha256':hashlib.sha256(body).hexdigest(),'rows':rows}
-with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:results=list(pool.map(lineup,[(y,r)for y in range(2014,2026)for r in ['U','R']]))
+with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:results=list(pool.map(lineup,[(y,r)for y in [*range(2014,2026),*range(2009,2014)]for r in ['U','R']]))
 save('matchbox',[r for x in results for r in x['rows']]);save('matchbox-sources',[{k:v for k,v in x.items()if k!='rows'}for x in results])
 url='https://jamesdiecast.com/matchbox/basic/tracker/';body=fetch(url,'matchbox-2026-tracker.html');s=BeautifulSoup(body,'html.parser');rows=[]
 if not s.title or '2026'not in s.title.get_text():raise ValueError('Review tracker year before importing')
