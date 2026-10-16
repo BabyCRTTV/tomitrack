@@ -7,3 +7,6 @@ Demo mode is isolated in memory. Imports validate schema/items and replace only 
 Android builds use debug signing for early access, with the key retained by Actions cache where available. Move to a privately backed-up production signing key before public production adoption. Windows builds are unsigned NSIS installers. Physical-device smoke testing is still needed; CI compilation is not a substitute for it.
 
 Priorities: gather UI feedback, verify actual devices, establish production signing, then model a sourced catalog with variants and stable IDs before pricing and sync.
+
+Validation: five domain tests pass. A separate JSDOM/fake IndexedDB integration smoke check passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, and demo isolation with restoration of the real collection. Pages published successfully. Initial Android setup needed explicit SDK packages because the legacy tools package is no longer available.
+Windows packaging produced the installer but electron-builder attempted implicit publishing; --publish never delegates publishing to the dedicated release job.
