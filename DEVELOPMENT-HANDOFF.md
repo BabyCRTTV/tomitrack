@@ -10,3 +10,5 @@ Priorities: gather UI feedback, verify actual devices, establish production sign
 
 Validation: five domain tests pass. A separate JSDOM/fake IndexedDB integration smoke check passed saving/totals, editing, wishlist acquisition, search/clear, text escaping, and demo isolation with restoration of the real collection. Pages published successfully. Initial Android setup needed explicit SDK packages because the legacy tools package is no longer available.
 Windows packaging produced the installer but electron-builder attempted implicit publishing; --publish never delegates publishing to the dedicated release job.
+
+Website-only mobile refinement (2026-10-16): appended phone styles at max-width 650px, with a 359px compact adjustment. Added a Downloads navigation link hidden on desktop. Desktop CSS rules and existing DOM elements are unchanged. App binaries remain version 0.1.0.
