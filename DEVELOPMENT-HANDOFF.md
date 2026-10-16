@@ -1,6 +1,16 @@
-# Development handoff · 0.4.0
+# Development handoff · 0.4.1
 
-## Current continuation checkpoint · 2026-10-16
+## 0.4.1 catalog-first collecting · 2026-10-16
+
+Working version 0.4.1; Android versionCode 7. The 17,920-row catalog snapshot 2026.10.16.3 and all existing catalog identities are unchanged. Brand selection now uses bundled manufacturer marks in four desktop/two mobile columns, distinct catalog-linked owned-release counts, a progress strip and clear selected/focus states. Search precedes the grid. See web/assets/brands/README.md for asset provenance; no catalog model photos were added.
+
+All Add model actions open and focus catalog search. A new record requires a release resolved through the catalog engine. No manual-entry fallback or demo-fixture creation path remains. web/app/garage.js takes identity from the trusted selected snapshot or existing record rather than form fields. Linked name, brand, series, year and release identifiers are read-only; hidden-field tampering cannot change them. Per-copy condition, quantity, photo, color/scale, prices, shelf, notes and status remain editable. Existing legacy entries and v1 backups remain compatible. Legacy import is for restoring existing records, not a new manual-entry screen.
+
+48 Node tests and syntax checks pass, including catalog-only saves, tamper resistance, distinct copies and legacy/backup editing. Application smoke checks and publication results are recorded after verification. Service worker precaches the new save module and all four marks; package/signing identity and private storage namespaces remain unchanged. Physical-device testing remains outstanding.
+
+Publication: source and release verification pending; do not describe 0.4.1 as published until CI, Pages and assets are checked.
+
+## Previous verified 0.4.0 checkpoint · 2026-10-16
 
 Working version: 0.4.0, Android versionCode 6, catalog snapshot 2026.10.16.3. At recovery, remote main was 06e70948d8864830aabe391fe14f5c76380deae2; latest published release was v0.3.0, with successful Android/Windows and Pages workflows. Recovered unpublished local commits 03a39eb (2009–2013 expansion) and f293bcb (responsive UI). **0.3.1 was never published.** Their implementation is included in 0.4.0.
 

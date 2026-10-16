@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 — 2026-10-16
+
+- Replaced cramped brand buttons with responsive logo cards, garage counts and clear selection states in light and dark themes.
+- All Add actions now open catalog search. New collection/wishlist entries require a selected catalog release; identity fields stay attached to that release.
+- Removed manual-entry fallback and demo-fixture creation paths. Per-copy details, existing entries and backup compatibility remain intact.
+- Bundled brand marks and the garage save policy for offline browser/native use.
+
 ## 0.4.0 — 2026-10-16
 
 - Recovered the unpublished 2009–2013 expansion and responsive collection/form/filter improvements; 0.3.1 was never published.

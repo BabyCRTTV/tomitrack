@@ -280,3 +280,31 @@ input::placeholder,textarea::placeholder{color:var(--muted);opacity:.8}
 .catalog-brands{flex-wrap:wrap}
 .catalog-coverage-table th,.catalog-coverage-table td{min-width:110px}
 .catalog-detail .detail-facts strong{overflow-wrap:anywhere}
+
+/* Brand shelves: large artwork, quiet captions and a clear selected state. */
+.catalog-brand-picker{margin:22px 0 26px}
+.catalog-brand-picker>.section-row{margin-bottom:14px;align-items:center}
+.catalog-brand-picker h3{margin:0;font-size:16px}
+.catalog-all-brands{border:1px solid var(--line);border-radius:24px;padding:9px 15px;min-height:44px;color:var(--muted);font-size:12px}
+.catalog-all-brands.active{background:var(--mint);border-color:var(--green);color:var(--green)}
+.catalog-brand-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 16px}
+.catalog-brand-card{display:block;min-width:0;padding:0;text-align:left;border-radius:15px;color:var(--ink)}
+.brand-art{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1.7;background:#fff;border:2px solid var(--line);border-radius:14px;overflow:hidden;transition:border-color .16s,box-shadow .16s}
+.brand-art img{width:82%;height:65%;object-fit:contain}
+.catalog-brand-card.matchbox img{object-fit:cover;width:88%;height:80%}
+.catalog-brand-card.tomica-limited-vintage img{filter:brightness(0);width:74%;height:58%}
+.brand-check{position:absolute;right:9px;top:9px;display:grid;place-items:center;background:var(--green);color:white;width:23px;height:23px;border-radius:50%;font-size:13px;opacity:0}
+.brand-progress{position:absolute;left:0;right:0;bottom:0;height:4px;background:#e7eeeb}
+.brand-progress i{display:block;height:100%;background:#4bb3a2}
+.brand-caption{display:flex;flex-direction:column;gap:4px;padding:12px 2px 0;line-height:1.4}
+.brand-caption strong{font-size:14px;overflow-wrap:normal}
+.brand-caption>span{font-size:12px;color:var(--muted)}
+.brand-caption small{font-size:11px;color:var(--green)}
+.catalog-brand-card.active .brand-art{border-color:var(--green);box-shadow:0 0 0 2px var(--mint)}
+.catalog-brand-card.active .brand-check{opacity:1}
+.catalog-brand-card:hover .brand-art{border-color:var(--green)}
+.catalog-brand-card:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+#item-form input:read-only{background:var(--paper);color:var(--muted)}
+#form-brand:disabled{color:var(--muted);opacity:1}
+@media(max-width:960px){.catalog-brand-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 14px}.brand-caption strong{font-size:14px}.catalog-brand-picker{margin-top:20px}.brand-art{aspect-ratio:1.75}}
+@media(max-width:379px){.catalog-brand-grid{gap:18px 10px}.brand-caption strong{font-size:13px}.brand-caption>span{font-size:11px}.brand-art img{width:86%}.brand-check{width:19px;height:19px;font-size:11px;top:6px;right:6px}}
