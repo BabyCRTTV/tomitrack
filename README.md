@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.2.0 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.2.1 is a local-first early-access foundation.
 
 ## Use it
 
@@ -14,7 +14,7 @@ Track model name, brand, scale, series, variant, packaging condition, quantity, 
 
 Accounts are implemented but registration awaits backend activation. The app clearly reports this state. Until activated, data stays in IndexedDB on each device. Once enabled, account collections are isolated by user ID, and users can explicitly upload or restore a private cloud backup. There is no automatic live sync. JSON backups include photos; CSV does not. Import replaces the collection after confirmation. Collection history records manual estimates when records change. It is not market performance. USD only in this first version. Starter catalog entries and generic car illustrations demonstrate the workflow; they are not a verified release catalog. The demo never writes into your real collection.
 
-Android early access uses a development signing key cached in Actions; it is not a Play Store release. Export a backup before updates, because loss of the cached signing key could require reinstallation. Windows binaries are not publisher-code-signed and may show SmartScreen. Production signing and automatic updates remain future release work.
+Android 0.2.1 introduces in-app update checks, verified downloads and the Android installer. Releases require one permanent signing identity stored in encrypted GitHub Actions secrets. Android asks you to approve installation. The original 0.1.0 and 0.2.0 APKs used different, unretained development keys, so their users need a one-time backup/reinstall/restore migration. See ANDROID-UPDATES.md. Windows binaries are not publisher-code-signed and may show SmartScreen; Windows automatic updates remain future work.
 
 ## Development
 
@@ -27,7 +27,7 @@ GitHub Actions verifies the shared domain code, builds Android and Windows, publ
 - `web/app/`: shared application, domain validation, IndexedDB persistence and offline browser cache.
 - `web/`: TomiKing-branded landing page, downloads, privacy notice and assets.
 - `desktop/`: sandboxed Electron wrapper without Node access in the renderer.
-- `android/`: offline WebViewAssetLoader wrapper, scoped photo/file chooser and document export. Only INTERNET for the configured authentication host; no camera or broad storage permissions.
+- `android/`: offline WebViewAssetLoader wrapper, scoped photo/file chooser and document export. Native HTTPS release downloads and the configured authentication host; Android installation approval uses REQUEST_INSTALL_PACKAGES. No camera or broad storage permissions.
 - `tests/`: validation, calculations, backup, filtering, account boundary and theme tests.
 
 ## Appearance and accounts
@@ -36,6 +36,6 @@ Light, Dark and Follow device modes are available in My garage. Preferences pers
 
 ## Next milestones
 
-Live account activation and verification; verified catalog and variants; persistent production signing; attributed pricing sources; barcode identification; social features. No API keys or third-party pricing integration are included yet.
+Live account activation and verification; verified catalog and variants; attributed pricing sources; barcode identification; social features. No API keys or third-party pricing integration are included yet.
 
 TomiTrack branding, custom icon and generated hero artwork were created for this project. Hero generation brief: a red 1:64 Japanese sports coupe on a warm ivory studio backdrop, without text or logos. The image was generated with the built-in image tool and is in `web/assets/diecast-hero.webp`. Manufacturer names are descriptive references. TomiTrack is not affiliated with Collectr.

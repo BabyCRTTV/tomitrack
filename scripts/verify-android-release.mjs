@@ -1,0 +1,15 @@
+import {readFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import path from 'node:path';
+const apk='android/app/build/outputs/apk/release/app-release.apk';
+const tools=path.join(process.env.ANDROID_HOME||process.env.ANDROID_SDK_ROOT,'build-tools','35.0.0');
+const report=execFileSync(path.join(tools,'apksigner'),['verify','--verbose','--print-certs',apk],{encoding:'utf8'});
+const actual=/Signer #1 certificate SHA-256 digest: ([0-9a-f]+)/i.exec(report)?.[1]?.toLowerCase();
+const expected=readFileSync('android/signing-certificate-sha256.txt','utf8').trim();
+if(!actual||actual!==expected)throw new Error('Release signer does not match the permanent identity.');
+const badging=execFileSync(path.join(tools,'aapt'),['dump','badging',apk],{encoding:'utf8'});
+const match=/package: name='([^']+)' versionCode='([0-9]+)' versionName='([^']+)'/.exec(badging);
+const {version}=JSON.parse(readFileSync('package.json','utf8'));
+if(!match||match[1]!=='com.tomiking.tomitrack'||match[3]!==version)throw new Error('Unexpected Android package/version.');
+if(/application-debuggable/.test(badging))throw new Error('Published APK must not be debuggable.');
+console.log(`Verified permanent signature, package ${match[1]}, version ${match[3]}, versionCode ${match[2]}.`);

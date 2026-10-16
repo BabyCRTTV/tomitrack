@@ -14,3 +14,6 @@
 - Keep account registration disabled until provider, email delivery and owner-only RLS have been verified with a real project. Never replace managed authentication with local password storage.
 - Auth sessions stay in memory. Keep user storage namespaces distinct and confirm cloud/local replacement and sign-out cache removal.
 - Keep every app surface legible in light and dark themes; preserve the approved public landing page desktop appearance.
+
+- Published Android releases must use the permanent ANDROID_SIGNING_BUNDLE identity and match android/signing-certificate-sha256.txt. Never generate a replacement release key or fall back to debug signing. Increment versionCode for every published Android version.
+- Preserve package ID and data paths across updates. Keep updater URLs fixed to the official repository, validate APK digest/package/version/signer, and retain Android user approval.

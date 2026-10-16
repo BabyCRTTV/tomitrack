@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 — 2026-10-16
+
+- Added optional daily Android update checks, Settings controls, download progress and Android-approved installation.
+- Verify official release URL, SHA-256 digest, package, newer version and matching installed signer before installation.
+- Replaced unreliable debug-key caching with a required permanent release identity and certificate verification in CI.
+- Documented one-time backup/reinstall migration for early APKs with incompatible signing keys.
+
+
 ## 0.2.0 — 2026-10-16
 
 - Refined portfolio hierarchy, range controls, statistics, valuable model rows and collection cards.

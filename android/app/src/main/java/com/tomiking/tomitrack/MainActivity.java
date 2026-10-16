@@ -13,6 +13,7 @@ import java.nio.charset.StandardCharsets;
 
 public class MainActivity extends Activity {
     private WebView web;
+    private AppUpdater updater;
     private ValueCallback<Uri[]> fileCallback;
     private String pendingExport;
     private static final int PICK_FILE=100, SAVE_FILE=101;
@@ -33,6 +34,7 @@ public class MainActivity extends Activity {
         web.addJavascriptInterface(new ExportBridge(),"TomiTrackNative");
         final WebViewAssetLoader loader=new WebViewAssetLoader.Builder().addPathHandler("/assets/",new WebViewAssetLoader.AssetsPathHandler(this)).build();
         web.setWebViewClient(new WebViewClient(){
+            @Override public void onPageFinished(WebView view,String url){if(updater!=null&&url.startsWith("https://"+HOST+"/assets/web/app/"))updater.maybeAutoCheck();}
             @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
                 if(HOST.equals(request.getUrl().getHost()))return loader.shouldInterceptRequest(request.getUrl());
                 String authHost = getString(R.string.auth_host);
@@ -57,9 +59,15 @@ public class MainActivity extends Activity {
                 try{startActivityForResult(intent,PICK_FILE);}catch(Exception e){fileCallback.onReceiveValue(null);fileCallback=null;return false;}return true;
             }
         });
+        updater=new AppUpdater(this,web);
         web.loadUrl("https://"+HOST+"/assets/web/app/index.html");
     }
     public class ExportBridge {
+        @JavascriptInterface public String getUpdateState(){return updater==null?"{}":updater.snapshot();}
+        @JavascriptInterface public void checkForUpdates(){if(updater!=null)updater.check();}
+        @JavascriptInterface public void downloadAndInstallUpdate(){if(updater!=null)updater.downloadAndInstall();}
+        @JavascriptInterface public void resumeUpdateInstall(){if(updater!=null)updater.resumeInstall();}
+        @JavascriptInterface public void setUpdateChecks(boolean enabled){if(updater!=null)updater.setAutoCheck(enabled);}
         @JavascriptInterface public void setTheme(String theme) {
             if(!"dark".equals(theme) && !"light".equals(theme))return;
             runOnUiThread(()->{
@@ -90,5 +98,6 @@ public class MainActivity extends Activity {
         if(request==SAVE_FILE){String content=pendingExport;pendingExport=null;if(result==RESULT_OK&&intent!=null&&intent.getData()!=null&&content!=null){try(OutputStream out=getContentResolver().openOutputStream(intent.getData())){if(out==null)throw new Exception("No output stream");out.write(content.getBytes(StandardCharsets.UTF_8));Toast.makeText(this,"Backup saved",Toast.LENGTH_SHORT).show();}catch(Exception e){Toast.makeText(this,"Could not save file",Toast.LENGTH_LONG).show();}}}
     }
     @Override public void onBackPressed(){web.evaluateJavascript("(()=>{const d=document.querySelector('dialog[open]');if(d){d.close();return true;}return false;})()",result->{if(!"true".equals(result)){if(web.canGoBack())web.goBack();else super.onBackPressed();}});}
-    @Override protected void onDestroy(){if(fileCallback!=null)fileCallback.onReceiveValue(null);web.removeJavascriptInterface("TomiTrackNative");web.destroy();super.onDestroy();}
+    @Override protected void onResume(){super.onResume();if(updater!=null)updater.onResume();}
+    @Override protected void onDestroy(){if(updater!=null)updater.destroy();if(fileCallback!=null)fileCallback.onReceiveValue(null);web.removeJavascriptInterface("TomiTrackNative");web.destroy();super.onDestroy();}
 }
