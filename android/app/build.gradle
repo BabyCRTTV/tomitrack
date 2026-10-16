@@ -2,8 +2,25 @@ plugins { id 'com.android.application' }
 android {
     namespace 'com.tomiking.tomitrack'
     compileSdk 35
-    defaultConfig { applicationId 'com.tomiking.tomitrack'; minSdk 26; targetSdk 35; versionCode 2; versionName '0.2.0' }
-    buildTypes { release { minifyEnabled false } }
+    defaultConfig { applicationId 'com.tomiking.tomitrack'; minSdk 26; targetSdk 35; versionCode 3; versionName '0.2.1' }
+    signingConfigs {
+        permanent {
+            if (System.getenv('TOMITRACK_SIGNING_STORE_FILE')) {
+                storeFile file(System.getenv('TOMITRACK_SIGNING_STORE_FILE'))
+                storePassword System.getenv('TOMITRACK_SIGNING_PASSWORD')
+                keyAlias System.getenv('TOMITRACK_SIGNING_ALIAS')
+                keyPassword System.getenv('TOMITRACK_SIGNING_PASSWORD')
+                storeType 'PKCS12'
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            if (System.getenv('TOMITRACK_SIGNING_STORE_FILE')) signingConfig signingConfigs.permanent
+        }
+    }
     compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
 }
-dependencies { implementation 'androidx.webkit:webkit:1.12.1' }
+dependencies { implementation 'androidx.webkit:webkit:1.12.1'; implementation 'androidx.core:core:1.15.0'; testImplementation 'junit:junit:4.13.2' }
