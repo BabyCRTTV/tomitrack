@@ -21,3 +21,5 @@
 - Read catalog/README.md before changing catalog inputs, identities or search. Keep per-record provenance and partial coverage explicit. Never fabricate UPCs, colors, prices, exact scale or release completeness. Keep shared assortment codes separate from unique release identifiers.
 - Catalog rows and private owned copies are separate. Preserve stable catalog IDs, per-copy fields and legacy backup compatibility; migrate aliases explicitly when correcting established identities. Never put collector/account data into public catalog artifacts.
 - Rebuild catalog projections and SQLite after reviewed input changes; verify relationships, generated-data parity, barcode check digits, search and linked collection entry. Do not run source scraping as part of app startup or automatic release builds.
+
+- Update only application version fields structurally. Never use a global string replacement across dependency lockfiles; validate installer dependency resolution when package metadata changes.
