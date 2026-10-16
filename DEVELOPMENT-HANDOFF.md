@@ -21,14 +21,23 @@ Next concrete priorities:
 
 ### Interrupted upload recovery
 
-The original upload stopped before moving remote main, and its scratch workspace later expired. Recovered the exact 17,920-row catalog and completed documents from their verified GitHub blob hashes. Reconstructed missing modules and confirmed generated web/JSON/import-report hashes match the previously tested outputs. Tomica inputs are now the reviewed normalized projection, with original source links and stable IDs; the manual evidence fetcher refreshes hashes without automatically rewriting reviewed records. Complete publication and CI checks below.
+The earlier upload stopped before moving remote main. The retained upload manifest and recovery results show a partial blob upload: some objects were retrieved, while subsequent inputs/modules returned 404. A recovery checkout retained the unpublished 2009–2013/UI commits and reconstructed Tomica modules. The exact 17,920-row catalog and completed documents were recovered from verified GitHub blob hashes; generated web/JSON/import-report hashes match the previously tested outputs. Tomica inputs are now the reviewed normalized projection, with original source links and stable IDs; the manual evidence fetcher refreshes hashes without automatically rewriting reviewed records. The observable failure was incomplete publication, not missing catalog generation. Internal platform/connection causes remain unconfirmed because diagnostic server/session logs were unavailable.
 
 ### Publication status
 
-0.4.0 is prepared locally; remote commit, CI, Pages and release assets must be verified before reporting publication. Follow-up status will be appended after verification. Never interpret this working version as release evidence.
+**0.4.0 is published and verified.** Remote implementation commit: `c9e681b71e396b5066b80d33e08038c618c45e3d` (tree `e210ed133a8a11c99fd827ab1395d3de28d648ab`, identical to the tested local tree). The recovered full catalog was first secured on branch `recovery/catalog-checkpoint-0.4.0` at `442538cc83d8e1a4eb3e098979b4977e014b2c52` before completing the source upload. Do not deploy that catalog-only checkpoint branch; use main.
+
+- Build run [38947123464](https://github.com/BabyCRTTV/tomitrack/actions/runs/38947123464): verification, Windows, signed Android/native tests and release jobs all succeeded. CI rebuilt projections without drift and passed all 44 Node tests and syntax checks.
+- Pages run [38947123337](https://github.com/BabyCRTTV/tomitrack/actions/runs/38947123337) succeeded. The downloaded live catalog module exactly matches Git blob `da90c96a2eac37933b2170abbd03cad9bf4a5455`; live version/cache modules also match the release.
+- [v0.4.0](https://github.com/BabyCRTTV/tomitrack/releases/tag/v0.4.0) contains APK, Windows installer, SQLite catalog and SHA256SUMS. Downloaded APK and SQLite hashes match the manifest. The APK's permanent signer, package, non-debuggable status, versionName 0.4.0/versionCode 6 and bundled catalog were independently checked. SQLite foreign keys/integrity and alias search pass with all 17,920 rows. The Windows manifest hash matches GitHub's asset digest; physical Windows execution remains unverified.
+- App smoke checks passed catalog loading/pagination, exact and shared barcode search, historical years, linked collection/wishlist saves and edits, ownership cues, related casting navigation, filters, coverage and escaping. Hardware folding and physical Android install/upgrade remain unverified.
+- At the owner's explicit request, an evidence-based public report was submitted to OpenAI: [openai/codex#54684](https://github.com/openai/codex/issues/54684). It distinguishes confirmed partial publication from an unknown internal platform cause. No credentials, signing materials or private transcripts were included.
+
+Next work starts from published 0.4.0, not the old 0.3.0 remote checkpoint. Continue the research and account/native priorities listed above; do not regenerate the recovered catalog from scratch.
 
 ## Preserved architecture and prior implementation record
 
+The sections below retain historical 0.3.1-era validation and counts. The current checkpoint and verified 0.4.0 publication record above supersede their version/status statements.
 
 Shared web app used by GitHub Pages, Android WebViewAssetLoader and sandboxed Electron. Version 0.2 refines the portfolio interface and adds full Light/Dark/Follow device themes, stored as preferences only. Native system bars/title appearance follow the theme. Public landing page keeps the previously approved desktop layout and mobile refinements.
 
