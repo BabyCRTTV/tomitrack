@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/rkpacheco/hotwheels-database/04f57210dcba971bd9bdd8a5364493b9214c7b9c/HW_DB.json",
+    "sha256": "cdfc0b614e42f6eb177c288115270101a693bf97094a144b5ceace2f0cf72a64"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/pvwnthem/Hotwheels-Data/f8129cca1b34ad33a893d93ecfb0e5c0297eefe5/HotApi.json",
+    "sha256": "25b22d0ff023f3ebfe7b7948134a44138dd68883e9c22741cbbc4783e08c5601"
+  }
+]

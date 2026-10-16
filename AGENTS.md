@@ -17,3 +17,7 @@
 
 - Published Android releases must use the permanent ANDROID_SIGNING_BUNDLE identity and match android/signing-certificate-sha256.txt. Never generate a replacement release key or fall back to debug signing. Increment versionCode for every published Android version.
 - Preserve package ID and data paths across updates. Keep updater URLs fixed to the official repository, validate APK digest/package/version/signer, and retain Android user approval.
+
+- Read catalog/README.md before changing catalog inputs, identities or search. Keep per-record provenance and partial coverage explicit. Never fabricate UPCs, colors, prices, exact scale or release completeness. Keep shared assortment codes separate from unique release identifiers.
+- Catalog rows and private owned copies are separate. Preserve stable catalog IDs, per-copy fields and legacy backup compatibility; migrate aliases explicitly when correcting established identities. Never put collector/account data into public catalog artifacts.
+- Rebuild catalog projections and SQLite after reviewed input changes; verify relationships, generated-data parity, barcode check digits, search and linked collection entry. Do not run source scraping as part of app startup or automatic release builds.

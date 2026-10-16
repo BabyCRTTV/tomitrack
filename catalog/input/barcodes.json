@@ -1,0 +1,95 @@
+{
+  "sources": [
+    {
+      "id": "ee-fast-furious-2020",
+      "name": "Entertainment Earth \u00b7 2020 Fast & Furious Wave 5 case listing",
+      "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "date": "2026-10-16",
+      "license": "Product identity and barcode facts; no product descriptions or images reproduced"
+    },
+    {
+      "id": "nda-hot-wheels",
+      "name": "NDA Toys \u00b7 Hot Wheels Basic Car Assortment",
+      "url": "https://www.nda-toys.com/product/7129/hot-wheels-basic-car-assortment",
+      "date": "2026-10-16",
+      "license": "Assortment barcode reference"
+    },
+    {
+      "id": "ee-matchbox-basic",
+      "name": "Entertainment Earth \u00b7 Matchbox basic assortment",
+      "url": "https://www.entertainmentearth.com/product/matchbox-car-collection-2023-mix-1-vehicles-case-of-24/mt30782k2",
+      "date": "2026-10-16",
+      "license": "Assortment barcode reference"
+    }
+  ],
+  "identifiers": [
+    {
+      "value": "887961888560",
+      "scope": "release",
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "curatedId": "ee-2020-fast-furious-wave5-1",
+      "sourceId": "ee-fast-furious-2020",
+      "sourceUrl": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "note": "Retailer-listed UPC for the 2020 Wave 5 model; confirm packaging and variant."
+    },
+    {
+      "value": "887961888584",
+      "scope": "release",
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "curatedId": "ee-2020-fast-furious-wave5-2",
+      "sourceId": "ee-fast-furious-2020",
+      "sourceUrl": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "note": "Retailer-listed UPC for the 2020 Wave 5 model; confirm packaging and variant."
+    },
+    {
+      "value": "887961888577",
+      "scope": "release",
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "curatedId": "ee-2020-fast-furious-wave5-3",
+      "sourceId": "ee-fast-furious-2020",
+      "sourceUrl": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "note": "Retailer-listed UPC for the 2020 Wave 5 model; confirm packaging and variant."
+    },
+    {
+      "value": "887961888591",
+      "scope": "release",
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "curatedId": "ee-2020-fast-furious-wave5-4",
+      "sourceId": "ee-fast-furious-2020",
+      "sourceUrl": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "note": "Retailer-listed UPC for the 2020 Wave 5 model; confirm packaging and variant."
+    },
+    {
+      "value": "887961888553",
+      "scope": "release",
+      "brandId": "hot-wheels",
+      "year": 2020,
+      "curatedId": "ee-2020-fast-furious-wave5-5",
+      "sourceId": "ee-fast-furious-2020",
+      "sourceUrl": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+      "note": "Retailer-listed UPC for the 2020 Wave 5 model; confirm packaging and variant."
+    },
+    {
+      "value": "074299057854",
+      "scope": "assortment",
+      "brandId": "hot-wheels",
+      "categoryId": "mainline",
+      "sourceId": "nda-hot-wheels",
+      "sourceUrl": "https://www.nda-toys.com/product/7129/hot-wheels-basic-car-assortment",
+      "note": "Shared basic-car assortment barcode. This narrows the range; it does not identify a casting, color, year or regional package."
+    },
+    {
+      "value": "035995307827",
+      "scope": "assortment",
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "sourceId": "ee-matchbox-basic",
+      "sourceUrl": "https://www.entertainmentearth.com/product/matchbox-car-collection-2023-mix-1-vehicles-case-of-24/mt30782k2",
+      "note": "Shared basic-car assortment barcode. Select the release using its name, year, number and color."
+    }
+  ]
+}

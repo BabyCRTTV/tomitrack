@@ -1,0 +1,102 @@
+[
+  {
+    "name": "2016 Porsche 911 GT3 RS",
+    "year": 2020,
+    "brandId": "hot-wheels",
+    "categoryId": "premium",
+    "seriesName": "Fast & Furious \u00b7 2020 Wave 5",
+    "productCode": "",
+    "collectorNumber": "",
+    "seriesNumber": "",
+    "variant": "",
+    "color": "",
+    "regions": [],
+    "sourceRefs": [
+      {
+        "sourceId": "ee-fast-furious-2020",
+        "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+        "curatedId": "ee-2020-fast-furious-wave5-1"
+      }
+    ]
+  },
+  {
+    "name": "BMW M3 E46",
+    "year": 2020,
+    "brandId": "hot-wheels",
+    "categoryId": "premium",
+    "seriesName": "Fast & Furious \u00b7 2020 Wave 5",
+    "productCode": "",
+    "collectorNumber": "",
+    "seriesNumber": "",
+    "variant": "",
+    "color": "",
+    "regions": [],
+    "sourceRefs": [
+      {
+        "sourceId": "ee-fast-furious-2020",
+        "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+        "curatedId": "ee-2020-fast-furious-wave5-2"
+      }
+    ]
+  },
+  {
+    "name": "Aston Martin DB5",
+    "year": 2020,
+    "brandId": "hot-wheels",
+    "categoryId": "premium",
+    "seriesName": "Fast & Furious \u00b7 2020 Wave 5",
+    "productCode": "",
+    "collectorNumber": "",
+    "seriesNumber": "",
+    "variant": "",
+    "color": "",
+    "regions": [],
+    "sourceRefs": [
+      {
+        "sourceId": "ee-fast-furious-2020",
+        "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+        "curatedId": "ee-2020-fast-furious-wave5-3"
+      }
+    ]
+  },
+  {
+    "name": "McLaren 720S",
+    "year": 2020,
+    "brandId": "hot-wheels",
+    "categoryId": "premium",
+    "seriesName": "Fast & Furious \u00b7 2020 Wave 5",
+    "productCode": "",
+    "collectorNumber": "",
+    "seriesNumber": "",
+    "variant": "",
+    "color": "",
+    "regions": [],
+    "sourceRefs": [
+      {
+        "sourceId": "ee-fast-furious-2020",
+        "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+        "curatedId": "ee-2020-fast-furious-wave5-4"
+      }
+    ]
+  },
+  {
+    "name": "BMW M3 E36",
+    "year": 2020,
+    "brandId": "hot-wheels",
+    "categoryId": "premium",
+    "seriesName": "Fast & Furious \u00b7 2020 Wave 5",
+    "productCode": "",
+    "collectorNumber": "",
+    "seriesNumber": "",
+    "variant": "",
+    "color": "",
+    "regions": [],
+    "sourceRefs": [
+      {
+        "sourceId": "ee-fast-furious-2020",
+        "url": "https://www.entertainmentearth.com/product/fast-furious-hot-wheels-premium-vehicle-2020-wave-5-case/mtgbw75k",
+        "curatedId": "ee-2020-fast-furious-wave5-5"
+      }
+    ]
+  }
+]

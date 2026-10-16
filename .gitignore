@@ -11,3 +11,7 @@ test-results/
 
 android/app/src/main/res/values/auth.xml
 android/app/src/main/res/drawable/icon.png
+
+artifacts/
+.cache/
+__pycache__/
