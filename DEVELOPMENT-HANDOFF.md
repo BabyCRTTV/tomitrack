@@ -1,5 +1,14 @@
 # Development handoff · 0.4.3
 
+## Pending preview: catalog card actions · 2026-10-17
+
+Owner requested preview approval before publication. Work is on `work/catalog-card-actions-preview`; main, live Pages and released installers remain verified v0.4.3. Do not publish or bump release metadata until the owner approves the preview.
+
+Catalog results now use an article with separate photo/title/detail buttons, an Add to collection action and a small wishlist heart beside the muted brand/category. Both save actions use the existing catalog-linked form and immutable identity validation. Already-wishlisted releases show a filled heart and cannot create duplicate wishlist entries from this shortcut. Owned quantities remain visible and another owned copy can still be added intentionally. Buttons have independent hit areas, keyboard focus and accessible names. Narrow screens place both action buttons together below the card content; theme colors follow the existing tokens. No catalog, translation or image batch changes.
+
+Validation: 57 Node tests, syntax checks, CSS parsing and diff checks pass. Full app JSDOM/IndexedDB smoke verifies release details, direct collection/wishlist form status, linked IDs, save persistence and retained notes/quantity; no nested buttons. Interactive HTML preview is generated from the actual card markup/CSS with 320/360/390/500 width and dark/light controls. Preview-only saves do not affect real collections. Physical foldable testing remains pending.
+
+
 ## 0.4.3 English presentation and first 500-photo batch · 2026-10-17
 
 Working version 0.4.3, Android versionCode 9. Published and verified as v0.4.3. Implementation commit `2b375596edeb4abc42d6e8fbec078063a2c8ecaf`, tested tree `889d5c535a12bb87503ff21f160a0207b6165c8c`. Original catalog snapshot 2026.10.16.3 still contains 17,920 references. All original release objects, stable IDs and the full Mattel hash are preserved.

@@ -27,3 +27,19 @@ test('brand cards open an isolated catalog and Back to brands restores the picke
  ui.change({id:'catalog-year',value:'2004'});await ui.click(press('data-catalog-clear'));assert.equal(ui.state.filters.brandId,'tomica-limited-vintage');assert.equal(ui.state.filters.year,'');
  await ui.click(press('data-catalog-back'));assert.equal(ui.state.filters.brandId,'');assert.match(ui.html(),/class="catalog-brand-grid"/);assert.doesNotMatch(ui.html(),/data-catalog-back/);
 });
+
+test('catalog card quick actions select the exact linked release and intended save status',async()=>{
+ const calls=[],items=[],ui=createCatalogUI({getItems:()=>items,onAdd:(item,status)=>calls.push({item,status}),onChange:()=>{},load:async()=>({default:dataset})});
+ ui.html();await new Promise(setImmediate);
+ const release=ui.engine.search({query:'LV-N41e'}).items[0].release;
+ const originalDocument=globalThis.document;
+ globalThis.document={querySelector:()=>({open:false,close(){throw new Error('A card action must not close an unopened dialog')}})};
+ try{
+  for(const status of ['owned','wish']){
+   await ui.click({dataset:{addRelease:release.id,saveStatus:status},hasAttribute:()=>false});
+   assert.equal(calls.at(-1).status,status);assert.equal(calls.at(-1).item.catalogReleaseId,release.id);assert.equal(calls.at(-1).item.name,release.name);
+  }
+  await ui.click({dataset:{addRelease:'missing-release',saveStatus:'owned'},hasAttribute:()=>false});assert.equal(calls.length,2);
+  assert.equal(items.length,0,'Opening a save form must not modify the collection');
+ }finally{if(originalDocument===undefined)delete globalThis.document;else globalThis.document=originalDocument}
+});

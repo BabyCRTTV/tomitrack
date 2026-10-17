@@ -322,3 +322,23 @@ input::placeholder,textarea::placeholder{color:var(--muted);opacity:.8}
 .photo-attribution{line-height:1.65;overflow-wrap:anywhere}.original-name{margin:14px 0;font-size:.85rem;overflow-wrap:anywhere}.original-name summary{cursor:pointer;color:var(--muted)}
 .model-image>.catalog-photo,.detail-image>.catalog-photo,.valuable-image>.catalog-photo{height:100%;border-radius:inherit;aspect-ratio:auto}.valuable-image .photo-kind{display:none}.model-image .catalog-photo{border-radius:0}
 @media(max-width:540px){.catalog-result{grid-template-columns:minmax(88px,30%) minmax(0,1fr) auto;gap:10px}.catalog-result .catalog-photo{margin-top:3px}.catalog-result .photo-kind{font-size:.5rem;padding:2px 4px}.catalog-result .photo-fallback{padding:6px;gap:4px}.catalog-result .photo-fallback span{font-size:.65rem;-webkit-line-clamp:2}.catalog-result .photo-fallback strong{font-size:.72rem}.catalog-result .photo-fallback small{font-size:.5rem}}
+
+/* Independent catalog card actions; no nested interactive controls. */
+.catalog-result{grid-template-columns:minmax(88px,30%) minmax(0,1fr);cursor:default}
+.catalog-photo-button{display:block;width:100%;padding:0;border-radius:12px;text-align:left;align-self:start}
+.catalog-photo-button>.catalog-photo{width:100%}
+.catalog-brand-line{display:flex;align-items:flex-start;gap:4px;min-width:0}
+.catalog-brand-line .catalog-kicker{flex:1;min-width:0;color:var(--muted);overflow-wrap:anywhere;padding-top:8px}
+.catalog-wish{display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;margin:-4px -8px -4px 0;padding:12px;color:var(--muted);border-radius:50%}
+.catalog-wish svg{width:20px;height:20px;flex-shrink:0}
+.catalog-wish:hover,.catalog-wish.is-wished{color:var(--red);background:var(--selected)}
+.catalog-wish:disabled{opacity:1;cursor:default}
+.catalog-release-title{padding:0;text-align:left;font-size:15px;font-weight:700;line-height:1.4;overflow-wrap:anywhere}
+.catalog-release-title:hover{color:var(--red)}
+.catalog-card-actions{grid-column:2;display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;padding-top:3px}
+.catalog-card-actions button{min-height:44px;font-size:11px;font-weight:700;border-radius:8px;line-height:1.3}
+.catalog-view{padding:9px 0;color:var(--red);white-space:nowrap}
+.catalog-view:hover{text-decoration:underline}
+.catalog-quick-add{padding:10px 12px;background:var(--mint);border:1px solid var(--green);color:var(--green);white-space:nowrap}
+.catalog-quick-add:hover{box-shadow:inset 0 0 0 1px var(--green)}
+@media(max-width:540px){.catalog-card-actions{grid-column:1/-1;justify-content:space-between;gap:10px}.catalog-card-actions button{font-size:12px}.catalog-result{row-gap:12px}}
