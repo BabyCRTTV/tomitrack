@@ -1,7 +1,8 @@
-TomiTrack 0.4.2 — brand browsing refinements.
+TomiTrack 0.4.4 — catalog card shortcuts.
 
-- Fixed uneven logo-card alignment on narrow cover screens when the Limited Vintage name wraps.
-- Tapping a brand opens its own catalog view with a clear heading and Back to brands navigation. Opening a brand resets stale search/filter state; Clear filters stays within the brand.
-- Catalog-only garage additions, existing copies/backups and all 17,920 catalog references are preserved. Coverage remains partial.
+- Add to collection sits beside View release, opening the existing save form for that exact catalog release.
+- A small heart beside the muted brand/category opens the wishlist save form. Existing wishlist entries have a filled heart.
+- Narrow-screen spacing, independent tap targets, accessible names and light/dark colors preserve the approved layout.
+- All 17,920 catalog references, English presentation, the first 500-photo batch, collection data and backups are preserved.
 
-Android uses the permanent signing identity, versionCode 8. Web, Android and Windows share the update. Physical-device installation and folding tests remain outstanding.
+Android uses the permanent signing identity, versionCode 10. Web, Android and Windows share the update. Physical-device installation and folding tests remain outstanding.

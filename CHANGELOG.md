@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.4 — 2026-10-17
+
+- Added a separate Add to collection shortcut beside View release on catalog cards.
+- Added a small wishlist heart beside the muted brand/category label, with a filled state for existing wishlist entries.
+- Kept catalog-linked save forms, owned counts and independent accessible tap targets; spaced actions together beneath narrow-screen cards.
+
 ## 0.4.3 — 2026-10-17
 
 - Added English names, colors and series presentation for all 4,268 Tomica-family references, preserving Japanese search, source facts, IDs and private collection snapshots.

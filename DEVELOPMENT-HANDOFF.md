@@ -1,8 +1,8 @@
-# Development handoff · 0.4.3
+# Development handoff · 0.4.4
 
-## Pending preview: catalog card actions · 2026-10-17
+## 0.4.4 catalog card actions · 2026-10-17
 
-Owner requested preview approval before publication. Work is on `work/catalog-card-actions-preview`; main, live Pages and released installers remain verified v0.4.3. Do not publish or bump release metadata until the owner approves the preview.
+Owner approved the interactive preview on 2026-10-17. Approved implementation checkpoint: `a87bb123d7d9ca0a874f95c68f1696a9ca246a44` on `work/catalog-card-actions-preview`. Working version 0.4.4, Android versionCode 10. Publication and binary verification are pending; latest verified published release at preparation was v0.4.3.
 
 Catalog results now use an article with separate photo/title/detail buttons, an Add to collection action and a small wishlist heart beside the muted brand/category. Both save actions use the existing catalog-linked form and immutable identity validation. Already-wishlisted releases show a filled heart and cannot create duplicate wishlist entries from this shortcut. Owned quantities remain visible and another owned copy can still be added intentionally. Buttons have independent hit areas, keyboard focus and accessible names. Narrow screens place both action buttons together below the card content; theme colors follow the existing tokens. No catalog, translation or image batch changes.
 
