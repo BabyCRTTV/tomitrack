@@ -22,14 +22,17 @@ def fetch(u):
 pages={};errors=[]
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
  for i,(u,html,error) in enumerate(pool.map(fetch,sorted(urls)),1):
-  if error:errors.append({'url':u,'error':error})
+  if error:
+   errors.append({'url':u,'error':error})
+   if len(errors)<4:print(u,error,flush=True)
   else:pages[u]=html
   if i%12==0:print(f'Pages {i}/{len(urls)}; errors {len(errors)}',flush=True)
 
 def norm(s):
  import unicodedata
- return re.sub(r'[\s・･!！()（）「」『』【】\-—〜～/／:：]+','',unicodedata.normalize('NFKC',s)).lower()
-def safe(u):return u.startswith(('https://static.wikia.nocookie.net/hotwheels/images/','https://www.bamca.org/pic/','https://www.takaratomy.co.jp/products/tomica/new/images/','https://minicar.tomytec.co.jp/common/api/image.php?'))
+ s=unicodedata.normalize('NFKC',s);s=re.sub(r'^No\.?\s*\d+\s*','',s,flags=re.I)
+ return re.sub(r'[\s・･!！()（）「」『』【】\-—〜～/／:：]+','',s).lower()
+def safe(u):return isinstance(u,str) and u.startswith(('https://static.wikia.nocookie.net/hotwheels/images/','https://www.bamca.org/pic/','https://www.takaratomy.co.jp/products/tomica/new/images/','https://minicar.tomytec.co.jp/common/api/image.php?'))
 def record(url,source,credit,kind='release-reference'):
  assert safe(url),url
  return {'url':url,'sourceUrl':source,'credit':credit,'kind':kind,'rights':'Original image rights remain with the source image owner; no reuse license asserted.'}
@@ -76,8 +79,8 @@ for r in data['releases']:
   elif r['brandId']=='matchbox' and u in mb:images[r['id']]=record(mb[u],u,'BAMCA · source photograph; photographer credits on linked source')
   elif r['brandId']=='tomica' and u in tm:
    matches=tm[u].get(norm(r['name']),[])
-   # Multiple distinct images for an identical caption may show different variants; do not guess.
-   if len(set(matches))==1:images[r['id']]=record(matches[0],u,'Takara Tomy · manufacturer product image')
+   # Use the first manufacturer reference for the matching product caption; never claim exact variant agreement.
+   if matches:images[r['id']]=record(matches[0],u,'Takara Tomy · manufacturer reference image; confirm pictured color')
 # Same linked casting only; explicitly labeled, never a fabricated exact-variant photograph.
 bycasting={}
 for r in data['releases']:

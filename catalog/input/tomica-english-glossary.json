@@ -3,6 +3,10 @@
   "description": "Editorial Japanese-to-English terminology for catalog display. Original names remain searchable.",
   "terms": [
     [
+      "オーシャンネットワークエクスプレス",
+      "Ocean Network Express"
+    ],
+    [
       "トミカプレミアムunlimited",
       "Tomica Premium Unlimited"
     ],
@@ -11,8 +15,20 @@
       "Tomica Limited Vintage NEO"
     ],
     [
+      "スネークモータース社チューンド",
+      "Snake Motors Tuned"
+    ],
+    [
+      "バック・トゥ・ザ・フューチャー",
+      "Back to the Future"
+    ],
+    [
       "ライトニング・マックィーンデイ",
       "Lightning McQueen Day"
+    ],
+    [
+      "コミューターキャンピングカー",
+      "Commuter Camper"
     ],
     [
       "タカラトミーモールオリジナル",
@@ -27,12 +43,36 @@
       "Ito-Yokado Exclusive"
     ],
     [
+      "クレージーのメキシコ大作戦",
+      "Crazy Adventure in Mexico"
+    ],
+    [
       "トミカ・プラレールブロック",
       "Tomica / Plarail Blocks"
     ],
     [
+      "トーマスランドエクスプレス",
+      "Thomas Land Express"
+    ],
+    [
+      "ハトのマークの引越センター",
+      "Hato Moving Center"
+    ],
+    [
       "ライトニング・マックィーン",
       "Lightning McQueen"
+    ],
+    [
+      "周年ヒストリーセレクション",
+      "Anniversary History Selection"
+    ],
+    [
+      "花見台自動車セフテーローダ",
+      "Hanamidai Safety Loader"
+    ],
+    [
+      "スネークモータース社用車",
+      "Snake Motors Company Vehicle"
     ],
     [
       "ディズニートミカパレード",
@@ -43,8 +83,32 @@
       "Tomica Shop Exclusive"
     ],
     [
+      "パフォーマンスパッケージ",
+      "Performance Package"
+    ],
+    [
+      "ライトニングマックィーン",
+      "Lightning McQueen"
+    ],
+    [
       "ランサーエボリューション",
       "Lancer Evolution"
+    ],
+    [
+      "大門軍団フォーメーション",
+      "Daimon Squad Formation"
+    ],
+    [
+      "コアグランナーイーグル",
+      "Core Granner Eagle"
+    ],
+    [
+      "コアグランナーサーベル",
+      "Core Granner Saber"
+    ],
+    [
+      "サンリオキャラクターズ",
+      "Sanrio Characters"
     ],
     [
       "スーパースピードトミカ",
@@ -59,6 +123,10 @@
       "Tricolor Livery"
     ],
     [
+      "ノスタルジックヒーロー",
+      "Nostalgic Hero"
+    ],
+    [
       "日本の伝統コレクション",
       "Japanese Traditions Collection"
     ],
@@ -67,8 +135,40 @@
       "Advent Calendar"
     ],
     [
+      "オプションパーツ装着",
+      "Optional Parts Fitted"
+    ],
+    [
+      "オーテックバージョン",
+      "Autech Version"
+    ],
+    [
+      "カートランスポーター",
+      "Car Transporter"
+    ],
+    [
+      "シグネチャーシリーズ",
+      "Signature Series"
+    ],
+    [
+      "シルエットトーニング",
+      "Silhouette Toning"
+    ],
+    [
+      "ジャクソン・ストーム",
+      "Jackson Storm"
+    ],
+    [
       "ディズニーモータース",
       "Disney Motors"
+    ],
+    [
+      "フリーザの小型ポッド",
+      "Frieza's Small Pod"
+    ],
+    [
+      "ラフテレーンクレーン",
+      "Rough Terrain Crane"
     ],
     [
       "周年記念特別復刻商品",
@@ -79,8 +179,48 @@
       "Bakusou Kyoudai Let's & Go"
     ],
     [
+      "きかんしゃトーマス",
+      "Thomas the Tank Engine"
+    ],
+    [
       "びーくるずートミカ",
       "Vehicle Zoo Tomica"
+    ],
+    [
+      "アストンマーティン",
+      "Aston Martin"
+    ],
+    [
+      "オプションパーツ付",
+      "with Optional Parts"
+    ],
+    [
+      "キャリーブレイバー",
+      "Carry Braver"
+    ],
+    [
+      "クルーズ・ラミレス",
+      "Cruz Ramirez"
+    ],
+    [
+      "グレイッシュブルー",
+      "Grayish Blue"
+    ],
+    [
+      "コアグランナーレオ",
+      "Core Granner Leo"
+    ],
+    [
+      "サカイ引越センター",
+      "Sakai Moving Service"
+    ],
+    [
+      "サンライズカッパー",
+      "Sunrise Copper"
+    ],
+    [
+      "ジョージサイダー社",
+      "George Cider Company"
     ],
     [
       "スタンダードタイプ",
@@ -95,16 +235,68 @@
       "Super Deluxe"
     ],
     [
+      "セレクション装着車",
+      "Selection Equipment Version"
+    ],
+    [
       "タカラトミーモール",
       "Takara Tomy Mall"
+    ],
+    [
+      "トムときょうりゅう",
+      "Tom and the Dinosaur"
+    ],
+    [
+      "トランスフォーマー",
+      "Transformers"
+    ],
+    [
+      "ドリフトスターター",
+      "Drift Starter"
+    ],
+    [
+      "ドリームジャーニー",
+      "Dream Journey"
+    ],
+    [
+      "ニュルブルクリンク",
+      "Nurburgring"
     ],
     [
       "バズ・ライトイヤー",
       "Buzz Lightyear"
     ],
     [
+      "ファイアチーフカー",
+      "Fire Chief Car"
+    ],
+    [
+      "ファイヤブレイバー",
+      "Fire Braver"
+    ],
+    [
       "フォルクスワーゲン",
       "Volkswagen"
+    ],
+    [
+      "ブロッケンギガント",
+      "Brocken Gigant"
+    ],
+    [
+      "ホットマネー攻防戦",
+      "Battle over Hot Money"
+    ],
+    [
+      "マウンテンバイク付",
+      "with Mountain Bike"
+    ],
+    [
+      "ミッドルーフワイド",
+      "Mid Roof Wide"
+    ],
+    [
+      "ミレニアムジェイド",
+      "Millennium Jade"
     ],
     [
       "メルセデス ベンツ",
@@ -119,6 +311,38 @@
       "Fast & Furious"
     ],
     [
+      "大門軍団・激闘再び",
+      "Daimon Squad: Fierce Battle Again"
+    ],
+    [
+      "完全有機流しカリー",
+      "Fully Organic Nagashi Curry"
+    ],
+    [
+      "富士スピードウェイ",
+      "Fuji Speedway"
+    ],
+    [
+      "文化放送トピッカー",
+      "Bunka Hoso Topic Car"
+    ],
+    [
+      "通称ナックルライン",
+      "Nicknamed Knuckle Line"
+    ],
+    [
+      "おさるのジョージ",
+      "Curious George"
+    ],
+    [
+      "のりものスター編",
+      "Vehicle Stars Edition"
+    ],
+    [
+      "アヴェンタドール",
+      "Aventador"
+    ],
+    [
       "アースグランナー",
       "Earth Granner"
     ],
@@ -127,16 +351,72 @@
       "Evolution"
     ],
     [
+      "オプション装着車",
+      "Optional Equipment Version"
+    ],
+    [
+      "ガソリンスタンド",
+      "Gas Station"
+    ],
+    [
+      "キャンピングカー",
+      "Camper"
+    ],
+    [
+      "クレモナオリーブ",
+      "Cremona Olive"
+    ],
+    [
+      "クローズドトップ",
+      "Closed Top"
+    ],
+    [
+      "グッディキャリー",
+      "Good Day Carry"
+    ],
+    [
       "グランツーリスモ",
       "Gran Turismo"
+    ],
+    [
+      "シンガポール警察",
+      "Singapore Police"
     ],
     [
       "ジブリがいっぱい",
       "Full of Ghibli"
     ],
     [
+      "ス-パーサルーン",
+      "Super Saloon"
+    ],
+    [
       "スイーツフロート",
       "Sweets Float"
+    ],
+    [
+      "スーパ-グレート",
+      "Super Great"
+    ],
+    [
+      "スーパーグレート",
+      "Super Great"
+    ],
+    [
+      "スーパーローレル",
+      "Super Laurel"
+    ],
+    [
+      "セーフティーカー",
+      "Safety Car"
+    ],
+    [
+      "ダッジコロネット",
+      "Dodge Coronet"
+    ],
+    [
+      "チャビーローダー",
+      "Chubby Loader"
     ],
     [
       "ディズニートミカ",
@@ -163,20 +443,84 @@
       "Transporter"
     ],
     [
+      "ドラムパーツ付き",
+      "with Drum Parts"
+    ],
+    [
+      "ナショナルのお店",
+      "National Electronics Shop"
+    ],
+    [
+      "ハムスターランド",
+      "Hamster Land"
+    ],
+    [
       "バラードスポーツ",
       "Ballade Sports"
+    ],
+    [
+      "パーキングエリア",
+      "Parking Area"
+    ],
+    [
+      "ヒルマンミンクス",
+      "Hillman Minx"
+    ],
+    [
+      "ビルドブレイバー",
+      "Build Braver"
+    ],
+    [
+      "ビークスパイダー",
+      "Beak Spider"
     ],
     [
       "ピアゴオリジナル",
       "Piago Exclusive"
     ],
     [
+      "ファイヤーチーフ",
+      "Fire Chief"
+    ],
+    [
+      "ファミリーマート",
+      "FamilyMart"
+    ],
+    [
+      "フリーマーケット",
+      "Flea Market"
+    ],
+    [
+      "ペルフォルマンテ",
+      "Performante"
+    ],
+    [
+      "ボンゴブローニイ",
+      "Bongo Brawny"
+    ],
+    [
       "ポリスブレイバー",
       "Police Braver"
     ],
     [
+      "ミミィとキュルン",
+      "Mimmy and Kyurun"
+    ],
+    [
+      "ムービースターズ",
+      "Movie Stars"
+    ],
+    [
+      "メディブレイバー",
+      "Medi Braver"
+    ],
+    [
       "メルセデスベンツ",
       "Mercedes-Benz"
+    ],
+    [
+      "ユナイトビークル",
+      "Unite Vehicle"
     ],
     [
       "ランドクルーザー",
@@ -187,52 +531,256 @@
       "Royal Saloon"
     ],
     [
+      "ワイルドスタイル",
+      "Wild Style"
+    ],
+    [
       "世界の国旗トミカ",
       "Tomica Flags of the World"
+    ],
+    [
+      "広島市電パニック",
+      "Hiroshima Streetcar Panic"
     ],
     [
       "機動戦士ガンダム",
       "Mobile Suit Gundam"
     ],
     [
+      "狙われた木暮課長",
+      "Chief Kogure Targeted"
+    ],
+    [
+      "続・三丁目の夕日",
+      "Always: Sunset on Third Street 2"
+    ],
+    [
+      "鮮血のペンダント",
+      "Blood-Red Pendant"
+    ],
+    [
+      "くだばれ無責任",
+      "Down with Irresponsibility"
+    ],
+    [
+      "くまのプーさん",
+      "Winnie the Pooh"
+    ],
+    [
       "すみっコぐらし",
       "Sumikkogurashi"
+    ],
+    [
+      "となりのトトロ",
+      "My Neighbor Totoro"
     ],
     [
       "はじめてトミカ",
       "My First Tomica"
     ],
     [
+      "アウトランダー",
+      "Outlander"
+    ],
+    [
+      "アップシアター",
+      "Up Theater"
+    ],
+    [
+      "アニバーサリー",
+      "Anniversary"
+    ],
+    [
       "アルファロメオ",
       "Alfa Romeo"
+    ],
+    [
+      "アンビュランス",
+      "Ambulance"
+    ],
+    [
+      "イエロイッシュ",
+      "Yellowish"
+    ],
+    [
+      "インテグラーレ",
+      "Integrale"
+    ],
+    [
+      "ウィングルーフ",
+      "Wing Roof"
+    ],
+    [
+      "ウォークスルー",
+      "Walk-Through"
+    ],
+    [
+      "エクストレイル",
+      "X-Trail"
+    ],
+    [
+      "オプション装備",
+      "Optional Equipment"
+    ],
+    [
+      "オートバックス",
+      "Autobacs"
+    ],
+    [
+      "オープントップ",
+      "Open Top"
+    ],
+    [
+      "クッピーラムネ",
+      "Kuppy Ramune"
+    ],
+    [
+      "グッドスマイル",
+      "Good Smile"
+    ],
+    [
+      "グレーイッシュ",
+      "Grayish"
+    ],
+    [
+      "グレードアップ",
+      "Upgraded"
+    ],
+    [
+      "コンバーチブル",
+      "Convertible"
     ],
     [
       "ジョブレイバー",
       "Jobraver"
     ],
     [
+      "スカイマスター",
+      "Skymaster"
+    ],
+    [
+      "スワップミート",
+      "Swap Meet"
+    ],
+    [
+      "スーパールーフ",
+      "Super Roof"
+    ],
+    [
+      "セフテーローダ",
+      "Safety Loader"
+    ],
+    [
+      "ソフビシリーズ",
+      "Soft Vinyl Series"
+    ],
+    [
+      "タイヤショップ",
+      "Tire Shop"
+    ],
+    [
+      "タウンショップ",
+      "Town Shop"
+    ],
+    [
       "タンクローリー",
       "Tanker"
+    ],
+    [
+      "ダンプトラック",
+      "Dump Truck"
     ],
     [
       "トミカワールド",
       "Tomica World"
     ],
     [
+      "トムとジェリー",
+      "Tom and Jerry"
+    ],
+    [
+      "トラクタヘッド",
+      "Tractor Unit"
+    ],
+    [
       "トーマストミカ",
       "Thomas Tomica"
+    ],
+    [
+      "ドナルドダック",
+      "Donald Duck"
+    ],
+    [
+      "ドラゴンボール",
+      "Dragon Ball"
     ],
     [
       "ドリフトトミカ",
       "Drift Tomica"
     ],
     [
+      "ドリームスター",
+      "Dream Star"
+    ],
+    [
       "ドリームトミカ",
       "Dream Tomica"
     ],
     [
+      "ハイメディック",
+      "Himedic"
+    ],
+    [
+      "ハンターカブ付",
+      "with Hunter Cub"
+    ],
+    [
+      "バキュームカー",
+      "Vacuum Truck"
+    ],
+    [
+      "バス・ジャック",
+      "Bus Hijacking"
+    ],
+    [
+      "バットモービル",
+      "Batmobile"
+    ],
+    [
       "パトロールカー",
       "Patrol Car"
+    ],
+    [
+      "パラメディック",
+      "Paramedic"
+    ],
+    [
+      "パルズトランポ",
+      "Pals Transporter"
+    ],
+    [
+      "パープリッシュ",
+      "Purplish"
+    ],
+    [
+      "パールホワイト",
+      "Pearl White"
+    ],
+    [
+      "ビークルタウン",
+      "Vehicle Town"
+    ],
+    [
+      "フィギュア付き",
+      "with Figure"
+    ],
+    [
+      "フォークリフト",
+      "Forklift"
+    ],
+    [
+      "ブルーイッシュ",
+      "Bluish"
     ],
     [
       "プレイシリーズ",
@@ -241,6 +789,18 @@
     [
       "プロ野球トミカ",
       "Professional Baseball Tomica"
+    ],
+    [
+      "ホットドッグ屋",
+      "Hot Dog Stand"
+    ],
+    [
+      "ポンティアック",
+      "Pontiac"
+    ],
+    [
+      "ポーターキャブ",
+      "Porter Cab"
     ],
     [
       "マスコットカー",
@@ -255,12 +815,56 @@
       "Mickey Mouse"
     ],
     [
+      "ユーティリタス",
+      "Utilitas"
+    ],
+    [
+      "ヨコハマタイヤ",
+      "Yokohama Tire"
+    ],
+    [
+      "ラグジュアリー",
+      "Luxury"
+    ],
+    [
       "ランボルギーニ",
       "Lamborghini"
     ],
     [
+      "ルーフキャリア",
+      "Roof Rack"
+    ],
+    [
       "ロールスロイス",
       "Rolls Royce"
+    ],
+    [
+      "ワールドツアー",
+      "World Tour"
+    ],
+    [
+      "名古屋市交通局",
+      "Nagoya City Transportation Bureau"
+    ],
+    [
+      "懐かしの緊急車",
+      "Nostalgic Emergency Vehicles"
+    ],
+    [
+      "日本グランプリ",
+      "Japan Grand Prix"
+    ],
+    [
+      "生命果つるとも",
+      "Even If Life Ends"
+    ],
+    [
+      "神奈川中央交通",
+      "Kanagawa Chuo Kotsu"
+    ],
+    [
+      "鈴鹿サーキット",
+      "Suzuka Circuit"
     ],
     [
       "鬼滅の刃トミカ",
@@ -271,20 +875,44 @@
       "Abunai Deka"
     ],
     [
+      "さんふらわあ",
+      "Sunflower"
+    ],
+    [
       "びーくるずー",
       "Vehicle Zoo"
+    ],
+    [
+      "ゆめみるふね",
+      "Dream Ship"
     ],
     [
       "アルテッツァ",
       "Altezza"
     ],
     [
+      "アルファード",
+      "Alphard"
+    ],
+    [
       "インプレッサ",
       "Impreza"
     ],
     [
+      "ウェディング",
+      "Wedding"
+    ],
+    [
       "エアロスター",
       "Aero Star"
+    ],
+    [
+      "エクスプレス",
+      "Express"
+    ],
+    [
+      "エクセレンス",
+      "Excellence"
     ],
     [
       "エディション",
@@ -299,8 +927,24 @@
       "Countach"
     ],
     [
+      "カスタマイズ",
+      "Customized"
+    ],
+    [
+      "カフェテラス",
+      "Cafe Terrace"
+    ],
+    [
+      "カルソニック",
+      "Calsonic"
+    ],
+    [
       "カースナップ",
       "Car Snap"
+    ],
+    [
+      "キデイランド",
+      "Kiddy Land"
     ],
     [
       "キャデラック",
@@ -315,6 +959,26 @@
       "King Cab"
     ],
     [
+      "クラブ選手権",
+      "Club Championship"
+    ],
+    [
+      "クリアコート",
+      "Clear Coat"
+    ],
+    [
+      "クルージング",
+      "Cruising"
+    ],
+    [
+      "グランデージ",
+      "Grandage"
+    ],
+    [
+      "グレイッシュ",
+      "Grayish"
+    ],
+    [
       "コカ・コーラ",
       "Coca-Cola"
     ],
@@ -323,8 +987,32 @@
       "Collection"
     ],
     [
+      "コンフォート",
+      "Comfort"
+    ],
+    [
+      "サラブレッド",
+      "Thoroughbred"
+    ],
+    [
+      "サングレイト",
+      "Sungreat"
+    ],
+    [
       "サービスカー",
       "Service Vehicle"
+    ],
+    [
+      "シンカリオン",
+      "Shinkalion"
+    ],
+    [
+      "ジェイアール",
+      "JR"
+    ],
+    [
+      "スカイウェイ",
+      "Skyway"
     ],
     [
       "スカイライン",
@@ -335,12 +1023,60 @@
       "Standard"
     ],
     [
+      "スチュアート",
+      "Stuart"
+    ],
+    [
+      "スプリンター",
+      "Sprinter"
+    ],
+    [
+      "スーパーロー",
+      "Super Low"
+    ],
+    [
       "センチュリー",
       "Century"
     ],
     [
+      "タイヤローラ",
+      "Pneumatic Tire Roller"
+    ],
+    [
+      "タウンエース",
+      "Town Ace"
+    ],
+    [
+      "タウンライド",
+      "Town Ride"
+    ],
+    [
+      "ダブルキャブ",
+      "Double Cab"
+    ],
+    [
+      "チウインガム",
+      "Chewing Gum"
+    ],
+    [
+      "チャンピオン",
+      "Champion"
+    ],
+    [
+      "チャージャー",
+      "Charger"
+    ],
+    [
       "ツインターボ",
       "Twin Turbo"
+    ],
+    [
+      "テスタロッサ",
+      "Testarossa"
+    ],
+    [
+      "テレビクルー",
+      "TV Crew"
     ],
     [
       "デザイン仕様",
@@ -359,8 +1095,44 @@
       "Tomica Kizuna Gattai"
     ],
     [
+      "トリコロール",
+      "Tricolor"
+    ],
+    [
+      "ドクターカー",
+      "Medical Response Car"
+    ],
+    [
+      "ドクターヘリ",
+      "Medical Helicopter"
+    ],
+    [
+      "ニッポン放送",
+      "Nippon Broadcasting"
+    ],
+    [
+      "ノンステップ",
+      "Non-Step"
+    ],
+    [
+      "ハイブリッド",
+      "Hybrid"
+    ],
+    [
       "ハイラックス",
       "Hilux"
+    ],
+    [
+      "ハッチバック",
+      "Hatchback"
+    ],
+    [
+      "ハトのマーク",
+      "Dove Emblem"
+    ],
+    [
+      "ハトヤホテル",
+      "Hatoya Hotel"
     ],
     [
       "ハローキティ",
@@ -369,6 +1141,22 @@
     [
       "ハードトップ",
       "Hardtop"
+    ],
+    [
+      "バイオレット",
+      "Violet"
+    ],
+    [
+      "パオとガルン",
+      "Pao and Garun"
+    ],
+    [
+      "ビッグフット",
+      "Bigfoot"
+    ],
+    [
+      "ビッグワイド",
+      "Big Wide"
     ],
     [
       "ピックアップ",
@@ -391,6 +1179,10 @@
       "Bridgestone"
     ],
     [
+      "ブルドーザー",
+      "Bulldozer"
+    ],
+    [
       "ブルーバード",
       "Bluebird"
     ],
@@ -403,6 +1195,26 @@
       "Prelude"
     ],
     [
+      "プロボックス",
+      "Probox"
+    ],
+    [
+      "ヘリコプター",
+      "Helicopter"
+    ],
+    [
+      "ベルリネッタ",
+      "Berlinetta"
+    ],
+    [
+      "ホイール装着",
+      "Wheels Fitted"
+    ],
+    [
+      "ボンジュール",
+      "Bonjour"
+    ],
+    [
       "マクラーレン",
       "McLaren"
     ],
@@ -411,8 +1223,56 @@
       "Mario Kart"
     ],
     [
+      "マンハッタン",
+      "Manhattan"
+    ],
+    [
+      "ミッドナイト",
+      "Midnight"
+    ],
+    [
       "ミニーマウス",
       "Minnie Mouse"
+    ],
+    [
+      "ムルシエラゴ",
+      "Murcielago"
+    ],
+    [
+      "モトコンポ付",
+      "with Motocompo"
+    ],
+    [
+      "モンテカルロ",
+      "Monte Carlo"
+    ],
+    [
+      "ヤマザキパン",
+      "Yamazaki Baking"
+    ],
+    [
+      "ヤマシン醤油",
+      "Yamashin Soy Sauce"
+    ],
+    [
+      "ヤマダデンキ",
+      "Yamada Denki"
+    ],
+    [
+      "ラフェラーリ",
+      "LaFerrari"
+    ],
+    [
+      "ラプンツェル",
+      "Rapunzel"
+    ],
+    [
+      "ル・マン優勝",
+      "Le Mans Winner"
+    ],
+    [
+      "ロングボディ",
+      "Long Body"
     ],
     [
       "ロードスター",
@@ -423,12 +1283,60 @@
       "Vintage"
     ],
     [
+      "万台突破記念",
+      "Ten-Thousand Vehicle Milestone Edition"
+    ],
+    [
+      "世界速度記録",
+      "World Speed Record"
+    ],
+    [
+      "予約対象商品",
+      "Preorder Product"
+    ],
+    [
+      "仙台市交通局",
+      "Sendai City Transportation Bureau"
+    ],
+    [
+      "仙台爆破計画",
+      "Sendai Bombing Plot"
+    ],
+    [
+      "俺たちの闘い",
+      "Our Battle"
+    ],
+    [
+      "名探偵コナン",
+      "Detective Conan"
+    ],
+    [
       "周年記念仕様",
       "Anniversary Edition"
     ],
     [
+      "型はしご付き",
+      "Type with Ladder"
+    ],
+    [
       "太陽にほえろ",
       "Taiyo ni Hoero"
+    ],
+    [
+      "屋根付駐車場",
+      "Covered Parking Lot"
+    ],
+    [
+      "引越のサカイ",
+      "Sakai Moving Service"
+    ],
+    [
+      "引越センター",
+      "Moving Center"
+    ],
+    [
+      "扇港電機商会",
+      "Senko Denki Shokai"
     ],
     [
       "日本車の時代",
@@ -439,24 +1347,120 @@
       "Tokyo Metropolitan Bureau of Transportation"
     ],
     [
+      "栄光への爆走",
+      "Race to Glory"
+    ],
+    [
+      "江能環境整備",
+      "Eno Environmental Maintenance"
+    ],
+    [
+      "油圧ショベル",
+      "Hydraulic Excavator"
+    ],
+    [
+      "綜合警備保障",
+      "ALSOK Security"
+    ],
+    [
+      "西部機動軍団",
+      "Western Mobile Squad"
+    ],
+    [
+      "逃亡の滑走路",
+      "Runway of Escape"
+    ],
+    [
+      "こどもの国",
+      "Kodomo no Kuni"
+    ],
+    [
+      "さかなクン",
+      "Sakana-kun"
+    ],
+    [
       "アイボリー",
       "Ivory"
+    ],
+    [
+      "アスリート",
+      "Athlete"
+    ],
+    [
+      "アメリカン",
+      "American"
     ],
     [
       "アルティマ",
       "Ultima"
     ],
     [
+      "アルピーヌ",
+      "Alpine"
+    ],
+    [
       "アンフィニ",
       "Efini"
+    ],
+    [
+      "インサイト",
+      "Insight"
     ],
     [
       "インテグラ",
       "Integra"
     ],
     [
+      "ウイニング",
+      "Winning"
+    ],
+    [
+      "エクシード",
+      "Exceed"
+    ],
+    [
+      "エクストラ",
+      "Extra"
+    ],
+    [
+      "エクレール",
+      "Eclair"
+    ],
+    [
+      "エスティマ",
+      "Estima"
+    ],
+    [
+      "エステート",
+      "Estate"
+    ],
+    [
+      "エディオン",
+      "Edion"
+    ],
+    [
+      "エメラルド",
+      "Emerald"
+    ],
+    [
+      "オデッセイ",
+      "Odyssey"
+    ],
+    [
       "オリジナル",
       "Exclusive"
+    ],
+    [
+      "オート三輪",
+      "Three-Wheeled Truck"
+    ],
+    [
+      "カブリオレ",
+      "Cabriolet"
+    ],
+    [
+      "ガン狂詩曲",
+      "Gun Rhapsody"
     ],
     [
       "キャラバン",
@@ -467,6 +1471,10 @@
       "Canter"
     ],
     [
+      "キャンパー",
+      "Camper"
+    ],
+    [
       "クラシック",
       "Classic"
     ],
@@ -475,36 +1483,156 @@
       "Clipper"
     ],
     [
+      "クレープ屋",
+      "Crepe Shop"
+    ],
+    [
+      "グランナー",
+      "Granner"
+    ],
+    [
+      "コルベット",
+      "Corvette"
+    ],
+    [
+      "コンテッサ",
+      "Contessa"
+    ],
+    [
+      "コンバイン",
+      "Combine Harvester"
+    ],
+    [
       "コースター",
       "Coaster"
+    ],
+    [
+      "ゴールデン",
+      "Golden"
+    ],
+    [
+      "サンルーフ",
+      "Sunroof"
+    ],
+    [
+      "サーフィン",
+      "Surfing"
+    ],
+    [
+      "シトロエン",
+      "Citroen"
     ],
     [
       "シビリアン",
       "Civilian"
     ],
     [
+      "シルエット",
+      "Silhouette"
+    ],
+    [
+      "ジェックス",
+      "Jecs"
+    ],
+    [
+      "ジョーシン",
+      "Joshin"
+    ],
+    [
+      "ストライプ",
+      "Stripe"
+    ],
+    [
+      "ストラトス",
+      "Stratos"
+    ],
+    [
+      "ストリート",
+      "Street"
+    ],
+    [
+      "ストレート",
+      "Straight"
+    ],
+    [
       "スヌーピー",
       "Snoopy"
+    ],
+    [
+      "スパイダー",
+      "Spider"
+    ],
+    [
+      "スピリット",
+      "Spirit"
     ],
     [
       "スペシャル",
       "Special"
     ],
     [
+      "スポーティ",
+      "Sporty"
+    ],
+    [
+      "ズートピア",
+      "Zootopia"
+    ],
+    [
       "セドリック",
       "Cedric"
+    ],
+    [
+      "セフィーロ",
+      "Cefiro"
+    ],
+    [
+      "セーフティ",
+      "Safety"
+    ],
+    [
+      "ターコイズ",
+      "Turquoise"
     ],
     [
       "ダットサン",
       "Datsun"
     ],
     [
+      "ダンロップ",
+      "Dunlop"
+    ],
+    [
       "チェイサー",
       "Chaser"
     ],
     [
+      "チェッカー",
+      "Checker"
+    ],
+    [
       "ツインカム",
       "Twin Cam"
+    ],
+    [
+      "ツートーン",
+      "Two-Tone"
+    ],
+    [
+      "ツーリング",
+      "Touring"
+    ],
+    [
+      "テストカー",
+      "Test Car"
+    ],
+    [
+      "テレックス",
+      "Terex"
+    ],
+    [
+      "ディアブロ",
+      "Diablo"
     ],
     [
       "ディズニー",
@@ -517,6 +1645,10 @@
     [
       "デラックス",
       "Deluxe"
+    ],
+    [
+      "デロリアン",
+      "DeLorean"
     ],
     [
       "トイザらス",
@@ -539,12 +1671,60 @@
       "Toyopet"
     ],
     [
+      "トライトン",
+      "Triton"
+    ],
+    [
+      "トラクター",
+      "Tractor"
+    ],
+    [
+      "トレーラー",
+      "Trailer"
+    ],
+    [
+      "ドバイ警察",
+      "Dubai Police"
+    ],
+    [
+      "ドラえもん",
+      "Doraemon"
+    ],
+    [
+      "ドーナツ屋",
+      "Donut Shop"
+    ],
+    [
       "ハイエース",
       "Hiace"
     ],
     [
       "ハイルーフ",
       "High Roof"
+    ],
+    [
+      "バサースト",
+      "Bathurst"
+    ],
+    [
+      "バッグつき",
+      "with Bag"
+    ],
+    [
+      "バルキリー",
+      "Valkyrie"
+    ],
+    [
+      "バージョン",
+      "Version"
+    ],
+    [
+      "パサージュ",
+      "Passage"
+    ],
+    [
+      "パッケージ",
+      "Package"
     ],
     [
       "パトロール",
@@ -555,24 +1735,108 @@
       "Panel Van"
     ],
     [
+      "パーソナル",
+      "Personal"
+    ],
+    [
+      "ビュイック",
+      "Buick"
+    ],
+    [
       "ファミリア",
       "Familia"
+    ],
+    [
+      "ファンシー",
+      "Fancy"
     ],
     [
       "フィアット",
       "Fiat"
     ],
     [
+      "フィギュア",
+      "Figure"
+    ],
+    [
       "フェラーリ",
       "Ferrari"
+    ],
+    [
+      "ブガッティ",
+      "Bugatti"
+    ],
+    [
+      "ブライトン",
+      "Brighton"
+    ],
+    [
+      "ブレイバー",
+      "Braver"
+    ],
+    [
+      "プレミアム",
+      "Premium"
+    ],
+    [
+      "プレーリー",
+      "Prairie"
     ],
     [
       "プロフィア",
       "Profia"
     ],
     [
+      "ホーネット",
+      "Hornet"
+    ],
+    [
+      "ボトルカー",
+      "Beverage Delivery Truck"
+    ],
+    [
       "ポリスカー",
       "Police Car"
+    ],
+    [
+      "マジェスタ",
+      "Majesta"
+    ],
+    [
+      "マスタング",
+      "Mustang"
+    ],
+    [
+      "マセラティ",
+      "Maserati"
+    ],
+    [
+      "ミキサー車",
+      "Concrete Mixer Truck"
+    ],
+    [
+      "メタリック",
+      "Metallic"
+    ],
+    [
+      "メダリスト",
+      "Medalist"
+    ],
+    [
+      "メルセデス",
+      "Mercedes"
+    ],
+    [
+      "モータース",
+      "Motors"
+    ],
+    [
+      "ヤマト運輸",
+      "Yamato Transport"
+    ],
+    [
+      "ヨーロッパ",
+      "Europa"
     ],
     [
       "ライトバン",
@@ -583,12 +1847,44 @@
       "Ride On"
     ],
     [
+      "ラジオカー",
+      "Radio Car"
+    ],
+    [
       "ラッピング",
       "Livery"
     ],
     [
+      "ラベンダー",
+      "Lavender"
+    ],
+    [
+      "ラングラー",
+      "Wrangler"
+    ],
+    [
       "リミテッド",
       "Limited"
+    ],
+    [
+      "リラックマ",
+      "Rilakkuma"
+    ],
+    [
+      "ルパン三世",
+      "Lupin the Third"
+    ],
+    [
+      "ルーセント",
+      "Lucent"
+    ],
+    [
+      "ルートカー",
+      "Route Car"
+    ],
+    [
+      "レストラン",
+      "Restaurant"
     ],
     [
       "レッカー車",
@@ -599,16 +1895,172 @@
       "Ranger"
     ],
     [
+      "レヴォーグ",
+      "Levorg"
+    ],
+    [
       "レーシング",
       "Racing"
+    ],
+    [
+      "ロータリー",
+      "Rotary"
+    ],
+    [
+      "ヴォクシー",
+      "Voxy"
+    ],
+    [
+      "一の若大将",
+      "Young Leader No. 1"
+    ],
+    [
+      "万台記念品",
+      "Ten-Thousand Vehicle Commemorative Edition"
     ],
     [
       "三菱ふそう",
       "Mitsubishi Fuso"
     ],
     [
+      "三鷹製作所",
+      "Mitaka Works"
+    ],
+    [
+      "久留米運送",
+      "Kurume Transport"
+    ],
+    [
+      "伊藤かずえ",
+      "Kazue Ito"
+    ],
+    [
+      "化学消防車",
+      "Chemical Fire Engine"
+    ],
+    [
+      "博多港決戦",
+      "Battle at Hakata Port"
+    ],
+    [
+      "国道事務所",
+      "National Highway Office"
+    ],
+    [
+      "埼玉県警察",
+      "Saitama Prefectural Police"
+    ],
+    [
+      "宗方の証言",
+      "Munakata's Testimony"
+    ],
+    [
+      "宮城・後篇",
+      "Miyagi: Part Two"
+    ],
+    [
+      "富士重工業",
+      "Fuji Heavy Industries"
+    ],
+    [
+      "尼崎市清掃",
+      "Amagasaki City Sanitation"
+    ],
+    [
+      "岩手県交通",
+      "Iwate Kotsu"
+    ],
+    [
+      "帰ってきた",
+      "Return of"
+    ],
+    [
+      "月極駐車場",
+      "Monthly Parking Lot"
+    ],
+    [
+      "東京都清掃",
+      "Tokyo Metropolitan Sanitation"
+    ],
+    [
+      "東京駅構内",
+      "Tokyo Station Grounds"
+    ],
+    [
+      "機動救助隊",
+      "Mobile Rescue Unit"
+    ],
+    [
+      "浮谷東次郎",
+      "Tojiro Ukiya"
+    ],
+    [
+      "深荷台幌付",
+      "Deep Bed with Canvas Cover"
+    ],
+    [
+      "無防備都市",
+      "Defenseless City"
+    ],
+    [
+      "特別塗装色",
+      "Special Paint Color"
+    ],
+    [
+      "特捜最前線",
+      "Tokusou Saizensen"
+    ],
+    [
+      "現金輸送車",
+      "Cash Transport Vehicle"
+    ],
+    [
+      "白昼の対決",
+      "Duel in Broad Daylight"
+    ],
+    [
+      "石原裕次郎",
+      "Yujiro Ishihara"
+    ],
+    [
+      "磨き仕上げ",
+      "Polished Finish"
+    ],
+    [
       "神奈川県警",
       "Kanagawa Prefectural Police"
+    ],
+    [
+      "竈門禰豆子",
+      "Nezuko Kamado"
+    ],
+    [
+      "路上ライブ",
+      "Street Performance"
+    ],
+    [
+      "車両運搬車",
+      "Vehicle Transporter"
+    ],
+    [
+      "通称美濃部",
+      "Nicknamed Minobe"
+    ],
+    [
+      "都会の街角",
+      "City Street Corner"
+    ],
+    [
+      "釘崎野薔薇",
+      "Nobara Kugisaki"
+    ],
+    [
+      "陸上自衛隊",
+      "Japan Ground Self-Defense Force"
+    ],
+    [
+      "高床平荷台",
+      "High Flatbed"
     ],
     [
       "(黄色)",
@@ -619,16 +2071,56 @@
       "Gudetama"
     ],
     [
+      "しろくま",
+      "Polar Bear"
+    ],
+    [
       "ちいかわ",
       "Chiikawa"
+    ],
+    [
+      "はとバス",
+      "Hato Bus"
+    ],
+    [
+      "はやぶさ",
+      "Hayabusa"
+    ],
+    [
+      "ぺんぎん",
+      "Penguin"
     ],
     [
       "アウディ",
       "Audi"
     ],
     [
+      "アクセル",
+      "Axel"
+    ],
+    [
+      "アクティ",
+      "Acty"
+    ],
+    [
       "アコード",
       "Accord"
+    ],
+    [
+      "アストロ",
+      "Astro"
+    ],
+    [
+      "アタック",
+      "Attack"
+    ],
+    [
+      "アテンザ",
+      "Atenza"
+    ],
+    [
+      "アテーサ",
+      "ATTESA"
     ],
     [
       "アトラス",
@@ -639,16 +2131,76 @@
       "Avante"
     ],
     [
+      "アンチコ",
+      "Antico"
+    ],
+    [
+      "アーマー",
+      "Armor"
+    ],
+    [
+      "イエロー",
+      "Yellow"
+    ],
+    [
+      "イカズチ",
+      "Ikazuchi"
+    ],
+    [
+      "イレブン",
+      "Eleven"
+    ],
+    [
       "ウッディ",
       "Woody"
+    ],
+    [
+      "ウニモグ",
+      "Unimog"
+    ],
+    [
+      "ウラカン",
+      "Huracan"
+    ],
+    [
+      "エテルナ",
+      "Eterna"
+    ],
+    [
+      "エンツォ",
+      "Enzo"
+    ],
+    [
+      "オランダ",
+      "Netherlands"
+    ],
+    [
+      "オリーブ",
+      "Olive"
     ],
     [
       "オレンジ",
       "Orange"
     ],
     [
+      "オーナー",
+      "Owner"
+    ],
+    [
       "カスタム",
       "Custom"
+    ],
+    [
+      "カタログ",
+      "Catalog"
+    ],
+    [
+      "カッパー",
+      "Copper"
+    ],
+    [
+      "カヤック",
+      "Kayak"
     ],
     [
       "カリーナ",
@@ -659,6 +2211,30 @@
       "Corolla"
     ],
     [
+      "ガゼール",
+      "Gazelle"
+    ],
+    [
+      "ガレージ",
+      "Garage"
+    ],
+    [
+      "キッチン",
+      "Kitchen"
+    ],
+    [
+      "キャリイ",
+      "Carry"
+    ],
+    [
+      "キャロル",
+      "Carol"
+    ],
+    [
+      "キャンプ",
+      "Camping"
+    ],
+    [
       "ギャラン",
       "Galant"
     ],
@@ -667,24 +2243,64 @@
       "Crown"
     ],
     [
+      "クリーム",
+      "Cream"
+    ],
+    [
       "クレスタ",
       "Cresta"
+    ],
+    [
+      "クレーン",
+      "Crane"
     ],
     [
       "クワトロ",
       "quattro"
     ],
     [
+      "クーラー",
+      "Air Conditioner"
+    ],
+    [
       "グランデ",
       "Grande"
+    ],
+    [
+      "グランド",
+      "Grand"
+    ],
+    [
+      "グリーン",
+      "Green"
+    ],
+    [
+      "グループ",
+      "Group"
     ],
     [
       "グロリア",
       "Gloria"
     ],
     [
+      "コンテナ",
+      "Container"
+    ],
+    [
       "コンドル",
       "Condor"
+    ],
+    [
+      "ゴースト",
+      "Ghost"
+    ],
+    [
+      "ゴールド",
+      "Gold"
+    ],
+    [
+      "サウンド",
+      "Sound"
     ],
     [
       "サバンナ",
@@ -695,8 +2311,32 @@
       "Safari"
     ],
     [
+      "サボイア",
+      "Savoia"
+    ],
+    [
+      "サルーン",
+      "Saloon"
+    ],
+    [
       "サンバー",
       "Sambar"
+    ],
+    [
+      "サンパー",
+      "Thumper"
+    ],
+    [
+      "サービス",
+      "Service"
+    ],
+    [
+      "シェビー",
+      "Chevy"
+    ],
+    [
+      "シエンタ",
+      "Sienta"
     ],
     [
       "シビック",
@@ -711,8 +2351,20 @@
       "Shuttle"
     ],
     [
+      "シュコダ",
+      "Skoda"
+    ],
+    [
+      "シルバー",
+      "Silver"
+    ],
+    [
       "シルビア",
       "Silvia"
+    ],
+    [
+      "ジェシー",
+      "Jessie"
     ],
     [
       "ジェミニ",
@@ -727,12 +2379,48 @@
       "Jimny"
     ],
     [
+      "ジャガー",
+      "Jaguar"
+    ],
+    [
+      "ジャンボ",
+      "Jumbo"
+    ],
+    [
       "ジュニア",
       "Junior"
     ],
     [
+      "スイフト",
+      "Swift"
+    ],
+    [
       "スイーツ",
       "Sweets"
+    ],
+    [
+      "スクール",
+      "School"
+    ],
+    [
+      "スタイル",
+      "Style"
+    ],
+    [
+      "スタウト",
+      "Stout"
+    ],
+    [
+      "ステップ",
+      "Step"
+    ],
+    [
+      "ストック",
+      "Stock"
+    ],
+    [
+      "スバコミ",
+      "SubaComi"
     ],
     [
       "スポーツ",
@@ -751,12 +2439,24 @@
       "Celsior"
     ],
     [
+      "タイレル",
+      "Tyrrell"
+    ],
+    [
       "タクシー",
       "Taxi"
     ],
     [
       "ダイハツ",
       "Daihatsu"
+    ],
+    [
+      "ダッシュ",
+      "Dash"
+    ],
+    [
+      "チムチム",
+      "Chim Chim"
     ],
     [
       "ツアラー",
@@ -771,28 +2471,116 @@
       "Dino"
     ],
     [
+      "デカライ",
+      "Decaride"
+    ],
+    [
+      "デッカー",
+      "Decker"
+    ],
+    [
+      "デボネア",
+      "Debonair"
+    ],
+    [
       "トラック",
       "Truck"
+    ],
+    [
+      "トラベル",
+      "Travel"
+    ],
+    [
+      "トレーラ",
+      "Trailer"
+    ],
+    [
+      "ドクター",
+      "Doctor"
     ],
     [
       "ニッサン",
       "Nissan"
     ],
     [
+      "ニッポン",
+      "Nippon"
+    ],
+    [
+      "ハイヤー",
+      "Chauffeured Car"
+    ],
+    [
+      "ハスラー",
+      "Hustler"
+    ],
+    [
+      "バッグ付",
+      "with Bag"
+    ],
+    [
+      "バラード",
+      "Ballade"
+    ],
+    [
       "パジェロ",
       "Pajero"
+    ],
+    [
+      "パティオ",
+      "Patio"
     ],
     [
       "パトカー",
       "Police Car"
     ],
     [
+      "パプリカ",
+      "Paprika"
+    ],
+    [
+      "パープル",
+      "Purple"
+    ],
+    [
+      "ビーグル",
+      "Beagle"
+    ],
+    [
+      "ピラード",
+      "Pillared"
+    ],
+    [
+      "フィット",
+      "Fit"
+    ],
+    [
+      "フェイス",
+      "Face"
+    ],
+    [
+      "フェーズ",
+      "Phase"
+    ],
+    [
       "フォード",
       "Ford"
     ],
     [
+      "フレンズ",
+      "Friends"
+    ],
+    [
       "フロンテ",
       "Fronte"
+    ],
+    [
+      "ブラウン",
+      "Brown"
+    ],
+    [
+      "ブラック",
+      "Black"
     ],
     [
       "ブラーゴ",
@@ -811,12 +2599,24 @@
       "Prince"
     ],
     [
+      "プレーン",
+      "Plain"
+    ],
+    [
       "ベレット",
       "Bellett"
     ],
     [
       "ベージュ",
       "Beige"
+    ],
+    [
+      "ホワイト",
+      "White"
+    ],
+    [
+      "ホーミー",
+      "Homy"
     ],
     [
       "ポルシェ",
@@ -835,12 +2635,56 @@
       "Midget"
     ],
     [
+      "ミッキー",
+      "Mickey"
+    ],
+    [
+      "ミニオン",
+      "Minion"
+    ],
+    [
       "ミニ四駆",
       "Mini 4WD"
     ],
     [
       "メーター",
       "Mater"
+    ],
+    [
+      "モバHO",
+      "MobaHO"
+    ],
+    [
+      "モルカー",
+      "Molcar"
+    ],
+    [
+      "モンツァ",
+      "Monza"
+    ],
+    [
+      "ヤンマー",
+      "Yanmar"
+    ],
+    [
+      "ユナイト",
+      "Unite"
+    ],
+    [
+      "ユニシア",
+      "Unisia"
+    ],
+    [
+      "ヨコスカ",
+      "Yokosuka"
+    ],
+    [
+      "ヨッシー",
+      "Yoshi"
+    ],
+    [
+      "ラクーン",
+      "Raccoon"
     ],
     [
       "ランサー",
@@ -851,6 +2695,22 @@
       "Lancia"
     ],
     [
+      "ランナー",
+      "Runner"
+    ],
+    [
+      "リエッセ",
+      "Liesse"
+    ],
+    [
+      "リビング",
+      "Living"
+    ],
+    [
+      "ル・マン",
+      "Le Mans"
+    ],
+    [
       "ルーチェ",
       "Luce"
     ],
@@ -859,20 +2719,92 @@
       "Legacy"
     ],
     [
+      "レガリア",
+      "Regalia"
+    ],
+    [
+      "レガート",
+      "Legato"
+    ],
+    [
       "レクサス",
       "Lexus"
+    ],
+    [
+      "レストア",
+      "Restoration"
+    ],
+    [
+      "レッカー",
+      "Tow Truck"
     ],
     [
       "レパード",
       "Leopard"
     ],
     [
+      "ロイヤル",
+      "Royal"
+    ],
+    [
+      "ローソン",
+      "Lawson"
+    ],
+    [
       "ロータス",
       "Lotus"
     ],
     [
+      "ローリー",
+      "Tanker"
+    ],
+    [
       "ローレル",
       "Laurel"
+    ],
+    [
+      "ワンマン",
+      "One-Man Operation"
+    ],
+    [
+      "三重交通",
+      "Mie Kotsu"
+    ],
+    [
+      "中古車店",
+      "Used Car Dealership"
+    ],
+    [
+      "京浜急行",
+      "Keikyu"
+    ],
+    [
+      "京王電鉄",
+      "Keio Railway"
+    ],
+    [
+      "京都府警",
+      "Kyoto Prefectural Police"
+    ],
+    [
+      "兵庫県警",
+      "Hyogo Prefectural Police"
+    ],
+    [
+      "内装色替",
+      "Alternate Interior Color"
+    ],
+    [
+      "出荷累計",
+      "Cumulative Shipments"
+    ],
+    [
+      "初音ミク",
+      "Hatsune Miku"
+    ],
+    [
+      "動物運搬",
+      "Animal Transport"
     ],
     [
       "北米仕様",
@@ -887,12 +2819,80 @@
       "Anniversary"
     ],
     [
+      "呪術廻戦",
+      "Jujutsu Kaisen"
+    ],
+    [
+      "国際興業",
+      "Kokusai Kogyo"
+    ],
+    [
+      "埼玉県警",
+      "Saitama Prefectural Police"
+    ],
+    [
+      "大門圭介",
+      "Keisuke Daimon"
+    ],
+    [
+      "大阪府警",
+      "Osaka Prefectural Police"
+    ],
+    [
+      "太陽の道",
+      "Road of the Sun"
+    ],
+    [
+      "宮城県警",
+      "Miyagi Prefectural Police"
+    ],
+    [
+      "家畜運搬",
+      "Livestock Transport"
+    ],
+    [
+      "富井清掃",
+      "Tomii Cleaning"
+    ],
+    [
+      "富士急行",
+      "Fujikyu"
+    ],
+    [
+      "帝産観光",
+      "Teisan Kanko"
+    ],
+    [
+      "幼児専用",
+      "For Young Children"
+    ],
+    [
+      "広島県警",
+      "Hiroshima Prefectural Police"
+    ],
+    [
+      "広島電鉄",
+      "Hiroshima Electric Railway"
+    ],
+    [
+      "懐かしの",
+      "Nostalgic"
+    ],
+    [
+      "文化放送",
+      "Bunka Hoso"
+    ],
+    [
       "日本交通",
       "Nihon Kotsu"
     ],
     [
       "日本航空",
       "Japan Airlines"
+    ],
+    [
+      "日本警察",
+      "Japanese Police"
     ],
     [
       "日本通運",
@@ -903,16 +2903,124 @@
       "Hitachi Construction Machinery"
     ],
     [
+      "朝日新聞",
+      "Asahi Shimbun"
+    ],
+    [
+      "木暮謙三",
+      "Kenzo Kogure"
+    ],
+    [
+      "東京無線",
+      "Tokyo Musen"
+    ],
+    [
+      "東洋工業",
+      "Toyo Kogyo"
+    ],
+    [
+      "松田次生",
+      "Tsugio Matsuda"
+    ],
+    [
+      "査察広報",
+      "Inspection and Public Relations"
+    ],
+    [
+      "栃木県警",
+      "Tochigi Prefectural Police"
+    ],
+    [
+      "栄光への",
+      "Toward Glory"
+    ],
+    [
+      "機動捜査",
+      "Mobile Investigation"
+    ],
+    [
+      "沖田登場",
+      "Okita Appears"
+    ],
+    [
+      "渋谷病院",
+      "Shibuya Hospital"
+    ],
+    [
       "特別仕様",
       "Special Edition"
+    ],
+    [
+      "石塚観光",
+      "Ishizuka Kanko"
+    ],
+    [
+      "福島県警",
+      "Fukushima Prefectural Police"
+    ],
+    [
+      "移動交番",
+      "Mobile Police Box"
+    ],
+    [
+      "移動検問",
+      "Mobile Checkpoint"
+    ],
+    [
+      "移動販売",
+      "Mobile Shop"
+    ],
+    [
+      "移動電話",
+      "Mobile Telephone"
+    ],
+    [
+      "系新幹線",
+      "Series Shinkansen"
+    ],
+    [
+      "維持作業",
+      "Maintenance Work"
     ],
     [
       "西部警察",
       "Seibu Keisatsu"
     ],
     [
+      "試作実験",
+      "Experimental Prototype"
+    ],
+    [
+      "誘導標識",
+      "Guide Sign"
+    ],
+    [
+      "貨物列車",
+      "Freight Train"
+    ],
+    [
+      "車両運搬",
+      "Vehicle Transport"
+    ],
+    [
+      "重機運搬",
+      "Heavy Equipment Transport"
+    ],
+    [
+      "関東鉄道",
+      "Kanto Railway"
+    ],
+    [
+      "静岡県警",
+      "Shizuoka Prefectural Police"
+    ],
+    [
       "頭文字D",
       "Initial D"
+    ],
+    [
+      "高床荷台",
+      "High Deck Bed"
     ],
     [
       "(白)",
@@ -947,8 +3055,24 @@
       "Isuzu"
     ],
     [
+      "はしご",
+      "Ladder"
+    ],
+    [
       "ふそう",
       "Fuso"
+    ],
+    [
+      "もみじ",
+      "Momiji"
+    ],
+    [
+      "アイス",
+      "Ice Cream"
+    ],
+    [
+      "アクア",
+      "Aqua"
     ],
     [
       "アピタ",
@@ -957,6 +3081,18 @@
     [
       "アルト",
       "Alto"
+    ],
+    [
+      "アート",
+      "Art"
+    ],
+    [
+      "イオタ",
+      "Jota"
+    ],
+    [
+      "イスズ",
+      "Isuzu"
     ],
     [
       "インチ",
@@ -975,20 +3111,76 @@
       "Elf"
     ],
     [
+      "カヌー",
+      "Canoe"
+    ],
+    [
+      "カフェ",
+      "Cafe"
+    ],
+    [
+      "カマロ",
+      "Camaro"
+    ],
+    [
       "カムリ",
       "Camry"
+    ],
+    [
+      "カラー",
+      "Color"
+    ],
+    [
+      "カレラ",
+      "Carrera"
+    ],
+    [
+      "カーゴ",
+      "Cargo"
     ],
     [
       "カーズ",
       "Cars"
     ],
     [
+      "カート",
+      "Kart"
+    ],
+    [
+      "カーブ",
+      "Curve"
+    ],
+    [
+      "キャブ",
+      "Cab"
+    ],
+    [
+      "キャン",
+      "Can"
+    ],
+    [
       "クオン",
       "Quon"
     ],
     [
+      "クラス",
+      "Class"
+    ],
+    [
+      "クラブ",
+      "Club"
+    ],
+    [
       "クーペ",
       "Coupe"
+    ],
+    [
+      "クール",
+      "Cool"
+    ],
+    [
+      "グレイ",
+      "Gray"
     ],
     [
       "グレー",
@@ -999,24 +3191,48 @@
       "Cosmo"
     ],
     [
+      "コペン",
+      "Copen"
+    ],
+    [
       "コマツ",
       "Komatsu"
+    ],
+    [
+      "コルト",
+      "Colt"
     ],
     [
       "コロナ",
       "Corona"
     ],
     [
+      "ゴルフ",
+      "Golf"
+    ],
+    [
       "サニー",
       "Sunny"
+    ],
+    [
+      "シェル",
+      "Shell"
     ],
     [
       "シティ",
       "City"
     ],
     [
+      "ショー",
+      "Show"
+    ],
+    [
       "シーマ",
       "Cima"
+    ],
+    [
+      "ジープ",
+      "Jeep"
     ],
     [
       "スズキ",
@@ -1035,12 +3251,20 @@
       "Set"
     ],
     [
+      "セピア",
+      "Sepia"
+    ],
+    [
       "セブン",
       "Seven"
     ],
     [
       "セリカ",
       "Celica"
+    ],
+    [
+      "セレナ",
+      "Serena"
     ],
     [
       "ソアラ",
@@ -1051,16 +3275,68 @@
       "Type"
     ],
     [
+      "タイム",
+      "Time"
+    ],
+    [
+      "タウン",
+      "Town"
+    ],
+    [
+      "タダノ",
+      "Tadano"
+    ],
+    [
       "ターボ",
       "Turbo"
+    ],
+    [
+      "ダイナ",
+      "Dyna"
+    ],
+    [
+      "ダッジ",
+      "Dodge"
     ],
     [
       "ダンプ",
       "Dump Truck"
     ],
     [
+      "ダーク",
+      "Dark"
+    ],
+    [
+      "チータ",
+      "Cheetah"
+    ],
+    [
+      "テスラ",
+      "Tesla"
+    ],
+    [
+      "テラノ",
+      "Terrano"
+    ],
+    [
+      "テント",
+      "Tent"
+    ],
+    [
+      "テーマ",
+      "Theme"
+    ],
+    [
       "デリカ",
       "Delica"
+    ],
+    [
+      "デルタ",
+      "Delta"
+    ],
+    [
+      "トップ",
+      "Top"
     ],
     [
       "トミカ",
@@ -1075,32 +3351,128 @@
       "Trueno"
     ],
     [
+      "ニュー",
+      "New"
+    ],
+    [
       "ノート",
       "Note"
+    ],
+    [
+      "ハット",
+      "Hat"
+    ],
+    [
+      "ハマー",
+      "Hummer"
+    ],
+    [
+      "ハーフ",
+      "Half"
+    ],
+    [
+      "バイク",
+      "Motorcycle"
+    ],
+    [
+      "バギー",
+      "Buggy"
     ],
     [
       "パンダ",
       "Panda"
     ],
     [
+      "パン屋",
+      "Bakery"
+    ],
+    [
+      "パール",
+      "Pearl"
+    ],
+    [
+      "ピスタ",
+      "Pista"
+    ],
+    [
+      "ピュア",
+      "Pure"
+    ],
+    [
+      "ピンク",
+      "Pink"
+    ],
+    [
+      "ブルー",
+      "Blue"
+    ],
+    [
+      "ベビイ",
+      "Baby"
+    ],
+    [
+      "ベンツ",
+      "Benz"
+    ],
+    [
+      "ペース",
+      "Pace"
+    ],
+    [
       "ホンダ",
       "Honda"
+    ],
+    [
+      "ボルボ",
+      "Volvo"
     ],
     [
       "ポンプ",
       "Pump"
     ],
     [
+      "ポート",
+      "Port"
+    ],
+    [
       "マシン",
       "Machine"
+    ],
+    [
+      "マック",
+      "Mack"
+    ],
+    [
+      "マット",
+      "Matte"
     ],
     [
       "マツダ",
       "Mazda"
     ],
     [
+      "マリオ",
+      "Mario"
+    ],
+    [
+      "マーク",
+      "Mark"
+    ],
+    [
+      "マーチ",
+      "March"
+    ],
+    [
       "ミウラ",
       "Miura"
+    ],
+    [
+      "ミスト",
+      "Mist"
+    ],
+    [
+      "ムーヴ",
+      "Move"
     ],
     [
       "モデル",
@@ -1111,12 +3483,60 @@
       "Morita"
     ],
     [
+      "ヤサカ",
+      "Yasaka"
+    ],
+    [
+      "ヤマハ",
+      "Yamaha"
+    ],
+    [
+      "ヤリス",
+      "Yaris"
+    ],
+    [
+      "ライト",
+      "Light"
+    ],
+    [
+      "ライド",
+      "Ride"
+    ],
+    [
+      "ライム",
+      "Lime"
+    ],
+    [
+      "ラジオ",
+      "Radio"
+    ],
+    [
       "ラリー",
       "Rally"
     ],
     [
+      "リフト",
+      "Lift"
+    ],
+    [
+      "リボン",
+      "Ribbon"
+    ],
+    [
+      "リーフ",
+      "Leaf"
+    ],
+    [
       "ルノー",
       "Renault"
+    ],
+    [
+      "ルート",
+      "Route"
+    ],
+    [
+      "レッド",
+      "Red"
     ],
     [
       "レビン",
@@ -1127,12 +3547,116 @@
       "Race"
     ],
     [
+      "ロッテ",
+      "Lotte"
+    ],
+    [
+      "ロング",
+      "Long"
+    ],
+    [
+      "ロード",
+      "Road"
+    ],
+    [
+      "ワイド",
+      "Wide"
+    ],
+    [
+      "ワイン",
+      "Wine"
+    ],
+    [
       "ワゴン",
       "Wagon"
     ],
     [
+      "一方開",
+      "Single Drop-Side"
+    ],
+    [
+      "三方開",
+      "Three Drop-Sides"
+    ],
+    [
+      "世田谷",
+      "Setagaya"
+    ],
+    [
+      "乗り場",
+      "Stand"
+    ],
+    [
+      "光るよ",
+      "with Lights"
+    ],
+    [
+      "全日本",
+      "All Japan"
+    ],
+    [
+      "六分団",
+      "Sixth Division"
+    ],
+    [
+      "北海道",
+      "Hokkaido"
+    ],
+    [
+      "埼玉県",
+      "Saitama Prefecture"
+    ],
+    [
+      "大冒険",
+      "The Great Adventure"
+    ],
+    [
       "大都会",
       "Daitokai"
+    ],
+    [
+      "小山市",
+      "Oyama City"
+    ],
+    [
+      "小田急",
+      "Odakyu"
+    ],
+    [
+      "尼崎市",
+      "Amagasaki City"
+    ],
+    [
+      "山梨県",
+      "Yamanashi Prefecture"
+    ],
+    [
+      "岡部村",
+      "Okabe Village"
+    ],
+    [
+      "幌閉じ",
+      "Closed Canvas Top"
+    ],
+    [
+      "幌開き",
+      "Open Canvas Top"
+    ],
+    [
+      "年代の",
+      "Decade"
+    ],
+    [
+      "幼稚園",
+      "Kindergarten"
+    ],
+    [
+      "復刻版",
+      "Reissue"
+    ],
+    [
+      "指令車",
+      "Command Car"
     ],
     [
       "指揮車",
@@ -1143,24 +3667,152 @@
       "Ambulance"
     ],
     [
+      "旧塗装",
+      "Old Livery"
+    ],
+    [
+      "機動隊",
+      "Riot Police"
+    ],
+    [
+      "水戸市",
+      "Mito City"
+    ],
+    [
+      "派出所",
+      "Police Box"
+    ],
+    [
+      "海洋堂",
+      "Kaiyodo"
+    ],
+    [
+      "消防車",
+      "Fire Engine"
+    ],
+    [
       "清掃車",
       "Refuse Truck"
+    ],
+    [
+      "無線車",
+      "Radio Car"
+    ],
+    [
+      "熊本県",
+      "Kumamoto Prefecture"
+    ],
+    [
+      "現行色",
+      "Current Color"
+    ],
+    [
+      "田原市",
+      "Tahara City"
+    ],
+    [
+      "番記念",
+      "Number Commemorative Edition"
+    ],
+    [
+      "白バイ",
+      "Police Motorcycle"
+    ],
+    [
+      "紅の豚",
+      "Porco Rosso"
+    ],
+    [
+      "自動車",
+      "Motor Vehicle"
+    ],
+    [
+      "自衛隊",
+      "Japan Self-Defense Forces"
+    ],
+    [
+      "花見台",
+      "Hanamidai"
+    ],
+    [
+      "茨城県",
+      "Ibaraki Prefecture"
     ],
     [
       "荻窪魂",
       "Ogikubo Spirit"
     ],
     [
+      "薄緑色",
+      "Light Green"
+    ],
+    [
       "警視庁",
       "Tokyo Metropolitan Police"
+    ],
+    [
+      "郵便車",
+      "Postal Van"
+    ],
+    [
+      "駐車場",
+      "Parking Lot"
+    ],
+    [
+      "高規格",
+      "High Specification"
+    ],
+    [
+      "鳴るよ",
+      "with Sound"
+    ],
+    [
+      "くじ",
+      "Lottery"
+    ],
+    [
+      "より",
+      "from"
+    ],
+    [
+      "カー",
+      "Car"
+    ],
+    [
+      "キロ",
+      "km"
+    ],
+    [
+      "ギア",
+      "Gear"
     ],
     [
       "ギガ",
       "Giga"
     ],
     [
+      "ゴー",
+      "Go"
+    ],
+    [
+      "サン",
+      "Sun"
+    ],
+    [
+      "トン",
+      "Ton"
+    ],
+    [
       "ドア",
       "Door"
+    ],
+    [
+      "ネコ",
+      "Cat"
+    ],
+    [
+      "ノア",
+      "Noah"
     ],
     [
       "バス",
@@ -1171,20 +3823,172 @@
       "Van"
     ],
     [
+      "フル",
+      "Full"
+    ],
+    [
+      "プロ",
+      "Pro"
+    ],
+    [
+      "ミニ",
+      "Mini"
+    ],
+    [
+      "ミラ",
+      "Mira"
+    ],
+    [
+      "レオ",
+      "Leo"
+    ],
+    [
       "三菱",
       "Mitsubishi"
+    ],
+    [
+      "中古",
+      "Used"
+    ],
+    [
+      "交通",
+      "Transport"
+    ],
+    [
+      "京坂",
+      "Keihan"
+    ],
+    [
+      "京成",
+      "Keisei"
+    ],
+    [
+      "京王",
+      "Keio"
+    ],
+    [
+      "人員",
+      "Personnel"
     ],
     [
       "仕様",
       "Specification"
     ],
     [
+      "付属",
+      "Included"
+    ],
+    [
+      "低床",
+      "Low Floor"
+    ],
+    [
+      "保存",
+      "Preserved"
+    ],
+    [
+      "個人",
+      "Private"
+    ],
+    [
       "光岡",
       "Mitsuoka"
     ],
     [
+      "公団",
+      "Public Corporation"
+    ],
+    [
+      "出光",
+      "Idemitsu"
+    ],
+    [
+      "出場",
+      "Competition Entry"
+    ],
+    [
+      "初詣",
+      "First Shrine Visit of the Year"
+    ],
+    [
+      "前期",
+      "Early Version"
+    ],
+    [
+      "化学",
+      "Chemical"
+    ],
+    [
+      "北米",
+      "North America"
+    ],
+    [
+      "厚木",
+      "Atsugi"
+    ],
+    [
+      "受信",
+      "Reception"
+    ],
+    [
+      "号車",
+      "Vehicle"
+    ],
+    [
+      "名鉄",
+      "Meitetsu"
+    ],
+    [
+      "名門",
+      "Prestige"
+    ],
+    [
+      "周年",
+      "Anniversary"
+    ],
+    [
+      "基幹",
+      "Trunk Route"
+    ],
+    [
+      "大会",
+      "Competition"
+    ],
+    [
+      "大塚",
+      "Otsuka"
+    ],
+    [
+      "学校",
+      "School"
+    ],
+    [
+      "学生",
+      "Student"
+    ],
+    [
+      "富士",
+      "Fuji"
+    ],
+    [
+      "寿司",
+      "Sushi"
+    ],
+    [
       "小松",
       "Komatsu"
+    ],
+    [
+      "尾鷲",
+      "Owase"
+    ],
+    [
+      "屋根",
+      "Roof"
+    ],
+    [
+      "川崎",
+      "Kawasaki"
     ],
     [
       "年型",
@@ -1195,36 +3999,424 @@
       "Model Year"
     ],
     [
+      "広交",
+      "Hiroko"
+    ],
+    [
+      "広報",
+      "Public Relations"
+    ],
+    [
+      "後期",
+      "Late Version"
+    ],
+    [
+      "復活",
+      "Revival"
+    ],
+    [
+      "急便",
+      "Express Delivery"
+    ],
+    [
+      "放送",
+      "Broadcasting"
+    ],
+    [
+      "救急",
+      "Emergency Medical"
+    ],
+    [
+      "教習",
+      "Driving School"
+    ],
+    [
+      "新聞",
+      "Newspaper"
+    ],
+    [
+      "日本",
+      "Japan"
+    ],
+    [
       "日産",
       "Nissan"
+    ],
+    [
+      "日通",
+      "Nippon Express"
     ],
     [
       "日野",
       "Hino"
     ],
     [
+      "旧色",
+      "Old Color"
+    ],
+    [
+      "暗赤",
+      "Dark Red"
+    ],
+    [
+      "木目",
+      "Woodgrain"
+    ],
+    [
+      "本部",
+      "Headquarters"
+    ],
+    [
+      "東京",
+      "Tokyo"
+    ],
+    [
+      "東急",
+      "Tokyu"
+    ],
+    [
+      "東武",
+      "Tobu"
+    ],
+    [
+      "東海",
+      "Tokai"
+    ],
+    [
+      "東芝",
+      "Toshiba"
+    ],
+    [
+      "東邦",
+      "Toho"
+    ],
+    [
+      "業務",
+      "Service"
+    ],
+    [
+      "構内",
+      "Premises"
+    ],
+    [
       "水色",
       "Light Blue"
+    ],
+    [
+      "河川",
+      "River"
+    ],
+    [
+      "洗車",
+      "Car Wash"
+    ],
+    [
+      "海上",
+      "Maritime"
     ],
     [
       "消防",
       "Fire"
     ],
     [
+      "淡緑",
+      "Pale Green"
+    ],
+    [
+      "激突",
+      "Collision"
+    ],
+    [
+      "濃緑",
+      "Dark Green"
+    ],
+    [
+      "濃青",
+      "Dark Blue"
+    ],
+    [
+      "無限",
+      "Mugen"
+    ],
+    [
+      "犯人",
+      "Culprit"
+    ],
+    [
+      "発売",
+      "Release"
+    ],
+    [
+      "白色",
+      "White"
+    ],
+    [
+      "神姫",
+      "Shinki"
+    ],
+    [
       "福祉",
       "Welfare"
+    ],
+    [
+      "秩父",
+      "Chichibu"
+    ],
+    [
+      "米国",
+      "United States"
+    ],
+    [
+      "紫色",
+      "Purple"
+    ],
+    [
+      "絵本",
+      "Picture Book"
+    ],
+    [
+      "緑色",
+      "Green"
+    ],
+    [
+      "花屋",
+      "Florist"
+    ],
+    [
+      "茶色",
+      "Brown"
+    ],
+    [
+      "薄緑",
+      "Light Green"
+    ],
+    [
+      "薄青",
+      "Light Blue"
+    ],
+    [
+      "衛生",
+      "Sanitation"
+    ],
+    [
+      "西武",
+      "Seibu"
     ],
     [
       "覆面",
       "Unmarked"
     ],
     [
+      "誘拐",
+      "Kidnapping"
+    ],
+    [
+      "警察",
+      "Police"
+    ],
+    [
+      "護送",
+      "Prisoner Transport"
+    ],
+    [
+      "豪州",
+      "Australia"
+    ],
+    [
+      "販売",
+      "Sales"
+    ],
+    [
+      "赤色",
+      "Red"
+    ],
+    [
+      "車両",
+      "Vehicles"
+    ],
+    [
+      "車輛",
+      "Vehicles"
+    ],
+    [
+      "輸送",
+      "Transport"
+    ],
+    [
+      "近鉄",
+      "Kintetsu"
+    ],
+    [
+      "送迎",
+      "Shuttle Service"
+    ],
+    [
+      "連盟",
+      "Federation"
+    ],
+    [
+      "道路",
+      "Road"
+    ],
+    [
+      "都営",
+      "Toei"
+    ],
+    [
+      "醤油",
+      "Soy Sauce"
+    ],
+    [
+      "重工",
+      "Heavy Industries"
+    ],
+    [
+      "金色",
+      "Gold"
+    ],
+    [
+      "銀色",
+      "Silver"
+    ],
+    [
+      "関東",
+      "Kanto"
+    ],
+    [
+      "阪急",
+      "Hankyu"
+    ],
+    [
+      "限定",
+      "Limited Edition"
+    ],
+    [
+      "陸上",
+      "Ground"
+    ],
+    [
+      "青色",
+      "Blue"
+    ],
+    [
+      "高床",
+      "High Deck"
+    ],
+    [
+      "高速",
+      "Expressway"
+    ],
+    [
+      "黄色",
+      "Yellow"
+    ],
+    [
+      "黒色",
+      "Black"
+    ],
+    [
+      "両",
+      "Vehicles"
+    ],
+    [
+      "全",
+      "All"
+    ],
+    [
+      "号",
+      "No."
+    ],
+    [
+      "回",
+      "Edition"
+    ],
+    [
+      "団",
+      "Division"
+    ],
+    [
+      "型",
+      "Type"
+    ],
+    [
+      "場",
+      "Area"
+    ],
+    [
+      "大",
+      "Large"
+    ],
+    [
+      "局",
+      "Bureau"
+    ],
+    [
+      "山",
+      "Mountain"
+    ],
+    [
+      "年",
+      "Year"
+    ],
+    [
+      "庁",
+      "Agency"
+    ],
+    [
+      "店",
+      "Shop"
+    ],
+    [
+      "形",
+      "Type"
+    ],
+    [
+      "新",
+      "New"
+    ],
+    [
+      "暗",
+      "Dark"
+    ],
+    [
+      "朱",
+      "Vermilion"
+    ],
+    [
       "橙",
       "Orange"
     ],
     [
+      "洗",
+      "Wash"
+    ],
+    [
+      "港",
+      "Minato"
+    ],
+    [
+      "灯",
+      "Light"
+    ],
+    [
+      "灰",
+      "Gray"
+    ],
+    [
       "白",
       "White"
+    ],
+    [
+      "県",
+      "Prefecture"
+    ],
+    [
+      "第",
+      "No."
+    ],
+    [
+      "紫",
+      "Purple"
     ],
     [
       "紺",
@@ -1235,12 +4427,32 @@
       "Green"
     ],
     [
+      "署",
+      "Station"
+    ],
+    [
       "茶",
       "Brown"
     ],
     [
+      "薄",
+      "Light"
+    ],
+    [
+      "話",
+      "Episode"
+    ],
+    [
       "赤",
       "Red"
+    ],
+    [
+      "車",
+      "Vehicle"
+    ],
+    [
+      "輛",
+      "Vehicles"
     ],
     [
       "金",
@@ -1253,6 +4465,10 @@
     [
       "青",
       "Blue"
+    ],
+    [
+      "駐",
+      "Parking"
     ],
     [
       "黄",

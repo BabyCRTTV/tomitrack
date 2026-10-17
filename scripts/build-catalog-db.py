@@ -4,7 +4,7 @@ import argparse,json,sqlite3,tempfile,os
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('--output',default=str(root/'artifacts/TomiTrack-catalog.sqlite'));args=parser.parse_args()
-data=json.loads((root/'catalog/catalog.json').read_text());dest=Path(args.output);dest.parent.mkdir(parents=True,exist_ok=True)
+data=json.loads((root/'catalog/catalog.json').read_text());english=json.loads((root/'catalog/input/tomica-english.json').read_text())['translations'];media=json.loads((root/'catalog/input/catalog-images.json').read_text())['images'];dest=Path(args.output);dest.parent.mkdir(parents=True,exist_ok=True)
 fd,temp=tempfile.mkstemp(prefix='catalog-',suffix='.sqlite',dir=dest.parent);os.close(fd)
 try:
  db=sqlite3.connect(temp);db.execute('PRAGMA foreign_keys=ON');db.executescript('''
@@ -14,6 +14,8 @@ try:
  CREATE TABLE casting_aliases(casting_id TEXT NOT NULL REFERENCES castings(id),alias TEXT NOT NULL,PRIMARY KEY(casting_id,alias));
  CREATE TABLE series(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER NOT NULL,category_id TEXT NOT NULL,name TEXT NOT NULL,family TEXT NOT NULL);
  CREATE TABLE releases(id TEXT PRIMARY KEY,casting_id TEXT NOT NULL REFERENCES castings(id),series_id TEXT NOT NULL REFERENCES series(id),brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL,year INTEGER NOT NULL,category_id TEXT NOT NULL,product_code TEXT,man_number TEXT,collector_number TEXT,series_number TEXT,color TEXT,variant TEXT,regions TEXT NOT NULL,tags TEXT NOT NULL,aliases TEXT NOT NULL,release_date TEXT NOT NULL,scale TEXT NOT NULL);
+ CREATE TABLE release_english(release_id TEXT PRIMARY KEY REFERENCES releases(id),name TEXT NOT NULL,color TEXT NOT NULL,series_name TEXT NOT NULL,review_required INTEGER NOT NULL);
+ CREATE TABLE release_images(release_id TEXT PRIMARY KEY REFERENCES releases(id),url TEXT NOT NULL,source_url TEXT NOT NULL,credit TEXT NOT NULL,kind TEXT NOT NULL,original_url TEXT NOT NULL,reference_release_id TEXT REFERENCES releases(id));
  CREATE TABLE sources(id TEXT PRIMARY KEY,name TEXT NOT NULL,url TEXT NOT NULL,details TEXT NOT NULL);
  CREATE TABLE release_sources(release_id TEXT NOT NULL REFERENCES releases(id),source_id TEXT NOT NULL REFERENCES sources(id),reference TEXT NOT NULL,PRIMARY KEY(release_id,source_id,reference));
  CREATE TABLE identifiers(id INTEGER PRIMARY KEY,value TEXT NOT NULL,gtin14 TEXT NOT NULL,scope TEXT NOT NULL CHECK(scope IN ('release','assortment')),brand_id TEXT REFERENCES brands(id),category_id TEXT,source_id TEXT NOT NULL REFERENCES sources(id),note TEXT NOT NULL,source_url TEXT NOT NULL);
@@ -37,8 +39,14 @@ try:
  series={x['id']:x for x in data['series']};brands={x['id']:x['name']for x in data['brands']}
  for x in data['releases']:
   db.execute('INSERT INTO releases VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['castingId'],x['seriesId'],x['brandId'],x['name'],x['year'],x['categoryId'],x['productCode'],x['manNumber'],x['collectorNumber'],x['seriesNumber'],x['color'],x['variant'],json.dumps(x['regions']),json.dumps(x['tags']),json.dumps(x.get('aliases',[])),x.get('releaseDate',''),x.get('scale','')))
-  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['name'],brands[x['brandId']],series[x['seriesId']]['name'],str(x['year']),x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],x['color'],x['variant'],' '.join(x.get('aliases',[]))))
+  en={k:english.get(v,{}).get('text',v) for k,v in {'name':x['name'],'color':x['color'],'seriesName':series[x['seriesId']]['name']}.items()}
+  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],en['name'],brands[x['brandId']],en['seriesName'],str(x['year']),x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],en['color'],x['variant'],' '.join([x['name'],series[x['seriesId']]['name'],x['color'],*x.get('aliases',[])])))
   for ref in x['sourceRefs']:db.execute('INSERT INTO release_sources VALUES (?,?,?)',(x['id'],ref['sourceId'],json.dumps(ref,sort_keys=True)))
+ for x in data['releases']:
+  if x['brandId'].startswith('tomica'):
+   fields=[x['name'],x['color'],series[x['seriesId']]['name']];values=[english.get(v,{}).get('text',v)for v in fields]
+   db.execute('INSERT INTO release_english VALUES (?,?,?,?,?)',(x['id'],*values,int(any(english.get(v,{}).get('reviewRequired')for v in fields))))
+ for rid,x in media.items():db.execute('INSERT INTO release_images VALUES (?,?,?,?,?,?,?)',(rid,x['url'],x['sourceUrl'],x['credit'],x['kind'],x.get('originalUrl',''),x.get('referenceReleaseId')))
  for i,x in enumerate(data['identifiers'],1):
   gtin=''.join(c for c in x['value']if c.isdigit()).zfill(14)
   db.execute('INSERT INTO identifiers VALUES (?,?,?,?,?,?,?,?,?)',(i,x['value'],gtin,x['scope'],x.get('brandId'),x.get('categoryId'),x['sourceId'],x.get('note',''),x['sourceUrl']))
