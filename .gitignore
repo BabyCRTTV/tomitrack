@@ -15,3 +15,5 @@ android/app/src/main/res/drawable/icon.png
 artifacts/
 .cache/
 __pycache__/
+
+.tools/
