@@ -1,1 +1,4 @@
 beautifulsoup4>=4.12,<5
+# Manual photo verification only; no source fetching during builds.
+Pillow>=10,<13
+requests>=2.32,<3

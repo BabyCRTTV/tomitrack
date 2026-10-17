@@ -33,3 +33,6 @@
 - New garage/wishlist entries must come from a real catalog selection. Do not reintroduce manual-entry fallbacks or demo-fixture creation paths. Keep linked release identity fixed on save while preserving per-copy details, existing legacy entries and backup compatibility. Brand card garage progress counts distinct linked owned releases, not quantities or wishlist entries.
 
 - Brand artwork must stay top-aligned when captions wrap on narrow screens. Brand cards open scoped catalog views with Back to brands; clearing filters must preserve the opened brand.
+
+- English presentation overlays must preserve original Japanese facts, aliases and private snapshots. New Tomica data requires reviewed English before publication; do not ship machine guesses or unreviewed romanization. Keep English series filter options consistent with displayed release series.
+- Publish images in explicit reviewed batches (initial cap: 500 entries). Retain research candidates separately from active browser/SQLite photos, record source attribution and verification, label casting/missing images and preserve private photo priority. Source fetching/image verification never runs in startup or CI builds.

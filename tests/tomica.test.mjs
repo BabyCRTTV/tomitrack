@@ -17,7 +17,7 @@ test('Tomica integration preserves all 13,652 recovered Mattel releases byte for
 });
 test('Japanese and English queries find historical editions without losing Japanese names',()=>{
  const old=engine.search({query:'Bluebird',brandId:'tomica',year:1970});
- assert.ok(old.items.some(x=>x.release.productCode==='1-1'&&x.release.name.includes('ブルーバード')));
+ assert.ok(old.items.some(x=>x.release.productCode==='1-1'&&x.release.originalName.includes('ブルーバード')&&x.release.name.includes('Bluebird')));
  assert.ok(engine.search({query:'トヨタ',brandId:'tomica'}).total>100);
  assert.equal(engine.search({query:'存在しない車両XYZ'}).total,0);
  for(const categoryId of ['mainline','foreign','premium','dream','exclusive','vintage','vintage-neo'])assert.ok(engine.search({categoryId}).total>0);
@@ -30,7 +30,7 @@ test('official JAN links retain toy release year, variant code, scale and privat
  const owned=cleanItem({...catalogItem(r),upc:jan.value,color:'My inspected variant',notes:'Shelf A',quantity:2});
  const restored=validateBackup({format:'tomitrack',schema:1,items:[owned]}).items[0];
  assert.equal(restored.catalogReleaseId,r.id);assert.equal(restored.scale,'1:64');assert.equal(restored.color,'My inspected variant');assert.equal(restored.releaseYear,'2004');
- assert.ok(engine.search({query:'Cedric',brandId:'tomica-limited-vintage'}).items.some(x=>x.release.name.includes('セドリック')));
+ assert.ok(engine.search({query:'Cedric',brandId:'tomica-limited-vintage'}).items.some(x=>x.release.originalName.includes('セドリック')&&x.release.name.includes('Cedric')));
  const truck=engine.releases.find(x=>x.name.startsWith('LV-N43-26a '));assert.equal(truck?.productCode,'LV-N43-26a');
 });
 test('unknown dates, unavailable archives and future announcements remain explicit research gaps',()=>{

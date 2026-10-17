@@ -1,0 +1,2 @@
+# Manual translation preparation only; builds read the committed English projection.
+pykakasi==2.3.0

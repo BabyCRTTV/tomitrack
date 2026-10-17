@@ -1,4 +1,21 @@
-# Development handoff · 0.4.2
+# Development handoff · 0.4.3
+
+## 0.4.3 English presentation and first 500-photo batch · 2026-10-17
+
+Working version 0.4.3, Android versionCode 9. Publication is pending verification; the last verified public release remains 0.4.2 until the release record below is updated. Original catalog snapshot 2026.10.16.3 still contains 17,920 references. All original release objects, stable IDs and the full Mattel hash are preserved.
+
+English presentation version 2026.10.17.1 covers all 4,268 Tomica-family releases, including name, color and series. The reviewed glossary includes recovered additions from the interrupted companion chat; generic ギア stays Gear, with Mustang II Ghia matched explicitly. Original Japanese stays in source facts/search and a collapsed detail panel. Display helpers translate matching private snapshots without rewriting storage or custom collector text. New linked copies save English snapshots. English series options must match runtime filters.
+
+Reviewed English input and generated presentation are secured in reachable checkpoint `d1b4196d8dac4334bd13b5eadd187a2b319a0c39` on `work/catalog-images-english-0.4.3`. This is a development checkpoint, not a published application. Temporary workspaces have reset after inactivity; always commit reviewed inputs to a reachable branch before long verification/packaging.
+
+At the owner's request, this release publishes only 500 Tomica/TLV photo entries. `catalog/input/catalog-image-batch.json` records selected IDs and downloaded-image verification evidence. `catalog/input/catalog-images.json` retains 15,519 discovered research references; these are candidates, not active/published photos. Generated browser and SQLite projections enforce the selected 500-entry batch. Reference labels distinguish casting images from source release references; no exact-variant guarantee is implied. Missing photos are labeled. Images use the source's provided resolution, common 4:3 white framing and contain sizing, with personal photos taking priority. Image bytes are not redistributed; first loading needs the internet. Source rights remain with their owners.
+
+Manual preparation: install catalog requirements, then run `python3 scripts/prepare-catalog-image-batch.py`. It caps the batch at 500 release entries, downloads at most three source images concurrently, checks image decoding/dimensions, caches successful verification and records source hashes. It never runs during app startup, tests or automatic builds. Translation preparation uses `catalog/translation-requirements.txt`; builds consume committed reviewed English only and reject review-required entries. `npm run catalog:build` regenerates deterministic browser and SQLite projections. The SQLite file adds release_english and release_images; it remains independent from private collector storage.
+
+Local validation: all 56 Node tests, syntax checks, CSS parsing, complete English coverage, unchanged canonical projection and SQLite integrity/foreign keys pass. Full app smoke passed English/Japanese search, scoped brand navigation, catalog-only creation and real IndexedDB quantity/notes preservation. All 499 distinct images in the 500-entry batch decoded successfully; batch split is 441 Tomica and 59 TLV. Native compilation/signing/tests remain for the release workflow; local javac is unavailable.
+
+Browser CSP and Android CatalogImagePolicy allow only reviewed HTTPS image endpoint families. Native navigation remains external; accounts, signing identity, updater trust, backups and demo/real namespaces are unchanged. Test physical Android upgrades, folding and Windows execution separately; source/browser and package checks do not establish hardware execution.
+
 
 ## 0.4.2 brand alignment and catalog navigation · 2026-10-16
 

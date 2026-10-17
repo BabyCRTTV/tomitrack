@@ -1,3 +1,13 @@
+# English and image presentation · app 0.4.3
+
+All 4,268 current Tomica-family release references have editorial English display names, colors and series. The original Japanese catalog facts and IDs remain unchanged and searchable. These are collector-facing translations, not official manufacturer translations. `input/tomica-english-glossary.json` and `input/tomica-english.json` are reviewed inputs; `input/tomica-translation-review.json` must be empty for publication. A display overlay avoids rewriting existing private collections.
+
+Only the first **500 Tomica/TLV photo entries** ship in this release. `input/catalog-image-batch.json` records the selection and image verification; `input/catalog-images.json` retains **15,519 source-linked candidates** for later batches. Source rows/official product IDs or matching product captions establish the reference. A source photo can still show a different decoration, package or angle; casting references are explicitly labeled. Missing images have a readable placeholder. Every active photo has an attribution link. Wiki text licensing does not establish image rights. Original image rights remain with their owners; no bulk reuse license is asserted and image bytes are not bundled.
+
+Images load online from source hosts, retain their available resolution, and use uncropped 4:3 framing. Photos in an installed app are not guaranteed offline. Private photos always override catalog references. The public SQLite export includes separate English and active-image tables and indexes English/Japanese text without changing canonical release facts.
+
+Run `python3 scripts/prepare-catalog-image-batch.py` manually to verify the capped batch, then `npm run catalog:build`, `npm run check` and `npm test`. Fetching/translation never runs during ordinary builds or startup. The following sections retain historical catalog provenance and limitations.
+
 # TomiTrack public release catalog
 
 Snapshot `2026.10.16.3` contains **17,920 public references**, **6,807 casting entities**, and **2,311 yearly series**. Hot Wheels: 10,698; Matchbox: 2,954; Tomica: 2,584; Tomica Limited Vintage family: 1,684. All coverage is partial; entity counts are conservative reference links, not an authoritative count of tooling. No private collector data appears here.

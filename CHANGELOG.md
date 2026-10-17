@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.3 — 2026-10-17
+
+- Added English names, colors and series presentation for all 4,268 Tomica-family references, preserving Japanese search, source facts, IDs and private collection snapshots.
+- Added a capped first batch of 500 source-linked Tomica/TLV photo entries, consistent uncropped framing, source credits and explicit reference/missing-photo labels. Remaining discovered image links are queued.
+- Collection cards, details, linked editing and series filters use the English presentation. Photos load online; personal photos retain priority.
+- Added public SQLite English/image tables and restricted image endpoints for browser and Android.
+
 ## 0.4.2 — 2026-10-16
 
 - Anchored brand artwork and captions to the top so long Limited Vintage labels cannot shift the card on narrow fold cover screens.

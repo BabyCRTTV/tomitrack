@@ -21,5 +21,6 @@ export function createCatalog(dataset){
   found.sort((a,b)=>b.score-a.score);
   return {total:found.length,items:found.slice(Math.max(0,offset),Math.max(0,offset)+Math.max(1,Math.min(100,limit))),barcode:barcodeLike?{valid:!!gtin,known:entries.length>0,shared:assortments.length>0,entries}:null};
  }
- return {dataset,releases,get:id=>releaseMap.get(id),search,seriesOptions:({brandId='',year='',categoryId=''}={})=>dataset.series.filter(x=>(!brandId||x.brandId===brandId)&&(!year||x.year===Number(year))&&(!categoryId||x.categoryId===categoryId)).sort((a,b)=>a.name.localeCompare(b.name)||b.year-a.year),related:id=>{const r=releaseMap.get(id);return r?search({castingId:r.castingId,limit:100}).items.map(x=>x.release).filter(x=>x.id!==id):[]}};
+ const seriesNames=new Map(releases.map(r=>[r.seriesId,r.seriesName]));
+ return {dataset,releases,get:id=>releaseMap.get(id),search,seriesOptions:({brandId='',year='',categoryId=''}={})=>dataset.series.filter(x=>(!brandId||x.brandId===brandId)&&(!year||x.year===Number(year))&&(!categoryId||x.categoryId===categoryId)).map(x=>({...x,name:seriesNames.get(x.id)||x.name})).sort((a,b)=>a.name.localeCompare(b.name)||b.year-a.year),related:id=>{const r=releaseMap.get(id);return r?search({castingId:r.castingId,limit:100}).items.map(x=>x.release).filter(x=>x.id!==id):[]}};
 }
