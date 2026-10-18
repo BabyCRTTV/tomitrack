@@ -5,7 +5,7 @@ import requests,re
 from pathlib import Path
 from PIL import Image,ImageChops,ImageStat
 root=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[200,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[200,250,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');args=parser.parse_args()
 if not args.batch_id or any(c not in '0123456789-' for c in args.batch_id):parser.error('Use a dated numeric batch ID')
 manifest=root/'catalog/input/catalog-image-batch.json';original=manifest.read_bytes();published=json.loads(original)
 batches=published.get('batches',[{k:published[k]for k in ['id','limit','releaseIds']}])

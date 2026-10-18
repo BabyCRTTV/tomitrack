@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.10 · Another 250 Matchbox photo entries
+
+- Add 250 reviewed Matchbox release photo entries using 246 distinct 600×360 BAMCA variant photographs.
+- Keep all 2,200 existing photo metadata and verification records unchanged, bringing coverage to 2,450 entries, including 450 Matchbox.
+- Preserve source attribution, uncropped framing, English overlays and the Android safe-area fix.
+
 ## 0.4.9 · Cover-screen system bar spacing
 
 - Fit the Android WebView inside a native safe-area container so status bars, three-button/gesture navigation, display cutouts and the keyboard cannot cover fixed app controls.

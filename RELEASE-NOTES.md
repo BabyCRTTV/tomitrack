@@ -1,7 +1,7 @@
-# TomiTrack 0.4.9 · Early access
+# TomiTrack 0.4.10 · Early access
 
-Android now places the entire app inside a safe-area container. The status bar, system navigation buttons, gesture area, display cutouts and keyboard receive native spacing, including after window/fold size changes. Fixed app tabs no longer depend on WebView padding to avoid the system controls.
+Adds 250 Matchbox catalog photo entries from 2023–2025 using 246 distinct BAMCA/contributor source photographs. All are 600×360, matched against their cited variant thumbnails and visually reviewed. Photos retain source attribution and use the existing uncropped frame; source image bytes are not bundled and loading requires the internet.
 
-The shared browser app retains iPhone safe-area spacing and adds scroll clearance for the bottom tabs, with stable labels on narrow cover screens. There is no native iOS package. Device-specific Fold8 and iPhone Duo hardware verification remains pending.
+The 2,200 previously published photo entries remain unchanged. Coverage is now 2,450 entries: 441 Tomica, 1,559 Tomica Limited Vintage-family and 450 Matchbox. Missing photos remain labeled; private photos take priority. Brand coverage remains partial.
 
-The catalog remains at 17,920 releases, 4,268 English overlays and 2,200 photo entries. Collector data, backups, source attribution and the permanent Android signer are preserved. Android versionCode 15.
+Preserves the 0.4.9 system-bar/keyboard safe-area fix, 17,920 catalog references, 4,268 English overlays, collector data and the permanent Android signing identity. Android versionCode 16. Physical Android upgrade/fold and Windows execution checks remain pending.

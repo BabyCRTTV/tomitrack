@@ -1,4 +1,11 @@
-# Development handoff · 0.4.9
+# Development handoff · 0.4.10
+
+## 0.4.10: second Matchbox batch, 250 additional entries · 2026-10-18
+
+Owner authorized another 250 Matchbox photos. Batch `2026-10-18-006` adds exactly 250 release-reference entries from 2023–2025, using 246 distinct source URLs/content hashes. All source photographs are BAMCA/contributor images at 600×360, not manufacturer-owned photos by assumption. Every large variant image was compared to its original cited 200×120 thumbnail (maximum mean RGB difference 6.4245/255), decoded and visually reviewed across three contact sheets. No candidates were rejected in this selection. No upscaling, synthetic detail or source image bytes are bundled. Original product citations, generic BAMCA/linked photographer attribution, framing and private-photo priority remain unchanged.
+
+Active total is 2,450: 441 Tomica, 1,559 TLV-family, 450 Matchbox. Six disjoint archived batches have sizes [500,500,500,500,200,250]. Original candidate queue, all 2,200 published image metadata/evidence and prior five archives are preserved with regression checks. The fifth archive SHA256 is `622c26c8613662fd452b31bf034002abdb6433bb0879780287d8d18de084515b`; prior 2,200-photo metadata hash is `f7930a0293c9e32fa82dd4cccfe68517b51153519da645463d13394c51eaae0a`. Canonical facts/IDs, English overlays, private storage and Android native safe-area behavior are untouched. Working version 0.4.10, Android versionCode 16; reviewed checkpoint planned on `work/catalog-images-matchbox-006`. All 60 Node tests, syntax checks, generated projections, SQLite integrity/foreign keys and preservation regressions pass. Dependency resolution and native safe-area source are unchanged. Publication verification pending.
+
 
 ## 0.4.9: system-bar overlap on narrow cover screens · 2026-10-18
 
