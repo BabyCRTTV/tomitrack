@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.7 — 2026-10-18
+
+- Added 500 more reviewed official Limited Vintage-family photo entries, bringing source-photo coverage to 2,000.
+- Preserved all prior 1,500 photo references, source attribution, original resolution, uncropped framing and private-photo priority.
+- Skipped unavailable and below-quality source images; retained the authorized 500-entry batch size.
+
 ## 0.4.6 — 2026-10-18
 
 - Added 500 more reviewed Limited Vintage-family photo entries, bringing coverage to 1,500 entries.

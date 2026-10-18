@@ -1,4 +1,13 @@
-# Development handoff · 0.4.6
+# Development handoff · 0.4.7
+
+## 0.4.7: fourth 500-entry photo batch · 2026-10-18
+
+Owner authorized another 500 under the same standards. Fourth batch `2026-10-18-004` adds 500 official release-reference photo entries using 500 source URLs and 496 distinct image contents. Active coverage is now 2,000 (441 Tomica, 1,559 TLV-family). All new photo source URLs match original release product citations. All 500 selected thumbnails were visually reviewed, predominantly 600×400, with source widths 500–640 and heights 322–476. Excluded 63 candidates below the established 500×300 floor and five manufacturer unavailable-image notices; no upscaling or synthetic detail was used.
+
+The complete prior 1,500 photo metadata/evidence and three archived batches remain unchanged, protected by regression hashes and relationships. Original facts, all 4,268 English overlays, candidate queue, private data, framing, credits and personal-photo priority are preserved. Builders pin the authorized cumulative total at 2,000 across four disjoint batches. Working version 0.4.7, Android versionCode 13; reviewed work is secured on `work/catalog-images-batch-004` before release packaging. Publication verification is pending. The local workspace reverted to a pre-0.4.5 snapshot during interruption; remote 0.4.6 was verified and restored before rebuilding only this unpublished batch. Always fetch remote main and read its handoff before trusting local scratch state.
+
+Next image expansion must preserve these 2,000 and review remaining Tomica-family candidates before broadening source research; fewer than 500 Tomica-family candidates remain, including below-quality/unavailable references. Do not relax the quality floor to fill a batch or claim complete family coverage.
+
 
 ## 0.4.6: third 500-entry photo batch · 2026-10-18
 
