@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.8 — 2026-10-18
+
+- Added 200 reviewed Matchbox photo entries, bringing active photo coverage to 2,200.
+- Uses source-provided 600×360 BAMCA variant photographs, verified against the cited thumbnails, with source/photographer credits.
+- Preserves the prior 2,000 photo entries, original catalog facts, English presentation, framing and private-photo priority.
+- Batch preparation now supports explicit brand and authorized sizes; high-resolution overrides stay separate from the original candidate queue.
+
 ## 0.4.7 — 2026-10-18
 
 - Added 500 more reviewed official Limited Vintage-family photo entries, bringing source-photo coverage to 2,000.

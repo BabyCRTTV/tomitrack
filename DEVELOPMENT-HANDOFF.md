@@ -1,4 +1,11 @@
-# Development handoff · 0.4.7
+# Development handoff · 0.4.8
+
+## 0.4.8: first 200 Matchbox photo entries · 2026-10-18
+
+Owner explicitly authorized 200 Matchbox additions. Batch `2026-10-18-005` adds exactly 200 2025 Matchbox release-reference entries using 199 distinct BAMCA variant photographs. Active total is 2,200 (441 Tomica, 1,559 TLV, 200 Matchbox). The candidate URLs were only 200×120 thumbnails; the selected overrides use the corresponding 600×360 larger source images. All images decoded, matched their cited thumbnails after downsampling (mean RGB error at most 5.3332/255), and were visually reviewed across two contact sheets. All source URLs match original release citations; no new casting-reference substitutions were introduced. Preserve BAMCA/photographer credit and source rights; no reuse license is asserted or image bytes bundled.
+
+`catalog-image-overrides.json` isolates the 200 reviewed larger URLs and thumbnail evidence from the unchanged research queue. Builders merge overrides and pin the authorized total to 2,200 across sizes [500,500,500,500,200]. Preparation requires an explicit brand and size when deviating from the original Tomica-family 500 default. Original 2,000 image metadata/evidence, prior four archives, 4,268 English overlays, canonical facts/IDs and private data are preserved by regression checks. Framing, fallback labels and private-photo priority are unchanged. Working version 0.4.8, Android versionCode 14; reviewed work is secured on `work/catalog-images-matchbox-005` before release packaging. Publication verification is pending.
+
 
 ## 0.4.7: fourth 500-entry photo batch · 2026-10-18
 

@@ -5,12 +5,14 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('--output',default=str(root/'artifacts/TomiTrack-catalog.sqlite'));args=parser.parse_args()
 data=json.loads((root/'catalog/catalog.json').read_text());english=json.loads((root/'catalog/input/tomica-english.json').read_text())['translations'];media=json.loads((root/'catalog/input/catalog-images.json').read_text())['images'];dest=Path(args.output);dest.parent.mkdir(parents=True,exist_ok=True)
-batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==2000 and len(active_ids)==len(batch['releaseIds'])==2000
-batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==4 and all(b['limit']==len(b['releaseIds'])==500 for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==2000
+overrides=json.loads((root/'catalog/input/catalog-image-overrides.json').read_text())['images']
+for rid,patch in overrides.items():media[rid]={**media[rid],**patch}
+batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==2200 and len(active_ids)==len(batch['releaseIds'])==2200
+batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==5 and [b['limit']for b in batch['batches']]==[500,500,500,500,200] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==2200
 for b in batch['batches']:
- assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
+ assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
 rejected=json.loads((root/'catalog/input/catalog-image-rejections.json').read_text())['rejectedHashes'];assert all(batch['verifiedAssets'][media[rid]['url']]['sha256'] not in rejected for rid in active_ids)
-media={k:v for k,v in media.items()if k in active_ids};assert len(media)==2000 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
+media={k:v for k,v in media.items()if k in active_ids};assert len(media)==2200 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
 release_by_id={r['id']:r for r in data['releases']}
 for rid,image in media.items():
  if image['kind']=='casting-reference':
