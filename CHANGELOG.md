@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.6 — 2026-10-18
+
+- Added 500 more reviewed Limited Vintage-family photo entries, bringing coverage to 1,500 entries.
+- Retained source-provided resolution and framing, credits, explicit casting-reference labels and the prior 1,000 entries unchanged.
+- Added regression checks for complete prior-batch preservation and casting-photo provenance.
+
 ## 0.4.5 — 2026-10-18
 
 - Added 500 reviewed official Limited Vintage-family product photos at 600×400, bringing source-linked photo coverage to 1,000 entries.

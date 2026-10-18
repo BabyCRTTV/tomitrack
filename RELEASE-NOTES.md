@@ -1,9 +1,8 @@
-TomiTrack 0.4.5 — another 500 catalog photos.
+TomiTrack 0.4.6 — third 500-entry photo batch.
 
-- Added 500 official Limited Vintage-family product images at source resolution (600×400), decoded and visually reviewed.
-- Now 1,000 releases have source-linked photos: 441 Tomica and 559 Limited Vintage-family entries. Original photos and all 4,268 English translations are preserved.
-- Consistent uncropped 4:3 framing, source attribution and personal-photo priority remain unchanged. Photos load online; source rights remain with their owners.
-- Two manufacturer image-unavailable notices were rejected and replaced with actual product photos. Remaining candidates stay queued.
-- Collection/wishlist shortcuts, 17,920 release references, stable IDs and backups are unchanged.
+- Another 500 Limited Vintage-family releases now have reviewed source-linked photos: 1,500 entries total (441 Tomica, 1,059 TLV-family).
+- Uses 496 distinct manufacturer photographs at their supplied resolution, 520–640 pixels wide. Four sibling-casting references are explicitly labeled; the other 496 entries link to the release's own product source.
+- Preserves all prior 1,000 photos, 4,268 English translations, 17,920 catalog facts and collection/wishlist behavior.
+- Unavailable-image notices are excluded. Consistent uncropped framing, source credit and personal-photo priority are preserved. Photos load online; original image rights remain with their owners.
 
-Android retains the permanent signing identity, versionCode 11. Physical-device upgrades and Windows execution remain untested.
+Android retains its permanent signing identity, versionCode 12. Physical-device upgrades and Windows execution remain untested.

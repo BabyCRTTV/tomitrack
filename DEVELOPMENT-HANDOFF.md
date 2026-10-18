@@ -1,4 +1,11 @@
-# Development handoff · 0.4.5
+# Development handoff · 0.4.6
+
+## 0.4.6: third 500-entry photo batch · 2026-10-18
+
+Owner authorized another 500 under the established standards. Active coverage is 1,500 entries (441 Tomica, 1,059 TLV). Third batch `2026-10-18-003` adds 500 TLV-family entries using 496 distinct official TOMYTEC photographs; four sibling-casting references remain explicitly labeled and their source release/casting links are validated. All 500 thumbnails were visually reviewed. Source widths are 520–640 pixels, heights 345–425, predominantly 600×400; no synthetic detail or upscaling is added. Five unavailable-reference candidates were skipped (including the two previously rejected releases), so the authorized increment remains exactly 500.
+
+Both original batch archives and the complete prior 1,000 photo metadata/verification records are preserved by hash/relationship regression checks. Canonical facts, English overlays, candidate queue, private storage, personal-photo priority, photo framing and collection/wishlist layout are unchanged. The builders now pin the authorized cumulative count to 1,500 across three disjoint 500-entry batches and validate casting-reference source provenance. All 58 Node tests, syntax checks, SQLite integrity/foreign keys and generated-photo parity pass. Dependency resolution is unchanged. Working version 0.4.6, Android versionCode 12; reviewed work is secured on `work/catalog-images-batch-003` before release packaging. Publication verification is pending. Next expansion must start after these 1,500 entries.
+
 
 ## 0.4.5: second 500-photo batch · 2026-10-18
 
