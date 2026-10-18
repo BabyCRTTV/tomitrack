@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "rejectedHashes": {
+    "43369f71bf52260cd960b10d362dc9897fa7985b45861af1b5d6abd114ee97cf": {
+      "reason": "TOMYTEC discontinued-image notice: logo and Japanese image-unavailable text, no product photograph. Visually reviewed 2026-10-18.",
+      "sourceUrls": [
+        "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736315209&num=1",
+        "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736314806&num=1"
+      ]
+    }
+  }
+}

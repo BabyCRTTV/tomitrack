@@ -1,5 +1,14 @@
 # Development handoff · 0.4.4
 
+## Pending 0.4.5: second 500-photo batch · 2026-10-18
+
+Owner authorized another 500 images under the established parameters. Added 500 official TOMYTEC product photos for Limited Vintage-family references, bringing active images to 1,000 (441 Tomica, 559 TLV). All new files are 600×400, decoded successfully and were visually reviewed; source product URLs match all 500 original release citations. Two discontinued-image notices were identified visually, rejected by content hash and replaced by actual product photos. Their release references remain queued with missing-photo fallback.
+
+`catalog/input/catalog-image-batches/` archives both individual batches. The first manifest is byte-identical to published v0.4.3/v0.4.4; the cumulative manifest preserves every old ID/evidence record and appends exactly 500 disjoint IDs. `catalog-image-rejections.json` prevents known manufacturer notice images from shipping. The manual preparation script requires an explicit new batch ID, excludes previous IDs, preserves successful verification caches and atomically appends only a full batch. Source image fetching remains outside startup and CI. Builders/tests pin the authorized cumulative total at 1,000; the candidate queue is unchanged.
+
+Source bytes remain online, with their original rights and credit. Existing uncropped 4:3 white framing and personal-photo priority are unchanged. No English metadata, canonical catalog facts, release identities, private data or UI layout changes. Validate generated browser/SQLite parity and source preservation before publishing. Checkpoint and publication verification will be recorded below.
+
+
 ## 0.4.4 catalog card actions · 2026-10-17
 
 Owner approved the interactive preview on 2026-10-17. Approved implementation checkpoint: `a87bb123d7d9ca0a874f95c68f1696a9ca246a44` on `work/catalog-card-actions-preview`. Working version 0.4.4, Android versionCode 10. Published and verified as v0.4.4. Release implementation `f6bb7e4af0dab9d14539ececb9dd5bc3d9877b2b` was followed by lockfile metadata alignment `c6c90f437eb96c62cb98bc67501fa98150b0405e`; the final tested tree is `f7bab94893b4c8e3aa1ac7d6da86c871b2de299a`. Only root lockfile application version fields changed; dependency versions/resolution are preserved.
