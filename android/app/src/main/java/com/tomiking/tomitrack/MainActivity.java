@@ -4,15 +4,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.webkit.*;
 import android.widget.Toast;
+import android.widget.FrameLayout;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.webkit.WebViewAssetLoader;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 
 public class MainActivity extends Activity {
     private WebView web;
+    private FrameLayout safeFrame;
     private AppUpdater updater;
     private ValueCallback<Uri[]> fileCallback;
     private String pendingExport;
@@ -20,11 +26,28 @@ public class MainActivity extends Activity {
     private static final String HOST="appassets.androidplatform.net";
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        // Own system-bar, cutout and keyboard spacing at the native container.
+        // Padding WebView itself does not reliably inset CSS fixed-position controls.
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
+        safeFrame = new FrameLayout(this);
+        safeFrame.setBackgroundColor(0xfff8f7f3);
         web = new WebView(this);
-        setContentView(web);
-        // Respect status/navigation bars and Android 15 enforced edge-to-edge.
-        web.setOnApplyWindowInsetsListener((v,insets)->{v.setPadding(insets.getSystemWindowInsetLeft(),insets.getSystemWindowInsetTop(),insets.getSystemWindowInsetRight(),insets.getSystemWindowInsetBottom());return insets;});
-        web.requestApplyInsets();
+        safeFrame.addView(web, new FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
+        ViewCompat.setOnApplyWindowInsetsListener(safeFrame, (view, windowInsets) -> {
+            int bars = WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout();
+            int handled = bars | WindowInsetsCompat.Type.ime();
+            Insets safe = windowInsets.getInsets(handled);
+            view.setPadding(safe.left, safe.top, safe.right, safe.bottom);
+            // Forward zero values, rather than consuming notifications: WebView
+            // must also learn when the keyboard or a bar disappears after a fold.
+            return new WindowInsetsCompat.Builder(windowInsets)
+                    .setInsets(handled, Insets.NONE)
+                    .setInsetsIgnoringVisibility(bars, Insets.NONE)
+                    .build();
+        });
+        setContentView(safeFrame);
+        ViewCompat.requestApplyInsets(safeFrame);
         web.setBackgroundColor(0xfff8f7f3);
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setDomStorageEnabled(true);
@@ -75,12 +98,12 @@ public class MainActivity extends Activity {
                 boolean dark="dark".equals(theme);
                 int background=dark?0xff10171f:0xfff8fafb;
                 web.setBackgroundColor(background);
+                safeFrame.setBackgroundColor(background);
                 getWindow().setStatusBarColor(background);
                 getWindow().setNavigationBarColor(background);
-                View decor=getWindow().getDecorView();
-                int flags=decor.getSystemUiVisibility();
-                int lightBars=View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR|View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
-                decor.setSystemUiVisibility(dark?(flags&~lightBars):(flags|lightBars));
+                WindowInsetsControllerCompat bars = WindowCompat.getInsetsController(getWindow(), web);
+                bars.setAppearanceLightStatusBars(!dark);
+                bars.setAppearanceLightNavigationBars(!dark);
             });
         }
         @JavascriptInterface public void saveFile(String name,String content,String mime) {

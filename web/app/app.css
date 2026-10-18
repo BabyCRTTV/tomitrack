@@ -224,8 +224,10 @@ input::placeholder,textarea::placeholder{color:var(--muted);opacity:.8}
  main{padding:20px max(20px,env(safe-area-inset-right)) 22px max(20px,env(safe-area-inset-left))}
  .bottom-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;position:fixed;inset:auto 0 0;background:var(--paper);border-top:1px solid var(--line);z-index:20;padding:8px max(6px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(6px,env(safe-area-inset-left))}
  .bottom-nav .nav-item{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;min-width:0;width:100%;min-height:48px;padding:4px 2px;margin:0;border-radius:9px;font-size:10px;text-align:center}
- .bottom-nav .nav-item svg{width:22px;height:22px}.bottom-nav .nav-item.active{background:var(--mint);color:var(--red)}
- .app-foot{padding-bottom:calc(100px + env(safe-area-inset-bottom))}
+ .bottom-nav .nav-item svg{width:22px;height:22px;flex-shrink:0}.bottom-nav .nav-item span{line-height:1.25;white-space:nowrap}.bottom-nav .nav-item.active{background:var(--mint);color:var(--red)}
+ /* Reserve the fixed tabs plus the browser home-indicator area when scrolling. */
+ html{scroll-padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+ .app-foot{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
  .page-heading>.primary{min-height:44px;font-size:12px;white-space:nowrap;flex-shrink:0}
  .catalog-filter-grid select{max-width:none}.catalog-search input{font-size:16px}
  .icon-button,.text-button{min-height:44px}.icon-button{min-width:44px;flex-shrink:0}

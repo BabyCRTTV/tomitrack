@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.9 · Cover-screen system bar spacing
+
+- Fit the Android WebView inside a native safe-area container so status bars, three-button/gesture navigation, display cutouts and the keyboard cannot cover fixed app controls.
+- Recompute insets as window dimensions and navigation modes change, forwarding zeroed handled insets to prevent WebView double spacing.
+- Keep safe-area padding for iPhone Safari/PWA use, improve narrow bottom-tab label stability and reserve scroll clearance for the tabs.
+- Preserve catalog, collection storage, signing identity and existing update paths.
+
 ## 0.4.8 — 2026-10-18
 
 - Added 200 reviewed Matchbox photo entries, bringing active photo coverage to 2,200.

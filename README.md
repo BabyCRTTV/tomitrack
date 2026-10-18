@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.8 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.9 is a local-first early-access foundation.
 
 ## Use it
 
@@ -39,7 +39,7 @@ GitHub Actions verifies the shared domain code, builds Android and Windows, publ
 
 ## Responsive layouts
 
-The app adapts to narrow cover screens, wider unfolded displays and desktop windows. Mobile navigation includes Collection and Explore; catalog filters have removable chips, and add/edit groups optional details into expandable sections. Safe-area padding and larger form controls support iPhone browser/PWA use. Android preserves its live WebView across fold-related display changes. Fold8 and iPhone Duo hardware testing remains pending; there is no native iOS package.
+The app adapts to narrow cover screens, wider unfolded displays and desktop windows. Mobile navigation includes Collection and Explore; catalog filters have removable chips, and add/edit groups optional details into expandable sections. Safe-area padding and larger form controls support iPhone browser/PWA use. Android fits the WebView inside a native container padded for system bars, cutouts and the keyboard, preserving the live page across fold-related display changes. Fold8 and iPhone Duo hardware testing remains pending; there is no native iOS package.
 
 ## Appearance and accounts
 
@@ -53,4 +53,4 @@ TomiTrack branding, custom icon and generated hero artwork were created for this
 
 ## Historical Tomica catalog
 
-Version 0.4.8 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
+Version 0.4.9 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.

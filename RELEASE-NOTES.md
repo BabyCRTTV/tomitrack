@@ -1,7 +1,7 @@
-TomiTrack 0.4.8 — first 200 Matchbox photo entries.
+# TomiTrack 0.4.9 · Early access
 
-- Added 200 reviewed 2025 Matchbox photo entries using 199 distinct BAMCA variant photographs at their larger 600×360 source resolution.
-- Larger images match the cited variant thumbnails and have been visually reviewed. Photos stay source-linked with BAMCA/photographer attribution; no image bytes are bundled or upscaled.
-- Now 2,200 photo entries total. The previous 2,000 photos, English translations, catalog facts, private collections, framing and personal-photo priority are preserved.
+Android now places the entire app inside a safe-area container. The status bar, system navigation buttons, gesture area, display cutouts and keyboard receive native spacing, including after window/fold size changes. Fixed app tabs no longer depend on WebView padding to avoid the system controls.
 
-Android retains the permanent signing identity, versionCode 14. Physical-device upgrades and Windows execution remain untested.
+The shared browser app retains iPhone safe-area spacing and adds scroll clearance for the bottom tabs, with stable labels on narrow cover screens. There is no native iOS package. Device-specific Fold8 and iPhone Duo hardware verification remains pending.
+
+The catalog remains at 17,920 releases, 4,268 English overlays and 2,200 photo entries. Collector data, backups, source attribution and the permanent Android signer are preserved. Android versionCode 15.

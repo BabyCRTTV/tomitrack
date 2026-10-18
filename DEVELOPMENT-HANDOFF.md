@@ -1,4 +1,13 @@
-# Development handoff · 0.4.8
+# Development handoff · 0.4.9
+
+## 0.4.9: system-bar overlap on narrow cover screens · 2026-10-18
+
+Owner screenshot showed Android system navigation obscuring bottom app tabs and status icons crowding the header. Previous listener padded WebView directly and returned unmodified legacy insets. Fixed CSS elements could remain in the full viewport; new WebViews could also apply duplicate safe-area spacing.
+
+MainActivity now explicitly uses edge-to-edge with a FrameLayout parent. AndroidX typed system-bar, display-cutout and IME insets pad that container, physically reducing the WebView bounds. The combined inset union uses the maximum per edge (not addition), so keyboard and navigation do not double-count. Handled current/stable dimensions are forwarded as zeroes rather than consuming notifications, allowing WebView to clear previous state. Insets are recomputed on every dispatch without accumulating padding, and theme changes color both the WebView and safe frame while using the compatible system bar appearance controller. Existing fold configuration handling preserves the live WebView and collection state.
+
+Browser/iPhone viewport-fit and CSS safe-area padding remain enabled. Mobile tabs retain 44px+ targets, stable single-line labels and scroll clearance. This uses responsive viewport dimensions rather than assumed device-specific sizes; no native iOS package or hardware verification is claimed. Catalog/English/photos/private persistence are untouched. Working version 0.4.9, Android code 15. All 59 Node tests and syntax checks pass; CSS parses successfully and package-lock dependency resolution is unchanged. Local browser installation failed because the upstream archive was empty, so narrow viewport rendering and physical-device/keyboard behavior remain unverified locally. Android CI compilation/native tests, published asset checks and publication verification pending.
+
 
 ## 0.4.8: first 200 Matchbox photo entries · 2026-10-18
 
