@@ -1,12 +1,12 @@
-# Development handoff · 0.4.4
+# Development handoff · 0.4.5
 
-## Pending 0.4.5: second 500-photo batch · 2026-10-18
+## 0.4.5: second 500-photo batch · 2026-10-18
 
 Owner authorized another 500 images under the established parameters. Added 500 official TOMYTEC product photos for Limited Vintage-family references, bringing active images to 1,000 (441 Tomica, 559 TLV). All new files are 600×400, decoded successfully and were visually reviewed; source product URLs match all 500 original release citations. Two discontinued-image notices were identified visually, rejected by content hash and replaced by actual product photos. Their release references remain queued with missing-photo fallback.
 
 `catalog/input/catalog-image-batches/` archives both individual batches. The first manifest is byte-identical to published v0.4.3/v0.4.4; the cumulative manifest preserves every old ID/evidence record and appends exactly 500 disjoint IDs. `catalog-image-rejections.json` prevents known manufacturer notice images from shipping. The manual preparation script requires an explicit new batch ID, excludes previous IDs, preserves successful verification caches and atomically appends only a full batch. Source image fetching remains outside startup and CI. Builders/tests pin the authorized cumulative total at 1,000; the candidate queue is unchanged.
 
-Source bytes remain online, with their original rights and credit. Existing uncropped 4:3 white framing and personal-photo priority are unchanged. No English metadata, canonical catalog facts, release identities, private data or UI layout changes. Validate generated browser/SQLite parity and source preservation before publishing. Checkpoint and publication verification will be recorded below.
+Source bytes remain online, with their original rights and credit. Existing uncropped 4:3 white framing and personal-photo priority are unchanged. No English metadata, canonical catalog facts, release identities, private data or UI layout changes. Validate generated browser/SQLite parity and source preservation before publishing. Reviewed inputs and generated presentation are secured at checkpoint `dabdfb06b6c62e909f1f2d27556e6e42b96eee52` on `work/catalog-images-batch-002`. Working version 0.4.5, Android versionCode 11; publication verification is pending. Next image expansion must add only the next authorized 500 beyond the current 1,000.
 
 
 ## 0.4.4 catalog card actions · 2026-10-17

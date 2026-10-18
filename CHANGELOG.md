@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.5 — 2026-10-18
+
+- Added 500 reviewed official Limited Vintage-family product photos at 600×400, bringing source-linked photo coverage to 1,000 entries.
+- Preserved the original 500 image references and English/catalog identities; retained uncropped 4:3 framing, source credits and personal-photo priority.
+- Archived individual batches, excluded two manufacturer unavailable-image notices, and made manual batch preparation append exactly 500 new entries with cached verification.
+
 ## 0.4.4 — 2026-10-17
 
 - Added a separate Add to collection shortcut beside View release on catalog cards.

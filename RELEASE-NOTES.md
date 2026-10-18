@@ -1,8 +1,9 @@
-TomiTrack 0.4.4 — catalog card shortcuts.
+TomiTrack 0.4.5 — another 500 catalog photos.
 
-- Add to collection sits beside View release, opening the existing save form for that exact catalog release.
-- A small heart beside the muted brand/category opens the wishlist save form. Existing wishlist entries have a filled heart.
-- Narrow-screen spacing, independent tap targets, accessible names and light/dark colors preserve the approved layout.
-- All 17,920 catalog references, English presentation, the first 500-photo batch, collection data and backups are preserved.
+- Added 500 official Limited Vintage-family product images at source resolution (600×400), decoded and visually reviewed.
+- Now 1,000 releases have source-linked photos: 441 Tomica and 559 Limited Vintage-family entries. Original photos and all 4,268 English translations are preserved.
+- Consistent uncropped 4:3 framing, source attribution and personal-photo priority remain unchanged. Photos load online; source rights remain with their owners.
+- Two manufacturer image-unavailable notices were rejected and replaced with actual product photos. Remaining candidates stay queued.
+- Collection/wishlist shortcuts, 17,920 release references, stable IDs and backups are unchanged.
 
-Android uses the permanent signing identity, versionCode 10. Web, Android and Windows share the update. Physical-device installation and folding tests remain outstanding.
+Android retains the permanent signing identity, versionCode 11. Physical-device upgrades and Windows execution remain untested.
