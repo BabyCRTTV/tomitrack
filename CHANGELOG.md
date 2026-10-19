@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.17 · Expanded TLV and mainline price evidence
+
+- Add 466 reviewed item-price listings across 350 additional references: 295 TLV and 55 mainline Tomica. The watch pool is now 511 listings across 364 references. 26 models have qualifying independent listing averages (previously nine). The owner-approved MSRP fallback remains when usable comparables are insufficient.
+- Review 627 readable item pages from 632 exact candidates, retaining rejected/unclear variants separately. Keep original evidence and stable catalog identities.
+- Bound scheduled listing reads to three requests and preserve ordered history and isolated failures.
+- Keep USD item-only prices, the existing controls and MSRP fallback; update app/Android/cache versions and the landing-page version.
+
 ## 0.4.16 · Broader item-price averages
 
 - Expand watched item asks from 3 to 45; nine exact models now have supported rolling listing averages. Shipping and checkout charges are excluded.

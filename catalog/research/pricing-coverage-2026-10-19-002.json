@@ -1,0 +1,221 @@
+{
+  "asOf": "2026-10-19T14:27:10.000Z",
+  "scope": 4268,
+  "counts": {
+    "msrp-rule": 2908,
+    "unavailable": 1334,
+    "listing-average": 26
+  },
+  "uniqueListingUrls": 511,
+  "listingObservations": 514,
+  "observed": [
+    {
+      "releaseId": "tm-01f8ae0521af89231cbe",
+      "productCode": "LV-N360a",
+      "kind": "listing-average",
+      "amount": 54.91,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-023639de801f1eb7f3af",
+      "productCode": "LV-N277a",
+      "kind": "listing-average",
+      "amount": 43,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-0954bd83b2e64ebfbcd4",
+      "productCode": "LV-N144b",
+      "kind": "listing-average",
+      "amount": 53.18,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-0b1a219f714f9839149b",
+      "productCode": "LV-N194b",
+      "kind": "listing-average",
+      "amount": 59.16,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-1cd310028ae05e5f597e",
+      "productCode": "LV-N349b",
+      "kind": "listing-average",
+      "amount": 43.63,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "kind": "listing-average",
+      "amount": 37.67,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-29f1770837eb0aa4dd15",
+      "productCode": "LV-N308b",
+      "kind": "listing-average",
+      "amount": 32.63,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-31bc793f0e59f1e91c58",
+      "productCode": "LV-N366a",
+      "kind": "listing-average",
+      "amount": 40.76,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-3a938b45314008ee62ba",
+      "productCode": "LV-N354a",
+      "kind": "listing-average",
+      "amount": 33.29,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "kind": "listing-average",
+      "amount": 140,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "kind": "listing-average",
+      "amount": 46.07,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-441213a62f32e5d05a03",
+      "productCode": "LV-N353b",
+      "kind": "listing-average",
+      "amount": 39.99,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "kind": "listing-average",
+      "amount": 35.14,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-5af745f5518dea0b5ae1",
+      "productCode": "LV-N367a",
+      "kind": "listing-average",
+      "amount": 37.28,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-5f954384c6d4f83930e8",
+      "productCode": "LV-N354d",
+      "kind": "listing-average",
+      "amount": 34.2,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "kind": "listing-average",
+      "amount": 49.27,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "kind": "listing-average",
+      "amount": 36.94,
+      "currency": "USD",
+      "sampleCount": 5
+    },
+    {
+      "releaseId": "tm-98b6c224a2efd3ef1bf8",
+      "productCode": "LV-N106f",
+      "kind": "listing-average",
+      "amount": 44.11,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "kind": "listing-average",
+      "amount": 42.69,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-b863fe9c296cd3bcb0c6",
+      "productCode": "LV-N377a",
+      "kind": "listing-average",
+      "amount": 39.29,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "kind": "listing-average",
+      "amount": 39.38,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-d4e0849ec6bb13b4e845",
+      "productCode": "60",
+      "kind": "listing-average",
+      "amount": 11.64,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "kind": "listing-average",
+      "amount": 37.89,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-d97dff0693ab3957d43d",
+      "productCode": "LV-N370a",
+      "kind": "listing-average",
+      "amount": 143.47,
+      "currency": "USD",
+      "sampleCount": 4
+    },
+    {
+      "releaseId": "tm-e1641dcefaa43704508f",
+      "productCode": "LV-N255b",
+      "kind": "listing-average",
+      "amount": 35.66,
+      "currency": "USD",
+      "sampleCount": 3
+    },
+    {
+      "releaseId": "tm-e1b90a806b13ed4b6ade",
+      "productCode": "LV-N356b",
+      "kind": "listing-average",
+      "amount": 46.33,
+      "currency": "USD",
+      "sampleCount": 3
+    }
+  ]
+}

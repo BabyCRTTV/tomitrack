@@ -96,6 +96,24 @@ def mark_unavailable(listings,url,now):
  if prior:
   listings.append({**prior,'observedAt':now,'priceObservedAt':prior.get('priceObservedAt',prior['observedAt']),'active':False})
 
+def refresh_watches(watches,listings,now,fetcher=fetch):
+ # Read at most three public pages at once; apply observations in watch order.
+ # Workers never mutate shared history, and one unavailable source cannot erase others.
+ def inspect(watch):
+  url=watch['sourceUrl']
+  try:
+   raw=fetcher(url);updated=parse_listing(raw,watch,now)
+   return {'sourceUrl':url,'sha256':hashlib.sha256(raw).hexdigest(),'status':'Listing unavailable; no sale inferred' if updated is None else 'Exact reviewed listing refreshed'},updated
+  except Exception as e:return {'sourceUrl':url,'status':'Prior dated listing retained; no fresh observation','error':str(e)},None
+ report=[]
+ with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:
+  for result,updated in pool.map(inspect,watches):
+   if 'error'not in result:
+    if updated is None:mark_unavailable(listings,result['sourceUrl'],now)
+    else:listings.append(updated)
+   report.append(result)
+ return report
+
 def main():
  now=datetime.now(timezone.utc).isoformat(timespec='seconds');rows=read('catalog/catalog.json')['releases'];tlv=read('catalog/input/tlv-prices.json');tomica=read('catalog/input/tomica-prices.json')
  listing_input=read('catalog/input/price-listings.json')
@@ -122,16 +140,7 @@ def main():
    report.append({'sourceUrl':url,'sha256':digest,'verified':len(ids),'status':'Exact reviewed page unchanged' if ids else 'Prior evidence retained; page needs review','error':error})
  # Watch only independently reviewed exact listing identities.
  listings=merge_listing_history(listing_input['observations'],previous.get('listings',[]))
- for watch in listing_input['watches']:
-  url=watch['sourceUrl']
-  try:
-   raw=fetch(url);updated=parse_listing(raw,watch,now)
-   if updated is None:
-    mark_unavailable(listings,url,now)
-    status='Listing unavailable; no sale inferred'
-   else:listings.append(updated);status='Exact reviewed listing refreshed'
-   report.append({'sourceUrl':url,'sha256':hashlib.sha256(raw).hexdigest(),'status':status})
-  except Exception as e:report.append({'sourceUrl':url,'status':'Prior dated listing retained; no fresh observation','error':str(e)})
+ report.extend(refresh_watches(listing_input['watches'],listings,now))
  cutoff=datetime.now(timezone.utc).timestamp()-180*86400
  listings=[x for x in listings if datetime.fromisoformat(x.get('priceObservedAt',x['observedAt']).replace('Z','+00:00')).timestamp()>=cutoff]
  out={'schema':1,'asOf':now,'fx':fx,'msrp':updates,'listings':listings,'sources':report,'salesPolicy':'Verified sold averages take priority. Three independent current asks, then historical asks, precede the MSRP fallback. Exact reviewed listing watches refresh automatically; new sold transactions require final-price/date/variant review. No bulk sold provider is connected.'}

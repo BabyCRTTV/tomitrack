@@ -22,9 +22,11 @@ Search by name, series, release year, product/toy code, collector number, series
 
 Barcode coverage includes five specifically cited Mattel UPCs, 1,677 checksum-valid official TOMYTEC JAN links, and two shared basic-car assortment codes. Shared codes produce candidates and never claim to identify a unique model. Missing facts remain unknown. The public catalog is bundled offline with native apps, and a searchable SQLite download is included in releases. See `catalog/README.md` for provenance, counts, coverage and maintenance.
 
-## TLV estimated values
+## Market prices
 
 Tomica has 1,254 and Tomica Limited Vintage has 1,680 source-cited manufacturer list prices. All displayed prices, including MSRP, use USD with dated conversion evidence. Market Price and MSRP buttons display USD; tap for the pricing method. Reliable exact-variant/condition sold averages take priority (at least 3 verified sales in 180 days); otherwise independent current/historical listing averages take priority before the owner-directed fallback compounds MSRP by 10% per calendar year since release, converted to USD with a dated ECB rate. The calculation and indicative-price explanation appear on tap. Four manufacturer zero prices remain unknown. Current sold evidence is sparse and does not yet produce a reliable average; eBay bulk access is not connected.
+
+Add 466 reviewed item-price listings across 350 additional references: 295 TLV and 55 mainline Tomica. The watch pool is now 511 listings across 364 references. 26 models have qualifying independent listing averages (previously nine). The owner-approved MSRP fallback remains when usable comparables are insufficient. See `catalog/research/pricing-expansion-2026-10-19.md` for coverage and review limits.
 
 Sync price data under App updates in My garage downloads the latest reviewed public snapshot. Newly added priced TLV copies default to linked valuation, with an editable fallback and a manual option. Existing entries remain manual. No purchase costs/manual values are overwritten, no collection uploads occur during price sync, and JSON backups retain the valuation mode. Other brands remain manual.
 
