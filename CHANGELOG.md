@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.15 · Catalog photo prices
+
+- Add a green Market Price button below catalog photos, matching photo width with centered label and amount. Tap to open pricing details.
+
 ## 0.4.14 · Compact price tags
 
 - Use Market Price and MSRP with USD amounts, without subtitles. Keep green/blue tags side by side on narrow screens; pricing details remain available on tap.

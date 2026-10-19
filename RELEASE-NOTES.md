@@ -1,5 +1,5 @@
-# TomiTrack 0.4.14 · Early access
+# TomiTrack 0.4.15 · Early access
 
-Compact green Market Price and blue MSRP tags now sit side by side, showing only their labels and USD amounts. Removed pricing and conversion subtitles; calculation details remain available on tap.
+Catalog cards now show a green Market Price button directly below the photo, with a small gap and the same width. Market Price sits above the centered USD amount. Tap for pricing details.
 
-Pricing data, portfolio calculations, catalog, photos and safe areas are unchanged. Android code 20 uses the permanent signer.
+Existing catalog card controls and shared pricing calculations are preserved. Android code 21 uses the permanent signer.

@@ -1,8 +1,12 @@
-# Development handoff · 0.4.14
+# Development handoff · 0.4.15
 
-## 0.4.14: compact Market Price / MSRP tags · in progress
+## 0.4.15: catalog photo Market Price button · prepared
 
-Owner requested no TomiKing pricing or Japan MSRP subtitles and exact labels Market Price / MSRP. Removed both subtitles and changed the tag row to two bounded grid columns, with safe amount wrapping inside each tag while preserving 44px tap targets and green/blue colors. USD values and tap-to-open method details remain intact. No pricing inputs, formula, portfolio behavior or catalog facts changed. Version 0.4.14 / Android code 20. Publication verification pending.
+Green photo-width button below each in-scope catalog thumbnail, with an 8px gap, stacked centered Market Price and USD amount. The shared quote selection is used for both catalog and release details. Tapping opens the release with the pricing explanation expanded. Unavailable values remain explicit; unsupported brands receive no fabricated price. Existing photo sizing, info column, wishlist and collection actions remain intact. No pricing/catalog inputs, private persistence or native layout changes. Version 0.4.15 / Android code 21. Automated checks passed; publication verification pending.
+
+## 0.4.14: compact Market Price / MSRP tags · verified
+
+Owner requested no TomiKing pricing or Japan MSRP subtitles and exact labels Market Price / MSRP. Removed both subtitles and changed the tag row to two bounded grid columns, with safe amount wrapping inside each tag while preserving 44px tap targets and green/blue colors. USD values and tap-to-open method details remain intact. No pricing inputs, formula, portfolio behavior or catalog facts changed. Version 0.4.14 / Android code 20. Build 39224311948 and Pages 39224312218 succeeded; release includes Android and Windows installers, SQLite and checksums. Live pricing UI and CSS match source.
 
 ## 0.4.13: Tomica MSRP expansion, 10% fallback and USD-only display · verified
 
