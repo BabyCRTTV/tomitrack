@@ -344,3 +344,7 @@ input::placeholder,textarea::placeholder{color:var(--muted);opacity:.8}
 .catalog-quick-add{padding:10px 12px;background:var(--mint);border:1px solid var(--green);color:var(--green);white-space:nowrap}
 .catalog-quick-add:hover{box-shadow:inset 0 0 0 1px var(--green)}
 @media(max-width:540px){.catalog-card-actions{grid-column:1/-1;justify-content:space-between;gap:10px}.catalog-card-actions button{font-size:12px}.catalog-result{row-gap:12px}}
+
+/* Compact pricing above the photo. Details expand only on request. */
+.release-pricing{margin:8px 0 18px}.catalog-release-photo{margin-top:18px}
+.price-badges{display:flex;flex-wrap:wrap;gap:10px}.price-badge{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:44px;max-width:100%;padding:9px 12px;border:1px solid color-mix(in srgb,var(--green) 45%,var(--line));border-radius:10px;background:var(--mint);color:var(--green);font-size:11px;line-height:1.4;text-align:left}.price-badge strong{font-size:12px;margin-left:5px}.price-badge small{font-size:10px}.price-badge[aria-expanded="true"]{outline:2px solid var(--green);outline-offset:2px}.price-evidence{padding:14px 0 0;font-size:12px;line-height:1.65;color:var(--muted);overflow-wrap:anywhere}.price-evidence p{margin-bottom:8px}.price-evidence a{color:var(--green);text-decoration:underline;text-underline-offset:3px}

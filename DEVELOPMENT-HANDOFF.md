@@ -1,4 +1,13 @@
-# Development handoff · 0.4.10
+# Development handoff · 0.4.11
+
+## 0.4.11: TLV prices and owner-directed annual MSRP fallback · in progress
+
+Owner requested pricing/sync for Tomica Limited Vintage first, compact green estimate/MSRP controls above the release photograph, and portfolio integration for newly added priced copies. Owner subsequently established fallback MSRP × 1.10 per release year; implementation uses compound calendar years (UTC year minus catalog release year), stated to the owner, with dated ECB JPY→USD cross conversion. Formula estimates must remain distinct from observed market values.
+
+Scratch reverted to an old pre-0.4.5 state during interruption; restored verified remote 0.4.10 before recovering unfinished work. Manually imported all 1,680 positive official TOMYTEC list prices by canonical URL/full Japanese title (Unicode-width/spacing normalization); four zero-price references remain unavailable. Manufacturer price as currently published is not asserted to be historic launch MSRP. ECB evidence: 2026-10-16, USD 1.1253 / JPY 177.82 per EUR. A single exact LV-N305e fixed-price USD 29.90 sold observation has original UTC end date 2026-08-17; never multiply its '2 sold' count. Public eBay sold search required CAPTCHA and was not bypassed. Marketplace Insights is restricted; no authenticated bulk provider is connected. Current release has zero qualifying 3-sale averages, so available linked values use the owner's MSRP rule. Hidden Best Offers/ended-not-sold examples are explicitly excluded.
+
+New public price overlay is separate from canonical facts/photos/private copies, validated before cache activation, and synced from one fixed official Pages JSON URL with no credentials/collection upload. Legacy entries remain manual; new priced TLV copies default linked, with editable manual fallback and valuation selector. JSON backups retain mode and manual fallback; totals/sort/detail use effective price without overwriting paid/value. Price sync appends history only when the effective total changes and the same collection remains active. Browser CSS/safe areas and Android native frame are preserved; Android allows only the exact public JSON endpoint in addition to prior requests. SQLite adds public MSRP, sales and FX metadata tables. Version 0.4.11 / Android code 17. Source checkpoint on work/tlv-pricing-0.4.11 planned before longer verification. Tests, UI smoke and publication verification pending.
+
 
 ## 0.4.10: second Matchbox batch, 250 additional entries · 2026-10-18
 

@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/build-catalog.mjs && node scripts/build-catalog-presentation.mjs
-      - run: git diff --exit-code -- catalog/catalog.json catalog/import-report.json web/app/catalog/data.js web/app/catalog/presentation-data.js
+      - run: node scripts/build-catalog.mjs && node scripts/build-catalog-presentation.mjs && node scripts/build-prices.mjs
+      - run: git diff --exit-code -- catalog/catalog.json catalog/import-report.json web/app/catalog/data.js web/app/catalog/presentation-data.js web/app/catalog/pricing-data.js web/app/catalog/prices.json
       - run: npm run check && npm test
   android:
     needs: verify

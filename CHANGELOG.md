@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.11 · TLV estimated values and price sync
+
+- Import 1,680 manufacturer MSRP references and dated ECB conversion evidence for Tomica Limited Vintage.
+- Prefer supported comparable-sale averages; otherwise use the owner's explicitly labeled MSRP + 10% compounded per release year rule.
+- Add compact green estimate/MSRP controls above release photos and Sync price data below App updates in My garage.
+- Link newly added priced TLV copies to estimated portfolio value while preserving manual fallback, purchase costs, legacy entries and backups.
+- Keep eBay sold-price coverage limitations explicit; no marketplace credentials are embedded or requested in chat.
+
 ## 0.4.10 · Another 250 Matchbox photo entries
 
 - Add 250 reviewed Matchbox release photo entries using 246 distinct 600×360 BAMCA variant photographs.

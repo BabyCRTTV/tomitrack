@@ -7,7 +7,7 @@ export function prepareGarageItem(input,{existing=null,selected=null}={}) {
     throw new Error('Choose a release from the catalog before adding it to your garage.');
   }
   const identity=existing||selected;
-  const next={...input,id:existing?.id||'',added:existing?.added||''};
+  const next={...input,valuationMode:input.valuationMode??existing?.valuationMode??'manual',id:existing?.id||'',added:existing?.added||''};
   if (identity.catalogReleaseId) for (const field of RELEASE_FIELDS) next[field]=identity[field]??'';
   else {next.catalogReleaseId='';next.catalogCastingId='';}
   return cleanItem(next);

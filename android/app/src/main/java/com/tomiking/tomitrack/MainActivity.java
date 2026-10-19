@@ -61,6 +61,7 @@ public class MainActivity extends Activity {
             @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
                 if(HOST.equals(request.getUrl().getHost()))return loader.shouldInterceptRequest(request.getUrl());
                 if(CatalogImagePolicy.allows(request.getUrl().toString()))return null;
+                if("https://babycrttv.github.io/tomitrack/app/catalog/prices.json".equals(request.getUrl().toString()))return null;
                 String authHost = getString(R.string.auth_host);
                 if(!authHost.isEmpty() && "https".equals(request.getUrl().getScheme()) && authHost.equals(request.getUrl().getHost()))return null;
                 return new WebResourceResponse("text/plain","UTF-8",new java.io.ByteArrayInputStream(new byte[0]));

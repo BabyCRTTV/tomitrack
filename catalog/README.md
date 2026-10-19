@@ -1,3 +1,11 @@
+# TLV price overlay · app 0.4.11
+
+`input/tlv-prices.json` records 1,680 positive manufacturer-published Japan list prices, exact product sources, source hashes, one sparse sold listing, excluded ambiguous listings and dated ECB FX evidence. Four manufacturer zero prices are excluded. MSRP is as observed, not necessarily original launch MSRP. Canonical release IDs/Japanese facts are unchanged. `scripts/import-tlv-prices.py` manually processes saved source evidence; `scripts/build-prices.mjs` validates and generates browser/native JSON/modules without network access. Sold evidence may be appended only after exact variant, condition, single item, final price, currency and date review. eBay's restricted Marketplace Insights feed is not connected; public sold search required CAPTCHA and was not bypassed.
+
+Require at least 3 distinct confirmed USD observations per exact variant/condition over 180 days, excluding shipping/tax, hidden Best Offers and retail asks. Remove 1.5-IQR outliers with at least 5 observations. Otherwise the owner's rule is MSRP in JPY × (ECB USD/EUR ÷ JPY/EUR) × 1.10^(current UTC year − catalog release year), floored at zero years. Clearly label formula estimates; no condition adjustment or guaranteed appreciation is claimed. Keep dated conversion/source evidence visible and unknown MSRP unavailable. `pricing-core.js` supplies shared validation/calculation; tests use synthetic transactions only as fixtures, never published sales.
+
+Price sync fetches only the official Pages JSON, rejects invalid/older/oversized/redirected data, and persists public cache before activating it. Manual per-copy fallback and paid values are not rewritten. SQLite adds release_msrp, price_sales and pricing_metadata alongside existing tables.
+
 # English and image presentation · app 0.4.10
 
 All 4,268 current Tomica-family release references have editorial English display names, colors and series. The original Japanese catalog facts and IDs remain unchanged and searchable. These are collector-facing translations, not official manufacturer translations. `input/tomica-english-glossary.json` and `input/tomica-english.json` are reviewed inputs; `input/tomica-translation-review.json` must be empty for publication. A display overlay avoids rewriting existing private collections.

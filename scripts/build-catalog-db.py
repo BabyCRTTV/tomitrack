@@ -64,6 +64,17 @@ try:
   db.execute('INSERT INTO identifiers VALUES (?,?,?,?,?,?,?,?,?)',(i,x['value'],gtin,x['scope'],x.get('brandId'),x.get('categoryId'),x['sourceId'],x.get('note',''),x['sourceUrl']))
   for rid in x.get('releaseIds',[]):db.execute('INSERT INTO release_identifiers VALUES (?,?)',(rid,i))
  for x in data['coverage']:db.execute('INSERT INTO coverage VALUES (?,?,?,?,?)',(x['brandId'],x['year'],x['releases'],x['status'],json.dumps(x)))
+ pricing=json.loads((root/'web/app/catalog/prices.json').read_text())
+ db.executescript('''
+ CREATE TABLE release_msrp(release_id TEXT PRIMARY KEY REFERENCES releases(id),amount_jpy INTEGER NOT NULL,tax_included INTEGER NOT NULL,source_url TEXT NOT NULL,observed_at TEXT NOT NULL);
+ CREATE TABLE price_sales(source_url TEXT PRIMARY KEY,release_id TEXT NOT NULL REFERENCES releases(id),amount_cents INTEGER NOT NULL,currency TEXT NOT NULL,condition TEXT NOT NULL,sold_at TEXT NOT NULL,evidence_json TEXT NOT NULL);
+ CREATE TABLE pricing_metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+ ''')
+ for rid,x in pricing['msrp'].items():
+  assert release_by_id[rid]['brandId']=='tomica-limited-vintage'
+  db.execute('INSERT INTO release_msrp VALUES (?,?,?,?,?)',(rid,x['amount'],int(x['taxIncluded']),x['sourceUrl'],x['observedAt']))
+ for x in pricing['sales']:db.execute('INSERT INTO price_sales VALUES (?,?,?,?,?,?,?)',(x['sourceUrl'],x['releaseId'],x['amountCents'],x['currency'],x['condition'],x['soldAt'],json.dumps(x,sort_keys=True)))
+ for key in ['asOf','fx']:db.execute('INSERT INTO pricing_metadata VALUES (?,?)',(key,json.dumps(pricing[key],sort_keys=True)))
  assert not db.execute('PRAGMA foreign_key_check').fetchall()
  assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
  db.commit();db.execute('VACUUM');count=db.execute('SELECT count(*) FROM releases').fetchone()[0];db.close();os.replace(temp,dest);print(f'Built {dest.name}: {count} releases; foreign keys, FTS5 and integrity checks pass.')
