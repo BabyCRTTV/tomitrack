@@ -5,7 +5,7 @@ import {validatePrices,valuationQuote,marketQuote} from '../web/app/pricing-core
 import {quote,priceScope,priceSnapshot,syncPrices,usesPricing,unitValue,priceBusy,PRICE_URL} from '../web/app/pricing.js';
 import {cleanItem,totals,validateBackup,filterItems} from '../web/app/domain.js';
 import {prepareGarageItem} from '../web/app/garage.js';
-import {priceBadges} from '../web/app/pricing-ui.js';
+import {priceBadges,catalogMarketPrice} from '../web/app/pricing-ui.js';
 const now=Date.parse(bundled.prices.asOf),fx=bundled.prices.fx,baseMsrp=bundled.prices.msrp,age=new Date(now).getUTCFullYear()-2025,id=Object.keys(priceScope).find(id=>priceScope[id].productCode==='LV-N54d');
 const copy=x=>structuredClone(x);
 const sale=(n,amount=3000,condition='Boxed')=>({releaseId:id,productCode:'LV-N54d',sourceUrl:`https://www.ebay.com/itm/${400000000000+n}`,condition,amountCents:amount,currency:'USD',soldAt:new Date(now-18*86400000).toISOString().slice(0,10),observedAt:bundled.prices.asOf,verified:true,finalPriceKnown:true,lotSize:1,shippingExcluded:true,saleType:'auction'});
@@ -18,8 +18,8 @@ test('combined prices preserve TLV evidence and match reviewed exact Tomica sour
  assert.equal(built.sales.length,3);assert.equal(marketQuote(built,built.sales[0].releaseId,'Sealed').amount,null);
 });
 test('owner MSRP rule compounds 10% per calendar year with dated JPY to USD conversion; only Tomica families',()=>{
- const q=valuationQuote(bundled.prices,priceScope,id,'Boxed',now);assert.equal(q.kind,'msrp-rule');assert.equal(q.years,age);assert.equal(q.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.equal(q.fxDate,fx.date);
- const next=valuationQuote(bundled.prices,priceScope,id,'Boxed',Date.parse('2027-01-01'));assert.equal(next.years,2);assert.equal(next.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**2*100)/100);
+ const q=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',now);assert.equal(q.kind,'msrp-rule');assert.equal(q.years,age);assert.equal(q.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.equal(q.fxDate,fx.date);
+ const next=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',Date.parse('2027-01-01'));assert.equal(next.years,2);assert.equal(next.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**2*100)/100);
  assert.equal(valuationQuote(bundled.prices,priceScope,'hw-fake','Boxed',now).amount,null);
  const missing=Object.keys(priceScope).find(rid=>!bundled.prices.msrp[rid]);assert.equal(valuationQuote(bundled.prices,priceScope,missing,'Boxed',now).amount,null);
 });
@@ -29,7 +29,7 @@ test('regular Tomica uses its own verified price and release year, with USD-only
  const p=copy(bundled.prices);p.msrp[rid].sourceUrl=p.msrp[id].sourceUrl;assert.throws(()=>validatePrices(p,priceScope,now));p.schema=1;assert.throws(()=>validatePrices(p,priceScope,now));
 });
 test('sale averages take priority only with three recent distinct exact-condition observations; outliers excluded',()=>{
- const p=copy(bundled.prices);p.sales=[sale(1,2000),sale(2,3000)];assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'msrp-rule');p.sales.push(sale(3,4000));assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,30);assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'sold-average');assert.equal(valuationQuote(p,priceScope,id,'Loose',now).kind,'msrp-rule');
+ const p=copy(bundled.prices);p.listings=[];p.sales=[sale(1,2000),sale(2,3000)];assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'msrp-rule');p.sales.push(sale(3,4000));assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,30);assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'sold-average');assert.equal(valuationQuote(p,priceScope,id,'Loose',now).kind,'msrp-rule');
  p.sales.push({...sale(4,90000),soldAt:'2025-01-01'});assert.equal(marketQuote(p,id,'Boxed',now).sampleCount,3);
  p.sales=[sale(1,3000),sale(2,3000),sale(3,3000),sale(4,3000),sale(5,90000)];const q=marketQuote(p,id,'Boxed',now);assert.equal(q.amount,30);assert.equal(q.excludedCount,1);assert.equal(q.sampleCount,4);
 });
@@ -44,7 +44,7 @@ test('linked valuation updates totals, sort and copies without rewriting purchas
  const manual=cleanItem({...x,id:'manual',valuationMode:'manual'});assert.equal(unitValue(manual),17);const legacy=cleanItem({...x,valuationMode:undefined});assert.equal(unitValue(legacy),17);assert.equal(totals([{...x,status:'wish'}]).value,0);assert.equal(filterItems([manual,x],{sort:'value'})[0].id,x.id);
  const foreign=cleanItem({...x,catalogReleaseId:'hw-fake'});assert.equal(foreign.valuationMode,'manual');assert.equal(prepareGarageItem({...x,quantity:3},{existing:x}).valuationMode,'market');
 });
-test('price badges identify formula estimates, keep evidence hidden initially and omit other brands',()=>{const html=priceBadges(id);assert.match(html,/MSRP growth basis/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/1.10/);assert.equal(priceBadges('hw-fake'),'')});
+test('price badges identify formula estimates, keep evidence hidden initially and omit other brands',()=>{const fallbackId=Object.keys(baseMsrp).find(rid=>!bundled.prices.listings.some(x=>x.releaseId===rid));const html=priceBadges(fallbackId);assert.match(html,/MSRP growth basis/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[fallbackId].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/1.10/);assert.equal(priceBadges('hw-fake'),'')});
 test('sync validates before activation, preserves prior snapshot on failure and never transmits collection data',async()=>{
  const before=priceSnapshot();let request;
  const candidate=copy(before);candidate.asOf=new Date(Date.parse(before.asOf)+1000).toISOString();candidate.msrp[id].amount+=100;
@@ -72,11 +72,29 @@ test('common listing logic applies to every priced model; sold evidence wins and
  }
 });
 test('reviewed Porsche sample uses common logic and runtime values drive portfolio without supplier references in UI',()=>{
- const rid='tm-3f6d42ecd4b01b8d8440',seed=JSON.parse(readFileSync('catalog/input/price-listings.json')),q=valuationQuote({...bundled.prices,listings:seed.observations},priceScope,rid,'Boxed',Date.parse(seed.asOf));assert.equal(q.kind,'listing-average');assert.equal(q.sampleCount,3);assert.equal(q.amount,Math.round(seed.observations.reduce((n,x)=>n+x.amountCents,0)/3)/100);
+ const rid='tm-3f6d42ecd4b01b8d8440',seed=JSON.parse(readFileSync('catalog/input/price-listings.json'));seed.observations=seed.observations.filter(x=>x.releaseId===rid);const q=valuationQuote({...bundled.prices,listings:seed.observations},priceScope,rid,'Boxed',Date.parse(seed.asOf));assert.equal(q.kind,'listing-average');assert.equal(q.sampleCount,3);assert.equal(q.amount,Math.round(seed.observations.reduce((n,x)=>n+x.amountCents,0)/3)/100);
  const html=priceBadges(rid);assert.match(html,/actual selling prices can vary/);assert.match(html,/Market Price <strong>/);assert.doesNotMatch(html,/<small>|TomiKing pricing|Japan MSRP|USD conversion/);assert.doesNotMatch(html,/Est\. market|MSRP-based estimate|<a\b|ebay|mercari|sellerId|Rate source|Manufacturer price source/i);assert.doesNotMatch(html,/¥|JPY/);
  const item=cleanItem({name:'Yellow Porsche',catalogReleaseId:rid,condition:'Boxed',quantity:2,paid:20,value:40,valuationMode:'market'});assert.equal(totals([item]).value,quote(rid,'Boxed').amount*2);assert.equal(item.paid,20);assert.equal(item.value,40);
 });
 test('listing validator rejects mismatched variants, hostile sources, duplicate observations and ambiguous lots',()=>{
  const original=bundled.prices.listings[0];for(const patch of[{sourceUrl:'https://www.ebay.com.evil.test/itm/127990132249'},{releaseId:'hw-fake'},{productCode:'LV-86a'},{currency:'JPY'},{lotSize:2},{verified:false},{sellerId:''},{active:'true'}]){const p=copy(bundled.prices);p.listings=[{...original,...patch}];assert.throws(()=>validatePrices(p,priceScope,now))}
  const p=copy(bundled.prices);p.listings=[original,original];assert.throws(()=>validatePrices(p,priceScope,now));
+});
+
+test('ended checks do not rejuvenate stale asking prices or override newer seller prices',()=>{
+ const rid='tm-3f6d42ecd4b01b8d8440',seed=JSON.parse(readFileSync('catalog/input/price-listings.json')).observations.filter(x=>x.releaseId===rid),p=copy(bundled.prices);
+ p.listings=seed.map(x=>({...x,active:false,observedAt:new Date(now-86400000).toISOString(),priceObservedAt:new Date(now-181*86400000).toISOString()}));
+ assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'msrp-rule');
+ p.listings=p.listings.map(x=>({...x,priceObservedAt:new Date(now-31*86400000).toISOString()}));assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'historical-listing-average');
+ assert.throws(()=>validatePrices({...p,listings:[{...p.listings[0],priceObservedAt:new Date(now+86400000).toISOString()}]},priceScope,now));
+});
+
+test('catalog price stays on the boxed reference even if loose copies have supported sales',async()=>{
+ const before=priceSnapshot(),p=copy(before),rid='tm-3f6d42ecd4b01b8d8440';
+ p.sales=[1,2,3].map(n=>({...sale(100+n,100000,'Loose'),releaseId:rid,productCode:priceScope[rid].productCode}));
+ const activate=prices=>syncPrices({fetcher:async()=>({ok:true,headers:{get:()=>null},text:async()=>JSON.stringify(prices)}),storage:{setItem(){}}});
+ try{await activate(p);assert.equal(quote(rid,'Loose').amount,1000);assert.match(catalogMarketPrice(rid),/\$140\.00/);assert.match(priceBadges(rid),/Market Price <strong>\$140\.00/)}finally{await activate(before)}
+ const seed=JSON.parse(readFileSync('catalog/input/price-listings.json'));
+ const ids=[...new Set(seed.observations.map(x=>x.releaseId))];assert.equal(ids.length,6);
+ for(const rid of ids){const q=valuationQuote(bundled.prices,priceScope,rid,'Boxed',now);assert.equal(q.kind,'listing-average');assert.ok(q.sampleCount>=3);const comparable=seed.observations.filter(x=>x.releaseId===rid);assert.equal(q.amount,Math.round(comparable.reduce((n,x)=>n+x.amountCents,0)/comparable.length)/100)}
 });

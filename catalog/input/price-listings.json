@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "asOf": "2026-10-19T07:55:30+00:00",
+  "asOf": "2026-10-19T09:40:34.062850+00:00",
   "observations": [
     {
       "releaseId": "tm-3f6d42ecd4b01b8d8440",
@@ -40,6 +40,227 @@
       "lotSize": 1,
       "active": true,
       "sellerId": "ebay:wjdgur33"
+    },
+    {
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "sourceUrl": "https://www.ebay.com/itm/227552431581",
+      "condition": "Boxed",
+      "amountCents": 4870,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.820522+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:jpopera"
+    },
+    {
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "sourceUrl": "https://www.ebay.com/itm/206613307316",
+      "condition": "Boxed",
+      "amountCents": 3507,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.833897+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:marshmallowsoda"
+    },
+    {
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "sourceUrl": "https://www.ebay.com/itm/407275516269",
+      "condition": "Boxed",
+      "amountCents": 3999,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.833559+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:lmtfdiecast"
+    },
+    {
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "sourceUrl": "https://www.ebay.com/itm/298690187581",
+      "condition": "Boxed",
+      "amountCents": 3128,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.848844+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:lushnine"
+    },
+    {
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "sourceUrl": "https://www.ebay.com/itm/327353289482",
+      "condition": "Boxed",
+      "amountCents": 2780,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.849024+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:toysisland"
+    },
+    {
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "sourceUrl": "https://www.ebay.com/itm/318932244748",
+      "condition": "Boxed",
+      "amountCents": 5162,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:33.898922+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:ichibanshop"
+    },
+    {
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "sourceUrl": "https://www.ebay.com/itm/227427562794",
+      "condition": "Boxed",
+      "amountCents": 2899,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.862453+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:toysisland"
+    },
+    {
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "sourceUrl": "https://www.ebay.com/itm/198653838948",
+      "condition": "Boxed",
+      "amountCents": 6299,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.867662+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:amylls.517378"
+    },
+    {
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "sourceUrl": "https://www.ebay.com/itm/407071133382",
+      "condition": "Boxed",
+      "amountCents": 6807,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.880083+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:modelcar2025"
+    },
+    {
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "sourceUrl": "https://www.ebay.com/itm/206409371976",
+      "condition": "Boxed",
+      "amountCents": 2421,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.880950+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:virtualmachines"
+    },
+    {
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "sourceUrl": "https://www.ebay.com/itm/205813755852",
+      "condition": "Boxed",
+      "amountCents": 4339,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:22:48.854505+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:tentjpknd"
+    },
+    {
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "sourceUrl": "https://www.ebay.com/itm/188332749760",
+      "condition": "Boxed",
+      "amountCents": 5650,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:30.980124+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:aldiumjpn"
+    },
+    {
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "sourceUrl": "https://www.ebay.com/itm/820009054689",
+      "condition": "Boxed",
+      "amountCents": 7227,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:34.062850+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:kamejapan"
+    },
+    {
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "sourceUrl": "https://www.ebay.com/itm/407071133374",
+      "condition": "Boxed",
+      "amountCents": 6807,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:25.422629+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:modelcar2025"
+    },
+    {
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "sourceUrl": "https://www.ebay.com/itm/206613307561",
+      "condition": "Boxed",
+      "amountCents": 3382,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:25.717915+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:marshmallowsoda"
+    },
+    {
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "sourceUrl": "https://www.ebay.com/itm/318929539667",
+      "condition": "Boxed",
+      "amountCents": 4661,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:25.453669+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:ichibanshop"
+    },
+    {
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "sourceUrl": "https://www.ebay.com/itm/287600214025",
+      "condition": "Boxed",
+      "amountCents": 3999,
+      "currency": "USD",
+      "observedAt": "2026-10-19T09:40:28.153401+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:310_garage"
     }
   ],
   "watches": [
@@ -72,6 +293,176 @@
       "releaseId": "tm-3f6d42ecd4b01b8d8440",
       "productCode": "LV-86b",
       "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/227552431581",
+      "title": "LV-110c Porsche 911 Tomica Limited Vintage 1/64 Light Blue 65 Model Year 318989",
+      "sellerId": "ebay:jpopera",
+      "sellerProfile": "https://www.ebay.com/str/jpopera",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206613307316",
+      "title": "TOMYTEC 318989 Tomica Limited Vintage 1/64 LV-110c Porsche 911 Light Blue",
+      "sellerId": "ebay:marshmallowsoda",
+      "sellerProfile": "https://www.ebay.com/str/marshmallowsoda",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407275516269",
+      "title": "Tomica Limited Vintage 1:64 Porsche 911 (Light Blue) '65 LV-110c",
+      "sellerId": "ebay:lmtfdiecast",
+      "sellerProfile": "https://www.ebay.com/str/lmtfdiecast",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-d696da3c000234ef117f",
+      "productCode": "LV-110c",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/298690187581",
+      "title": "TOMICA LIMITED VINTAGE 1/64 LV-86h Porsche 911S Red '67",
+      "sellerId": "ebay:lushnine",
+      "sellerProfile": "https://www.ebay.com/str/lushnine",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/327353289482",
+      "title": "Tomica Limited Vintage LV-86h Porsche 911S ( Red ) 1967 1/64 TOMYTEC New",
+      "sellerId": "ebay:toysisland",
+      "sellerProfile": "https://www.ebay.com/str/toysisland",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/318932244748",
+      "title": "TOMYTEC Tomica Limited Vintage 1/64 LV-86h Porsche 911S Red 1967 Finished Model",
+      "sellerId": "ebay:ichibanshop",
+      "sellerProfile": "https://www.ebay.com/str/ichibanshop",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-21ef2b5cf6f0737b8a91",
+      "productCode": "LV-86h",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/227427562794",
+      "title": "Tomica Limited Vintage LV-N305e NISSAN SKYLINE GT-R R33 Nismo 400R 1/64 Tomytec",
+      "sellerId": "ebay:toysisland",
+      "sellerProfile": "https://www.ebay.com/str/toysisland",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/198653838948",
+      "title": "Tomica Limited Vintage NEO LV-N305e Nissan NISMO 400R Purple 1/64 Diecast NEW",
+      "sellerId": "ebay:amylls.517378",
+      "sellerProfile": "https://www.ebay.com/sch/amylls.517378/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407071133382",
+      "title": "Tomica LV-N 1:64 NISMO 400R Purple LV-N305e",
+      "sellerId": "ebay:modelcar2025",
+      "sellerProfile": "https://www.ebay.com/str/modelcar2025",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206409371976",
+      "title": "Tomytec Tomica Limited Vintage Nissan NISMO 400R Purple LV-N305e",
+      "sellerId": "ebay:virtualmachines",
+      "sellerProfile": "https://www.ebay.com/str/virtualmachines",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-42ea089ca5b11344c9b7",
+      "productCode": "LV-N305e",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/205813755852",
+      "title": "Tomica Limited Vintage Neo LV-N54d Nissan Skyline Van 1600 Deluxe",
+      "sellerId": "ebay:tentjpknd",
+      "sellerProfile": "https://www.ebay.com/str/tentjpknd",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/188332749760",
+      "title": "Tomytec Tomica LV Neo LV-N54d Nissan Skyline Van 1600 Deluxe Service 1972 334408",
+      "sellerId": "ebay:aldiumjpn",
+      "sellerProfile": "https://www.ebay.com/str/aldiumjpn",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/820009054689",
+      "title": "TOMYTEC Tomica Limited Vintage Neo LV-N54d Skyline Van 1600 Deluxe Service",
+      "sellerId": "ebay:kamejapan",
+      "sellerProfile": "https://www.ebay.com/str/kamejapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6d80cbb02386b3473f69",
+      "productCode": "LV-N54d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407071133374",
+      "title": "Tomica LV-N 1:64 NISMO 400R White LV-N305d",
+      "sellerId": "ebay:modelcar2025",
+      "sellerProfile": "https://www.ebay.com/str/modelcar2025",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206613307561",
+      "title": "TOMYTEC 339298 Tomica Limited Vintage Neo 1/64 LV-N305d NISMO 400R White",
+      "sellerId": "ebay:marshmallowsoda",
+      "sellerProfile": "https://www.ebay.com/str/marshmallowsoda",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/318929539667",
+      "title": "TOMYTEC Tomica Limited Vintage Neo 1/64 LV-N305d NISMO 400R White Finished Model",
+      "sellerId": "ebay:ichibanshop",
+      "sellerProfile": "https://www.ebay.com/str/ichibanshop",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287600214025",
+      "title": "TOMYTEC tomica TLV NEO LV-N305d NISMO 400R White R33 Skyline GT-R 1/64 New",
+      "sellerId": "ebay:310_garage",
+      "sellerProfile": "https://www.ebay.com/sch/310_garage/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-9eb146e16db2a1b6101f",
+      "productCode": "LV-N305d",
+      "condition": "Boxed"
     }
   ],
   "evidence": [
@@ -92,7 +483,365 @@
       "sha256": "f3d35442308335319a12ff400cb3a05171bc1de3df5b5521f599918eddfc59a7",
       "observedAt": "2026-10-19T07:55:30+00:00",
       "review": "Exact LV-86b yellow Porsche previously reviewed against photographs and printed box code. One boxed car; opened/unopened share the boxed asking group. Visible USD item ask matches structured offer and pinned title/seller/condition. Best Offers are asks, not confirmed sales. Shipping and tax not added."
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/227552431581",
+      "sha256": "ecff8a33a05f7042d4030fd1f91f2347b53586a7b276ee7341b9825dfe655ca5",
+      "observedAt": "2026-10-19T09:22:48.820522+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Ny8AAeSw815q1Z6O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Porsche 911 Tomica Limited model with black-tinted windows, silver interior, and yellow-spotted front bumper."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/QEsAAeSwTrJq1Z6O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Porsche 911 Tomica Limited model with black-tinted windows, silver wheels, and “LV-110c” text on front."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206613307316",
+      "sha256": "1b1038d5df4ded84af3d3336524cf1b262262d165caa6467d9e1fca7bc93657a",
+      "observedAt": "2026-10-19T09:22:48.833897+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/JcIAAeSw6rdqyIn6/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DRIAAeSwNGJqyIn6/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407275516269",
+      "sha256": "c575001bef2ef08dce4ee59f9a1977b1c5330a7ebdd60251c14c886ff016b732",
+      "observedAt": "2026-10-19T09:22:48.833559+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/czsAAeSw47BqyBjh/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Tomica Limited Vintage 1:64 Porsche 911 with black-tinted windows, shown with orange LV-110c box."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fH0AAeSwVI1qyBjh/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Tomica Limited 1:64 Porsche 911 with silver interior, black wheels, and subtle “LV-110c” text on side."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/298690187581",
+      "sha256": "9d61355641a9628d0fd9d2f40c863c81fce4403753c1bb8078f31fd0b57a990f",
+      "observedAt": "2026-10-19T09:22:48.848844+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/HqMAAeSwXFlqrthe/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage TOMICA Limited Vintages 1/64 LV-86h Porsche 911S with black-tinted windows, silver wheels, and yellow-black interior."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fGcAAeSwfBJqrthe/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage TOMICA Limited 1/64 LV-86h Porsche 911S with black-tinted windows, silver wheels, and detailed front grille."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/327353289482",
+      "sha256": "47a2c4da18ebd516964cd7553eb44be2348eb1f2fde1c99fce8a86acbf7b28d2",
+      "observedAt": "2026-10-19T09:22:48.849024+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/VvMAAeSwxfNqpAKW/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Tomica Limited Vintage LV-86h Porsche 911S toy with silver wheels, in black box with blue text and phone graphic."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/VN0AAeSw4Z1qpAKX/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage Porsche 911S toy in black box with yellow text, “LV-86h” and “1/64” on TOMYTEC Limited Vintage packaging."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/318932244748",
+      "sha256": "203647294e2f961bf9d53bd6f391bc4cf09656ee78379e19d38a6efd08343c85",
+      "observedAt": "2026-10-19T09:40:33.898922+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/KzwAAeSwhlNqunLV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/I3QAAeSwZmVqunLV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/227427562794",
+      "sha256": "bd7d93fcb4c02bd64d256a239f8485b5174e233e4a2717984648636c8cba6078",
+      "observedAt": "2026-10-19T09:22:48.862453+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kWoAAeSwycZqUx3g/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan Skyline GT-R R33 Tomica Limited Vintage LV-N305e box with white sports car illustration and gray “400R” text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/KQYAAeSw6PpqUx3g/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan Skyline GT-R R33 Tomica Limited Vintage LV-N305e with silver top, rear spoiler, and visible “400R” text."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/198653838948",
+      "sha256": "64b0187ca3dd2018fc98dd49fed3a8a518be9fe1817b7494842f3530b9fc8348",
+      "observedAt": "2026-10-19T09:22:48.867662+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Zh0AAeSwPD5qrx0C/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan NISMO 400R Tomica Limited NEO NEW 1:64 with silver wheels, purple paint, and visible “LV-N305e” text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/jQsAAeSwPKNqrx0w/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black LV-N305e TOMYTEC 1:64 Nissan NISMO 400R in metallic purple with rear spoiler and silver wheels."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407071133382",
+      "sha256": "92478c29e3a10117e4d420f2b95832cedc2ff3e80a763d2cb26ef25a05286e77",
+      "observedAt": "2026-10-19T09:22:48.880083+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tT4AAeSwkN9qVa9l/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomica LV-N 1:64 NISMO 400R Purple with white stripes, silver wheels, and rear spoiler on black background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/f5gAAeSwUr5qVa9o/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomica LV-N 1:64 NISMO 400R Purple with rear spoiler, silver wheels, and visible white “400R” text on car."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206409371976",
+      "sha256": "8122f8b07dbe3659a33b84dedce87de6dc875290506a484124b2727f6e453193",
+      "observedAt": "2026-10-19T09:22:48.880950+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/cYgAAeSwc5lqUmME/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomytec Nissan NISMO 400R in purple LV-N305e, with silver wheels, on blue LV-N305e box."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/205813755852",
+      "sha256": "8ed00ad9ec372ac2e54a1e4eed7ac560c2b3ec55244ece888162ff22ade6b9d8",
+      "observedAt": "2026-10-19T09:22:48.854505+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zCsAAeSwI5tq1PiD/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red, white, and blue vintage Nissan Skyline Van 1600 Deluxe with police stripes and blue oval logo on hood."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/seYAAeSwR4Bq1PiD/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Nissan Skyline Van 1600 Deluxe with red, blue, and white panels, Japanese text, and blue star on rear lid."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/188332749760",
+      "sha256": "9f3ca188d8a127fa77de1c3f2bd27d4f75481eeaeb6509f040b135cbe6037f02",
+      "observedAt": "2026-10-19T09:40:30.980124+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/z7gAAeSw7Upq1a3A/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/d1wAAeSwMyZq1a3A/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/820009054689",
+      "sha256": "f2e976f05b66688bb30624dd67753c9ea61adf671f0c7d3ad382d721f7359f82",
+      "observedAt": "2026-10-19T09:40:34.062850+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/70wAAeSwtixqgLdO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/9fMAAeSwRQxqgLdO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407071133374",
+      "sha256": "f8d23e7aefefa8fc8e023e64d16ddf4453e7f66e1a84f70ca27a89433f511530",
+      "observedAt": "2026-10-19T09:40:25.422629+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ghgAAeSwjYdqVa-k/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica LV-N 1:64 NISMO 400R with rear spoiler, silver wheels, and visible white Nissan logo on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zT4AAeSweflqVa-m/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica LV-N 1:64 NISMO 400R with rear spoiler, silver wheels, and visible “NISMO” branding on rear window."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/206613307561",
+      "sha256": "2cd98beb9cb0bdc176e636bc1e4c64b4afcb745634da113a3453488e17e5e873",
+      "observedAt": "2026-10-19T09:40:25.717915+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zn8AAeSw3FRqyInA/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC 339298 Neo 1/64 LV-N305d NISMO 400R with rear spoiler, silver trim, and black-tinted windows."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/3-sAAeSwrbhqyInA/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/318929539667",
+      "sha256": "4944f87366cb7f073919d7a2c0189dea6838ce38b576fea2efa4582805638b6f",
+      "observedAt": "2026-10-19T09:40:25.453669+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UswAAeSw8uNqunLY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC Neo 1/64 LV-N305d NISMO 400R model with rear spoiler, silver wheels, and visible “NISMO” text on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UO8AAeSwZPtqunLY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC Neo 1/64 LV-N305d NISMO 400R model with rear spoiler and silver wheels on a dark background."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287600214025",
+      "sha256": "cf54f01746fa51e36355a29506e15089581bf208bb46e119d27ca129b4bc37ae",
+      "observedAt": "2026-10-19T09:40:28.153401+00:00",
+      "review": "Exact full variant code, named color/livery and single-car packaging reviewed against canonical reference and source product photos. Actual item seller pinned from seller card; visible USD item price equals structured offer. New boxed single model. Shipping, tax, checkout total, discounts requiring quantity >1 and crossed-out prices excluded. Availability is current InStock and a fixed-price purchase option is present. Asking evidence only; no sold-count multiplication.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/t-4AAeSw7C5qnx~B/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC box with blue NISMO 400R text, black skyline GT-R illustration, and orange “Limited Vintage” label."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/D6cAAeSwt0xqnx-F/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC box with blue text, “Limited Vintage NEO,” showing side profile of NISMO 400R and R33 Skyline GT-R."
+        }
+      ]
     }
   ],
-  "policy": "Shared sold → current listing → historical listing → MSRP growth hierarchy. Three independent sellers minimum. Latest per listing/seller, 1.5-IQR outliers at 5+, current asks 30 days, history 180 days. Boxed/unopened asks grouped; loose separate. New listing identities need review."
+  "policy": "Item-price-only rolling averages. Exact variant; latest dated ask per listing and one comparable per seller. Shipping/tax/checkout totals excluded. Verified sales first, current asks (30 days) then historical asks (180 days), minimum three independent sellers; reviewed MSRP +10%/year fallback retained by owner on 2026-10-19. 1.5-IQR screening at 5+ observations."
 }

@@ -1,0 +1,1148 @@
+{
+  "schema": 1,
+  "policy": "Research candidates never become price evidence without exact-variant/condition/seller/visible-price review. Item prices only; shipping/tax/checkout totals excluded.",
+  "pagesReviewed": 43,
+  "included": 20,
+  "candidates": [
+    {
+      "url": "https://www.ebay.com/itm/127990132249",
+      "title": "Tomytec Tomica Limited Vintage LV-86b Porsche 911S 1968 1/64 Diecast Car Yellow",
+      "price": "155.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.801985+00:00",
+      "sha256": "20a34a6527f88a62689b32f6620cdff9ef7c140c8fa9fea053ae72111fe71635",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/rBcAAeSwt25qWO-m/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomytec LV-86b Porsche 911S 1968 1/64 diecast car in black display box with limited vintage logo and text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ZWUAAeSwmaVqWO-n/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomytec LV-86b Porsche 911S diecast car in clear display case with black wheels, silver interior, and blue text."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/176044264707",
+      "title": "Tomytec Tomica Limited Vintage Porsche 911 50Th Anniversary World Tour Lv-110B",
+      "price": "180.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.888482+00:00",
+      "sha256": "c444ea867692193954b041c75d767f6b30e2f57df07b965b2539320b7376f525",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DM0AAOSwhFNlSB7l/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/~scAAOSwQAZlSB7l/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/188332749760",
+      "title": "Tomytec Tomica LV Neo LV-N54d Nissan Skyline Van 1600 Deluxe Service 1972 334408",
+      "price": "56.5",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:30.980124+00:00",
+      "sha256": "9f3ca188d8a127fa77de1c3f2bd27d4f75481eeaeb6509f040b135cbe6037f02",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/z7gAAeSw7Upq1a3A/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/d1wAAeSwMyZq1a3A/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/189043626295",
+      "title": "Tomytec Lv-N106D Toyota Supra 3.0Gt Turbo 86 Beige/Brown",
+      "price": "81.95",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:34.117894+00:00",
+      "sha256": "8a5dda4ad2ba7dec104e2df7900a1f3832374687364ada01190016d644e0f68d",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/7NMAAeSwn6dqwqUa/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/-IoAAeSw7PpqwqUa/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/198653838948",
+      "title": "Tomica Limited Vintage NEO LV-N305e Nissan NISMO 400R Purple 1/64 Diecast NEW",
+      "price": "62.99",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.867662+00:00",
+      "sha256": "64b0187ca3dd2018fc98dd49fed3a8a518be9fe1817b7494842f3530b9fc8348",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Zh0AAeSwPD5qrx0C/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan NISMO 400R Tomica Limited NEO NEW 1:64 with silver wheels, purple paint, and visible “LV-N305e” text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/jQsAAeSwPKNqrx0w/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black LV-N305e TOMYTEC 1:64 Nissan NISMO 400R in metallic purple with rear spoiler and silver wheels."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/205813755852",
+      "title": "Tomica Limited Vintage Neo LV-N54d Nissan Skyline Van 1600 Deluxe",
+      "price": "43.39",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.854505+00:00",
+      "sha256": "8ed00ad9ec372ac2e54a1e4eed7ac560c2b3ec55244ece888162ff22ade6b9d8",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zCsAAeSwI5tq1PiD/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red, white, and blue vintage Nissan Skyline Van 1600 Deluxe with police stripes and blue oval logo on hood."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/seYAAeSwR4Bq1PiD/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Nissan Skyline Van 1600 Deluxe with red, blue, and white panels, Japanese text, and blue star on rear lid."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/206409371976",
+      "title": "Tomytec Tomica Limited Vintage Nissan NISMO 400R Purple LV-N305e",
+      "price": "24.21",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.880950+00:00",
+      "sha256": "8122f8b07dbe3659a33b84dedce87de6dc875290506a484124b2727f6e453193",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/cYgAAeSwc5lqUmME/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomytec Nissan NISMO 400R in purple LV-N305e, with silver wheels, on blue LV-N305e box."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/206613307316",
+      "title": "TOMYTEC 318989 Tomica Limited Vintage 1/64 LV-110c Porsche 911 Light Blue",
+      "price": "35.07",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.833897+00:00",
+      "sha256": "1b1038d5df4ded84af3d3336524cf1b262262d165caa6467d9e1fca7bc93657a",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/JcIAAeSw6rdqyIn6/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DRIAAeSwNGJqyIn6/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/206613307561",
+      "title": "TOMYTEC 339298 Tomica Limited Vintage Neo 1/64 LV-N305d NISMO 400R White",
+      "price": "33.82",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:25.717915+00:00",
+      "sha256": "2cd98beb9cb0bdc176e636bc1e4c64b4afcb745634da113a3453488e17e5e873",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zn8AAeSw3FRqyInA/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC 339298 Neo 1/64 LV-N305d NISMO 400R with rear spoiler, silver trim, and black-tinted windows."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/3-sAAeSwrbhqyInA/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/226939235768",
+      "title": "Tomica Limited Vintage NEO LV-N106d TOYOTA SUPRA 3.0 GT 86&#039; 1/64 TOMYTEC TOMY",
+      "price": "53.8",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:51.981304+00:00",
+      "sha256": "bf1dfbc830d4c98d53388e9620d4cc801fb44277a2c716eed02fa1aca278ad56",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/5GAAAOSweRFm5lfO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/86EAAOSwGLFm5lfO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/227427562794",
+      "title": "Tomica Limited Vintage LV-N305e NISSAN SKYLINE GT-R R33 Nismo 400R 1/64 Tomytec",
+      "price": "28.99",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.862453+00:00",
+      "sha256": "bd7d93fcb4c02bd64d256a239f8485b5174e233e4a2717984648636c8cba6078",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kWoAAeSwycZqUx3g/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan Skyline GT-R R33 Tomica Limited Vintage LV-N305e box with white sports car illustration and gray “400R” text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/KQYAAeSw6PpqUx3g/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Nissan Skyline GT-R R33 Tomica Limited Vintage LV-N305e with silver top, rear spoiler, and visible “400R” text."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/227552431581",
+      "title": "LV-110c Porsche 911 Tomica Limited Vintage 1/64 Light Blue 65 Model Year 318989",
+      "price": "48.7",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.820522+00:00",
+      "sha256": "ecff8a33a05f7042d4030fd1f91f2347b53586a7b276ee7341b9825dfe655ca5",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Ny8AAeSw815q1Z6O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Porsche 911 Tomica Limited model with black-tinted windows, silver interior, and yellow-spotted front bumper."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/QEsAAeSwTrJq1Z6O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Porsche 911 Tomica Limited model with black-tinted windows, silver wheels, and “LV-110c” text on front."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/277237581402",
+      "title": "1:64 Tomica Limited Vintage LV-93a Porsche 912 1965 model car",
+      "price": "91.8",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.896223+00:00",
+      "sha256": "45c1012671c210e9088b875d027802bef773901cb4db8524449a913aa95e9664",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zI4AAeSwp8JoXtAO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red 1:64 scale Tomica Limited Vintage LV-93a Porsche 912 model car with black-tinted windows and silver interior on gray background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/9doAAeSw70FoXtAO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red 1:64 Tomica Limited Vintage LV-93a Porsche 912 model car with black-tinted windows and silver-tone wheels on a neutral background."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/278324318287",
+      "title": "(SQ2629) Tomica Vintage Neo LV-N305e NISMO 400R Tomica",
+      "price": "193.72",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.863467+00:00",
+      "sha256": "db34a6be91d7dea7766ab5e1d8ab7fee7edf0bb0e9931f4db36fe88694c730f4",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1MIAAeSw9Idqk29L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/M94AAeSw0Hxqk29L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/278441386686",
+      "title": "Tomica Vintage LV-86h Porsche 911S (Red) 1967 Model, and Unused",
+      "price": "137.61",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:30.887775+00:00",
+      "sha256": "08db49e257a6686d88573f3f2e3fdc6e9245908e6ae0b6f66c5808456d82e547",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/FJwAAeSwDhRqutfo/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/JSMAAeSwswNqutfp/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/287600214025",
+      "title": "TOMYTEC tomica TLV NEO LV-N305d NISMO 400R White R33 Skyline GT-R 1/64 New",
+      "price": "39.99",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:28.153401+00:00",
+      "sha256": "cf54f01746fa51e36355a29506e15089581bf208bb46e119d27ca129b4bc37ae",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/t-4AAeSw7C5qnx~B/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC box with blue NISMO 400R text, black skyline GT-R illustration, and orange “Limited Vintage” label."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/D6cAAeSwt0xqnx-F/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC box with blue text, “Limited Vintage NEO,” showing side profile of NISMO 400R and R33 Skyline GT-R."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/298690187581",
+      "title": "TOMICA LIMITED VINTAGE 1/64 LV-86h Porsche 911S Red &#039;67",
+      "price": "31.28",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.848844+00:00",
+      "sha256": "9d61355641a9628d0fd9d2f40c863c81fce4403753c1bb8078f31fd0b57a990f",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/HqMAAeSwXFlqrthe/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage TOMICA Limited Vintages 1/64 LV-86h Porsche 911S with black-tinted windows, silver wheels, and yellow-black interior."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fGcAAeSwfBJqrthe/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage TOMICA Limited 1/64 LV-86h Porsche 911S with black-tinted windows, silver wheels, and detailed front grille."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/307187297688",
+      "title": "Tomica Limited Vintage LV-93a Porsche 912 1965",
+      "price": "222.09",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.891132+00:00",
+      "sha256": "e93bc19dcb37a3619f42b4e01029fae151a6b93dc7ee764a6409bfb6c6bb61ec",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fEcAAeSwiiJqroKv/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage LV-93a Porsche 912 1965 box with red classic Porsche 912 on black background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/nA4AAeSwsntqroKw/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited box with black text, warning text, and LV-93a Porsche 912 details on front."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/307187297957",
+      "title": "[Used] Tomica 1/64 LV-93a Porsche 912 1965 (Red) &#034;Tomica Limited Vintage&#034;",
+      "price": "222.09",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.901019+00:00",
+      "sha256": "76b884951272745eee1b72d60db8af536c585217b611721d882700a367639f3a",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/3LEAAeSwM-NqroKt/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Tomica 1/64 LV-93a Porsche 912 toy in box with black-and-white car illustration and orange “Limited Vintage” text."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/318929539667",
+      "title": "TOMYTEC Tomica Limited Vintage Neo 1/64 LV-N305d NISMO 400R White Finished Model",
+      "price": "46.61",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:25.453669+00:00",
+      "sha256": "4944f87366cb7f073919d7a2c0189dea6838ce38b576fea2efa4582805638b6f",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UswAAeSw8uNqunLY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC Neo 1/64 LV-N305d NISMO 400R model with rear spoiler, silver wheels, and visible “NISMO” text on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UO8AAeSwZPtqunLY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC Neo 1/64 LV-N305d NISMO 400R model with rear spoiler and silver wheels on a dark background."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/318932244748",
+      "title": "TOMYTEC Tomica Limited Vintage 1/64 LV-86h Porsche 911S Red 1967 Finished Model",
+      "price": "51.62",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:33.898922+00:00",
+      "sha256": "203647294e2f961bf9d53bd6f391bc4cf09656ee78379e19d38a6efd08343c85",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/KzwAAeSwhlNqunLV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/I3QAAeSwZmVqunLV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/318933205781",
+      "title": "TOMYTEC 1967 LV-86 Tomica Vintage Porsche 911S",
+      "price": "256.56",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:31.099153+00:00",
+      "sha256": "56204207fe1e54080b29b93c1475da2438b79bdf769ee09ed5483acbe98c2a52",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/7x4AAeSwKrJqu5q-/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Silver 1967 TOMYTEC LV-86 Porsche 911S die-cast car with black-tinted windows, shown with branded box and product text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/9h0AAeSw5Alqu5q-/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Silver 1967 TOMYTEC LV-86 Porsche 911S model with black interior, front license plate, and painted-on details."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/326725087881",
+      "title": "Tomica Limited Vintage NEO LV-N Ferrari F512 M yellow 1/64 TOMYTEC NEW LV F 512",
+      "price": "89.8",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:51.983955+00:00",
+      "sha256": "6c8b76077b03103e475e47f0dead8d877a266864d2721c900e489ceb26d7a9ed",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1yMAAeSw4tZosaCm/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1ssAAeSw~D1osaCr/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/327353289482",
+      "title": "Tomica Limited Vintage LV-86h Porsche 911S ( Red ) 1967 1/64 TOMYTEC New",
+      "price": "27.8",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.849024+00:00",
+      "sha256": "47a2c4da18ebd516964cd7553eb44be2348eb1f2fde1c99fce8a86acbf7b28d2",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/VvMAAeSwxfNqpAKW/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Tomica Limited Vintage LV-86h Porsche 911S toy with silver wheels, in black box with blue text and phone graphic."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/VN0AAeSw4Z1qpAKX/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red vintage Porsche 911S toy in black box with yellow text, “LV-86h” and “1/64” on TOMYTEC Limited Vintage packaging."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/366275518532",
+      "title": "1/64 Tomica Limited Vintage LV-86b Porsche 911S 1968 Yellow",
+      "price": "170.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.809629+00:00",
+      "sha256": "04602f16ba562e89f472284856901b230f6d9409f4543e27dfe0d5631af910d8",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/pXgAAeSwCxZptiz9/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow 1/64 Tomica Limited Vintage LV-86b Porsche 911S in black box with red text and Porsche logo on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/pCIAAeSwSltptizZ/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow 1/64 Tomica Limited Vintage LV-86b Porsche 911S toy car with black-tinted windows and visible Porsche logo on hood."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/366601302016",
+      "title": "Tomytec 1/64 LV-N305d NISMO 400R (White)",
+      "price": "87.26",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:28.330274+00:00",
+      "sha256": "3c91fea973763edb347975cbed12c88b41cccbdca9698f4232feff76af1e907a",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/6zsAAeSwcShqfJms/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/rXsAAeSwXyBqfJms/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/366680872855",
+      "title": "Porsche 911S (Red) 1967 LV-86h [Tomica Vintage 1/64 Die-cast Car] [Tomica Time]",
+      "price": "96.79",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.853476+00:00",
+      "sha256": "d6ad9260c6bfe338aecea68240abea3e938317e7f075ddf357e19fa53583aea1",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/~3cAAeSw4jxqsAOy/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Porsche 911S die-cast car with black-tinted windows, in front of Tomica Vintage box labeled “LV-86h” and “S-1/64”."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/23QAAeSwmuBqsAOy/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Porsche 911S die-cast car in black box with yellow-orange Tomica Vintage 1/64 logo and “LV-86h” text."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/366698372848",
+      "title": "TOMYTEC Tomica Vintage TLV-93a Porsche 912 1965 model",
+      "price": "194.3",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:51.978391+00:00",
+      "sha256": "20fa73fa8143949f40cf93d2f8849bcd7f4082ecb86309f327e65f17ddbceb5d",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Y~sAAeSwmE1quw4w/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "TOMYTEC box showing red Porsche 912 with black-tinted windows, silver wheels, and text “LV-93a Porsche 1965年式.”"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/aJAAAeSwLsxquw4w/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMYTEC box with blue text, Porsche 912 model, yellow “MADE IN CHINA” label, and barcode."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/376571506061",
+      "title": "New Tomytec Tomica Limited Vintage Neo LV-N54d Nissan Skyline Van 1600 Deluxe",
+      "price": "34.84",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:30.918470+00:00",
+      "sha256": "ed91f5063925a5ceb6493b2ea5760c845ffd3ac26607f2b1454f4acd86fcb2d2",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/XyUAAeSweTxo0znK/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/406787562391",
+      "title": "Takara Tomy Tomica Limited Vintage 1/64 LV-86a Porsche 911S 1967 Silver",
+      "price": "83.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.884301+00:00",
+      "sha256": "7dca767e1c8525050fd2ab75406967abde52851e438d3aae029b1c9aa6b3704e",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kIIAAeSwmRVq1Yu4/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407071133374",
+      "title": "Tomica LV-N 1:64 NISMO 400R White LV-N305d",
+      "price": "68.07",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:25.422629+00:00",
+      "sha256": "f8d23e7aefefa8fc8e023e64d16ddf4453e7f66e1a84f70ca27a89433f511530",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ghgAAeSwjYdqVa-k/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica LV-N 1:64 NISMO 400R with rear spoiler, silver wheels, and visible white Nissan logo on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/zT4AAeSweflqVa-m/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica LV-N 1:64 NISMO 400R with rear spoiler, silver wheels, and visible “NISMO” branding on rear window."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407071133382",
+      "title": "Tomica LV-N 1:64 NISMO 400R Purple LV-N305e",
+      "price": "68.07",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.880083+00:00",
+      "sha256": "92478c29e3a10117e4d420f2b95832cedc2ff3e80a763d2cb26ef25a05286e77",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tT4AAeSwkN9qVa9l/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomica LV-N 1:64 NISMO 400R Purple with white stripes, silver wheels, and rear spoiler on black background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/f5gAAeSwUr5qVa9o/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomica LV-N 1:64 NISMO 400R Purple with rear spoiler, silver wheels, and visible white “400R” text on car."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407129078483",
+      "title": "Tomica Limited Vintage NEO Tomytec TLV LV-N305e NISMO 400R R33 Purple",
+      "price": "29.9",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.876032+00:00",
+      "sha256": "7a172a40b34409c97a665ee4dfd3cdcb7cf8ce3fa0f2f1bdd750c3a757e23858",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/z2sAAeSwwyJqdv7W/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/nsMAAeSwHiJqdv7X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407139284777",
+      "title": "Tomica Limited Vintage Porsche 911S (1968) Yellow LV-86b Collector&#039;s",
+      "price": "95.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.806280+00:00",
+      "sha256": "ce9146e3eb0f73ed2d1c35ec64202d9734615cfce77243da007661b9c3a28662",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UPgAAeSwMyZq1ZUp/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited Vintage Porsche 911S LV-86b in black display box with silver wheels, Japanese text, and collector’s mark."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/g6UAAeSwtwBq1ZUp/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited box with black text, barcode, “15才以上,” and “Made in China.”"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407160640594",
+      "title": "Tomica Limited Vintage Neo LV-N305d NISMO 400R R33 (White) Collector&#039;s",
+      "price": "24.61",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:28.250396+00:00",
+      "sha256": "4dc5f00873addbe85536b9ed7d4e2b464eede25c5b15528a08b00a9a1335c5cc",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fmAAAeSwuxVqkgPL/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/7S4AAeSwE~FqkgPL/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407224444752",
+      "title": "Tomica Limited Vintage LV-86h Porsche 911S 1967 Red Collector&#039;s",
+      "price": "26.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.837946+00:00",
+      "sha256": "ee04fe0f16b1a09d043da878c7bc5a4463ce8784b4451b8386944cc9398e2969",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/oPUAAeSwOJpq1a1M/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Red Tomica Limited Vintage LV-86h Porsche 911S 1967 in black display box with silver logo and Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/9lgAAeSwF49q1a1M/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica box with red Porsche 911S illustration, Japanese text, and barcode label reading “Made in China.”"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407275516269",
+      "title": "Tomica Limited Vintage 1:64 Porsche 911 (Light Blue) &#039;65 LV-110c",
+      "price": "39.99",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:22:48.833559+00:00",
+      "sha256": "c575001bef2ef08dce4ee59f9a1977b1c5330a7ebdd60251c14c886ff016b732",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/czsAAeSw47BqyBjh/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Tomica Limited Vintage 1:64 Porsche 911 with black-tinted windows, shown with orange LV-110c box."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fH0AAeSwVI1qyBjh/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Light blue Tomica Limited 1:64 Porsche 911 with silver interior, black wheels, and subtle “LV-110c” text on side."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407277731703",
+      "title": "Tomica Vintage LV-110c Porsche 911 1965 Water Blue",
+      "price": "25.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.837616+00:00",
+      "sha256": "7895e8e2143f3149b6deb32971e6ff0308942b286b689fb988b4265aba6db5f3",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-h1246918593/i-img1200x769-17910192636530fqtun218399.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-h1246918593/i-img1200x745-17910192636699w8dy0218399.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407277734632",
+      "title": "Tomica Limited Vintage LV-110c Porsche 911 (1965) Light Blue 1/64",
+      "price": "30.0",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:22:48.814168+00:00",
+      "sha256": "701e027b57a106cc631bbb22a6239cfe0861d0747d9e40c0b73ce806edceb03d",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-n1245267637/i-img900x1200-1789881029775933oaaq44326.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-n1245267637/i-img600x400-17898810976251ereecw321.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407284548098",
+      "title": "Tomica Limited Vintage Neo LV-N305d NISMO 400R R33 Nismo White",
+      "price": "23.0",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:25.341359+00:00",
+      "sha256": "d3506d23d14d776145c1e05f47d9ba5765e613b467fb96e35dee7c92e8606321",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/bC0AAeSwS5hqz-DY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White rectangular Tomica box with blue NISMO 400R text, black panther-like front design, and orange NEO logo on top."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/bWgAAeSwh~Vqz-DY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited vintage Neo LV-N305d NISMO 400R R33 Nismo in black display box with clear plastic window."
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/407285532101",
+      "title": "Tomica Limited Vintage Neo 1/64 LV-N305d NISMO 400R White",
+      "price": "24.19",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:28.210786+00:00",
+      "sha256": "1b05392173b00cca119b4262810602ce566f4a0fae6abef725595ed04e239aa4",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-q1245478165/i-img640x480-17900394480643036tcbbb29.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://coneo.greensun.com.vn/webapi/public/uploads/ebay/YA-q1245478165/i-img640x480-1790039448064553qc6ywx29.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/820009054689",
+      "title": "TOMYTEC Tomica Limited Vintage Neo LV-N54d Skyline Van 1600 Deluxe Service",
+      "price": "72.27",
+      "currency": "USD",
+      "availability": "https://schema.org/InStock",
+      "condition": "https://schema.org/NewCondition",
+      "observedAt": "2026-10-19T09:40:34.062850+00:00",
+      "sha256": "f2e976f05b66688bb30624dd67753c9ea61adf671f0c7d3ad382d721f7359f82",
+      "decision": "Included as asking-price evidence",
+      "review": "Exact reviewed variant, fixed item ask, seller and condition pinned",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/70wAAeSwtixqgLdO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/9fMAAeSwRQxqgLdO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/880001302170",
+      "title": "TOMYTEC LV-N106D Supra 30GT Turbo 86 Beige/Brown Age14+",
+      "price": "145.54",
+      "currency": "USD",
+      "availability": "https://schema.org/OutOfStock",
+      "condition": "https://schema.org/UsedCondition",
+      "observedAt": "2026-10-19T09:40:34.229973+00:00",
+      "sha256": "89b3e564f48d2a0705c63f7df92e3f3fc5677763239b3c17238c061a69bdd9b7",
+      "decision": "Research only; not used in averages",
+      "review": "Not enough confirmed comparable identity/condition or ended/out-of-stock; never inferred to be a sale.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/VTIAAeSwahRqyQDr/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/SA8AAeSwLb5qyQDr/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Beige and brown TOMYTEC LV-N106D Supra 30GT Turbo rear view with black roof, silver wheels, and visible suspension."
+        }
+      ]
+    }
+  ]
+}

@@ -31,38 +31,64 @@ def fetch(url,fields=None):
 from html.parser import HTMLParser
 from decimal import Decimal
 class ListingPage(HTMLParser):
- def __init__(self):super().__init__(convert_charrefs=True);self.capture=None;self.scripts=[];self.text=[];self.price=[];self.stack=[];self.price_level=None
+ def __init__(self):super().__init__(convert_charrefs=True);self.capture=None;self.scripts=[];self.text=[];self.price=[];self.stack=[];self.price_level=None;self.script=False;self.seller_level=None;self.seller_links=[];self.condition_level=None;self.condition_text=[]
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:self.stack.append(tag)
-  if tag=='script' and a.get('type')=='application/ld+json':self.capture=[]
-  if 'x-price-primary' in a.get('class','').split():self.price_level=len(self.stack)
+  if tag=='script':
+   self.script=True
+   if a.get('type')=='application/ld+json':self.capture=[]
+  if {'x-price-primary','x-price-approx'} & set(a.get('class','').split()):self.price_level=len(self.stack)
+  if a.get('data-testid')=='x-sellercard-atf':self.seller_level=len(self.stack)
+  if 'x-item-condition' in a.get('class','').split():self.condition_level=len(self.stack)
+  if tag=='a' and self.seller_level is not None:
+   self.seller_links.append(a.get('href','').split('?')[0])
  def handle_startendtag(self,tag,attrs):pass
  def handle_endtag(self,tag):
   if tag=='script' and self.capture is not None:self.scripts.append(''.join(self.capture));self.capture=None
+  if tag=='script':self.script=False
   if self.price_level is not None and len(self.stack)==self.price_level:self.price_level=None
+  if self.seller_level is not None and len(self.stack)==self.seller_level:self.seller_level=None
+  if self.condition_level is not None and len(self.stack)==self.condition_level:self.condition_level=None
   if tag in self.stack:
    while self.stack.pop()!=tag:pass
  def handle_data(self,data):
   if self.capture is not None:self.capture.append(data)
-  else:self.text.append(data)
+  elif not self.script:self.text.append(data)
   if self.price_level is not None:self.price.append(data)
+  if self.condition_level is not None:self.condition_text.append(data)
 
 def parse_listing(raw,watch,now):
  page=ListingPage();markup=raw.decode('utf-8');page.feed(markup);text=' '.join(page.text)
- if watch['sellerProfile'] not in markup:raise ValueError('Seller profile changed or unavailable')
+ if watch['sellerProfile'] not in page.seller_links:raise ValueError('Actual item seller changed or unavailable')
  products=[x for x in (json.loads(s) for s in page.scripts) if isinstance(x,dict) and x.get('@type')=='Product']
  if len(products)!=1:raise ValueError('Missing unambiguous structured product')
  product=products[0];offer=product.get('offers',{})
  if norm(html.unescape(product.get('name','')))!=norm(watch['title']) or offer.get('url')!=watch['sourceUrl']:raise ValueError('Listing identity changed')
  if offer.get('itemCondition')!=watch['sourceCondition']:raise ValueError('Listing condition changed')
- if offer.get('availability')!='https://schema.org/InStock' or 'This listing sold' in text or 'This listing ended' in text:return None
+ if offer.get('availability')!='https://schema.org/InStock' or re.search(r'This listing (?:sold|ended|was ended)',text,re.I):return None
+ condition_text=' '.join(page.condition_text)
+ if re.search(r'\b(scratches?|dirt|broken|missing|damaged|repainted|customized|junk)\b',condition_text,re.I):raise ValueError('Condition quality needs review')
  if 'Buy It Now' not in text:raise ValueError('No fixed-price purchase option')
  match=re.search(r'US \$([\d,.]+)',''.join(page.price))
  if offer.get('priceCurrency')!='USD' or not match:raise ValueError('No explicit USD item ask')
  amount=Decimal(offer['price']);visible=Decimal(match[1].replace(',',''))
  if amount!=visible or amount<=0 or amount>10000000:raise ValueError('Price mismatch')
  return {'releaseId':watch['releaseId'],'productCode':watch['productCode'],'sourceUrl':watch['sourceUrl'],'condition':watch['condition'],'amountCents':int(amount*100),'currency':'USD','observedAt':now,'verified':True,'lotSize':1,'active':True,'sellerId':watch['sellerId']}
+
+def merge_listing_history(*histories):
+ rows={}
+ for history in histories:
+  for x in history:
+   key=(x['sourceUrl'],x['observedAt']);old=rows.get(key)
+   if old and any(old[k]!=x[k] for k in ['releaseId','productCode','amountCents','condition','sellerId']):raise ValueError('Conflicting reviewed listing observation')
+   rows[key]=dict(x)
+ return list(rows.values())
+
+def mark_unavailable(listings,url,now):
+ prior=max((x for x in listings if x['sourceUrl']==url),key=lambda x:x['observedAt'],default=None)
+ if prior:
+  listings.append({**prior,'observedAt':now,'priceObservedAt':prior.get('priceObservedAt',prior['observedAt']),'active':False})
 
 def main():
  now=datetime.now(timezone.utc).isoformat(timespec='seconds');rows=read('catalog/catalog.json')['releases'];tlv=read('catalog/input/tlv-prices.json');tomica=read('catalog/input/tomica-prices.json')
@@ -89,20 +115,19 @@ def main():
    for rid in ids:updates[rid]={**tomica['msrp'][rid],'observedAt':now}
    report.append({'sourceUrl':url,'sha256':digest,'verified':len(ids),'status':'Exact reviewed page unchanged' if ids else 'Prior evidence retained; page needs review','error':error})
  # Watch only independently reviewed exact listing identities.
- listings=list(previous.get('listings',listing_input['observations']))
+ listings=merge_listing_history(listing_input['observations'],previous.get('listings',[]))
  for watch in listing_input['watches']:
   url=watch['sourceUrl']
   try:
    raw=fetch(url);updated=parse_listing(raw,watch,now)
    if updated is None:
-    for x in listings:
-     if x['sourceUrl']==url:x['active']=False
+    mark_unavailable(listings,url,now)
     status='Listing unavailable; no sale inferred'
    else:listings.append(updated);status='Exact reviewed listing refreshed'
    report.append({'sourceUrl':url,'sha256':hashlib.sha256(raw).hexdigest(),'status':status})
   except Exception as e:report.append({'sourceUrl':url,'status':'Prior dated listing retained; no fresh observation','error':str(e)})
  cutoff=datetime.now(timezone.utc).timestamp()-180*86400
- listings=[x for x in listings if datetime.fromisoformat(x['observedAt'].replace('Z','+00:00')).timestamp()>=cutoff]
+ listings=[x for x in listings if datetime.fromisoformat(x.get('priceObservedAt',x['observedAt']).replace('Z','+00:00')).timestamp()>=cutoff]
  out={'schema':1,'asOf':now,'fx':fx,'msrp':updates,'listings':listings,'sources':report,'salesPolicy':'Verified sold averages take priority. Three independent current asks, then historical asks, precede the MSRP fallback. Exact reviewed listing watches refresh automatically; new sold transactions require final-price/date/variant review. No bulk sold provider is connected.'}
  path=ROOT/'catalog/input/price-refresh.json';temp=path.with_suffix('.tmp');temp.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');os.replace(temp,path)
  print('Refreshed FX',fx['date'],'and',len(updates),'known MSRP records; unmatched sources preserved for review.')
