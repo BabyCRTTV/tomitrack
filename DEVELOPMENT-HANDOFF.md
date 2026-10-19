@@ -1,4 +1,9 @@
-# Development handoff · 0.4.11
+# Development handoff · 0.4.12
+
+## 0.4.12: price-sync offline edge case · in progress
+
+Before completing final release verification, found that the existing generic service worker could return cached JSON on an explicitly network-only price sync, misleadingly reporting a successful fresh check. Explicit no-store price requests now bypass offline cache fallback; network/schema/storage failures preserve the prior overlay. Ordinary offline app/catalog access remains intact. A worker-level VM regression test exercises both behaviors. Version 0.4.12 / Android code 18 follows the already published 0.4.11 code 17; never reuse a published Android code. Initial pricing implementation is `5fd58f777a185818a198081a0fbe91a89bef3bd0`, tested tree `e5dfa6fed8189299c7559ad49158a5114191b12f`. Build 39179937618 and Pages 39179937608 passed. Live browser confirmed LV-N54d $27.57/¥3,960 controls and source/formula details, plus real public-price sync directly below App updates. Final 0.4.12 validation and publication verification pending.
+
 
 ## 0.4.11: TLV prices and owner-directed annual MSRP fallback · in progress
 

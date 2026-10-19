@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.12 · Honest offline price-sync status
+
+- Explicit price sync bypasses service-worker offline response fallback, so a failed network check preserves existing values and reports failure instead of claiming fresh data.
+- Preserve offline app/catalog access and all 0.4.11 pricing features.
+
 ## 0.4.11 · TLV estimated values and price sync
 
 - Import 1,680 manufacturer MSRP references and dated ECB conversion evidence for Tomica Limited Vintage.

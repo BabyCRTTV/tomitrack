@@ -47,3 +47,10 @@ test('sync validates before activation, preserves prior snapshot on failure and 
  const current=priceSnapshot();await assert.rejects(syncPrices({fetcher:async()=>({ok:true,headers:{get:()=>null},text:async()=>'{bad'}),storage:{setItem(){}}}));assert.equal(priceSnapshot(),current);assert.equal(priceBusy(),false);
  await assert.rejects(syncPrices({fetcher:async()=>({ok:true,headers:{get:()=>null},text:async()=>JSON.stringify(before)}),storage:{setItem(){}}}),/older/);assert.equal(priceSnapshot(),current);
 });
+
+test('service worker never substitutes offline cached JSON for explicit price sync, while app offline access works',async()=>{
+ const {runInNewContext}=await import('node:vm');const listeners={},cached=new Response('cached app');
+ runInNewContext(readFileSync('web/app/sw.js','utf8'),{self:{addEventListener:(name,fn)=>listeners[name]=fn},location:{origin:'https://babycrttv.github.io'},URL,Response,fetch:()=>Promise.reject(Error('Offline')),caches:{match:async()=>cached}});
+ let priceResponse;listeners.fetch({request:{method:'GET',url:PRICE_URL,cache:'no-store'},respondWith:r=>priceResponse=r});await assert.rejects(priceResponse,/Offline/);
+ let appResponse;listeners.fetch({request:{method:'GET',url:'https://babycrttv.github.io/tomitrack/app/app.js',cache:'default'},respondWith:r=>appResponse=r});assert.equal(await appResponse,cached);
+});
