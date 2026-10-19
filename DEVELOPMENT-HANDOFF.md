@@ -1,4 +1,9 @@
-# Development handoff · 0.4.16
+# Development handoff · 0.4.17 in progress
+
+## 0.4.17: broader TLV/mainline pricing evidence · reviewed checkpoint
+
+Owner requested at least 250 additional price listings across TLV and mainline Tomica. Research queue contains 1,055 unique search candidates; 632 exact model candidates are being read individually. This recovery checkpoint contains 114 additional visually reviewed TLV asking listings (159 total watches; 73 references monitored), their provenance/research decisions and regenerated public pricing projections. This is a work checkpoint, not a complete or published release. Further TLV/mainline pages and paired photographs are still being reviewed. The intended final batch also targets at least 250 newly monitored references, with the shared three-seller minimum retained for actual listing averages. Source price only; shipping/tax excluded; MSRP fallback retained. Version metadata is prepared for 0.4.17 / Android code 23. Public main, website and installers remain verified 0.4.16. Reachable recovery branch: work/price-expansion-0.4.17. Scratch research and approval manifests are in ../pricing-work/expansion; never publish unreviewed candidates. Final tests, SQLite rebuild and release verification pending.
+
 
 ## 0.4.16: item-price-only rolling averages · verified
 
