@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.14 · Compact price tags
+
+- Use Market Price and MSRP with USD amounts, without subtitles. Keep green/blue tags side by side on narrow screens; pricing details remain available on tap.
+
 ## 0.4.13 · Tomica pricing in USD
 
 - Add 1,254 verified official Tomica MSRP records alongside the preserved 1,680 TLV records.

@@ -25,7 +25,7 @@ test('owner MSRP rule compounds 10% per calendar year with dated JPY to USD conv
 });
 test('regular Tomica uses its own verified price and release year, with USD-only display',()=>{
  const rid=Object.keys(bundled.prices.msrp).find(rid=>priceScope[rid].brandId==='tomica'&&priceScope[rid].year===2025),m=bundled.prices.msrp[rid];
- assert.equal(valuationQuote(bundled.prices,priceScope,rid,'Boxed',now).amount,Math.round(m.amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.match(priceBadges(rid),/USD conversion/);assert.doesNotMatch(priceBadges(rid),/¥|JPY/);
+ assert.equal(valuationQuote(bundled.prices,priceScope,rid,'Boxed',now).amount,Math.round(m.amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.match(priceBadges(rid),/USD/);assert.doesNotMatch(priceBadges(rid),/¥|JPY/);
  const p=copy(bundled.prices);p.msrp[rid].sourceUrl=p.msrp[id].sourceUrl;assert.throws(()=>validatePrices(p,priceScope,now));p.schema=1;assert.throws(()=>validatePrices(p,priceScope,now));
 });
 test('sale averages take priority only with three recent distinct exact-condition observations; outliers excluded',()=>{
@@ -73,7 +73,7 @@ test('common listing logic applies to every priced model; sold evidence wins and
 });
 test('reviewed Porsche sample uses common logic and runtime values drive portfolio without supplier references in UI',()=>{
  const rid='tm-3f6d42ecd4b01b8d8440',seed=JSON.parse(readFileSync('catalog/input/price-listings.json')),q=valuationQuote({...bundled.prices,listings:seed.observations},priceScope,rid,'Boxed',Date.parse(seed.asOf));assert.equal(q.kind,'listing-average');assert.equal(q.sampleCount,3);assert.equal(q.amount,Math.round(seed.observations.reduce((n,x)=>n+x.amountCents,0)/3)/100);
- const html=priceBadges(rid);assert.match(html,/actual selling prices can vary/);assert.match(html,/TomiKing pricing/);assert.match(html,/Market value <strong>/);assert.doesNotMatch(html,/Est\. market|MSRP-based estimate|<a\b|ebay|mercari|sellerId|Rate source|Manufacturer price source/i);assert.doesNotMatch(html,/¥|JPY/);
+ const html=priceBadges(rid);assert.match(html,/actual selling prices can vary/);assert.match(html,/Market Price <strong>/);assert.doesNotMatch(html,/<small>|TomiKing pricing|Japan MSRP|USD conversion/);assert.doesNotMatch(html,/Est\. market|MSRP-based estimate|<a\b|ebay|mercari|sellerId|Rate source|Manufacturer price source/i);assert.doesNotMatch(html,/¥|JPY/);
  const item=cleanItem({name:'Yellow Porsche',catalogReleaseId:rid,condition:'Boxed',quantity:2,paid:20,value:40,valuationMode:'market'});assert.equal(totals([item]).value,quote(rid,'Boxed').amount*2);assert.equal(item.paid,20);assert.equal(item.value,40);
 });
 test('listing validator rejects mismatched variants, hostile sources, duplicate observations and ambiguous lots',()=>{
