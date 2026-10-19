@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{execFileSync}from'node:child_process';
+import{PRICE_INTERVAL,priceSyncDue,syncPrices,priceSnapshot}from'../web/app/pricing.js';
+test('automatic client checks use 48 hours, persist successful check and back off six hours on failure',async()=>{
+ assert.equal(PRICE_INTERVAL,48*3600000);const stored=[];await syncPrices({storage:{setItem:(...x)=>stored.push(x)},fetcher:async()=>({ok:true,headers:{get:()=>null},text:async()=>JSON.stringify(priceSnapshot())})});
+ const saved=JSON.parse(stored[0][1]),checked=Date.parse(saved.checkedAt);assert.equal(priceSyncDue(checked+PRICE_INTERVAL-1),false);assert.equal(priceSyncDue(checked+PRICE_INTERVAL),true);
+ await assert.rejects(syncPrices({fetcher:async()=>{throw Error('Offline')},storage:{setItem(){}}}));assert.equal(priceSyncDue(checked+1000),false);
+});
+test('scheduled parser accepts only exact known source/title tax-inclusive MSRP, preserving variant boundaries',()=>{
+ const script=`import importlib.util,json\ns=importlib.util.spec_from_file_location('refresh','scripts/refresh-prices.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m)\nrows=[{'id':'r','name':'Exact variant','sourceRefs':[{'url':'https://minicar.tomytec.co.jp/product/detail.html?id=1'}]}]\nknown={'r':{'sourceUrl':rows[0]['sourceRefs'][0]['url'],'amount':100,'currency':'JPY','taxIncluded':True,'observedAt':'old'}}\ndef body(name,price):return json.dumps({'dblineup_src':'<li><a href="/product/detail.html?id=1"><h3>'+name+'</h3>価格：'+price+'円(税込)</a></li>'})\nassert m.parse_tlv(body('Exact variant','200'),rows,known,'now')['r']['amount']==200\nassert not m.parse_tlv(body('Different variant','200'),rows,known,'now')\nassert not m.parse_tlv(body('Exact variant','0'),rows,known,'now')\nassert known['r']['amount']==100\nprint('passed')`;
+ assert.match(execFileSync('python3',['-c',script],{encoding:'utf8'}),/passed/);
+});
+test('scheduled publishing uses UTC interval gating, validation and explicit Pages dispatch without packaging private data',()=>{
+ const y=readFileSync('.github/workflows/prices.yml','utf8');assert.match(y,/47\*3600/);assert.match(y,/node scripts\/build-prices.mjs/);assert.match(y,/node --test tests\/price-refresh.test.mjs/);assert.match(y,/gh workflow run pages.yml --ref main/);assert.doesNotMatch(y,/force|collection|ANDROID_SIGNING/);
+ const css=readFileSync('web/app/app.css','utf8');assert.match(css,/\.price-badge\[data-price-panel="msrp"\]\{background:#e8f0fc;color:#235ba0/);assert.match(css,/:root\[data-theme="dark"\] \.price-badge\[data-price-panel="msrp"\]/);
+});

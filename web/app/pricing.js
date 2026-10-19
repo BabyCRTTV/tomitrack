@@ -1,10 +1,13 @@
 import bundled from './catalog/pricing-data.js';
 import {validatePrices,valuationQuote} from './pricing-core.js';
 export const PRICE_URL='https://babycrttv.github.io/tomitrack/app/catalog/prices.json';
-const KEY='tomitrack-public-prices-v1';
+const KEY='tomitrack-public-prices-v2';
+export const PRICE_INTERVAL=48*60*60*1000;
+let retryAfter=0;
 export const priceScope=bundled.scope;
 let snapshot=validatePrices(bundled.prices,priceScope),busy=false,lastSync='';
-try{const cached=validatePrices(JSON.parse(localStorage.getItem(KEY)),priceScope);if(Date.parse(cached.asOf)>=Date.parse(snapshot.asOf))snapshot=cached}catch{}
+try{const saved=JSON.parse(localStorage.getItem(KEY)),cached=validatePrices(saved?.prices||saved,priceScope);if(Date.parse(cached.asOf)>=Date.parse(snapshot.asOf)){snapshot=cached;lastSync=Number.isFinite(Date.parse(saved.checkedAt))&&Date.parse(saved.checkedAt)<=Date.now()?saved.checkedAt:''}}catch{}
+export const priceSyncDue=(now=Date.now())=>!busy&&now>=retryAfter&&(!lastSync||now-Date.parse(lastSync)>=PRICE_INTERVAL);
 export const priceSnapshot=()=>snapshot;
 export const priceBusy=()=>busy;
 export const priceLastSync=()=>lastSync;
@@ -22,6 +25,6 @@ export async function syncPrices({fetcher=globalThis.fetch,storage=globalThis.lo
   const text=await r.text();if(text.length>3000000)throw Error('Price download too large.');
   const next=validatePrices(JSON.parse(text),priceScope);
   if(Date.parse(next.asOf)<Date.parse(snapshot.asOf))throw Error('An older price snapshot was rejected.');
-  storage?.setItem(KEY,JSON.stringify(next));snapshot=next;lastSync=new Date().toISOString();return next;
- }finally{clearTimeout(timer);busy=false}
+  const checkedAt=new Date().toISOString();storage?.setItem(KEY,JSON.stringify({prices:next,checkedAt}));snapshot=next;lastSync=checkedAt;retryAfter=0;return next;
+ }catch(error){retryAfter=Date.now()+6*60*60*1000;throw error}finally{clearTimeout(timer);busy=false}
 }

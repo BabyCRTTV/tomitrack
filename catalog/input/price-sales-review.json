@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "asOf": "2026-10-19T01:29:44.432725+00:00",
+  "sales": [
+    {
+      "releaseId": "tm-e6f4b105eeb0f6496748",
+      "productCode": "LV-N106d",
+      "sourceUrl": "https://www.ebay.com/itm/226939235768",
+      "condition": "Sealed",
+      "amountCents": 5380,
+      "currency": "USD",
+      "soldAt": "2026-08-25",
+      "observedAt": "2026-10-19T01:28:35.244039+00:00",
+      "verified": true,
+      "finalPriceKnown": true,
+      "lotSize": 1,
+      "shippingExcluded": true,
+      "saleType": "fixed-price"
+    },
+    {
+      "releaseId": "tm-5224547cf6575491e68b",
+      "productCode": "",
+      "sourceUrl": "https://www.ebay.com/itm/326725087881",
+      "condition": "Sealed",
+      "amountCents": 8980,
+      "currency": "USD",
+      "soldAt": "2026-08-10",
+      "observedAt": "2026-10-19T01:28:35.332672+00:00",
+      "verified": true,
+      "finalPriceKnown": true,
+      "lotSize": 1,
+      "shippingExcluded": true,
+      "saleType": "fixed-price"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceUrl": "https://www.ebay.com/itm/226939235768",
+      "sha256": "4975a6132aa7ec4144e01bf7e9bb89c37496e4d18f19d7d5d969f0368ff2f7c2",
+      "originalEndDate": "2026-08-25T05:49:17.000Z",
+      "review": "Exact LV-N106d beige Toyota Supra confirmed by title and photographed box/code/color. New condition, fixed USD price, sold banner and original UTC endDate. One observation only; shipping excluded."
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/326725087881",
+      "sha256": "09374cbe2b8b4cdbfdaad41a3cebf6e5e30e63a1b891a0b93b443614cd0ded7d",
+      "originalEndDate": "2026-08-10T03:47:25.000Z",
+      "review": "Exact yellow Ferrari F512 M confirmed by title and photograph. New condition, fixed USD price, sold banner and original UTC endDate. Three sold is not expanded into three observations; shipping excluded."
+    }
+  ],
+  "reviewedSources": [
+    {
+      "url": "https://www.ebay.com/itm/226939235768",
+      "file": "226939235768.html",
+      "sha256": "4975a6132aa7ec4144e01bf7e9bb89c37496e4d18f19d7d5d969f0368ff2f7c2",
+      "checkedAt": "2026-10-19T01:28:35.244039+00:00"
+    },
+    {
+      "url": "https://www.ebay.com/itm/188683595590",
+      "file": "188683595590.html",
+      "sha256": "ed1fb8903fd8671cacbe806fabbcb149262e7250740eb0ceae8e602260987bb9",
+      "checkedAt": "2026-10-19T01:28:35.344878+00:00"
+    },
+    {
+      "url": "https://www.ebay.com/itm/286234334111",
+      "file": "286234334111.html",
+      "sha256": "f5226780973b930634042c634429a69f3a9647999e9fbb5f2b73efa9f519ef4b",
+      "checkedAt": "2026-10-19T01:28:35.624478+00:00"
+    },
+    {
+      "url": "https://www.ebay.com/itm/326725087881",
+      "file": "326725087881.html",
+      "sha256": "09374cbe2b8b4cdbfdaad41a3cebf6e5e30e63a1b891a0b93b443614cd0ded7d",
+      "checkedAt": "2026-10-19T01:28:35.332672+00:00"
+    },
+    {
+      "url": "https://jp.mercari.com/en/item/m31779302572",
+      "file": "m31779302572.html",
+      "sha256": "0f9a0dc62d4077fae087ddf26b6902b31c547ca8b378d2a7928ccebce9ad20af",
+      "checkedAt": "2026-10-19T01:28:38.863927+00:00"
+    },
+    {
+      "url": "https://jp.mercari.com/en/item/m84286400157",
+      "file": "m84286400157.html",
+      "sha256": "4cce27e4b2c5ed99b1e95ac0e16a3f0a57c179be1903893a8865b35d9589b9bc",
+      "checkedAt": "2026-10-19T01:28:39.365649+00:00"
+    },
+    {
+      "url": "https://www.mercari.com/us/shop/tomica-limited-series-vintage-antique-toy-cars/",
+      "file": "tomica-limited-series-vintage-antique-toy-cars.html",
+      "sha256": "36c3946b9ab594d704f54340271b85b5e68f28e8257408a255012f74e67a802a",
+      "checkedAt": "2026-10-19T01:28:38.587651+00:00"
+    },
+    {
+      "url": "https://www.catawiki.com/en/l/105807524-tomica-tomytec-1-64-model-car-ferrari-f40-1989",
+      "file": "105807524-tomica-tomytec-1-64-model-car-ferrari-f40-1989.html",
+      "sha256": "2a85c6fda26c9a0eed20d9eabc4b5c812d2a1c8a1377bfbbd45dccd05996c094",
+      "checkedAt": "2026-10-19T01:28:40.894250+00:00"
+    }
+  ],
+  "excluded": [
+    {
+      "sourceUrl": "https://www.ebay.com/itm/188683595590",
+      "reason": "Photo shows two boxes and a figurine; single-item lot contents not independently established."
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/286234334111",
+      "reason": "Used condition does not establish Boxed/Loose grouping and original UTC sale date not verified."
+    },
+    {
+      "sourceUrl": "https://jp.mercari.com/en/item/m31779302572",
+      "reason": "SoldOut price is visible, but exact sale date and catalog variant are not independently established."
+    },
+    {
+      "sourceUrl": "https://jp.mercari.com/en/item/m84286400157",
+      "reason": "SoldOut price is visible, but exact sale date and catalog variant are not independently established."
+    },
+    {
+      "sourceUrl": "https://www.mercari.com/us/shop/tomica-limited-series-vintage-antique-toy-cars/",
+      "reason": "Category/search result is not transaction evidence; final accepted price and sale date unverified."
+    },
+    {
+      "sourceUrl": "https://www.catawiki.com/en/l/105807524-tomica-tomytec-1-64-model-car-ferrari-f40-1989",
+      "reason": "Sold final bid is visible, but exact dated transaction and distinct F40 variant are not independently established."
+    }
+  ],
+  "policy": "Exact single-item variant/condition, visible final price, precise sale date and source review required. Retail sold-out stock, category results and hidden Best Offers are not sales evidence. New/unopened maps to Sealed. Other currencies require dated USD conversion evidence before import."
+}

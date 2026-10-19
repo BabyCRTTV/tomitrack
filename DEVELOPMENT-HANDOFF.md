@@ -1,4 +1,13 @@
-# Development handoff · 0.4.12
+# Development handoff · 0.4.13
+
+## 0.4.13: Tomica MSRP expansion, 10% fallback and USD-only display · in progress
+
+Owner settled on the existing fallback of 10% compounded per UTC calendar year since canonical release and expanded pricing to regular Tomica. Owner then required all displayed prices, including MSRP, in USD. Original JPY amounts remain source evidence; UI controls/details use dated ECB USD conversion. No app-wide currency selector was added.
+
+Manually fetched all 82 already-cited official monthly pages; 1,254 exact full-title/source matches have explicit tax-inclusive manufacturer prices, 148 citations remain unmatched, zero conflicts. `catalog/input/tomica-prices.json` retains evidence text, hashes, dates, unmatched references and manifest. No guesses for collector-only history. Preserved `tlv-prices.json` byte-for-byte including 1,680 MSRPs, original sale and FX. Total 2,934 MSRP references; two further reviewed eBay observations in `price-sales-review.json` bring the total to three across distinct products, still zero reliable three-sale averages. Mercari US/JP, Catawiki and additional eBay candidates were reviewed and explicitly excluded for missing precise dates, exact variant, condition or single-item evidence. Blue MSRP/green estimated value controls support light/dark themes. Snapshot schema 2 expands validated scope to 4,268 Tomica-family references, with per-record cited source URL matching. Old cache schema stays separate. Preserve manual choices/costs/backups, catalog/photo IDs, safe areas and network-only sync behavior. Version 0.4.13 / Android code 19. Publication/verification pending.
+
+
+Public pricing refresh runs on a separate GitHub Actions schedule targeting every 48 hours (elapsed-time gating across month boundaries; scheduler delays are possible). It refreshes dated ECB USD conversion and exact known manufacturer evidence; changed/ambiguous Tomica pages retain prior evidence pending review. It does not infer new sales from retail stock or sold counters. The app checks the published snapshot every 48 hours while online/on resume, persists its last successful check, and backs off six hours after failure. Manual Sync price data remains available. New independent sold observations still require verifiable variant, condition, final price and exact date; no bulk eBay/Mercari feed is connected. Private collections never leave the device. Price-only snapshot refreshes redeploy Pages without repackaging installers; installed apps download the new overlay.
 
 ## 0.4.12: price-sync offline edge case · verified 2026-10-19 UTC
 

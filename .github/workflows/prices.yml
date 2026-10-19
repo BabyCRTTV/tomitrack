@@ -1,0 +1,69 @@
+name: Refresh public prices every 48 hours
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/prices.yml', 'scripts/refresh-prices.py', 'tests/price-refresh.test.mjs']
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: tomitrack-price-refresh
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/price-refresh.test.mjs
+  refresh:
+    needs: verify
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check 48-hour interval
+        id: due
+        env:
+          MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          python3 - <<'PY'
+          import json,os,datetime,pathlib
+          p=pathlib.Path('catalog/input/price-refresh.json')
+          last=datetime.datetime.fromisoformat(json.loads(p.read_text())['asOf']) if p.exists() else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+          # Daily age gate skips the intervening day; unlike */2 day-of-month it survives month boundaries.
+          # One hour tolerance handles scheduler jitter around the 48-hour target.
+          due=os.environ['MANUAL']=='true' or (datetime.datetime.now(datetime.timezone.utc)-last).total_seconds()>=47*3600
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('run='+str(due).lower()+'\n')
+          PY
+      - uses: actions/setup-node@v4
+        if: steps.due.outputs.run == 'true'
+        with:
+          node-version: '22'
+      - name: Refresh validated public evidence
+        if: steps.due.outputs.run == 'true'
+        run: |
+          python3 scripts/refresh-prices.py
+          node scripts/build-prices.mjs
+          npm run check
+          node --test tests/price-refresh.test.mjs
+      - name: Publish price snapshot
+        if: steps.due.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'TomiTrack price refresh'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/input/price-refresh.json web/app/catalog/pricing-data.js web/app/catalog/prices.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh validated public prices and USD reference rates'
+            git push origin HEAD:main
+            gh workflow run pages.yml --ref main
+          fi

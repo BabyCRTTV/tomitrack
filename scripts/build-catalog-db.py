@@ -71,7 +71,7 @@ try:
  CREATE TABLE pricing_metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL);
  ''')
  for rid,x in pricing['msrp'].items():
-  assert release_by_id[rid]['brandId']=='tomica-limited-vintage'
+  assert release_by_id[rid]['brandId']in ['tomica','tomica-limited-vintage']
   db.execute('INSERT INTO release_msrp VALUES (?,?,?,?,?)',(rid,x['amount'],int(x['taxIncluded']),x['sourceUrl'],x['observedAt']))
  for x in pricing['sales']:db.execute('INSERT INTO price_sales VALUES (?,?,?,?,?,?,?)',(x['sourceUrl'],x['releaseId'],x['amountCents'],x['currency'],x['condition'],x['soldAt'],json.dumps(x,sort_keys=True)))
  for key in ['asOf','fx']:db.execute('INSERT INTO pricing_metadata VALUES (?,?)',(key,json.dumps(pricing[key],sort_keys=True)))

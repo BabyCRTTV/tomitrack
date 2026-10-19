@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.12 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.13 is a local-first early-access foundation.
 
 ## Use it
 
@@ -24,7 +24,7 @@ Barcode coverage includes five specifically cited Mattel UPCs, 1,677 checksum-va
 
 ## TLV estimated values
 
-Tomica Limited Vintage has 1,680 source-cited manufacturer list prices. The estimate/MSRP buttons show the source and calculation. Reliable exact-variant/condition sold averages take priority (at least 3 verified sales in 180 days); otherwise the owner-directed fallback compounds MSRP by 10% per calendar year since release, converted to USD with a dated ECB rate. The fallback is labeled MSRP-based, not an observed market value. Four manufacturer zero prices remain unknown. Current sold evidence is sparse and does not yet produce a reliable average; eBay bulk access is not connected.
+Tomica has 1,254 and Tomica Limited Vintage has 1,680 source-cited manufacturer list prices. All displayed prices, including MSRP, use USD with dated conversion evidence. The estimate/MSRP buttons show the source and calculation. Reliable exact-variant/condition sold averages take priority (at least 3 verified sales in 180 days); otherwise the owner-directed fallback compounds MSRP by 10% per calendar year since release, converted to USD with a dated ECB rate. The fallback is labeled MSRP-based, not an observed market value. Four manufacturer zero prices remain unknown. Current sold evidence is sparse and does not yet produce a reliable average; eBay bulk access is not connected.
 
 Sync price data under App updates in My garage downloads the latest reviewed public snapshot. Newly added priced TLV copies default to linked valuation, with an editable fallback and a manual option. Existing entries remain manual. No purchase costs/manual values are overwritten, no collection uploads occur during price sync, and JSON backups retain the valuation mode. Other brands remain manual.
 
@@ -59,4 +59,7 @@ TomiTrack branding, custom icon and generated hero artwork were created for this
 
 ## Historical Tomica catalog
 
-Version 0.4.12 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
+Version 0.4.13 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
+
+
+Public pricing refresh runs on a separate GitHub Actions schedule targeting every 48 hours (elapsed-time gating across month boundaries; scheduler delays are possible). It refreshes dated ECB USD conversion and exact known manufacturer evidence; changed/ambiguous Tomica pages retain prior evidence pending review. It does not infer new sales from retail stock or sold counters. The app checks the published snapshot every 48 hours while online/on resume, persists its last successful check, and backs off six hours after failure. Manual Sync price data remains available. New independent sold observations still require verifiable variant, condition, final price and exact date; no bulk eBay/Mercari feed is connected. Private collections never leave the device. Price-only snapshot refreshes redeploy Pages without repackaging installers; installed apps download the new overlay.

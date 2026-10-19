@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.13 · Tomica pricing in USD
+
+- Add 1,254 verified official Tomica MSRP records alongside the preserved 1,680 TLV records.
+- Keep the owner’s confirmed 10% compounded annual MSRP fallback. Display MSRP and estimates in USD with dated conversion evidence.
+- Style USD MSRP in blue and estimated value in green; add two reviewed exact-variant eBay sold observations.
+- Schedule validated public price/FX refreshes every 48 hours and automatic online app checks, retaining manual sync and failure recovery.
+- Preserve manual values, purchase costs, backups, catalog identities, photos and native safe areas.
+
+
 ## 0.4.12 · Honest offline price-sync status
 
 - Explicit price sync bypasses service-worker offline response fallback, so a failed network check preserves existing values and reports failure instead of claiming fresh data.
