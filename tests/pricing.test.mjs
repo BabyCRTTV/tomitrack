@@ -44,7 +44,7 @@ test('linked valuation updates totals, sort and copies without rewriting purchas
  const manual=cleanItem({...x,id:'manual',valuationMode:'manual'});assert.equal(unitValue(manual),17);const legacy=cleanItem({...x,valuationMode:undefined});assert.equal(unitValue(legacy),17);assert.equal(totals([{...x,status:'wish'}]).value,0);assert.equal(filterItems([manual,x],{sort:'value'})[0].id,x.id);
  const foreign=cleanItem({...x,catalogReleaseId:'hw-fake'});assert.equal(foreign.valuationMode,'manual');assert.equal(prepareGarageItem({...x,quantity:3},{existing:x}).valuationMode,'market');
 });
-test('price badges identify formula estimates, keep evidence hidden initially and omit other brands',()=>{const html=priceBadges(id);assert.match(html,/MSRP-based estimate/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/1.10/);assert.equal(priceBadges('hw-fake'),'')});
+test('price badges identify formula estimates, keep evidence hidden initially and omit other brands',()=>{const html=priceBadges(id);assert.match(html,/MSRP growth basis/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/1.10/);assert.equal(priceBadges('hw-fake'),'')});
 test('sync validates before activation, preserves prior snapshot on failure and never transmits collection data',async()=>{
  const before=priceSnapshot();let request;
  const candidate=copy(before);candidate.asOf=new Date(Date.parse(before.asOf)+1000).toISOString();candidate.msrp[id].amount+=100;
@@ -60,4 +60,23 @@ test('service worker never substitutes offline cached JSON for explicit price sy
  runInNewContext(readFileSync('web/app/sw.js','utf8'),{self:{addEventListener:(name,fn)=>listeners[name]=fn},location:{origin:'https://babycrttv.github.io'},URL,Response,fetch:()=>Promise.reject(Error('Offline')),caches:{match:async()=>cached}});
  let priceResponse;listeners.fetch({request:{method:'GET',url:PRICE_URL,cache:'no-store'},respondWith:r=>priceResponse=r});await assert.rejects(priceResponse,/Offline/);
  let appResponse;listeners.fetch({request:{method:'GET',url:'https://babycrttv.github.io/tomitrack/app/app.js',cache:'default'},respondWith:r=>appResponse=r});assert.equal(await appResponse,cached);
+});
+
+test('common listing logic applies to every priced model; sold evidence wins and repeated polls/sellers do not inflate averages',()=>{
+ for(const rid of[id,Object.keys(priceScope).find(x=>priceScope[x].brandId==='tomica'&&baseMsrp[x])]){
+  const p=copy(bundled.prices);p.listings=[10000,12000,14000].map((amountCents,n)=>({releaseId:rid,productCode:priceScope[rid].productCode,sourceUrl:`https://www.ebay.com/itm/${500000000000+n}`,condition:'Boxed',amountCents,currency:'USD',observedAt:new Date(now-86400000).toISOString(),verified:true,lotSize:1,active:true,sellerId:'ebay:seller'+n}));
+  assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).amount,120);assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'listing-average');assert.equal(valuationQuote(p,priceScope,rid,'Sealed',now).amount,120);assert.notEqual(valuationQuote(p,priceScope,rid,'Loose',now).kind,'listing-average');
+  p.listings.push({...p.listings[0],amountCents:99900,observedAt:new Date(now-2*86400000).toISOString()});p.listings.push({...p.listings[0],sourceUrl:'https://www.ebay.com/itm/500000000009'});assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).sampleCount,3);assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).amount,120);
+  p.sales=[sale(1,2000),sale(2,3000),sale(3,4000)].map(s=>({...s,releaseId:rid,productCode:priceScope[rid].productCode}));assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'sold-average');assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).amount,30);
+  p.sales=[];p.listings=p.listings.slice(0,3).map(x=>({...x,observedAt:new Date(now-31*86400000).toISOString()}));assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'historical-listing-average');p.listings=p.listings.map(x=>({...x,observedAt:new Date(now-181*86400000).toISOString()}));assert.equal(valuationQuote(p,priceScope,rid,'Boxed',now).kind,'msrp-rule');
+ }
+});
+test('reviewed Porsche sample uses common logic and runtime values drive portfolio without supplier references in UI',()=>{
+ const rid='tm-3f6d42ecd4b01b8d8440',seed=JSON.parse(readFileSync('catalog/input/price-listings.json')),q=valuationQuote({...bundled.prices,listings:seed.observations},priceScope,rid,'Boxed',Date.parse(seed.asOf));assert.equal(q.kind,'listing-average');assert.equal(q.sampleCount,3);assert.equal(q.amount,Math.round(seed.observations.reduce((n,x)=>n+x.amountCents,0)/3)/100);
+ const html=priceBadges(rid);assert.match(html,/actual selling prices can vary/);assert.match(html,/TomiKing pricing/);assert.match(html,/Market value <strong>/);assert.doesNotMatch(html,/Est\. market|MSRP-based estimate|<a\b|ebay|mercari|sellerId|Rate source|Manufacturer price source/i);assert.doesNotMatch(html,/¥|JPY/);
+ const item=cleanItem({name:'Yellow Porsche',catalogReleaseId:rid,condition:'Boxed',quantity:2,paid:20,value:40,valuationMode:'market'});assert.equal(totals([item]).value,quote(rid,'Boxed').amount*2);assert.equal(item.paid,20);assert.equal(item.value,40);
+});
+test('listing validator rejects mismatched variants, hostile sources, duplicate observations and ambiguous lots',()=>{
+ const original=bundled.prices.listings[0];for(const patch of[{sourceUrl:'https://www.ebay.com.evil.test/itm/127990132249'},{releaseId:'hw-fake'},{productCode:'LV-86a'},{currency:'JPY'},{lotSize:2},{verified:false},{sellerId:''},{active:'true'}]){const p=copy(bundled.prices);p.listings=[{...original,...patch}];assert.throws(()=>validatePrices(p,priceScope,now))}
+ const p=copy(bundled.prices);p.listings=[original,original];assert.throws(()=>validatePrices(p,priceScope,now));
 });

@@ -1,11 +1,11 @@
 import{readFileSync,writeFileSync,existsSync}from'node:fs';
 import{validatePrices}from'../web/app/pricing-core.js';
 const read=p=>JSON.parse(readFileSync(p));
-const data=read('catalog/catalog.json'),tlv=read('catalog/input/tlv-prices.json'),tomica=read('catalog/input/tomica-prices.json'),review=read('catalog/input/price-sales-review.json');
+const data=read('catalog/catalog.json'),tlv=read('catalog/input/tlv-prices.json'),tomica=read('catalog/input/tomica-prices.json'),review=read('catalog/input/price-sales-review.json'),listings=read('catalog/input/price-listings.json');
 const refresh=existsSync('catalog/input/price-refresh.json')?read('catalog/input/price-refresh.json'):null;
 const brandIds=['tomica','tomica-limited-vintage'];
 const scope=Object.fromEntries(data.releases.filter(r=>brandIds.includes(r.brandId)).map(r=>{const sourceUrls=r.sourceRefs.filter(s=>['tomytec-catalog','takara-tomica-new'].includes(s.sourceId)).map(s=>s.url);return[r.id,{brandId:r.brandId,productCode:r.productCode,year:r.year,sourceUrl:sourceUrls[0]||'',sourceUrls}]}));
-const input={schema:2,brandIds,asOf:new Date(Math.max(Date.parse(tlv.asOf),Date.parse(tomica.asOf),Date.parse(review.asOf),Date.parse(refresh?.asOf||tlv.asOf))).toISOString(),msrp:{...tlv.msrp,...tomica.msrp,...refresh?.msrp},sales:[...tlv.sales,...tomica.sales,...review.sales],fx:refresh?.fx||tlv.fx};
+const input={schema:2,brandIds,asOf:new Date(Math.max(Date.parse(tlv.asOf),Date.parse(tomica.asOf),Date.parse(review.asOf),Date.parse(listings.asOf),Date.parse(refresh?.asOf||tlv.asOf))).toISOString(),msrp:{...tlv.msrp,...tomica.msrp,...refresh?.msrp},sales:[...tlv.sales,...tomica.sales,...review.sales],listings:refresh?.listings||listings.observations,fx:refresh?.fx||tlv.fx};
 const prices=validatePrices(input,scope);
 writeFileSync('web/app/catalog/pricing-data.js','// Generated from reviewed Tomica-family pricing evidence.\nexport default '+JSON.stringify({scope,prices})+';\n');
 writeFileSync('web/app/catalog/prices.json',JSON.stringify(prices)+'\n');

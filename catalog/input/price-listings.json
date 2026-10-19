@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "asOf": "2026-10-19T07:55:30+00:00",
+  "observations": [
+    {
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "sourceUrl": "https://www.ebay.com/itm/127990132249",
+      "condition": "Boxed",
+      "amountCents": 15500,
+      "currency": "USD",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:eikoh777"
+    },
+    {
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "sourceUrl": "https://www.ebay.com/itm/407139284777",
+      "condition": "Boxed",
+      "amountCents": 9500,
+      "currency": "USD",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:greensunjapan"
+    },
+    {
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "sourceUrl": "https://www.ebay.com/itm/366275518532",
+      "condition": "Boxed",
+      "amountCents": 17000,
+      "currency": "USD",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:wjdgur33"
+    }
+  ],
+  "watches": [
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127990132249",
+      "title": "Tomytec Tomica Limited Vintage LV-86b Porsche 911S 1968 1/64 Diecast Car Yellow",
+      "sellerId": "ebay:eikoh777",
+      "sellerProfile": "https://www.ebay.com/sch/eikoh777/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407139284777",
+      "title": "Tomica Limited Vintage Porsche 911S (1968) Yellow LV-86b Collector's",
+      "sellerId": "ebay:greensunjapan",
+      "sellerProfile": "https://www.ebay.com/str/greensunjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/366275518532",
+      "title": "1/64 Tomica Limited Vintage LV-86b Porsche 911S 1968 Yellow",
+      "sellerId": "ebay:wjdgur33",
+      "sellerProfile": "https://www.ebay.com/sch/wjdgur33/m.html",
+      "sourceCondition": "https://schema.org/UsedCondition",
+      "releaseId": "tm-3f6d42ecd4b01b8d8440",
+      "productCode": "LV-86b",
+      "condition": "Boxed"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127990132249",
+      "sha256": "3261b15e0988d4b3edfb266cddd9df8621acebaab9176efd9f8cca03b0877989",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "review": "Exact LV-86b yellow Porsche previously reviewed against photographs and printed box code. One boxed car; opened/unopened share the boxed asking group. Visible USD item ask matches structured offer and pinned title/seller/condition. Best Offers are asks, not confirmed sales. Shipping and tax not added."
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407139284777",
+      "sha256": "fc822a3c8e5e525a0146314800a6fb88d94ef3c8e8ba52165287eaf48b274629",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "review": "Exact LV-86b yellow Porsche previously reviewed against photographs and printed box code. One boxed car; opened/unopened share the boxed asking group. Visible USD item ask matches structured offer and pinned title/seller/condition. Best Offers are asks, not confirmed sales. Shipping and tax not added."
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/366275518532",
+      "sha256": "f3d35442308335319a12ff400cb3a05171bc1de3df5b5521f599918eddfc59a7",
+      "observedAt": "2026-10-19T07:55:30+00:00",
+      "review": "Exact LV-86b yellow Porsche previously reviewed against photographs and printed box code. One boxed car; opened/unopened share the boxed asking group. Visible USD item ask matches structured offer and pinned title/seller/condition. Best Offers are asks, not confirmed sales. Shipping and tax not added."
+    }
+  ],
+  "policy": "Shared sold → current listing → historical listing → MSRP growth hierarchy. Three independent sellers minimum. Latest per listing/seller, 1.5-IQR outliers at 5+, current asks 30 days, history 180 days. Boxed/unopened asks grouped; loose separate. New listing identities need review."
+}

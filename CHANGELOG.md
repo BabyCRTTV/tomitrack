@@ -6,6 +6,7 @@
 - Keep the owner’s confirmed 10% compounded annual MSRP fallback. Display MSRP and estimates in USD with dated conversion evidence.
 - Style USD MSRP in blue and estimated value in green; add two reviewed exact-variant eBay sold observations.
 - Schedule validated public price/FX refreshes every 48 hours and automatic online app checks, retaining manual sync and failure recovery.
+- Use shared sold → current listing → historical listing → MSRP pricing across priced models and linked portfolios. Show Market value/MSRP with TomiKing branding; methodology on tap, supplier references internal.
 - Preserve manual values, purchase costs, backups, catalog identities, photos and native safe areas.
 
 

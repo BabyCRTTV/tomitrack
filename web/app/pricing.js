@@ -14,7 +14,7 @@ export const priceLastSync=()=>lastSync;
 export const quote=(id,condition='Boxed')=>valuationQuote(snapshot,priceScope,id,condition);
 export const usesPricing=item=>item.valuationMode==='market'&&quote(item.catalogReleaseId,item.condition).amount!==null;
 export const unitValue=item=>usesPricing(item)?quote(item.catalogReleaseId,item.condition).amount:item.value;
-export const valueLabel=item=>usesPricing(item)?quote(item.catalogReleaseId,item.condition).kind==='sold-average'?'Sold-price average':'MSRP-based estimate':'Your estimate';
+export const valueLabel=item=>usesPricing(item)?'Market value':'Your estimate';
 export async function syncPrices({fetcher=globalThis.fetch,storage=globalThis.localStorage}={}){
  if(busy)throw Error('A price sync is already running.');busy=true;
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);

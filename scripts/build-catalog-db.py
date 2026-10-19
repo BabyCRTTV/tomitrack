@@ -68,12 +68,14 @@ try:
  db.executescript('''
  CREATE TABLE release_msrp(release_id TEXT PRIMARY KEY REFERENCES releases(id),amount_jpy INTEGER NOT NULL,tax_included INTEGER NOT NULL,source_url TEXT NOT NULL,observed_at TEXT NOT NULL);
  CREATE TABLE price_sales(source_url TEXT PRIMARY KEY,release_id TEXT NOT NULL REFERENCES releases(id),amount_cents INTEGER NOT NULL,currency TEXT NOT NULL,condition TEXT NOT NULL,sold_at TEXT NOT NULL,evidence_json TEXT NOT NULL);
+ CREATE TABLE price_listings(source_url TEXT NOT NULL,observed_at TEXT NOT NULL,release_id TEXT NOT NULL REFERENCES releases(id),amount_cents INTEGER NOT NULL,currency TEXT NOT NULL,condition TEXT NOT NULL,active INTEGER NOT NULL,evidence_json TEXT NOT NULL,PRIMARY KEY(source_url,observed_at));
  CREATE TABLE pricing_metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL);
  ''')
  for rid,x in pricing['msrp'].items():
   assert release_by_id[rid]['brandId']in ['tomica','tomica-limited-vintage']
   db.execute('INSERT INTO release_msrp VALUES (?,?,?,?,?)',(rid,x['amount'],int(x['taxIncluded']),x['sourceUrl'],x['observedAt']))
  for x in pricing['sales']:db.execute('INSERT INTO price_sales VALUES (?,?,?,?,?,?,?)',(x['sourceUrl'],x['releaseId'],x['amountCents'],x['currency'],x['condition'],x['soldAt'],json.dumps(x,sort_keys=True)))
+ for x in pricing.get('listings',[]):db.execute('INSERT INTO price_listings VALUES (?,?,?,?,?,?,?,?)',(x['sourceUrl'],x['observedAt'],x['releaseId'],x['amountCents'],x['currency'],x['condition'],int(x['active']),json.dumps(x,sort_keys=True)))
  for key in ['asOf','fx']:db.execute('INSERT INTO pricing_metadata VALUES (?,?)',(key,json.dumps(pricing[key],sort_keys=True)))
  assert not db.execute('PRAGMA foreign_key_check').fetchall()
  assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
