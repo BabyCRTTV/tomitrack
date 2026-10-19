@@ -89,12 +89,14 @@ test('ended checks do not rejuvenate stale asking prices or override newer selle
  assert.throws(()=>validatePrices({...p,listings:[{...p.listings[0],priceObservedAt:new Date(now+86400000).toISOString()}]},priceScope,now));
 });
 
-test('catalog price stays on the boxed reference even if loose copies have supported sales',async()=>{
+test('catalog price stays on the boxed reference even if loose copies have supported sales',async(t)=>{
  const before=priceSnapshot(),p=copy(before),rid='tm-3f6d42ecd4b01b8d8440';
+ t.mock.method(Date,'now',()=>Date.parse(before.asOf));
+ p.listings=JSON.parse(readFileSync('catalog/input/price-listings.json')).observations.map(x=>({...x,observedAt:before.asOf}));
  p.sales=[1,2,3].map(n=>({...sale(100+n,100000,'Loose'),releaseId:rid,productCode:priceScope[rid].productCode}));
  const activate=prices=>syncPrices({fetcher:async()=>({ok:true,headers:{get:()=>null},text:async()=>JSON.stringify(prices)}),storage:{setItem(){}}});
  try{await activate(p);assert.equal(quote(rid,'Loose').amount,1000);assert.match(catalogMarketPrice(rid),/\$140\.00/);assert.match(priceBadges(rid),/Market Price <strong>\$140\.00/)}finally{await activate(before)}
  const seed=JSON.parse(readFileSync('catalog/input/price-listings.json'));
- const ids=[...new Set(seed.observations.map(x=>x.releaseId))];assert.equal(ids.length,6);
- for(const rid of ids){const q=valuationQuote(bundled.prices,priceScope,rid,'Boxed',now);assert.equal(q.kind,'listing-average');assert.ok(q.sampleCount>=3);const comparable=seed.observations.filter(x=>x.releaseId===rid);assert.equal(q.amount,Math.round(comparable.reduce((n,x)=>n+x.amountCents,0)/comparable.length)/100)}
+ const codes=['LV-86b','LV-86h','LV-110c','LV-N305d','LV-N305e','LV-N54d'];const ids=[...new Set(seed.observations.map(x=>x.releaseId))].filter(rid=>codes.includes(priceScope[rid].productCode));assert.equal(ids.length,6);
+ for(const rid of ids){const q=valuationQuote({...bundled.prices,listings:seed.observations},priceScope,rid,'Boxed',Date.parse(seed.asOf));assert.equal(q.kind,'listing-average');assert.ok(q.sampleCount>=3);const comparable=seed.observations.filter(x=>x.releaseId===rid);assert.equal(q.amount,Math.round(comparable.reduce((n,x)=>n+x.amountCents,0)/comparable.length)/100)}
 });

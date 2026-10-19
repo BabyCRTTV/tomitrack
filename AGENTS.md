@@ -46,3 +46,5 @@
 - Catalog photo prices: keep the green Market Price button in the same media column as the thumbnail, matching its width with an 8px gap; center the label above the USD amount. Use the shared release quote and open existing pricing details on tap. Preserve card text, wishlist and add actions.
 
 - Owner authorization (2026-10-19): publish requested future updates without asking for approval again unless the owner explicitly requests approval or a preview first.
+
+- Owner confirmed 2026-10-19: market listing averages use item prices only, excluding shipping, tax and checkout totals. Keep the MSRP +10% annual fallback when comparables are insufficient. Do not reject a correct comparable solely because its shipping charge is high. Preserve exact variants/condition groups, one comparable per seller, original price dates on status changes, and merge reviewed seeds with refresh history. Catalog headline uses the boxed reference; private copies use saved condition.

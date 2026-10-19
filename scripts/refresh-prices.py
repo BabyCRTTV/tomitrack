@@ -31,7 +31,7 @@ def fetch(url,fields=None):
 from html.parser import HTMLParser
 from decimal import Decimal
 class ListingPage(HTMLParser):
- def __init__(self):super().__init__(convert_charrefs=True);self.capture=None;self.scripts=[];self.text=[];self.price=[];self.stack=[];self.price_level=None;self.script=False;self.seller_level=None;self.seller_links=[];self.condition_level=None;self.condition_text=[]
+ def __init__(self):super().__init__(convert_charrefs=True);self.capture=None;self.scripts=[];self.text=[];self.price=[];self.stack=[];self.price_level=None;self.script=False;self.seller_level=None;self.seller_links=[];self.seller_ids=[];self.condition_level=None;self.condition_text=[]
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:self.stack.append(tag)
@@ -43,6 +43,11 @@ class ListingPage(HTMLParser):
   if 'x-item-condition' in a.get('class','').split():self.condition_level=len(self.stack)
   if tag=='a' and self.seller_level is not None:
    self.seller_links.append(a.get('href','').split('?')[0])
+  if self.seller_level is not None and a.get('data-clientpresentationmetadata'):
+   try:
+    seller=json.loads(a['data-clientpresentationmetadata']).get('_ssn')
+    if seller:self.seller_ids.append(seller.lower())
+   except (ValueError,TypeError):pass
  def handle_startendtag(self,tag,attrs):pass
  def handle_endtag(self,tag):
   if tag=='script' and self.capture is not None:self.scripts.append(''.join(self.capture));self.capture=None
@@ -61,6 +66,7 @@ class ListingPage(HTMLParser):
 def parse_listing(raw,watch,now):
  page=ListingPage();markup=raw.decode('utf-8');page.feed(markup);text=' '.join(page.text)
  if watch['sellerProfile'] not in page.seller_links:raise ValueError('Actual item seller changed or unavailable')
+ if watch.get('sellerAccount') and set(page.seller_ids)!={watch['sellerAccount'].lower()}:raise ValueError('Actual seller account changed')
  products=[x for x in (json.loads(s) for s in page.scripts) if isinstance(x,dict) and x.get('@type')=='Product']
  if len(products)!=1:raise ValueError('Missing unambiguous structured product')
  product=products[0];offer=product.get('offers',{})

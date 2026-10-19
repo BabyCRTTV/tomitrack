@@ -1,4 +1,12 @@
-# Development handoff · 0.4.15
+# Development handoff · 0.4.16
+
+## 0.4.16: item-price-only rolling averages · prepared
+
+Owner explicitly confirmed item price only (no shipping/tax/checkout total), consumer-facing rolling averages and preservation of the MSRP +10%/year fallback. Initial audit: 2,933 fallback figures, one listing-supported model, 1,334 unavailable out of 4,268 scoped references. Forty-two reviewed new listing identities bring the pinned watch count to 45 and listing-supported models to nine; 2,925 still use the fallback. Total MSRP count stays 2,934; three sparse sold observations still produce zero qualifying sold averages. Research audit covers 70 successfully read pages. The two-car bundle and the LV-86g code/blue-photo mismatch are explicitly rejected. New 25-page photo contact sheet was visually reviewed; source titles, code, color, actual seller, condition, active fixed-price stock, visible/structured USD item amount and hashes are retained in evidence. Marketplace-visible USD conversions are accepted only when they match the structured item amount; no checkout amount is substituted.
+
+Shared calculation and consumer labels remain intact. A seed/refresh merge bug previously hid newly reviewed identities; builder and refresh now merge by URL/date and reject conflicting prices/identities. Listing ending appends a status observation with original priceObservedAt rather than rewriting evidence or making old prices fresh. The catalog headline now uses the boxed reference, while linked copies continue their saved condition. Actual item seller-card matching replaces page-wide seller-link matching; unrelated scripts do not trigger false sold status. Optional seller account metadata is pinned in addition to the stable profile. No canonical facts, photos, private persistence, safe areas or dependency resolutions change. Source URLs and sellers remain research-side; compact Market Price/MSRP UI stays unchanged.
+
+Reviewed first batch is secured on work/item-price-audit-0.4.16 at `680f241fff40a4f39b14ce2ca172a24ad6d4cb69` (tree `2181fc5ba95e0566561d7712a537f14debee1c42`). The later research continued after a tool-usage interruption; raw scratch pages were refetched before review. Manual `research-price-listings.py` saves candidates only; it does not activate prices or run in startup/CI. `audit-prices.mjs` reports actual pricing coverage. Version 0.4.16 / Android code 22. Prior checkpoint passed 80 tests; final checks and publication verification pending. Public main/web/binaries remain v0.4.15 until publication is verified.
 
 ## 0.4.15: catalog photo Market Price button · verified
 

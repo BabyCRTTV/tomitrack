@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.16 · Broader item-price averages
+
+- Expand watched item asks from 3 to 45; nine exact models now have supported rolling listing averages. Shipping and checkout charges are excluded.
+- Keep newly reviewed listings when refresh history exists; preserve original price age when listings end. Pin the actual seller and exact variant.
+- Keep catalog prices on the boxed reference condition and preserve saved collection conditions, manual values and the MSRP fallback.
+
 ## 0.4.15 · Catalog photo prices
 
 - Add a green Market Price button below catalog photos, matching photo width with centered label and amount. Tap to open pricing details.

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "asOf": "2026-10-19T09:40:34.062850+00:00",
+  "asOf": "2026-10-19T13:23:19+00:00",
   "observations": [
     {
       "releaseId": "tm-3f6d42ecd4b01b8d8440",
@@ -261,6 +261,331 @@
       "lotSize": 1,
       "active": true,
       "sellerId": "ebay:310_garage"
+    },
+    {
+      "releaseId": "tm-e8ecda77c2c877141b41",
+      "productCode": "LV-93b",
+      "sourceUrl": "https://www.ebay.com/itm/127989782496",
+      "condition": "Boxed",
+      "amountCents": 16500,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:43+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:eikoh777"
+    },
+    {
+      "releaseId": "tm-2e8e519afb11602f96d7",
+      "productCode": "LV-85a",
+      "sourceUrl": "https://www.ebay.com/itm/127989852429",
+      "condition": "Boxed",
+      "amountCents": 24500,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:40+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:eikoh777"
+    },
+    {
+      "releaseId": "tm-d42b3a21b04a05ae8b10",
+      "productCode": "LV-86c",
+      "sourceUrl": "https://www.ebay.com/itm/137845838147",
+      "condition": "Boxed",
+      "amountCents": 21873,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:44+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:kiyomastote"
+    },
+    {
+      "releaseId": "tm-c0bbebd546f6ffb8c4bd",
+      "productCode": "LV-110a",
+      "sourceUrl": "https://www.ebay.com/itm/137845838154",
+      "condition": "Boxed",
+      "amountCents": 13989,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:07+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:kiyomastote"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/168760610762",
+      "condition": "Boxed",
+      "amountCents": 3428,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:46+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:eightlanterns"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/224603882280",
+      "condition": "Boxed",
+      "amountCents": 4780,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:47+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:toysisland"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/224603882283",
+      "condition": "Boxed",
+      "amountCents": 5480,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:toysisland"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/267507969658",
+      "condition": "Boxed",
+      "amountCents": 4242,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:05+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:parts_and_diecasts"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/267694661212",
+      "condition": "Boxed",
+      "amountCents": 4242,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:47+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:parts_and_diecasts"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/284407001766",
+      "condition": "Boxed",
+      "amountCents": 3999,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:monsterjam96"
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "sourceUrl": "https://www.ebay.com/itm/287619314883",
+      "condition": "Boxed",
+      "amountCents": 8697,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:18+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:retrogamejapan"
+    },
+    {
+      "releaseId": "tm-e8ecda77c2c877141b41",
+      "productCode": "LV-93b",
+      "sourceUrl": "https://www.ebay.com/itm/287650983562",
+      "condition": "Boxed",
+      "amountCents": 21673,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:43+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:retrogamejapan"
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "sourceUrl": "https://www.ebay.com/itm/306328613511",
+      "condition": "Boxed",
+      "amountCents": 5257,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:12+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:kinjpza"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/327300209350",
+      "condition": "Boxed",
+      "amountCents": 5180,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:toysisland"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/336145158393",
+      "condition": "Boxed",
+      "amountCents": 3600,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:minicars8"
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "sourceUrl": "https://www.ebay.com/itm/356534421240",
+      "condition": "Boxed",
+      "amountCents": 3200,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:19+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:hiltaway"
+    },
+    {
+      "releaseId": "tm-e6f4b105eeb0f6496748",
+      "productCode": "LV-N106d",
+      "sourceUrl": "https://www.ebay.com/itm/356806133065",
+      "condition": "Boxed",
+      "amountCents": 14995,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:13+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:ninjaktpjapan"
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "sourceUrl": "https://www.ebay.com/itm/366644807341",
+      "condition": "Boxed",
+      "amountCents": 3399,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:14+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:yakikostore"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/376571733425",
+      "condition": "Boxed",
+      "amountCents": 9834,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:51+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:fromnippon"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/406959543131",
+      "condition": "Boxed",
+      "amountCents": 2900,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:50+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:greensunjapan"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/407070128240",
+      "condition": "Boxed",
+      "amountCents": 3200,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:greensunjapan"
+    },
+    {
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "sourceUrl": "https://www.ebay.com/itm/407141520566",
+      "condition": "Boxed",
+      "amountCents": 2200,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:23:18+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:greensunjapan"
+    },
+    {
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "sourceUrl": "https://www.ebay.com/itm/407162117715",
+      "condition": "Boxed",
+      "amountCents": 3300,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:51+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:greensunjapan"
+    },
+    {
+      "releaseId": "tm-2e8e519afb11602f96d7",
+      "productCode": "LV-85a",
+      "sourceUrl": "https://www.ebay.com/itm/407210700085",
+      "condition": "Boxed",
+      "amountCents": 24500,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:40+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:lightningmanstorejapan"
+    },
+    {
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "sourceUrl": "https://www.ebay.com/itm/960011906581",
+      "condition": "Boxed",
+      "amountCents": 3428,
+      "currency": "USD",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "verified": true,
+      "lotSize": 1,
+      "active": true,
+      "sellerId": "ebay:eightlanterns"
     }
   ],
   "watches": [
@@ -282,7 +607,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-3f6d42ecd4b01b8d8440",
       "productCode": "LV-86b",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "japan minicar"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/366275518532",
@@ -302,7 +628,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-d696da3c000234ef117f",
       "productCode": "LV-110c",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "jp.opera"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/206613307316",
@@ -312,7 +639,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-d696da3c000234ef117f",
       "productCode": "LV-110c",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "marshmallow soda"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/407275516269",
@@ -322,7 +650,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-d696da3c000234ef117f",
       "productCode": "LV-110c",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "lmtf_diecast"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/298690187581",
@@ -332,7 +661,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-21ef2b5cf6f0737b8a91",
       "productCode": "LV-86h",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "lush_nine"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/327353289482",
@@ -342,7 +672,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-21ef2b5cf6f0737b8a91",
       "productCode": "LV-86h",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "toys-island"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/318932244748",
@@ -352,7 +683,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-21ef2b5cf6f0737b8a91",
       "productCode": "LV-86h",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "ichiban_shop"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/227427562794",
@@ -362,7 +694,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-42ea089ca5b11344c9b7",
       "productCode": "LV-N305e",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "toys-island"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/198653838948",
@@ -382,7 +715,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-42ea089ca5b11344c9b7",
       "productCode": "LV-N305e",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "modelcar2025"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/206409371976",
@@ -392,7 +726,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-42ea089ca5b11344c9b7",
       "productCode": "LV-N305e",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "virtual-machines"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/205813755852",
@@ -402,7 +737,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-6d80cbb02386b3473f69",
       "productCode": "LV-N54d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "tent_jp_knd"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/188332749760",
@@ -412,7 +748,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-6d80cbb02386b3473f69",
       "productCode": "LV-N54d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "aldium_lifestyles_japan"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/820009054689",
@@ -422,7 +759,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-6d80cbb02386b3473f69",
       "productCode": "LV-N54d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "japan prestige select"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/407071133374",
@@ -432,7 +770,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-9eb146e16db2a1b6101f",
       "productCode": "LV-N305d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "modelcar2025"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/206613307561",
@@ -442,7 +781,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-9eb146e16db2a1b6101f",
       "productCode": "LV-N305d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "marshmallow soda"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/318929539667",
@@ -452,7 +792,8 @@
       "sourceCondition": "https://schema.org/NewCondition",
       "releaseId": "tm-9eb146e16db2a1b6101f",
       "productCode": "LV-N305d",
-      "condition": "Boxed"
+      "condition": "Boxed",
+      "sellerAccount": "ichiban_shop"
     },
     {
       "sourceUrl": "https://www.ebay.com/itm/287600214025",
@@ -463,6 +804,276 @@
       "releaseId": "tm-9eb146e16db2a1b6101f",
       "productCode": "LV-N305d",
       "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127989782496",
+      "title": "Tomytec Tomica Limited Vintage LV-93b Porsche 912 1967 Green 1/64 Japan",
+      "sellerId": "ebay:eikoh777",
+      "sellerProfile": "https://www.ebay.com/sch/eikoh777/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-e8ecda77c2c877141b41",
+      "productCode": "LV-93b",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127989852429",
+      "title": "Tomica Vintage LV-85a Porsche 912 Patrol Car",
+      "sellerId": "ebay:eikoh777",
+      "sellerProfile": "https://www.ebay.com/sch/eikoh777/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-2e8e519afb11602f96d7",
+      "productCode": "LV-85a",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/137845838147",
+      "title": "Tomica Limited Vintage/Neo LV-86c Porsche 911 S Black 1968",
+      "sellerId": "ebay:kiyomastote",
+      "sellerProfile": "https://www.ebay.com/str/kiyomastote",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-d42b3a21b04a05ae8b10",
+      "productCode": "LV-86c",
+      "condition": "Boxed",
+      "sellerAccount": "japan anime car and game excavator"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/137845838154",
+      "title": "Tomica Limited Vintage/Neo LV-110a Porsche 911 1964",
+      "sellerId": "ebay:kiyomastote",
+      "sellerProfile": "https://www.ebay.com/str/kiyomastote",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-c0bbebd546f6ffb8c4bd",
+      "productCode": "LV-110a",
+      "condition": "Boxed",
+      "sellerAccount": "japan anime car and game excavator"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/168760610762",
+      "title": "TOMY TEC Tomica Limited Vintage LV-86f 1/64 Porsche 911 Yellow",
+      "sellerId": "ebay:eightlanterns",
+      "sellerProfile": "https://www.ebay.com/str/eightlanterns",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed",
+      "sellerAccount": "eightlanterns"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/224603882280",
+      "title": "Tomica Limited Vintage NEO LV-86f Porsche 911 ( yellow ) 1/64 TOMYTEC TOMY new",
+      "sellerId": "ebay:toysisland",
+      "sellerProfile": "https://www.ebay.com/str/toysisland",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed",
+      "sellerAccount": "toys-island"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/224603882283",
+      "title": "Tomica Limited Vintage NEO LV-86g Porsche 911S ( Maroon ) 1/64 TOMYTEC TOMY new",
+      "sellerId": "ebay:toysisland",
+      "sellerProfile": "https://www.ebay.com/str/toysisland",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed",
+      "sellerAccount": "toys-island"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/267507969658",
+      "title": "Tomica Tomytec Tomica Limited Vintage TLV 1967 Porsche 911S LV-86g Maroon 1/64",
+      "sellerId": "ebay:parts_and_diecasts",
+      "sellerProfile": "https://www.ebay.com/sch/parts_and_diecasts/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/267694661212",
+      "title": "Tomica Tomytec Tomica Limited Vintage TLV 1966 Porsche 911 LV-86f Orange 1/64",
+      "sellerId": "ebay:parts_and_diecasts",
+      "sellerProfile": "https://www.ebay.com/sch/parts_and_diecasts/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/284407001766",
+      "title": "TOMYTEC LV-86g Porsche 911S (Maroon) TOMICA LIMITED VINTAGE ポルシェ911S（マルーン）",
+      "sellerId": "ebay:monsterjam96",
+      "sellerProfile": "https://www.ebay.com/sch/monsterjam96/m.html",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287619314883",
+      "title": "Tomica Neo LV-N106e Toyota Supra 30 GT Turbo 86 First Collectables 17+",
+      "sellerId": "ebay:retrogamejapan",
+      "sellerProfile": "https://www.ebay.com/str/retrogamejapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "condition": "Boxed",
+      "sellerAccount": "retro game japan"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287650983562",
+      "title": "Tomica LV-93b Porsche 912 Collectables 17+",
+      "sellerId": "ebay:retrogamejapan",
+      "sellerProfile": "https://www.ebay.com/str/retrogamejapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-e8ecda77c2c877141b41",
+      "productCode": "LV-93b",
+      "condition": "Boxed",
+      "sellerAccount": "retro game japan"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/306328613511",
+      "title": "Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo White 86Model year",
+      "sellerId": "ebay:kinjpza",
+      "sellerProfile": "https://www.ebay.com/str/kinjpza",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "condition": "Boxed",
+      "sellerAccount": "kinjpza"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/327300209350",
+      "title": "Tomica Limited Vintage NEO LV-86g Porsche 911S (Maroon) 1/64 TOMYTEC TOMY New B",
+      "sellerId": "ebay:toysisland",
+      "sellerProfile": "https://www.ebay.com/str/toysisland",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed",
+      "sellerAccount": "toys-island"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/336145158393",
+      "title": "1/64 TOMICA LIMITED VINTAGE  LV-86g Porsche 911S Maroon",
+      "sellerId": "ebay:minicars8",
+      "sellerProfile": "https://www.ebay.com/str/minicars8",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed",
+      "sellerAccount": "minicars　japan"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/356534421240",
+      "title": "1:64 Tomica Limtied Vintage Tomytec LV-N106e Toyota Supra JZA70 3.0 GT Turbo",
+      "sellerId": "ebay:hiltaway",
+      "sellerProfile": "https://www.ebay.com/str/hiltaway",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "condition": "Boxed",
+      "sellerAccount": "hiltaway"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/356806133065",
+      "title": "Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo 1986 JP 14413",
+      "sellerId": "ebay:ninjaktpjapan",
+      "sellerProfile": "https://www.ebay.com/str/ninjaktpjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-e6f4b105eeb0f6496748",
+      "productCode": "LV-N106d",
+      "condition": "Boxed",
+      "sellerAccount": "ninja ktp japan / sweets"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/366644807341",
+      "title": "Tomica Limited Vintage Toyota Supra 3.0 GT Turbo JDM Metal Diecast Car LV-N106e",
+      "sellerId": "ebay:yakikostore",
+      "sellerProfile": "https://www.ebay.com/str/yakikostore",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "condition": "Boxed",
+      "sellerAccount": "yakikostore"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/376571733425",
+      "title": "New Tomytec Tomica Limited Vintage 1/64 Scale LV-86f Porsche 911 Yellow Finished",
+      "sellerId": "ebay:fromnippon",
+      "sellerProfile": "https://www.ebay.com/str/fromnippon",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed",
+      "sellerAccount": "fromnippon"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/406959543131",
+      "title": "Takara Tomy Tomica Limited Vintage LV-86f Porsche 911 (1966) Yellow",
+      "sellerId": "ebay:greensunjapan",
+      "sellerProfile": "https://www.ebay.com/str/greensunjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed",
+      "sellerAccount": "japan minicar"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407070128240",
+      "title": "Tomytec Tomica Limited Vintage LV-86g Porsche 911S",
+      "sellerId": "ebay:greensunjapan",
+      "sellerProfile": "https://www.ebay.com/str/greensunjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed",
+      "sellerAccount": "japan minicar"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407141520566",
+      "title": "Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo 86 Collector's",
+      "sellerId": "ebay:greensunjapan",
+      "sellerProfile": "https://www.ebay.com/str/greensunjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-51c21da1bfaa85bac285",
+      "productCode": "LV-N106e",
+      "condition": "Boxed",
+      "sellerAccount": "japan minicar"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407162117715",
+      "title": "Tomica Limited Vintage Tomytec LV-86f Porsche 911 (Yellow) 1966 Collector's",
+      "sellerId": "ebay:greensunjapan",
+      "sellerProfile": "https://www.ebay.com/str/greensunjapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-cac2d4f7d3e14dd0b073",
+      "productCode": "LV-86f",
+      "condition": "Boxed",
+      "sellerAccount": "japan minicar"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407210700085",
+      "title": "Tomica Limited Vintage LV-85a Porsche 912 Kanagawa Prefectural Police Car 1/64",
+      "sellerId": "ebay:lightningmanstorejapan",
+      "sellerProfile": "https://www.ebay.com/str/lightningmanstorejapan",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-2e8e519afb11602f96d7",
+      "productCode": "LV-85a",
+      "condition": "Boxed",
+      "sellerAccount": "lightningman.store.japan"
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/960011906581",
+      "title": "TOMY TEC Tomica Limited Vintage LV-86g 1/64 Porsche 911S Maroon",
+      "sellerId": "ebay:eightlanterns",
+      "sellerProfile": "https://www.ebay.com/str/eightlanterns",
+      "sourceCondition": "https://schema.org/NewCondition",
+      "releaseId": "tm-6f3292bd55cdb16f4794",
+      "productCode": "LV-86g",
+      "condition": "Boxed",
+      "sellerAccount": "eightlanterns"
     }
   ],
   "evidence": [
@@ -839,6 +1450,842 @@
           "height": "1600px",
           "width": "1600px",
           "description": "White TOMYTEC box with blue text, “Limited Vintage NEO,” showing side profile of NISMO 400R and R33 Skyline GT-R."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127989782496",
+      "sha256": "8727507f2ea559c71a98dfd94bd8ebcac2f7f74f8236818bec6d15026229fa59",
+      "observedAt": "2026-10-19T13:22:43+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/mZgAAeSwstBqYZoM/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Green Tomytec LV-93b Porsche 912 1/64 Japan with black wheels, in black box with red/white Tomica Limited Vintage logo."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tTwAAeSwmkxqYZoU/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Green Tomytec LV-93b Porsche 912 1967 model in clear display box with Japanese text on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/AvcAAeSwLTxqYZoU/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomytec LV-93b Porsche 912 1967 Japan, green with black roof, in clear display box with Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DF4AAeSwYlNqYZoU/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Green Tomytec LV-93b Porsche 912 1/64 Japan, black box with yellow text, made in China."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/e5gAAeSwknFqYZoH/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomytec box with blue text, Porsche 912 1967, green LV-93b, Japan."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/127989852429",
+      "sha256": "ada0d7e2e77d9e60053d2d9a01419c9fdd86b4de3c66ce4495522d3942d600f5",
+      "observedAt": "2026-10-19T13:22:40+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/hScAAeSwms5qYbDC/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomica Limited Vintage LV-85a Porsche 912 Patrol Car in blue with yellow stripes, in black display box with Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/fEsAAeSwzXdqYbC8/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Tomica vintage LV-85a Porsche 912 Patrol Car in clear display case with red/white label and instructions."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/mZ0AAeSw1stqYbDJ/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomica Limited Vintage LV-85a Porsche 912 Patrol Car in black with yellow-red detailing, in blue display box with Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/2mkAAeSw35FqYbDK/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomica Vintage LV-85a Porsche 912 Patrol Car in blue, yellow, and gray with black wheels, in front of branded box."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/S4QAAeSwUFpqYbDL/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica LV-85a Porsche 912 Patrol Car box with green/black Porsche 912 graphic and red “Made in China” text."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/137845838147",
+      "sha256": "850eb71d833b7ceab40c42f1df0b222838775517d29b9b6f231912b63df03ad0",
+      "observedAt": "2026-10-19T13:22:44+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DakAAeSwaDxq0N9L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black Porsche 911 S with silver trim in clear display case, showing “Porsche” and “LV-86c” text on side."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/63kAAeSwYF1q0N9L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/gj4AAeSwg-Vq0N9L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/43cAAeSwwlpq0N9L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited box with red text, barcode, and product details for vintage/neo LV-86c Porsche 911 S in black."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/CLEAAeSwL0tq0N9L/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica box with orange Porsche 911 S illustration, black roof, silver wheels, and text “LV-86c Porsche 911 S.”"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/137845838154",
+      "sha256": "86c7628ce438e0103af79592bf7d2a7ff67349e98b3e4d21e2eff1e05ff93ec4",
+      "observedAt": "2026-10-19T13:23:07+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/R20AAeSw2xlq0N9O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Pink Porsche 911 in black display box with yellow text, “LV-110a,” and “5/164” scale."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UXYAAeSwORxq0N9O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/LIgAAeSwZApq0N9O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited box with orange Porsche 911 illustration, black text, and green LV-110a branding on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/RgAAAeSw7ZRq0N9O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/RW0AAeSwCapq0N9O/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Gray Tomica box with white text reading “Limited Vintage” Porsche 911 (1964) LV-110a, in black font with silver emblem."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/168760610762",
+      "sha256": "e96c23259c6165c8be275ab8f8c2b7cb9c6d6b070bbd64de2937602fadb9ba5d",
+      "observedAt": "2026-10-19T13:22:46+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UiMAAeSwkJlqwivO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMY TEC box with orange Porsche 911 illustration, black wheels, and text “LV-86f 1/64” on front."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/224603882280",
+      "sha256": "488b110998d5fe934054b0f4c75458c2d6307d23ffa3d29c7c0a9d3f94d38ad8",
+      "observedAt": "2026-10-19T13:22:47+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/0LQAAOSwBQ1g7EVd/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/5rYAAOSwVNtg7EVf/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/848AAOSwYT1g7EVg/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/TiAAAOSw-PBg7EVl/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/MrQAAOSwPvBg7EVj/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/224603882283",
+      "sha256": "abd2a676a05643276f804be1396485ebfe8ca69acf6a54cb0f108aee5e01f7e0",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kSYAAOSwyoxg7EWO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomica Limited Vintage NEO LV-86g Porsche 911S die-cast car with silver wheels in box on white background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/qdcAAOSwmqVg7EWQ/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomica Limited Vintage NEO LV-86g Porsche 911S die-cast car with silver wheels, in box with yellow-red classic car illustration."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/0uAAAOSw0-9g7EWT/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomica Limited Vintage NEO LV-86g Porsche 911S die-cast car with silver interior in gray box, TOYTEC logo visible."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/6mYAAOSwEVRg7EWX/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomica Limited vintage NEO LV-86g Porsche 911S die-cast car with yellow seats in black box with white label."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kTEAAOSwyoxg7EWV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomica Limited NEO LV-86g Porsche 911S die-cast car with silver wheels, in front of gray box with Japanese text."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/267507969658",
+      "sha256": "5fb5aa24dcae2277078b521f070bad7bff87dd92c5ad9000bd5f575b2f15fc41",
+      "observedAt": "2026-10-19T13:23:05+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/wf8AAeSwCTFpuMGn/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/pf8AAeSw2uJpOjqx/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/s3kAAeSwabBpOjqx/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Jj0AAeSwDXRpOjqw/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/3cgAAeSwWlVpOjqw/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/267694661212",
+      "sha256": "f4d397faa6f9fcf11b9b41d65d6d99876e6b209d35444ff9ba6fdc94a8f99c8f",
+      "observedAt": "2026-10-19T13:22:47+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/FI4AAeSwIIlpXp5~/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/vWwAAeSwF0RpOjPp/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/EngAAeSwvthpOjPp/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/rCUAAeSwcyxpOjPp/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/IIAAAeSw1PVpOjPp/s-l1600.png",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/284407001766",
+      "sha256": "7bab03690682a1f810dfd3aa9e76596c40a131d311d5cd2ceb7c54e703a799c2",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/-9gAAOSw1VphFRQl/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Brown TOMYTEC LV-86g Porsche 911S box with black text and silver car illustration on brick building front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UcEAAOSwfHphFRQl/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon TOMYTEC LV-86g Porsche 911S model with silver interior, black-tinted windows, and detailed spoked wheels."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ZMcAAOSwfG5hFRQm/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon TOMYTEC LV-86g Porsche 911S model with rear seats, silver trim, and black-white rubber tires on a gray background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/46UAAOSwV0ZhFRQn/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon TOMYTEC LV-86g Porsche 911S model with tan seats, black-tinted windows, and white front license plate."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/rH4AAOSwf61hFRQo/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon TOMYTEC LV-86g Porsche 911S model with silver interior, black wheels, and detailed front grille on black background."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287619314883",
+      "sha256": "915c2cf9f39215f91d602e8bc147b9106fac042db393a75c2a6880312df24650",
+      "observedAt": "2026-10-19T13:23:18+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ruIAAeSw1tRqvckK/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Neo LV-N106e Toyota Supra 30 GT Turbo box with blue star border, car illustration, and black text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/FVQAAeSw2VhqvckK/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Neo LV-N106e Toyota Supra 30 GT Turbo 86 model with brown interior, black wheels, in branded box."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/287650983562",
+      "sha256": "ddb5b2c0f8beb70a38f51ea8c80538a9d18672df6a669585026e710e7d43a32d",
+      "observedAt": "2026-10-19T13:22:43+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/wA8AAeSwaHRq0XuE/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomica LV-93b Porsche 912 miniature in green with silver wheels, in black box with yellow text and LV-93b branding."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/wMwAAeSwyHFq0XuF/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Green Tomica LV-93b Porsche 912 toy car in clear display box with black-and-white classic car illustration and Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/wRwAAeSwfQFq0XuE/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Gray Tomica LV-93b Porsche 912 box with black script, silver car, and “17+” text on front."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/uSMAAeSwxRxq0XuF/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Gray Tomica LV-93b Porsche 912 box with red/white Porsche logo, made in China text, barcode, and product number 17+."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ugYAAeSwfUZq0XuF/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Black rectangular Tomica LV-93b Porsche 912 box with red text and yellow oval logo, held in a blue gloved hand."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/306328613511",
+      "sha256": "de7ad4a635b5801c744c3c73c2f77068ea0ce14f2fabbe6d0c26277e7dfdc9df",
+      "observedAt": "2026-10-19T13:23:12+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/mNgAAeSwuS1q1T~X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo model with brown racing stripes and rear spoiler."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tnAAAeSw1p9q1T~X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo model with brown side stripes and rear spoiler."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/ofwAAeSwBxNq1T~X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo side profile with brown racing stripe accents."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/xxoAAeSwdclq1T~X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo rear view with black and red taillight, and front license plate."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/su0AAeSwbrBq1T~X/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Silver Tomica Limited Neo LV-N106e Toyota Supra 3.0 GT Turbo White side wheel with brown tire and lane markings."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/327300209350",
+      "sha256": "2b92465ec6670cf1493a2607de90d2a64a87751ba2b5ab08f75d0409e9226375",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kSYAAOSwyoxg7EWO/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/qdcAAOSwmqVg7EWQ/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/0uAAAOSw0-9g7EWT/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/6mYAAOSwEVRg7EWX/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/kTEAAOSwyoxg7EWV/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/336145158393",
+      "sha256": "31e6532e7f807e9c55ad02c065566b68868c22b49586c4b0ce6552eaf3c778b2",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/DbMAAeSwBzForQD-/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White 1/64 TOMICA LIMITED VINTAGE LV-86g Porsche 911S Maroon box with car illustration and red-black design text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/UyMAAeSwgt5orQD-/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon 1/64 TOMICA LIMITED VINTAGE LV-86g Porsche 911S with black-tinted windows and silver-spoked wheels."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/356534421240",
+      "sha256": "3424f9ce904633361a306a9d4d0d3d7a74cfa3d0bca5179b90e5bc8c840e7476",
+      "observedAt": "2026-10-19T13:23:19+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tK0AAOSwO81l6qhs/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White 1:64 Tomica Limtied Vintage LV-N106e Toyota Supra JZA70 with brown racing stripes, in black box with blue text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/pH0AAOSw-G9l6qhr/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White 1:64 Tomica Limted Vintage Tomytec LV-N106e Toyota Supra JZA70 with brown interior, silver wheels, and tan side stripe."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/0eoAAOSwmOhl6qht/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White 1:64 Tomica Limted Vintage Tomytec LV-N106e Toyota Supra JZA70 with brown roof, silver wheels, and tan stripe accents."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/356806133065",
+      "sha256": "e59bdb85fffff237a47f203191fcac59cda709675d897889c0f1e01e44d45720",
+      "observedAt": "2026-10-19T13:23:13+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/Ss4AAOSwX2BoBah2/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Brown and beige Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo 1986 JP 14413 illustration."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/TEkAAOSwkT9oBah8/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Bronze 1986 Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo with black roof, silver interior, and gray wheels."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/HScAAOSwJHJoBah~/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Silver Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo 1986 JP with black roof, tan interior, and silver wheels."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/J4AAAOSw58xoBaiC/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Gray Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo rear view with black taillight and white plate."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/qQEAAOSwZYdoBaiG/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Brown Tomica Limited Vintage Neo 1/64 LV-N106d Toyota Supra 3.0GT Turbo rear view with Japanese text on black plate."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/366644807341",
+      "sha256": "a9265d96dfcbda7546802ba4437cbb7b0f4996b408a66cc41c9f410a456b458f",
+      "observedAt": "2026-10-19T13:23:14+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/7usAAeSwvsRqAR7p/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/YXEAAeSwcM9qAR7u/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/WkQAAeSwp2JqAR7x/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/CxoAAeSw77xqAR70/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/IBQAAeSwBe1qAR73/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/376571733425",
+      "sha256": "7f558c350335bd8444f8fdfd52074822508c131a6a4daa5ac84460d519def448",
+      "observedAt": "2026-10-19T13:22:51+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/rpUAAeSw4zBo01XR/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Orange Tomytec LV-86f Porsche 911 with black-tinted windows, silver wheels, and “New” text on front."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/406959543131",
+      "sha256": "bdcda57d587392a5f28b3ffb9e75b2376d53142f63d777e34947169444f42ca6",
+      "observedAt": "2026-10-19T13:22:50+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/tvAAAeSw9mhq1hAY/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Takara Tomy Tomica Limited Vintage LV-86f Porsche 911 box with black-and-white car illustration and text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1scAAeSwcpFq1hAX/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Orange Takara Tomy Tomica Limited Vintage LV-86f Porsche 911 with black-tinted windows and silver-yellow spoked wheels."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407070128240",
+      "sha256": "70bb299e44193f37037a5b081c726360faeb6d7bcd73d09a9e7f18d1c952262b",
+      "observedAt": "2026-10-19T13:23:01+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/gssAAeSw~Qhq1gQM/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Tomytec Limited Vintage LV-86g Porsche 911S in burgundy with black wheels, in black box with yellow text and images."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/hEMAAeSwWYhq1gQL/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Maroon Tomytec Tomica Limited Vintage LV-86g Porsche 911S with silver interior, black wheels, and yellow-spotted engine cover."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407141520566",
+      "sha256": "6213b773cd9750bc3e420001967ab18491737839d4da72e1dad7dc0ab27c2572",
+      "observedAt": "2026-10-19T13:23:18+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/3oIAAeSwODVq1gFF/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo 86 box with blue star border and Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/0vQAAeSw4sdq1gFE/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo in black packaging with spare parts."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1UYAAeSwwhJq1gFF/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage Neo LV-N106e Toyota Supra 3.0 GT Turbo 86 model in black box with product photo and text."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407162117715",
+      "sha256": "b813408a0a9fe11aa5e3ba0684a93a2e6a85959ae8eeee4779ac24505cca8d83",
+      "observedAt": "2026-10-19T13:22:51+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/68EAAeSwtD9q1Or1/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited Vintage Tomytec LV-86f Porsche 911 box with black-and-white car illustration and text “S=1/64”."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/YFsAAeSwc65q1Or1/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited Vintage Tomytec LV-86f Porsche 911 box with black-and-white car illustration, Japanese text, and Porsche logo."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/f88AAeSwdk9q1Or1/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Yellow Tomica Limited Vintage Tomytec LV-86f Porsche 911 model with black-out window, silver wheels, and detailed front grille."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/407210700085",
+      "sha256": "f97b325e20e6a87e742b0e61fe138efe9bb7d1471538002ad0f809cd4655b69d",
+      "observedAt": "2026-10-19T13:22:40+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/D3gAAeSw4Z1qpM6j/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited Vintage LV-85a Porsche 912 Kanagawa Prefectural Police car in blue box with red-green text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/BgcAAeSwTvFqpM6j/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White rectangular Tomica box with yellow text, safety warnings, and instructions on a blue gradient background."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/HxYAAeSwz2tqpM6j/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited box with red/black Porsche 912 Kanagawa Prefectural Police car, barcode, and Japanese text."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/1SIAAeSwShxqpM6j/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White Tomica Limited box with LV-85a Porsche 912 Kanagawa Prefectural Police car illustration, black text, and red plastic packaging."
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/~T4AAeSwS2xqpM6k/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "Gray Tomica box with white text reading “LV-85a Porsche 912 Kanagawa Prefectural Police Car” on a patterned background."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ebay.com/itm/960011906581",
+      "sha256": "be1350425467d19f60036b6cc2db6ee2f5892c31b6310b6799cce98547de7754",
+      "observedAt": "2026-10-19T13:22:56+00:00",
+      "review": "Reviewed exact full code, named variant and source photograph/printed box against canonical reference. One New boxed car, fixed item ask and actual seller pinned. Only visible USD item price (including an explicitly displayed marketplace USD conversion if present) matching structured offer is used. Shipping, tax, checkout totals, quantity discounts and crossed-out asks excluded. No sale inferred.",
+      "imageEvidence": [
+        {
+          "@type": "ImageObject",
+          "url": "https://i.ebayimg.com/images/g/yN4AAeSwS3Zqwi1x/s-l1600.jpg",
+          "height": "1600px",
+          "width": "1600px",
+          "description": "White TOMY TEC box with red/maroon Porsche 911S illustration, “LV-86g” text, and “1/64 scale” at bottom."
         }
       ]
     }
