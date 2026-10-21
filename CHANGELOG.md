@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.18 · Pricing consistency
+
+- Refine the shared MSRP-based pricing fallback where comparable market evidence is insufficient.
+- Keep verified market averages, USD MSRP, manual values and purchase costs intact.
+- Simplify the pricing explanation while preserving the existing Market Price / MSRP controls.
+- Update browser, Android and Windows versions together.
+
 ## 0.4.17 · Expanded TLV and mainline price evidence
 
 - Add 466 reviewed item-price listings across 350 additional references: 295 TLV and 55 mainline Tomica. The watch pool is now 511 listings across 364 references. 26 models have qualifying independent listing averages (previously nine). The owner-approved MSRP fallback remains when usable comparables are insufficient.
