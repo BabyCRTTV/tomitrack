@@ -17,16 +17,46 @@ test('combined prices preserve TLV evidence and match reviewed exact Tomica sour
  for(const[rid,m]of Object.entries(built.msrp)){const r=data.releases.find(r=>r.id===rid);assert.ok(['tomica','tomica-limited-vintage'].includes(r.brandId));assert.ok(r.sourceRefs.some(s=>s.url===m.sourceUrl));assert.ok(m.amount>0);if(r.brandId==='tomica'){assert.equal(m.sourceUrl,tomica.msrp[rid].sourceUrl);assert.equal(m.amount,tomica.msrp[rid].amount);assert.match(tomica.evidence[rid].priceText,/メーカー希望小売価格/);assert.match(tomica.evidence[rid].sourceSha256,/^[a-f0-9]{64}$/)}}
  assert.equal(built.sales.length,3);assert.equal(marketQuote(built,built.sales[0].releaseId,'Sealed').amount,null);
 });
-test('owner MSRP rule compounds 10% per calendar year with dated JPY to USD conversion; only Tomica families',()=>{
- const q=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',now);assert.equal(q.kind,'msrp-rule');assert.equal(q.years,age);assert.equal(q.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.equal(q.fxDate,fx.date);
- const next=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',Date.parse('2027-01-01'));assert.equal(next.years,2);assert.equal(next.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.10**2*100)/100);
+test('adjusted MSRP basis compounds 10% per calendar year with dated JPY to USD conversion; only Tomica families',()=>{
+ const q=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',now);assert.equal(q.kind,'msrp-rule');assert.equal(q.years,age);assert.equal(q.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.085*1.10**age*100)/100);assert.equal(q.fxDate,fx.date);
+ const next=valuationQuote({...bundled.prices,listings:[]},priceScope,id,'Boxed',Date.parse('2027-01-01'));assert.equal(next.years,2);assert.equal(next.amount,Math.round(baseMsrp[id].amount*fx.usdPerEur/fx.jpyPerEur*1.085*1.10**2*100)/100);
  assert.equal(valuationQuote(bundled.prices,priceScope,'hw-fake','Boxed',now).amount,null);
  const missing=Object.keys(priceScope).find(rid=>!bundled.prices.msrp[rid]);assert.equal(valuationQuote(bundled.prices,priceScope,missing,'Boxed',now).amount,null);
 });
 test('regular Tomica uses its own verified price and release year, with USD-only display',()=>{
  const rid=Object.keys(bundled.prices.msrp).find(rid=>priceScope[rid].brandId==='tomica'&&priceScope[rid].year===2025),m=bundled.prices.msrp[rid];
- assert.equal(valuationQuote(bundled.prices,priceScope,rid,'Boxed',now).amount,Math.round(m.amount*fx.usdPerEur/fx.jpyPerEur*1.10**age*100)/100);assert.match(priceBadges(rid),/USD/);assert.doesNotMatch(priceBadges(rid),/¥|JPY/);
+ assert.equal(valuationQuote(bundled.prices,priceScope,rid,'Boxed',now).amount,Math.round(m.amount*fx.usdPerEur/fx.jpyPerEur*1.085*1.10**age*100)/100);assert.match(priceBadges(rid),/USD/);assert.doesNotMatch(priceBadges(rid),/¥|JPY/);
  const p=copy(bundled.prices);p.msrp[rid].sourceUrl=p.msrp[id].sourceUrl;assert.throws(()=>validatePrices(p,priceScope,now));p.schema=1;assert.throws(()=>validatePrices(p,priceScope,now));
+});
+test('fallback establishes its base before annual growth, with a cent-safe minimum and no repeated application',()=>{
+ const p={...copy(bundled.prices),sales:[],listings:[],fx:{...fx,usdPerEur:1,jpyPerEur:100}};
+ p.msrp[id].amount=10000;
+ const scope={...priceScope,[id]:{...priceScope[id],year:2026}},date=Date.parse('2026-10-21');
+ assert.equal(valuationQuote(p,scope,id,'Boxed',date).amount,108.50);
+ assert.equal(valuationQuote(p,scope,id,'Boxed',Date.parse('2027-01-01')).amount,119.35);
+ assert.equal(valuationQuote(p,scope,id,'Boxed',Date.parse('2028-01-01')).amount,131.29);
+ for(const condition of ['Boxed','Sealed','Loose'])assert.equal(valuationQuote(p,scope,id,condition,date).amount,108.50);
+ assert.equal(p.msrp[id].amount,10000);
+ p.msrp[id].amount=100;assert.equal(valuationQuote(p,scope,id,'Boxed',date).amount,1.09);
+ // Every real fallback meets the minimum, while preserving raw conversion evidence.
+ const withoutComparables={...bundled.prices,sales:[],listings:[]};
+ for(const [rid,m]of Object.entries(baseMsrp)){
+  const q=valuationQuote(withoutComparables,priceScope,rid,'Boxed',now);
+  assert.equal(q.kind,'msrp-rule');assert.equal(q.baseUsd,m.amount*fx.usdPerEur/fx.jpyPerEur);
+  assert.ok(q.amount>=q.baseUsd*1.085);
+ }
+});
+test('supported market evidence below the fallback stays unchanged; insufficient or stale evidence uses the fallback',()=>{
+ const p={...copy(bundled.prices),listings:[],sales:[sale(1,100),sale(2,200),sale(3,300)]};
+ assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,2);
+ p.sales.pop();const expected=valuationQuote({...p,sales:[]},priceScope,id,'Boxed',now).amount;
+ assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,expected);
+ p.sales=[];p.listings=[100,200,300].map((amountCents,n)=>({...sale(n,amountCents),active:true,sellerId:'seller'+n}));
+ assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,2);
+ p.listings=p.listings.map(x=>({...x,observedAt:new Date(now-31*86400000).toISOString()}));
+ assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,2);
+ p.listings=p.listings.map(x=>({...x,observedAt:new Date(now-181*86400000).toISOString()}));
+ assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,expected);
 });
 test('sale averages take priority only with three recent distinct exact-condition observations; outliers excluded',()=>{
  const p=copy(bundled.prices);p.listings=[];p.sales=[sale(1,2000),sale(2,3000)];assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'msrp-rule');p.sales.push(sale(3,4000));assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).amount,30);assert.equal(valuationQuote(p,priceScope,id,'Boxed',now).kind,'sold-average');assert.equal(valuationQuote(p,priceScope,id,'Loose',now).kind,'msrp-rule');
@@ -44,7 +74,7 @@ test('linked valuation updates totals, sort and copies without rewriting purchas
  const manual=cleanItem({...x,id:'manual',valuationMode:'manual'});assert.equal(unitValue(manual),17);const legacy=cleanItem({...x,valuationMode:undefined});assert.equal(unitValue(legacy),17);assert.equal(totals([{...x,status:'wish'}]).value,0);assert.equal(filterItems([manual,x],{sort:'value'})[0].id,x.id);
  const foreign=cleanItem({...x,catalogReleaseId:'hw-fake'});assert.equal(foreign.valuationMode,'manual');assert.equal(prepareGarageItem({...x,quantity:3},{existing:x}).valuationMode,'market');
 });
-test('price badges identify formula estimates, keep evidence hidden initially and omit other brands',()=>{const fallbackId=Object.keys(baseMsrp).find(rid=>!bundled.prices.listings.some(x=>x.releaseId===rid));const html=priceBadges(fallbackId);assert.match(html,/MSRP growth basis/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[fallbackId].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/1.10/);assert.equal(priceBadges('hw-fake'),'')});
+test('price badges describe fallback without exposing internal parameters, keep evidence hidden initially and omit other brands',()=>{const fallbackId=Object.keys(baseMsrp).find(rid=>!bundled.prices.listings.some(x=>x.releaseId===rid));const html=priceBadges(fallbackId);assert.match(html,/MSRP growth basis/);assert.ok(html.includes('MSRP <strong>'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(baseMsrp[fallbackId].amount*fx.usdPerEur/fx.jpyPerEur)+'</strong>'));assert.doesNotMatch(html,/¥|JPY|3,960/);assert.match(html,/data-price-evidence="estimate" hidden/);assert.match(html,/10% annual growth/);assert.doesNotMatch(html,/8\.5|1\.085|Converted MSRP ×|<sup>/);assert.equal(priceBadges('hw-fake'),'')});
 test('sync validates before activation, preserves prior snapshot on failure and never transmits collection data',async()=>{
  const before=priceSnapshot();let request;
  const candidate=copy(before);candidate.asOf=new Date(Date.parse(before.asOf)+1000).toISOString();candidate.msrp[id].amount+=100;

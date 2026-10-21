@@ -1,5 +1,6 @@
 export const MIN_SALES=3,WINDOW_DAYS=180;
 export const ANNUAL_FACTOR=1.10;
+const MSRP_BASE_FACTOR=1.085;
 const DAY=86400000;
 const date=x=>typeof x==='string'&&Number.isFinite(Date.parse(x));
 const calendarDate=x=>/^\d{4}-\d{2}-\d{2}$/.test(x)&&date(x)&&new Date(x).toISOString().slice(0,10)===x;
@@ -42,7 +43,8 @@ export function valuationQuote(snapshot,scope,id,condition='Boxed',now=Date.now(
  const listed=listingQuote(snapshot,id,condition,now);if(listed.amount!==null)return listed;
  const msrp=snapshot.msrp[id];if(!msrp)return {...market,kind:'unavailable'};
  const years=Math.max(0,new Date(now).getUTCFullYear()-scope[id].year),baseUsd=msrp.amount*snapshot.fx.usdPerEur/snapshot.fx.jpyPerEur;
- const amount=Math.round(baseUsd*ANNUAL_FACTOR**years*100)/100;
+ const fallbackBase=baseUsd*MSRP_BASE_FACTOR;
+ const amount=Math.max(Math.ceil(fallbackBase*100)/100,Math.round(fallbackBase*ANNUAL_FACTOR**years*100)/100);
  return {...market,amount:amount<=10000000?amount:null,kind:'msrp-rule',years,baseUsd,fxDate:snapshot.fx.date,msrpYen:msrp.amount};
 }
 
