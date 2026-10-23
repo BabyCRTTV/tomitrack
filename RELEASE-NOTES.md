@@ -1,7 +1,7 @@
-# TomiTrack 0.4.18 · Early access
+# TomiTrack 0.4.19 · Early access
 
-Refine pricing consistency for Tomica-family references where comparable market evidence is insufficient. Catalog prices and linked collection values use the same shared calculation.
+TomiTrack now uses a pink-and-yellow app logo across Android, Windows and the browser.
 
-Verified sold and listing averages, manufacturer prices, purchase costs and manual values keep their existing behavior. Market Price and MSRP controls retain their approved layout, with an updated explanation on tap.
+Add 300 distinct Matchbox variant photos from 2022–2023, with the same source resolution, framing and attribution checks as prior batches. Matchbox now has 750 catalog photo entries; all brands total 2,750. Existing photos and personal collection data are preserved. Catalog photos load online from their source hosts.
 
-Android package and permanent signing identity are unchanged; versionCode 24. Android APK, Windows installer, public catalog SQLite and checksums are included.
+Android package and permanent signing identity are unchanged; versionCode 25. Android APK, Windows installer, public catalog SQLite and checksums are included.

@@ -2,7 +2,7 @@
 
 - Read README.md and DEVELOPMENT-HANDOFF.md before changing the project.
 - Keep the shared web app usable in browser, Electron and Android WebView.
-- Preserve the red, warm ivory and muted green TomiTrack identity.
+- Use the owner-requested pink (#ed6aa7) and yellow (#ffe36b) for the app logo and platform icons. Preserve the existing interface palette.
 - Never mix demo and real collection persistence.
 - Validate imports before replacing data; keep explicit replacement confirmation.
 - Treat all user text as text. Keep Node integration disabled and native bridges narrow.
@@ -35,7 +35,7 @@
 - Brand artwork must stay top-aligned when captions wrap on narrow screens. Brand cards open scoped catalog views with Back to brands; clearing filters must preserve the opened brand.
 
 - English presentation overlays must preserve original Japanese facts, aliases and private snapshots. New Tomica data requires reviewed English before publication; do not ship machine guesses or unreviewed romanization. Keep English series filter options consistent with displayed release series.
-- Publish images in explicit reviewed batches with owner-authorized sizes (four 500-entry Tomica-family batches and two Matchbox batches of 200 and 250; authorized cumulative total: 2,450). Preserve original batch archives, all previously active photos and evidence; reject manufacturer unavailable-image notices as photos. Retain research candidates separately from active browser/SQLite photos, record source attribution and verification, label casting/missing images and preserve private photo priority. Source fetching/image verification never runs in startup or CI builds.
+- Publish images in explicit reviewed batches with owner-authorized sizes (four 500-entry Tomica-family batches and three Matchbox batches of 200, 250 and 300; authorized cumulative total: 2,750). Preserve original batch archives, all previously active photos and evidence; reject manufacturer unavailable-image notices as photos. Retain research candidates separately from active browser/SQLite photos, record source attribution and verification, label casting/missing images and preserve private photo priority. Source fetching/image verification never runs in startup or CI builds.
 
 - Android system-bar/cutout/keyboard insets belong to the native FrameLayout around WebView, not WebView padding. Forward zeroed handled inset dimensions (including hide events) to avoid duplicate/ghost spacing. Preserve browser CSS safe-area support and the live WebView during fold/window changes.
 

@@ -1,4 +1,12 @@
-# Development handoff · 0.4.18
+# Development handoff · 0.4.19
+
+## 0.4.19: pink/yellow logo and 300 additional Matchbox photos · local verification
+
+Resumed remote main `5f8bdf0` after the latest scheduled pricing refresh; native release v0.4.18 and its successful prior workflows were inspected. Owner requested company pink/yellow logo and at least 300 additional Matchbox images under previous criteria. Existing vector mark recolored pink #ed6aa7 / yellow #ffe36b; 512px PNG rendered from the same vector and consumed by Android, Electron/Windows, browser/PWA and site marks. Existing interface palette and geometry remain. Working version 0.4.19 / Android code 25 / cache 0.4.19; static app footer corrected to match.
+
+Reviewed batch 2026-10-23-007 adds 300 references from 2022–2023 with 300 distinct new URLs/content hashes; all sources 600×360, no failed candidates, max thumbnail RGB mean error 6.0942/255. Six 50-image contact sheets visually inspected: clear model photos, no placeholder or obvious casting mismatch. Original thumbnails and source citations retained; attribution/framing/private-photo priority unchanged. Previous 2,450 presentation entries have identical SHA256 9dfabe273103de520a53990b81b74130a8da2c84e77704e34a502f99e3dd50ae. All old batch archives and evidence preserved. Cumulative 2,750 entries, Matchbox 750, Tomica 441 and TLV 1,559. No new canonical catalog rows or prices; current remote pricing refresh retained. Manual preparation accepts 300 and excludes repeated/previous Matchbox image URLs; deterministic JS/SQLite builders validate all seven authorized batches.
+
+Release verification and publication status will be recorded below after checks. Physical Android/Windows execution remains unverified.
 
 ## 0.4.18: shared pricing consistency · published and verified
 

@@ -5,7 +5,7 @@ import requests,re
 from pathlib import Path
 from PIL import Image,ImageChops,ImageStat
 root=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[200,250,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[200,250,300,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');args=parser.parse_args()
 if not args.batch_id or any(c not in '0123456789-' for c in args.batch_id):parser.error('Use a dated numeric batch ID')
 manifest=root/'catalog/input/catalog-image-batch.json';original=manifest.read_bytes();published=json.loads(original)
 batches=published.get('batches',[{k:published[k]for k in ['id','limit','releaseIds']}])
@@ -20,11 +20,13 @@ rows.sort(key=lambda r:(0 if r['brandId']=='tomica'else 1,-r['year'],r['id']))
 rejected=json.loads((root/'catalog/input/catalog-image-rejections.json').read_text())['rejectedHashes']
 sessions=threading.local();new_overrides={};thumbnail_by_url={}
 if args.brand=='matchbox':
- eligible=[]
+ eligible=[];seen_urls=set(published['verifiedAssets'])
  for r in rows:
   rid=r['id'];image=queue[rid];thumb=image.get('sourceThumbnailUrl',image['url']);match=re.fullmatch(r'https://www\.bamca\.org/pic/man/var/s_([\w.-]+)\.jpg',thumb)
   if not match:continue
-  large='https://www.bamca.org/pic/man/var/l_'+match[1]+'.jpg';patch={'url':large,'sourceThumbnailUrl':thumb};queue[rid]={**image,**patch};new_overrides[rid]=patch;thumbnail_by_url[large]=thumb;eligible.append(r)
+  large='https://www.bamca.org/pic/man/var/l_'+match[1]+'.jpg'
+  if large in seen_urls:continue
+  seen_urls.add(large);patch={'url':large,'sourceThumbnailUrl':thumb};queue[rid]={**image,**patch};new_overrides[rid]=patch;thumbnail_by_url[large]=thumb;eligible.append(r)
  rows=eligible
 def verify(url):
  key=hashlib.sha256(url.encode()).hexdigest();p=cache/(key+'.json');image_path=cache/(key+'.img')
