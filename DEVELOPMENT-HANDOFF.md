@@ -1,4 +1,10 @@
-# Development handoff · 0.4.19
+# Development handoff · 0.4.20
+
+## 0.4.20: another 140 Matchbox photos · local verification
+
+Resumed from remote main `b8f6a2630564cbdeb27d793fd4ff5d8b0260c723`, verified v0.4.19 and its successful Pages/native builds. Owner authorized 140 additional Matchbox pictures. Batch 2026-10-23-008 adds exactly 140 references from 2021–2022 with 140 distinct additional URLs and content hashes. All sources decode at 600×360, thumbnail max mean RGB error 6.2035/255, no failed candidates; visually inspected three sheets (50/50/40). All 2,750 prior active photo entries are preserved with SHA256 d0e62ae47e6cceeb6e3d92fc1d2e93aace62e344b7ad6048db58164e9edaf800, along with all earlier archive/evidence bytes. Matchbox total 890; overall 2,890. Canonical release IDs/data, English, pricing, personal collections, framing/attribution/private-photo priority and pink/yellow icons remain unchanged.
+
+Version 0.4.20, Android code 26 and cache advance together. Manual batch tool accepts 140, with existing resolution/thumbnail/placeholder and duplicate-URL checks; deterministic JS/SQLite validators recognize all eight authorized batches. Verification and publication status follow below. Physical Android/Windows execution remains unverified.
 
 ## 0.4.19: pink/yellow logo and 300 additional Matchbox photos · published and verified
 

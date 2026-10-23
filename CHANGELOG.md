@@ -1,3 +1,8 @@
+# 0.4.20 · 2026-10-23
+
+- Add 140 distinct Matchbox variant photos from 2021–2022, bringing Matchbox to 890 photo entries and the full catalog to 2,890.
+- Preserve every existing photo, source attribution, uncropped framing and personal-photo priority.
+
 # 0.4.19 · 2026-10-23
 
 - Update the TomiTrack logo and Android, Windows and browser icons to pink and yellow.

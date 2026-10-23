@@ -1,7 +1,5 @@
-# TomiTrack 0.4.19 · Early access
+# TomiTrack 0.4.20 · Early access
 
-TomiTrack now uses a pink-and-yellow app logo across Android, Windows and the browser.
+Add 140 distinct Matchbox variant photos from 2021–2022, checked against their cited catalog variants at the same 600×360 source resolution as prior batches. Matchbox now has 890 photo entries; all brands total 2,890. All previous photos, the pink-and-yellow logo and personal collection data are preserved. Catalog photos load online from source hosts with attribution.
 
-Add 300 distinct Matchbox variant photos from 2022–2023, with the same source resolution, framing and attribution checks as prior batches. Matchbox now has 750 catalog photo entries; all brands total 2,750. Existing photos and personal collection data are preserved. Catalog photos load online from their source hosts.
-
-Android package and permanent signing identity are unchanged; versionCode 25. Android APK, Windows installer, public catalog SQLite and checksums are included.
+Android package and permanent signing identity are unchanged; versionCode 26. Android APK, Windows installer, public catalog SQLite and checksums are included.
