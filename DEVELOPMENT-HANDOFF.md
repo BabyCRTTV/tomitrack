@@ -1,4 +1,12 @@
-# Development handoff · 0.4.23
+# Development handoff · 0.4.24
+
+## 0.4.24: remaining Matchbox photo coverage · local verification
+
+Resumed verified remote main `c48b62d622cbabed10e825b08abad4f4af5f2b2b`; v0.4.23 and successful prior workflows inspected. Owner requested the remaining Matchbox photos, authorizing the complete reviewed source queue. Of 939 missing entries, 846 now receive images: 822 release references (818 normal pixel checks plus four source/package-corroborated manual matches) and 24 visibly labeled casting references (18 generic casting profiles and six verified same-casting replacements). All 2009–2025 catalog rows are now illustrated. The 93 2026 rows remain pending: all cited JamesDiecast pages were fetched with no model photos, and BAMCA's 2026 lineup returned 404. Do not claim complete worldwide Matchbox coverage or that photos cannot exist on other sources.
+
+Batch 2026-10-23-012 has 846 entries / 452 source URLs (299 additional URLs); 450 photographs at 600×360 and one each at 600×340 and 600×358. Ten sheets visually inspected all distinct photos; four repair-comparison sheets support individual decisions. Manual variant matching preserves original error measurements and product/source/page hashes. Photos remain uncropped, attributed, source-hosted and subordinate to private photos. Earlier 4,015 entries preserve SHA256 e7b81d91752854d45aa1ed72e16a94664252ddf3732bc96acc6b72b8d5d637ed; every earlier archive/evidence byte is retained. Totals: Matchbox 2,861; Tomica 441; TLV 1,559; all 4,861. Completion, repair and 2026-gap audits live under catalog/research.
+
+Version 0.4.24 / Android code 30 / browser cache advance together. Manual --remaining mode accepts every remaining source-backed Matchbox row including repeated exact-source URLs; failed sources remain auditable. Deterministic JS/SQLite validators recognize all twelve authorized batches. All 89 tests, syntax checks and SQLite integrity/foreign keys pass. Canonical JSON/modules/import report, pricing, English, private collection behavior, icons and dependency resolutions remain unchanged. Release checkpoint/publication status follows. Physical Android/Windows execution remains unverified.
 
 ## 0.4.23: another 200 Matchbox photos · published and verified
 

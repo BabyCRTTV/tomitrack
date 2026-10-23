@@ -1,3 +1,9 @@
+# 0.4.24 · 2026-10-23
+
+- Complete available Matchbox photo coverage for the catalog's 2009–2025 entries: add 846 photo entries, including 24 visibly labeled casting references.
+- Matchbox now has 2,861 photo entries; all brands total 4,861. Preserve every previous image.
+- Leave 93 entries from 2026 photo-pending where reviewed sources have no suitable model photo.
+
 # 0.4.23 · 2026-10-23
 
 - Add 200 more distinct Matchbox variant photos from 2011–2013, bringing Matchbox to 2,015 photo entries and all brands to 4,015.

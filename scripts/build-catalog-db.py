@@ -7,12 +7,12 @@ parser=argparse.ArgumentParser();parser.add_argument('--output',default=str(root
 data=json.loads((root/'catalog/catalog.json').read_text());english=json.loads((root/'catalog/input/tomica-english.json').read_text())['translations'];media=json.loads((root/'catalog/input/catalog-images.json').read_text())['images'];dest=Path(args.output);dest.parent.mkdir(parents=True,exist_ok=True)
 overrides=json.loads((root/'catalog/input/catalog-image-overrides.json').read_text())['images']
 for rid,patch in overrides.items():media[rid]={**media[rid],**patch}
-batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==4015 and len(active_ids)==len(batch['releaseIds'])==4015
-batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==11 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==4015
+batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==4861 and len(active_ids)==len(batch['releaseIds'])==4861
+batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==12 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200,846] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==4861
 for b in batch['batches']:
- assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
+ assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011','2026-10-23-012'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
 rejected=json.loads((root/'catalog/input/catalog-image-rejections.json').read_text())['rejectedHashes'];assert all(batch['verifiedAssets'][media[rid]['url']]['sha256'] not in rejected for rid in active_ids)
-media={k:v for k,v in media.items()if k in active_ids};assert len(media)==4015 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
+media={k:v for k,v in media.items()if k in active_ids};assert len(media)==4861 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
 release_by_id={r['id']:r for r in data['releases']}
 for rid,image in media.items():
  if image['kind']=='casting-reference':

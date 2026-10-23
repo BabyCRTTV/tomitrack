@@ -1,5 +1,7 @@
-# TomiTrack 0.4.23 · Early access
+# TomiTrack 0.4.24 · Early access
 
-Add 200 more distinct Matchbox variant photos from 2011–2013 on top of the preceding 500-photo update. Matchbox now has 2,015 photo entries; all brands total 4,015. Each additional source photograph passed resolution, catalog-variant and visual checks. Existing photos and personal collection data are preserved. Catalog photos load online from source hosts with attribution.
+Complete available Matchbox photo coverage for the catalog's 2009–2025 entries. Add 846 photo entries, including 24 clearly labeled casting references where the exact edition photograph is unavailable or unconfirmed. Matchbox now has 2,861 photo entries, with 4,861 across all brands.
 
-Android package and permanent signing identity are unchanged; versionCode 29. Android APK, Windows installer, public catalog SQLite and checksums are included.
+The 93 entries from 2026 remain photo-pending because their reviewed sources have no suitable model photos. All previous images, personal photos and collection data are preserved. Source photographs load online with attribution and uncropped framing.
+
+Android package and permanent signing identity are unchanged; versionCode 30. Android APK, Windows installer, SQLite and checksums are included.

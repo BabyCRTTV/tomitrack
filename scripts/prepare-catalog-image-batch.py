@@ -5,7 +5,8 @@ import requests,re
 from pathlib import Path
 from PIL import Image,ImageChops,ImageStat
 root=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[140,200,250,300,425,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--batch-id',required=True);parser.add_argument('--size',type=int,choices=[140,200,250,300,425,500],default=500);parser.add_argument('--brand',choices=['tomica-family','matchbox'],default='tomica-family');parser.add_argument('--remaining',action='store_true',help='Review every remaining source-linked Matchbox release, including shared exact-variant sources');args=parser.parse_args()
+if args.remaining and args.brand!='matchbox':parser.error('--remaining currently supports Matchbox only')
 if not args.batch_id or any(c not in '0123456789-' for c in args.batch_id):parser.error('Use a dated numeric batch ID')
 manifest=root/'catalog/input/catalog-image-batch.json';original=manifest.read_bytes();published=json.loads(original)
 batches=published.get('batches',[{k:published[k]for k in ['id','limit','releaseIds']}])
@@ -25,9 +26,10 @@ if args.brand=='matchbox':
   rid=r['id'];image=queue[rid];thumb=image.get('sourceThumbnailUrl',image['url']);match=re.fullmatch(r'https://www\.bamca\.org/pic/man/var/s_([\w.-]+)\.jpg',thumb)
   if not match:continue
   large='https://www.bamca.org/pic/man/var/l_'+match[1]+'.jpg'
-  if large in seen_urls:continue
+  if large in seen_urls and not args.remaining:continue
   seen_urls.add(large);patch={'url':large,'sourceThumbnailUrl':thumb};queue[rid]={**image,**patch};new_overrides[rid]=patch;thumbnail_by_url[large]=thumb;eligible.append(r)
  rows=eligible
+ if args.remaining:args.size=len(rows)
 def verify(url):
  key=hashlib.sha256(url.encode()).hexdigest();p=cache/(key+'.json');image_path=cache/(key+'.img')
  if p.exists():
@@ -68,7 +70,9 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:
    url=queue[r['id']]['url']
    if evidence[url]['ok']:selected.append(r['id'])
    else:failures.append({'releaseId':r['id'],'url':url,'error':evidence[url]['error']})
-if len(selected)!=args.size:raise RuntimeError(f'Could not verify {args.size} new entries; published selection is untouched.')
+if not args.remaining and len(selected)!=args.size:raise RuntimeError(f'Could not verify {args.size} new entries; published selection is untouched.')
+if args.remaining:args.size=len(selected)
+if not selected:raise RuntimeError('No verified new photo references; published selection is untouched.')
 active={queue[rid]['url']for rid in selected};new={'schema':1,'id':args.batch_id,'limit':args.size,'brand':args.brand,'releaseIds':selected,'verifiedAssets':{u:evidence[u]for u in sorted(active)},'failures':failures,'note':f'Additional {args.size} verified {args.brand} photo references; prior batches remain active.'}
 all_ids=published['releaseIds']+selected
 out={'schema':2,'id':args.batch_id,'limit':len(all_ids),'releaseIds':all_ids,'verifiedAssets':{u:evidence[u]for u in sorted({queue[rid]['url']for rid in all_ids})},'failures':published.get('failures',[])+failures,'batches':batches+[{k:new[k]for k in ['id','limit','releaseIds']}],'note':'Cumulative reviewed photo selection. Each batch records its explicitly authorized size; remaining discovered links stay queued.'}

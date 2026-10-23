@@ -1,0 +1,774 @@
+{
+  "schema": 1,
+  "batchId": "2026-10-23-012",
+  "ownerScope": "Complete all remaining Matchbox photo entries that can be supported; label casting references and retain missing-source gaps.",
+  "catalogMatchbox": 2954,
+  "previousPhotoEntries": 2015,
+  "addedPhotoEntries": 846,
+  "releaseReferencesAdded": 822,
+  "castingReferencesAdded": 24,
+  "activeMatchboxPhotoEntries": 2861,
+  "allBrandsPhotoEntries": 4861,
+  "batchSourceUrls": 452,
+  "additionalSourceUrls": 299,
+  "additionalDistinctContentHashes": 289,
+  "missingReleaseIds": [
+    "mb-2026-00d4c566da057f65",
+    "mb-2026-051ff13fde96265a",
+    "mb-2026-0776f71a92661ba3",
+    "mb-2026-0a61e3596a6aa8c0",
+    "mb-2026-0c0e84f7506046c5",
+    "mb-2026-0daa4a56e33044f8",
+    "mb-2026-0f2f440f568a6d91",
+    "mb-2026-167b9d863ba34147",
+    "mb-2026-17f9c7a5c6de3e15",
+    "mb-2026-18bc34a201075856",
+    "mb-2026-1b22d3f54cd0089c",
+    "mb-2026-1b5712606f624022",
+    "mb-2026-1df7627ba34c46b1",
+    "mb-2026-24ec68e438f4e3ed",
+    "mb-2026-2791ab43376a50be",
+    "mb-2026-2a52bcf56ffb2f72",
+    "mb-2026-3178ad8414f16534",
+    "mb-2026-3226ba2406b6a4ec",
+    "mb-2026-33114a811113955b",
+    "mb-2026-33ba02b54b846bd6",
+    "mb-2026-35e0f58e56a1de73",
+    "mb-2026-44ced706aa7922db",
+    "mb-2026-48cdad1df6a91de6",
+    "mb-2026-4b7dbef15eed0c29",
+    "mb-2026-4e6261c2a89d3561",
+    "mb-2026-52e4ff0404be0f8a",
+    "mb-2026-558572efd036d7e1",
+    "mb-2026-57227cf848bd1f78",
+    "mb-2026-57c51ab415a2e7bc",
+    "mb-2026-5d9f965048cfdd7a",
+    "mb-2026-5e4928bf4f09684e",
+    "mb-2026-61003261480b3416",
+    "mb-2026-62f6fffea142b923",
+    "mb-2026-665db9844a5ef2e3",
+    "mb-2026-6c6a5da948f62ef0",
+    "mb-2026-6f09fe9c284bbcf4",
+    "mb-2026-70c69ca0f5ac3c18",
+    "mb-2026-72ae0337b1c33b34",
+    "mb-2026-741e478b32d722bd",
+    "mb-2026-758c4cdcac4ad843",
+    "mb-2026-75de0c70d7d34505",
+    "mb-2026-7a1c6cb9321992d2",
+    "mb-2026-7a989c08fecefc86",
+    "mb-2026-7f977e18e23e5f65",
+    "mb-2026-80ac42004f96f9e1",
+    "mb-2026-8385b0c152b921ad",
+    "mb-2026-8577e6d0e1df9f0b",
+    "mb-2026-8c2b399c45a49ed4",
+    "mb-2026-8db9016de51a4d20",
+    "mb-2026-8e6a28b9624c16e9",
+    "mb-2026-9354bcfe8cce023e",
+    "mb-2026-9925879199f728fc",
+    "mb-2026-9d94403e3e2dee60",
+    "mb-2026-a21e2808fb1d6fdd",
+    "mb-2026-a42be59f87752aeb",
+    "mb-2026-a42fb8a0f1e6c5de",
+    "mb-2026-a963759fa1e35272",
+    "mb-2026-ade68b5674fbad7d",
+    "mb-2026-af0f9701aeb6cca2",
+    "mb-2026-b0f14f91700816a1",
+    "mb-2026-b2782cefcdf6b1f6",
+    "mb-2026-b51414036909f157",
+    "mb-2026-b6556c6bf9fa5b72",
+    "mb-2026-b6c173014300cab2",
+    "mb-2026-b8ec6506cd1d2563",
+    "mb-2026-b91763f8b676dcc2",
+    "mb-2026-c343517c355d3bad",
+    "mb-2026-c514974d90b1a8c2",
+    "mb-2026-cd549b6cb5b8a530",
+    "mb-2026-cec56d4ec1f0a220",
+    "mb-2026-ced08aba3b5480d3",
+    "mb-2026-d08bcc527673ff2d",
+    "mb-2026-d2b4f9f969bdf09f",
+    "mb-2026-d3b3c73f4fc0b331",
+    "mb-2026-d44880d6c22a9a45",
+    "mb-2026-d645571b23e81c78",
+    "mb-2026-d79dfe1ef9e95e57",
+    "mb-2026-d970fc39de99731a",
+    "mb-2026-dd4704bbea29bda4",
+    "mb-2026-de60a027cd07a43a",
+    "mb-2026-e314eeeff12d19c9",
+    "mb-2026-e5b24cbf582b4ceb",
+    "mb-2026-e7dc4de41ddbfb6f",
+    "mb-2026-e8083b4c24c7ece0",
+    "mb-2026-e821c85ea3b62be0",
+    "mb-2026-ee936c12bcd69607",
+    "mb-2026-efb015673e3205ed",
+    "mb-2026-f475afc6d0f80953",
+    "mb-2026-f5dda0e427cd761b",
+    "mb-2026-f7b12563c66baa6e",
+    "mb-2026-f9221c76aec72d49",
+    "mb-2026-f9e606cf96c00dce",
+    "mb-2026-fc846d11ef832e55"
+  ],
+  "missing": [
+    {
+      "releaseId": "mb-2026-00d4c566da057f65",
+      "name": "1956 Aston Martin DBR1",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-072/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-051ff13fde96265a",
+      "name": "1974 Ford F-100 Ranger",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-069/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-0776f71a92661ba3",
+      "name": "Radical SR3 XXR",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-071/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-0a61e3596a6aa8c0",
+      "name": "2024 BMW 7-Series",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-096/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-0c0e84f7506046c5",
+      "name": "Road Roller",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-029/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-0daa4a56e33044f8",
+      "name": "2023 Subaru Outback Wilderness",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-099/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-0f2f440f568a6d91",
+      "name": "Jeep Wrangler Superlift",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-062/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-167b9d863ba34147",
+      "name": "2023 Citroen e-C4",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-054/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-17f9c7a5c6de3e15",
+      "name": "2023 Nissan Ariya",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-065/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-18bc34a201075856",
+      "name": "'67 Alfa Romeo Duetto",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-004/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-1b22d3f54cd0089c",
+      "name": "Chevy K-1500 Pickup",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-051/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-1b5712606f624022",
+      "name": "1970 Citroen 2CV",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-016/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-1df7627ba34c46b1",
+      "name": "Porsche Targa",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-049/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-24ec68e438f4e3ed",
+      "name": "1964 Lincoln Continental",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-076/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-2791ab43376a50be",
+      "name": "2004 Maserati MC12",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-086/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-2a52bcf56ffb2f72",
+      "name": "2024 Range Rover",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-026/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-3178ad8414f16534",
+      "name": "2025 Polestar 5",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-021/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-3226ba2406b6a4ec",
+      "name": "'16 Colorado",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-005/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-33114a811113955b",
+      "name": "2025 Ford Mustang Police",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-100/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-33ba02b54b846bd6",
+      "name": "2019 Toyota 4Runner",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-057/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-35e0f58e56a1de73",
+      "name": "Ground Grinder",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-097/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-44ced706aa7922db",
+      "name": "2024 Subaru WRX S4 STI",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-078/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-48cdad1df6a91de6",
+      "name": "2020 Polaris Ranger EV",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-050/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-4b7dbef15eed0c29",
+      "name": "1980 Jeep J10 Stepside",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-034/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-4e6261c2a89d3561",
+      "name": "2023 BMW i4 Sedan",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-074/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-52e4ff0404be0f8a",
+      "name": "2023 Toyota RAV4 TRD",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-030/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-558572efd036d7e1",
+      "name": "Morgan 3 Wheeler",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-002/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-57227cf848bd1f78",
+      "name": "2016 Fiat 500X",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-001/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-57c51ab415a2e7bc",
+      "name": "2024 Chevrolet Silverado PPV",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-092/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-5d9f965048cfdd7a",
+      "name": "2018 Toyota Hilux",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-007/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-5e4928bf4f09684e",
+      "name": "'19 Ford Mustang Coupe",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-085/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-61003261480b3416",
+      "name": "MBX Gritter King",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-013/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-62f6fffea142b923",
+      "name": "'17 Toyota Landcruiser 78",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-040/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-665db9844a5ef2e3",
+      "name": "1997 Acura Integra Type R",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-024/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-6c6a5da948f62ef0",
+      "name": "MBX Lil' Dumper",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-089/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-6f09fe9c284bbcf4",
+      "name": "Pierce Volterra EV",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-044/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-70c69ca0f5ac3c18",
+      "name": "'69 Camaro SS 396",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-056/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-72ae0337b1c33b34",
+      "name": "2025 Ram REV",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-027/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-741e478b32d722bd",
+      "name": "Lamborghini LM002",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-087/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-758c4cdcac4ad843",
+      "name": "Blaze Blaster III",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-053/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-75de0c70d7d34505",
+      "name": "Ground Breaker",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-009/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-7a1c6cb9321992d2",
+      "name": "GMC 3500 Utility Truck",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-047/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-7a989c08fecefc86",
+      "name": "Ford GT40",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-093/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-7f977e18e23e5f65",
+      "name": "MBX Turf Hauler II",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-075/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-80ac42004f96f9e1",
+      "name": "2023 BMW M2",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-070/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-8385b0c152b921ad",
+      "name": "2022 Ford Bronco Sport",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-010/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-8577e6d0e1df9f0b",
+      "name": "1963 Unimog 406",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-081/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-8c2b399c45a49ed4",
+      "name": "2015 Ford F-150",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-018/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-8db9016de51a4d20",
+      "name": "2024 Mercedes-Benz Sprinter Ambulance",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-035/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-8e6a28b9624c16e9",
+      "name": "'18 Toyota 4Runner",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-077/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-9354bcfe8cce023e",
+      "name": "2023 Chevy Corvette Z06 (Convertible)",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-048/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-9925879199f728fc",
+      "name": "2020 Land Rover Defender",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-046/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-9d94403e3e2dee60",
+      "name": "2023 Chevy Tahoe Z71",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-060/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-a21e2808fb1d6fdd",
+      "name": "MBX Field Car",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-006/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-a42be59f87752aeb",
+      "name": "2019 Mazda 3",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-014/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-a42fb8a0f1e6c5de",
+      "name": "Mercedes-AMG SL 63",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-031/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-a963759fa1e35272",
+      "name": "2024 Toyota Tacoma",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-043/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-ade68b5674fbad7d",
+      "name": "Ford F-350",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-063/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-af0f9701aeb6cca2",
+      "name": "Porsche 918 Spyder",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-109/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b0f14f91700816a1",
+      "name": "2024 Honda Civic Type R",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-011/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b2782cefcdf6b1f6",
+      "name": "Ridge Raider II",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-023/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b51414036909f157",
+      "name": "2025 Aston Martin Vanquish",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-090/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b6556c6bf9fa5b72",
+      "name": "Shelby Cobra 427",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-064/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b6c173014300cab2",
+      "name": "2025 Polaris RZR Pro R 4 Sport",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-042/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b8ec6506cd1d2563",
+      "name": "2004 Mazda RX-8",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-019/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-b91763f8b676dcc2",
+      "name": "2023 Ford Police Interceptor Utility",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-028/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-c343517c355d3bad",
+      "name": "Highway Maintenance Truck",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-039/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-c514974d90b1a8c2",
+      "name": "Skidster",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-052/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-cd549b6cb5b8a530",
+      "name": "2024 GMC Sierra 3500 Wrecker",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-068/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-cec56d4ec1f0a220",
+      "name": "2025 Jeep Recon",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-080/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-ced08aba3b5480d3",
+      "name": "2002 Mazda RX-7 Spirit R",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-045/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d08bcc527673ff2d",
+      "name": "Toyota RAV4 Off Road",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-033/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d2b4f9f969bdf09f",
+      "name": "2023 Toyota Prius Prime",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-041/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d3b3c73f4fc0b331",
+      "name": "2023 Toyota GR Supra",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-015/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d44880d6c22a9a45",
+      "name": "Sherp N1200",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-082/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d645571b23e81c78",
+      "name": "2022 Opel Astra",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-067/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d79dfe1ef9e95e57",
+      "name": "Ford Police Interceptor",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-088/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-d970fc39de99731a",
+      "name": "1993 Toyota Celica",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-012/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-dd4704bbea29bda4",
+      "name": "2021 Lexus LC 500",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-025/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-de60a027cd07a43a",
+      "name": "2023 Ford E-Transit Custom",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-036/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-e314eeeff12d19c9",
+      "name": "VW-Porsche 914",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-095/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-e5b24cbf582b4ceb",
+      "name": "Blaze Buster II",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-066/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-e7dc4de41ddbfb6f",
+      "name": "1968 Ford Mustang Fastback",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-061/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-e8083b4c24c7ece0",
+      "name": "Coast 2 Coast",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-003/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-e821c85ea3b62be0",
+      "name": "1963 Mercedes-Benz 230 SL",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-055/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-ee936c12bcd69607",
+      "name": "1997 McLaren F1 GT",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-032/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-efb015673e3205ed",
+      "name": "1958 Chevrolet Corvette",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-022/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-f475afc6d0f80953",
+      "name": "Beetle 4x4",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-038/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-f5dda0e427cd761b",
+      "name": "2024 Chevy Camaro ZL-1",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-059/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-f7b12563c66baa6e",
+      "name": "2015 Honda Ridgeline",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-020/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-f9221c76aec72d49",
+      "name": "International Ambulance",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-017/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-f9e606cf96c00dce",
+      "name": "Scania P 420 XT 4x2 Fire Truck",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-008/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    },
+    {
+      "releaseId": "mb-2026-fc846d11ef832e55",
+      "name": "1995 BMW 318 ti",
+      "year": 2026,
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-079/",
+      "reason": "No model photograph on the cited product page; BAMCA 2026 lineup unavailable."
+    }
+  ],
+  "sourceChecks": {
+    "jamesDiecast2026PagesReviewed": 93,
+    "pagesWithModelImages": 0,
+    "bamca2026LineupStatus": 404
+  },
+  "visualReview": "Ten sheets covering all 452 distinct batch photos, plus four repair-comparison sheets. Four manual variant matches corroborated against product/package photographs.",
+  "notes": [
+    "Shared exact-variant URLs may correctly support multiple release rows; all citations retain their own source context.",
+    "Eighteen generic casting-profile photos are visibly labeled Casting reference; six unavailable exact photographs use a verified same-casting reference.",
+    "All previous active entries and archived evidence are preserved."
+  ]
+}

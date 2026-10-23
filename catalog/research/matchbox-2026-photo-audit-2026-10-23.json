@@ -1,0 +1,842 @@
+{
+  "checkedAt": "2026-10-23T23:08:05.362956+00:00",
+  "sources": [
+    {
+      "releaseId": "mb-2026-00d4c566da057f65",
+      "name": "1956 Aston Martin DBR1",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-072/",
+      "sha256": "a2acbc19fe326dde3099bf8eaec9e9350b4b80f26c0fc1bdc7447bdc2b05b045",
+      "images": [],
+      "title": "Matchbox 1956 Aston Martin DBR1 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-051ff13fde96265a",
+      "name": "1974 Ford F-100 Ranger",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-069/",
+      "sha256": "d0c02c0290db05b35e5fc711d03f886444e6f44a772f5f6140a2dc344579cbc5",
+      "images": [],
+      "title": "Matchbox 1974 Ford F-100 Ranger (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-0776f71a92661ba3",
+      "name": "Radical SR3 XXR",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-071/",
+      "sha256": "8d3418075c8dd28ddc6911564ff01b024f17d806336a4b9c8355ee34c354fdc6",
+      "images": [],
+      "title": "Matchbox Radical SR3 XXR (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-0a61e3596a6aa8c0",
+      "name": "2024 BMW 7-Series",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-096/",
+      "sha256": "2c27aaec206e10afaa14cb8b9cf5be0e84d292fe265163c22db0a11e3fe296ff",
+      "images": [],
+      "title": "Matchbox 2024 BMW 7-Series (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-0c0e84f7506046c5",
+      "name": "Road Roller",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-029/",
+      "sha256": "de1a959c309c2613a2d4471d4ba4af92235928e7545f599ccc0e9d448fee80a6",
+      "images": [],
+      "title": "Matchbox Road Roller (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-0daa4a56e33044f8",
+      "name": "2023 Subaru Outback Wilderness",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-099/",
+      "sha256": "2a9ebd26356d9b9ae670801b738429fd4cd8ee93890462498bdc8ad32ebba5f5",
+      "images": [],
+      "title": "Matchbox 2023 Subaru Outback Wilderness (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-0f2f440f568a6d91",
+      "name": "Jeep Wrangler Superlift",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-062/",
+      "sha256": "9d3092752246bbbcdf46070c83d22ff9cd6b45aaed88204211dfee68f0a3dc8d",
+      "images": [],
+      "title": "Matchbox Jeep Wrangler Superlift (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-167b9d863ba34147",
+      "name": "2023 Citroen e-C4",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-054/",
+      "sha256": "cb0ca18485c51e3d43a9bb16ee700d936df5f2e4913f49ada89911573d546934",
+      "images": [],
+      "title": "Matchbox 2023 Citroen e-C4 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-17f9c7a5c6de3e15",
+      "name": "2023 Nissan Ariya",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-065/",
+      "sha256": "c5d9ef66ce68af27072cd22bee35bde4bc7fd64622dd906f999d21ce78329338",
+      "images": [],
+      "title": "Matchbox 2023 Nissan Ariya (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-18bc34a201075856",
+      "name": "'67 Alfa Romeo Duetto",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-004/",
+      "sha256": "a55f367f93eb53dc548cf15d8110fc1e106704684a126be6f031b88870cab01e",
+      "images": [],
+      "title": "Matchbox '67 Alfa Romeo Duetto (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-1b22d3f54cd0089c",
+      "name": "Chevy K-1500 Pickup",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-051/",
+      "sha256": "9fea673919634aafb64560fc27bbe5f54970ab26b83004be288b8d8e0ecbce20",
+      "images": [],
+      "title": "Matchbox Chevy K-1500 Pickup (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-1b5712606f624022",
+      "name": "1970 Citroen 2CV",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-016/",
+      "sha256": "f9018870bff2bab9997c6dd21b857c55f1a3dc93748920d37a9f89e8578d46e8",
+      "images": [],
+      "title": "Matchbox 1970 Citroen 2CV (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-1df7627ba34c46b1",
+      "name": "Porsche Targa",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-049/",
+      "sha256": "e0004864e0efdaeff7ad25939240251e663813e4305359f770193bd9e9478d2d",
+      "images": [],
+      "title": "Matchbox Porsche Targa (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-24ec68e438f4e3ed",
+      "name": "1964 Lincoln Continental",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-076/",
+      "sha256": "29db60dc91536e797fc2797cea4138f7463dce0a8fd6d0d84e3be921db13b41f",
+      "images": [],
+      "title": "Matchbox 1964 Lincoln Continental (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-2791ab43376a50be",
+      "name": "2004 Maserati MC12",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-086/",
+      "sha256": "728876546000d6304312f8609e96394b9e2b843b0416acd55fc16946404a0e36",
+      "images": [],
+      "title": "Matchbox 2004 Maserati MC12 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-2a52bcf56ffb2f72",
+      "name": "2024 Range Rover",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-026/",
+      "sha256": "5878118f9b0ba9524dda61114aab17fbf0e6bcd03ffbb428d84073659d2e3dbd",
+      "images": [],
+      "title": "Matchbox 2024 Range Rover (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-3178ad8414f16534",
+      "name": "2025 Polestar 5",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-021/",
+      "sha256": "3ccd07522e462d9b8463244de90a151b75f911d6da10dac7a5d37fadc8a57335",
+      "images": [],
+      "title": "Matchbox 2025 Polestar 5 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-3226ba2406b6a4ec",
+      "name": "'16 Colorado",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-005/",
+      "sha256": "2ad2793bcc4348c557866a52b972c6851824ca663106649ab7e9282e9bd74e1a",
+      "images": [],
+      "title": "Matchbox '16 Colorado (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-33114a811113955b",
+      "name": "2025 Ford Mustang Police",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-100/",
+      "sha256": "51768a289813ebd2170ef194ba7f12ff6bbae8bd17b7e1353a45020e6c0ff660",
+      "images": [],
+      "title": "Matchbox 2025 Ford Mustang Police (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-33ba02b54b846bd6",
+      "name": "2019 Toyota 4Runner",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-057/",
+      "sha256": "21d94634ba506934c5f57656379758c1fca0b5e81e848b5500e021a35820641a",
+      "images": [],
+      "title": "Matchbox 2019 Toyota 4Runner (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-35e0f58e56a1de73",
+      "name": "Ground Grinder",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-097/",
+      "sha256": "44e68255bfcc1c198ba476e111876b4a781572512501e3750997fae30b58f871",
+      "images": [],
+      "title": "Matchbox Ground Grinder (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-44ced706aa7922db",
+      "name": "2024 Subaru WRX S4 STI",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-078/",
+      "sha256": "45705be8ab94b0a4fc0e5758043fd72fddd399ccdc33592cc6774ff6526d8249",
+      "images": [],
+      "title": "Matchbox 2024 Subaru WRX S4 STI (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-48cdad1df6a91de6",
+      "name": "2020 Polaris Ranger EV",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-050/",
+      "sha256": "e8a0ced664c89e61081e0aa343b5c8af272a2f768e396397b75b6ff0b37a169c",
+      "images": [],
+      "title": "Matchbox 2020 Polaris Ranger EV (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-4b7dbef15eed0c29",
+      "name": "1980 Jeep J10 Stepside",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-034/",
+      "sha256": "a54c035f06f7fbdd92711a1f3e0a75aaa4375eb27b0e1df152d796c75ed53275",
+      "images": [],
+      "title": "Matchbox 1980 Jeep J10 Stepside (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-4e6261c2a89d3561",
+      "name": "2023 BMW i4 Sedan",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-074/",
+      "sha256": "bc584d2f46fa12c0a28910a4bb084cbc522331d1ae54a6836b28fffdeb44fd09",
+      "images": [],
+      "title": "Matchbox 2023 BMW i4 Sedan (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-52e4ff0404be0f8a",
+      "name": "2023 Toyota RAV4 TRD",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-030/",
+      "sha256": "ba46c777999223c44a3ce7be742189e7f9bcbff1e7bab77ae5d6f92565b467b1",
+      "images": [],
+      "title": "Matchbox 2023 Toyota RAV4 TRD (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-558572efd036d7e1",
+      "name": "Morgan 3 Wheeler",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-002/",
+      "sha256": "5d44be9fb22a31a2479daa0201c4c6fca5d9b093b281bd784403506a2d2b936a",
+      "images": [],
+      "title": "Matchbox Morgan 3 Wheeler (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-57227cf848bd1f78",
+      "name": "2016 Fiat 500X",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-001/",
+      "sha256": "379256fbac087dafd8e1720540b29465f0d42b00d602f040994664009619a14b",
+      "images": [],
+      "title": "Matchbox 2016 Fiat 500X (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-57c51ab415a2e7bc",
+      "name": "2024 Chevrolet Silverado PPV",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-092/",
+      "sha256": "61aaee78dee4352502d6b4719c1b5894ac4585d6200f16e48f58c97865f6758b",
+      "images": [],
+      "title": "Matchbox 2024 Chevrolet Silverado PPV (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-5d9f965048cfdd7a",
+      "name": "2018 Toyota Hilux",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-007/",
+      "sha256": "9c7cb90cba959afe9be6cd3933220b89d7e0720d9980df1a0c8329ebb1ad3083",
+      "images": [],
+      "title": "Matchbox 2018 Toyota Hilux (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-5e4928bf4f09684e",
+      "name": "'19 Ford Mustang Coupe",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-085/",
+      "sha256": "0ef1dfc44799bc86b44112df84f6514a490a994aa1177e1d3098eb548b8ca915",
+      "images": [],
+      "title": "Matchbox '19 Ford Mustang Coupe (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-61003261480b3416",
+      "name": "MBX Gritter King",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-013/",
+      "sha256": "d940a55db14703d893979851c522d1fda1bf1da3b70018fbbe7904f6380d52b7",
+      "images": [],
+      "title": "Matchbox MBX Gritter King (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-62f6fffea142b923",
+      "name": "'17 Toyota Landcruiser 78",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-040/",
+      "sha256": "64524fed155cea5768b9631a1c135b51d497d892a303b7588edd924d5c9bbb3c",
+      "images": [],
+      "title": "Matchbox '17 Toyota Landcruiser 78 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-665db9844a5ef2e3",
+      "name": "1997 Acura Integra Type R",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-024/",
+      "sha256": "f1d117e9e8610a401002ee35a0af1aac428af3a54362a936b8b3edc49b424b9b",
+      "images": [],
+      "title": "Matchbox 1997 Acura Integra Type R (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-6c6a5da948f62ef0",
+      "name": "MBX Lil' Dumper",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-089/",
+      "sha256": "27fd91e0dac70e0faa00ace8d5668bc2413a47f1ee6f821a0597ca20b3b6c136",
+      "images": [],
+      "title": "Matchbox MBX Lil' Dumper (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-6f09fe9c284bbcf4",
+      "name": "Pierce Volterra EV",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-044/",
+      "sha256": "ecb4aa12de231b6adb23b22d04bddc4f43067ac416bd5eccd07124fc533c73cb",
+      "images": [],
+      "title": "Matchbox Pierce Volterra EV (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-70c69ca0f5ac3c18",
+      "name": "'69 Camaro SS 396",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-056/",
+      "sha256": "bd292237508cea96a47695c1f0fe2dc0887cc76d82e09aec543110b01d8a4e84",
+      "images": [],
+      "title": "Matchbox '69 Camaro SS 396 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-72ae0337b1c33b34",
+      "name": "2025 Ram REV",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-027/",
+      "sha256": "a5a73f94a013ba16516c9e3ed29e61ac8840100ecb88cc2b2441218ebba14a7a",
+      "images": [],
+      "title": "Matchbox 2025 Ram REV (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-741e478b32d722bd",
+      "name": "Lamborghini LM002",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-087/",
+      "sha256": "031e3368cce9632522cf700771ee67899233555b5fe8c9c06344ab5c83fe1490",
+      "images": [],
+      "title": "Matchbox Lamborghini LM002 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-758c4cdcac4ad843",
+      "name": "Blaze Blaster III",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-053/",
+      "sha256": "b1336797a05f56acb6fd4f7e4e1403a58dc56817fc56fb3075176754753fe974",
+      "images": [],
+      "title": "Matchbox Blaze Blaster III (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-75de0c70d7d34505",
+      "name": "Ground Breaker",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-009/",
+      "sha256": "3224dc7cc689fe1cca16c00613069bf811c7971803b6dfe2bb2f56206be69fda",
+      "images": [],
+      "title": "Matchbox Ground Breaker (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-7a1c6cb9321992d2",
+      "name": "GMC 3500 Utility Truck",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-047/",
+      "sha256": "b87a16f83357eac3097f2f43955f7c5d2e80a5231999ff3437b9cd8f05b68df4",
+      "images": [],
+      "title": "Matchbox GMC 3500 Utility Truck (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-7a989c08fecefc86",
+      "name": "Ford GT40",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-093/",
+      "sha256": "2b96d5b8d94d16ba3f2862dcd42ab99e172e098a920274b60a906d608985ea47",
+      "images": [],
+      "title": "Matchbox Ford GT40 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-7f977e18e23e5f65",
+      "name": "MBX Turf Hauler II",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-075/",
+      "sha256": "902b9c3ab1e571ceac0c1dee816525ff97c375f8920e3206e8892472e5014c72",
+      "images": [],
+      "title": "Matchbox MBX Turf Hauler II (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-80ac42004f96f9e1",
+      "name": "2023 BMW M2",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-070/",
+      "sha256": "20fdb506043a59b9f03ec621c76f4c98c225ad2b55368c423acbbd28d504a833",
+      "images": [],
+      "title": "Matchbox 2023 BMW M2 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-8385b0c152b921ad",
+      "name": "2022 Ford Bronco Sport",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-010/",
+      "sha256": "f3b1eef95ebf69d48bf52451997cd7a134a778b2ec84b5fc31d65d909aa4f2d7",
+      "images": [],
+      "title": "Matchbox 2022 Ford Bronco Sport (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-8577e6d0e1df9f0b",
+      "name": "1963 Unimog 406",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-081/",
+      "sha256": "a6fd64a962120c4fc658bc6fcc3388aca26428ee96bc2e60d3366441463bbccc",
+      "images": [],
+      "title": "Matchbox 1963 Unimog 406 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-8c2b399c45a49ed4",
+      "name": "2015 Ford F-150",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-018/",
+      "sha256": "8f853a2cea6db12d8662e01565119b9b1e3c64ab2fd6faab603b31467e7fe2d0",
+      "images": [],
+      "title": "Matchbox 2015 Ford F-150 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-8db9016de51a4d20",
+      "name": "2024 Mercedes-Benz Sprinter Ambulance",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-035/",
+      "sha256": "499ba4185074ef5a33921ba8b1c8ec0966cef70e7a61441f75549018a341266e",
+      "images": [],
+      "title": "Matchbox 2024 Mercedes-Benz Sprinter Ambulance (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-8e6a28b9624c16e9",
+      "name": "'18 Toyota 4Runner",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-077/",
+      "sha256": "efa9bc5eb781fec13252c016331c561dc3b5404711ab9d7950d699fb4ba46626",
+      "images": [],
+      "title": "Matchbox '18 Toyota 4Runner (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-9354bcfe8cce023e",
+      "name": "2023 Chevy Corvette Z06 (Convertible)",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-048/",
+      "sha256": "92d9801850863d2fa09929f3b81a1ce9e09ced7cecbff61a619c4ea0c5c8452a",
+      "images": [],
+      "title": "Matchbox 2023 Chevy Corvette Z06 (Convertible) (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-9925879199f728fc",
+      "name": "2020 Land Rover Defender",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-046/",
+      "sha256": "ef8a1ebb7af2d77ab9b859bfcc6c02592b69f37a96422f78831bada6d92132a4",
+      "images": [],
+      "title": "Matchbox 2020 Land Rover Defender (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-9d94403e3e2dee60",
+      "name": "2023 Chevy Tahoe Z71",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-060/",
+      "sha256": "6fb33f14da36b56ae53e69d6cee2e591aae0ebcda8975c35d9df6506e7f896a0",
+      "images": [],
+      "title": "Matchbox 2023 Chevy Tahoe Z71 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-a21e2808fb1d6fdd",
+      "name": "MBX Field Car",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-006/",
+      "sha256": "86dceac97fcaa80d5691f180c4acb5b973d2084954430b70c460722d6a7c3757",
+      "images": [],
+      "title": "Matchbox MBX Field Car (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-a42be59f87752aeb",
+      "name": "2019 Mazda 3",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-014/",
+      "sha256": "42b02102fac2acfab2850e0a996de04b9f089f4b7ebcb774a1652e3aeb62c8fd",
+      "images": [],
+      "title": "Matchbox 2019 Mazda 3 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-a42fb8a0f1e6c5de",
+      "name": "Mercedes-AMG SL 63",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-031/",
+      "sha256": "9157ee2382452f466c15a21196cd6b1c944516e2e124fff0d7167d84cb8bf73f",
+      "images": [],
+      "title": "Matchbox Mercedes-AMG SL 63 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-a963759fa1e35272",
+      "name": "2024 Toyota Tacoma",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-043/",
+      "sha256": "e12bd51fd391a3689fb4d298f2d1e7970c3109801d12b8b98f4c8fe00f9e7ad5",
+      "images": [],
+      "title": "Matchbox 2024 Toyota Tacoma (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-ade68b5674fbad7d",
+      "name": "Ford F-350",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-063/",
+      "sha256": "8c3f1941b2b1b7e5bf0066d5b59f013037a8ff322955fcf3eec45152922cfcfc",
+      "images": [],
+      "title": "Matchbox Ford F-350 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-af0f9701aeb6cca2",
+      "name": "Porsche 918 Spyder",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-109/",
+      "sha256": "2a9e84059e5f6d823deb382cf31f4a09f3b8da243431ce1b6710595c25122422",
+      "images": [],
+      "title": "Matchbox Porsche 918 Spyder (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b0f14f91700816a1",
+      "name": "2024 Honda Civic Type R",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-011/",
+      "sha256": "160e3fc27741af65f9f0c6a3ff57dd153d4185b1d8e10fab6834a01b3ce03fd5",
+      "images": [],
+      "title": "Matchbox 2024 Honda Civic Type R (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b2782cefcdf6b1f6",
+      "name": "Ridge Raider II",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-023/",
+      "sha256": "9cd0b2b770b65520e58b6ce64431212ebc3de6f3e2c6664f2cd860b316d904dd",
+      "images": [],
+      "title": "Matchbox Ridge Raider II (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b51414036909f157",
+      "name": "2025 Aston Martin Vanquish",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-090/",
+      "sha256": "33a90abbd077f6e9a150df03b3b8c2cabc782c3d4bff2800a19fdff5f8dd7119",
+      "images": [],
+      "title": "Matchbox 2025 Aston Martin Vanquish (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b6556c6bf9fa5b72",
+      "name": "Shelby Cobra 427",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-064/",
+      "sha256": "c99f494a6e7efda7c2d93ddb5f5f93ece0200a55e7b20d264190ccbd129aafc7",
+      "images": [],
+      "title": "Matchbox Shelby Cobra 427 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b6c173014300cab2",
+      "name": "2025 Polaris RZR Pro R 4 Sport",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-042/",
+      "sha256": "9ad4cf8c0115ba7b2c74da0214db36238b8da49ce3157bce4f651d71df34437b",
+      "images": [],
+      "title": "Matchbox 2025 Polaris RZR Pro R 4 Sport (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b8ec6506cd1d2563",
+      "name": "2004 Mazda RX-8",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-019/",
+      "sha256": "1f3197b67e7c1229f604120a5868828c56a36618d95606e7aeeaf4cbef28f69c",
+      "images": [],
+      "title": "Matchbox 2004 Mazda RX-8 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-b91763f8b676dcc2",
+      "name": "2023 Ford Police Interceptor Utility",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-028/",
+      "sha256": "27c7bdb64ef0d16627deb2ee5597cfbbb317eba6c506114f144da99bed0c9ccc",
+      "images": [],
+      "title": "Matchbox 2023 Ford Police Interceptor Utility (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-c343517c355d3bad",
+      "name": "Highway Maintenance Truck",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-039/",
+      "sha256": "b5b3dd7d46fecb2da78a2598e3f246b8520173ac72acdd13c1b64827b9e40456",
+      "images": [],
+      "title": "Matchbox Highway Maintenance Truck (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-c514974d90b1a8c2",
+      "name": "Skidster",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-052/",
+      "sha256": "a3b906aff743970a88c9b87eff07360246493571e8ec0fcb255a9aa96b96bb13",
+      "images": [],
+      "title": "Matchbox Skidster (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-cd549b6cb5b8a530",
+      "name": "2024 GMC Sierra 3500 Wrecker",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-068/",
+      "sha256": "adb525f5982142c4746bee3014886a1e02dcb65282d7eb4ae9bf236a52358f13",
+      "images": [],
+      "title": "Matchbox 2024 GMC Sierra 3500 Wrecker (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-cec56d4ec1f0a220",
+      "name": "2025 Jeep Recon",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-080/",
+      "sha256": "9cb69cdefa78a8bbe027f44587d15a5123c433fc1ae586cc4e3460be4fc2276d",
+      "images": [],
+      "title": "Matchbox 2025 Jeep Recon (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-ced08aba3b5480d3",
+      "name": "2002 Mazda RX-7 Spirit R",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-045/",
+      "sha256": "bb889f9071a125b07d0b280109cc8a6a49c7ab88dc8d1e045e337b26e8a84139",
+      "images": [],
+      "title": "Matchbox 2002 Mazda RX-7 Spirit R (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d08bcc527673ff2d",
+      "name": "Toyota RAV4 Off Road",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-033/",
+      "sha256": "112c511f699fcb6afddccf8ad6b91fce7ed67de171e1586a025b86591e87b910",
+      "images": [],
+      "title": "Matchbox Toyota RAV4 Off Road (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d2b4f9f969bdf09f",
+      "name": "2023 Toyota Prius Prime",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-041/",
+      "sha256": "4cbfdcb17f1d8bdfdd8084d1b32592f9e861eaca2c5d19879374889500788ca2",
+      "images": [],
+      "title": "Matchbox 2023 Toyota Prius Prime (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d3b3c73f4fc0b331",
+      "name": "2023 Toyota GR Supra",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-015/",
+      "sha256": "75d9803b91fdd1dccb6a0f0dc8eec344ed2de8751e3bb2bab001fdeb286e1db4",
+      "images": [],
+      "title": "Matchbox 2023 Toyota GR Supra (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d44880d6c22a9a45",
+      "name": "Sherp N1200",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-082/",
+      "sha256": "69e43729b48bdfa14b4f7bf9f02a7a3150d21e0fc7638c5c244c717e6b77ff32",
+      "images": [],
+      "title": "Matchbox Sherp N1200 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d645571b23e81c78",
+      "name": "2022 Opel Astra",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-067/",
+      "sha256": "4501f9425fe90a71ea26e8e6538f73540dd3a965bb8724f487ef4d61a952bd98",
+      "images": [],
+      "title": "Matchbox 2022 Opel Astra (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d79dfe1ef9e95e57",
+      "name": "Ford Police Interceptor",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-088/",
+      "sha256": "b64f20ce57c6f8fef33c5160aa265af09786f4a45d1eeb140aa2759f8baf0f34",
+      "images": [],
+      "title": "Matchbox Ford Police Interceptor (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-d970fc39de99731a",
+      "name": "1993 Toyota Celica",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-012/",
+      "sha256": "be3fba1855eae40f10bbf47bb6bef0baff3133ec9e370e7aec134cc1080162fd",
+      "images": [],
+      "title": "Matchbox 1993 Toyota Celica (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-dd4704bbea29bda4",
+      "name": "2021 Lexus LC 500",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-025/",
+      "sha256": "bf95aec6949190315f267c4ca8555e10c9e9031fc2e90f1cf29f999251590040",
+      "images": [],
+      "title": "Matchbox 2021 Lexus LC 500 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-de60a027cd07a43a",
+      "name": "2023 Ford E-Transit Custom",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-036/",
+      "sha256": "e5b58a70385fcfb78fdda7ef79353c0219f4dd0b1df8dea6983df2964e89eede",
+      "images": [],
+      "title": "Matchbox 2023 Ford E-Transit Custom (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-e314eeeff12d19c9",
+      "name": "VW-Porsche 914",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-095/",
+      "sha256": "724f06ee33a277a8626903cd7489fef6ba999c5fd2c08d1596149f1636f05090",
+      "images": [],
+      "title": "Matchbox VW-Porsche 914 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-e5b24cbf582b4ceb",
+      "name": "Blaze Buster II",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-066/",
+      "sha256": "8237d5369fd8ba82ff55119d3111e320261db22de6c20cd11cc2a951a16cfee5",
+      "images": [],
+      "title": "Matchbox Blaze Buster II (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-e7dc4de41ddbfb6f",
+      "name": "1968 Ford Mustang Fastback",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-061/",
+      "sha256": "4238c2620f8e379c563ccebfa1883dd19ff20c6b120556e08ee5b6881ff7b6b2",
+      "images": [],
+      "title": "Matchbox 1968 Ford Mustang Fastback (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-e8083b4c24c7ece0",
+      "name": "Coast 2 Coast",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-003/",
+      "sha256": "11ec665dc245a77ab065fe4bffeac03a222a6b12a66dca6400bbe0e2a1f48e8a",
+      "images": [],
+      "title": "Matchbox Coast 2 Coast (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-e821c85ea3b62be0",
+      "name": "1963 Mercedes-Benz 230 SL",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-055/",
+      "sha256": "02fdf7093f3f91bb058e374371d499b9c5b5d679bf0a6069da4bf1e2d241b335",
+      "images": [],
+      "title": "Matchbox 1963 Mercedes-Benz 230 SL (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-ee936c12bcd69607",
+      "name": "1997 McLaren F1 GT",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-032/",
+      "sha256": "44cc1c1441b1dd31570535c8ca1f790848448ad7dc451de61b5fa8bc97179793",
+      "images": [],
+      "title": "Matchbox 1997 McLaren F1 GT (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-efb015673e3205ed",
+      "name": "1958 Chevrolet Corvette",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-022/",
+      "sha256": "16afe9ba3757fceeff06df884f0b3c11185dcafe9c576d97a55df5452e2344ea",
+      "images": [],
+      "title": "Matchbox 1958 Chevrolet Corvette (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-f475afc6d0f80953",
+      "name": "Beetle 4x4",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-038/",
+      "sha256": "67339d638ad5e9319d88187394acf57744440d1a672abd452c39662364fe2945",
+      "images": [],
+      "title": "Matchbox Beetle 4x4 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-f5dda0e427cd761b",
+      "name": "2024 Chevy Camaro ZL-1",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-059/",
+      "sha256": "547f0598a7dde1a8f143de0d5ff8ac5a0b23b6a10ee605498adf6f792b191b00",
+      "images": [],
+      "title": "Matchbox 2024 Chevy Camaro ZL-1 (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-f7b12563c66baa6e",
+      "name": "2015 Honda Ridgeline",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-020/",
+      "sha256": "870e5589c045921ef39428e7b51e5cd08503d9d57189314ee83c0fd85ca701fd",
+      "images": [],
+      "title": "Matchbox 2015 Honda Ridgeline (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-f9221c76aec72d49",
+      "name": "International Ambulance",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-017/",
+      "sha256": "e7f26c400ecca93e03c0fc906286e694fb344b5b3650ea2a6cd886a030ba63af",
+      "images": [],
+      "title": "Matchbox International Ambulance (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-f9e606cf96c00dce",
+      "name": "Scania P 420 XT 4x2 Fire Truck",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-008/",
+      "sha256": "c71d82b98876063f4c80dc227e90a064cc58cfe2e5bb8482534018ab14971ece",
+      "images": [],
+      "title": "Matchbox Scania P 420 XT 4x2 Fire Truck (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    },
+    {
+      "releaseId": "mb-2026-fc846d11ef832e55",
+      "name": "1995 BMW 318 ti",
+      "sourceUrl": "https://jamesdiecast.com/matchbox/basic/matchbox-2026-079/",
+      "sha256": "d4588411ef462af2429de9417c9b1075831507259fbeca2702094da32d930e9e",
+      "images": [],
+      "title": "Matchbox 1995 BMW 318 ti (2026 2026 Basic) | Price, Rarity & Where to Buy",
+      "status": "no-model-photo-on-cited-page"
+    }
+  ]
+}
