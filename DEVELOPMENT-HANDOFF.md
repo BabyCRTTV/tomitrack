@@ -1,4 +1,10 @@
-# Development handoff · 0.4.21
+# Development handoff · 0.4.22
+
+## 0.4.22: another 500 Matchbox photos · local verification
+
+Resumed remote main `442ea8f99be4d7b3255212e516bcc23694c12e54`; inspected v0.4.21 and successful Pages/native workflows. Owner authorized 500 more Matchbox photos. Batch 2026-10-23-010 adds 500 references from 2013–2017 with 500 distinct new source URLs/hashes, no prior content overlap. Native source dimensions: 497 at 600×360, one each at 600×342, 600×358 and 600×359. All exceed the existing 500×300 floor without upscaling. Maximum accepted thumbnail mean RGB error 6.5188/255. One candidate (mb-2013-5d2482d1cbbae678 / l_mb698-22.jpg) rejected for thumbnail error 25.43 and replaced; audit retains the exclusion. Ten 50-image sheets visually inspected, no accepted placeholders or apparent casting mismatches. Prior 3,315 presentation entries preserved with SHA256 5c151a7fd3394f040c2dfd44f7459ca5ba2f0d13cb6a2d1a0786415e662fa984, plus all earlier archive/evidence bytes. New totals: Matchbox 1,815; Tomica 441; TLV family 1,559; overall 3,815.
+
+Version 0.4.22 / Android code 28 / browser cache advance together. JS/SQLite validation recognizes all ten owner-authorized batches. Source attribution, uncropped framing, private-photo priority, canonical IDs/data, English, pricing, personal collections, dependency resolutions and pink/yellow logo remain unchanged. Verification and publication status follow below. Physical Android/Windows execution remains unverified.
 
 ## 0.4.21: another 425 Matchbox photos · published and verified
 
