@@ -1,3 +1,8 @@
+# 0.4.23 · 2026-10-23
+
+- Add 200 more distinct Matchbox variant photos from 2011–2013, bringing Matchbox to 2,015 photo entries and all brands to 4,015.
+- Retain all existing photos, attribution, uncropped framing and private-photo priority.
+
 # 0.4.22 · 2026-10-23
 
 - Add 500 distinct Matchbox variant photos from 2013–2017, bringing Matchbox to 1,815 photo entries and all brands to 3,815.

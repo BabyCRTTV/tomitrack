@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "id": "2026-10-23-010",
-  "limit": 3815,
+  "id": "2026-10-23-011",
+  "limit": 4015,
   "releaseIds": [
     "tm-0171a4f91a8a2b05627f",
     "tm-070f6e1a411a8853ff85",
@@ -3817,7 +3817,207 @@
     "mb-2013-829c76819f9ce9eb",
     "mb-2013-84002f4aa34a3ef2",
     "mb-2013-8946c93802dd064a",
-    "mb-2013-8b7e19136a2d0fa6"
+    "mb-2013-8b7e19136a2d0fa6",
+    "mb-2013-8e23d1fc49987be3",
+    "mb-2013-919132b944428588",
+    "mb-2013-9523bd3abad246a5",
+    "mb-2013-9a9cfaec703f01a1",
+    "mb-2013-9e03a0b99a32fc5e",
+    "mb-2013-a15e975cb9252d9a",
+    "mb-2013-a1ab483ec8488346",
+    "mb-2013-a81cdb9f6eb74c1d",
+    "mb-2013-aa12ed316279a0af",
+    "mb-2013-abfa867fc31ce2a1",
+    "mb-2013-ade07709277ff945",
+    "mb-2013-adeac068c2672613",
+    "mb-2013-aeb22e8a1e3e9d8f",
+    "mb-2013-afaaee0406463a1d",
+    "mb-2013-aff0d083552b3571",
+    "mb-2013-b2003eea59fe7f51",
+    "mb-2013-b3c7976357852682",
+    "mb-2013-b47d1a1d3f78f940",
+    "mb-2013-b5fae61395c10784",
+    "mb-2013-b75f8836fe03ee6b",
+    "mb-2013-b7d09bfd6d4eeb2f",
+    "mb-2013-ba4e66cf513c69b2",
+    "mb-2013-bae299630909547b",
+    "mb-2013-bb91a2f2cc8bcb1b",
+    "mb-2013-bca4aacd74f50de5",
+    "mb-2013-c6701011981f5d34",
+    "mb-2013-c69e38be5ae10b7e",
+    "mb-2013-c99dbbb322cd1132",
+    "mb-2013-ca59c013394f2752",
+    "mb-2013-ced6d12b41851557",
+    "mb-2013-d93e7b4ad83dbc16",
+    "mb-2013-dcbf34ff962a2be0",
+    "mb-2013-e31765894a8712b2",
+    "mb-2013-e5daaa7b92f89199",
+    "mb-2013-e77284d32a72f2b5",
+    "mb-2013-e85de9dd731a8174",
+    "mb-2013-e995f182321884ba",
+    "mb-2013-f006a6f60f4522f7",
+    "mb-2013-f0120fc02347154a",
+    "mb-2013-f26ff3a93bb20c3c",
+    "mb-2013-f28a7d687c20c8f1",
+    "mb-2013-f4c11a721a9e5dee",
+    "mb-2013-fbf91cd51cae31ad",
+    "mb-2013-fd321f723332a31d",
+    "mb-2013-ff82c6c16797f329",
+    "mb-2013-ffc36d6efbc37b1d",
+    "mb-2012-012bd6fa1aa89d35",
+    "mb-2012-026a41ad31208f48",
+    "mb-2012-0288021447db0a2b",
+    "mb-2012-02d6c1ae6e770910",
+    "mb-2012-03ae9049d29e6b7e",
+    "mb-2012-058423d732af6afa",
+    "mb-2012-06ea85465561e284",
+    "mb-2012-07a18934b31c65c7",
+    "mb-2012-08fce2199e239f86",
+    "mb-2012-09b8c134bdb384d1",
+    "mb-2012-0a864fc2ab9c4a40",
+    "mb-2012-0ac00fe7db9b25b2",
+    "mb-2012-0b6f1f300a092fb2",
+    "mb-2012-11b7a2f6cf76ecda",
+    "mb-2012-1391ba89941d2e94",
+    "mb-2012-1486380f7a9d4751",
+    "mb-2012-14c5ad32d59ef5aa",
+    "mb-2012-15f66159529cf73f",
+    "mb-2012-16c46f828a049cce",
+    "mb-2012-1716e83c98fbb597",
+    "mb-2012-189e67486365e21b",
+    "mb-2012-1a572754ba6ebb34",
+    "mb-2012-1a6ae4c3c600163e",
+    "mb-2012-1b1303a3b45bc449",
+    "mb-2012-1f65613884ec53c3",
+    "mb-2012-205ae6278027e4dc",
+    "mb-2012-20b56402dbccea8d",
+    "mb-2012-220ed63df3f0ba42",
+    "mb-2012-248c2ff4da52a29a",
+    "mb-2012-25416715a6a207b1",
+    "mb-2012-2624b78806762e7c",
+    "mb-2012-262803cd795015cd",
+    "mb-2012-268c4c1685604df7",
+    "mb-2012-2df7cd9bfb1f3293",
+    "mb-2012-327e0468f464363e",
+    "mb-2012-34d683c6122a8abe",
+    "mb-2012-36cf931e632c2386",
+    "mb-2012-37a4a190e3d385b2",
+    "mb-2012-37c7640547d4c4af",
+    "mb-2012-37d6e63216d81533",
+    "mb-2012-37eddad9c676c28c",
+    "mb-2012-39695a66d797d9f7",
+    "mb-2012-3b4de9d2c4c8746b",
+    "mb-2012-3bdb58a77265cb81",
+    "mb-2012-3c8e6a616e3af2f4",
+    "mb-2012-3f5b6366758fdb55",
+    "mb-2012-42feadb65265282b",
+    "mb-2012-449ba3b6be240cef",
+    "mb-2012-464bada8f09332b3",
+    "mb-2012-46b2f5711957f343",
+    "mb-2012-47253e513a1d4e23",
+    "mb-2012-47a263a58722c7ec",
+    "mb-2012-47a6fc39b76bd4c5",
+    "mb-2012-493c94705430b553",
+    "mb-2012-4aad2574a69871e9",
+    "mb-2012-4ac44b3d76302e60",
+    "mb-2012-4b59c512196a9d96",
+    "mb-2012-4c6e121d71da3de9",
+    "mb-2012-4ce948361401f6e8",
+    "mb-2012-4d612ef3f4afcedc",
+    "mb-2012-4f4ecf92ffce8a5e",
+    "mb-2012-4f67f123d356a488",
+    "mb-2012-5198536c6b32f2f2",
+    "mb-2012-526bc54b08394bc9",
+    "mb-2012-54d6e4b711b8f76a",
+    "mb-2012-57eac18bd2ff8715",
+    "mb-2012-58296aa9fd8e49a4",
+    "mb-2012-598b435fdebf7448",
+    "mb-2012-5d97cb3591ddd907",
+    "mb-2012-6041db7bea79bd82",
+    "mb-2012-6557a1049e14f0f2",
+    "mb-2012-6c8f8a3def7379c6",
+    "mb-2012-6d790ef563e5f651",
+    "mb-2012-6dce70dfbb686bbb",
+    "mb-2012-6f7f767c26e4daec",
+    "mb-2012-70e1ffce9e5a612e",
+    "mb-2012-73da757381ed10f0",
+    "mb-2012-75680721eb36cc24",
+    "mb-2012-762b2ea469dfa7a2",
+    "mb-2012-79c4a54afcc0f466",
+    "mb-2012-7a6d39ea5d46352e",
+    "mb-2012-7bac0bda9f7f163e",
+    "mb-2012-7e8fd4df17ad96e6",
+    "mb-2012-7e9fb325b6c2d89f",
+    "mb-2012-80a403e8e4b27479",
+    "mb-2012-82a979391571d68c",
+    "mb-2012-82ca920d90d56600",
+    "mb-2012-8356dc51349a6d9a",
+    "mb-2012-86ad00cbe2da1adf",
+    "mb-2012-8a7e5d68aafee24b",
+    "mb-2012-8bcae5911604628b",
+    "mb-2012-8c075cd81c7aa9ad",
+    "mb-2012-9b0c06a09f20a556",
+    "mb-2012-a0763764eb40e3bc",
+    "mb-2012-a1d27aa25b86503e",
+    "mb-2012-a840c219cc57b349",
+    "mb-2012-a921952bfcf0b37c",
+    "mb-2012-aba8d5b1f40a6bcc",
+    "mb-2012-b3318a06fb0dfad9",
+    "mb-2012-b8f96d4f6ccc04d3",
+    "mb-2012-bc5697226a6182e6",
+    "mb-2012-bd085416bd170fdf",
+    "mb-2012-c3cc042c46b333b0",
+    "mb-2012-c3fde7d753f96d21",
+    "mb-2012-c4f278393c5bbfa0",
+    "mb-2012-c5860bdc68e24d00",
+    "mb-2012-ca40a597b6c319dd",
+    "mb-2012-ccd52bc21e9cfa6a",
+    "mb-2012-cf5e986576557ca6",
+    "mb-2012-d04563e1417c5775",
+    "mb-2012-d34b1f66f220cb88",
+    "mb-2012-d6311015fc965d19",
+    "mb-2012-dc22db29d5ed0dc2",
+    "mb-2012-e3a6f11a3ba31af4",
+    "mb-2012-e6acb2f09cc08e45",
+    "mb-2012-e71cfcb12a18cba8",
+    "mb-2012-f2763bfbb0848f75",
+    "mb-2012-f96abb02b9cc8d93",
+    "mb-2012-fa48d9f33f499cb1",
+    "mb-2012-fc1567cd0d6cc290",
+    "mb-2012-ff8098d8ec8b59cc",
+    "mb-2012-ffc3b864d84189d6",
+    "mb-2012-fffe6c2c72d23954",
+    "mb-2011-01fa63b0b847935a",
+    "mb-2011-02a974cf6b89fb98",
+    "mb-2011-02c83433f5b39ee5",
+    "mb-2011-02e77c6aad5a9535",
+    "mb-2011-036d1e9d98734384",
+    "mb-2011-048de844c4da8b7e",
+    "mb-2011-04fc4ff901d8efe1",
+    "mb-2011-0549865525a2560d",
+    "mb-2011-05cb37a679455a00",
+    "mb-2011-086baa286ad00431",
+    "mb-2011-0b3a4df2e928eb3c",
+    "mb-2011-0eff2370b6496e96",
+    "mb-2011-0f29f4243876db66",
+    "mb-2011-102b20174d2926f7",
+    "mb-2011-116210e3c462cb55",
+    "mb-2011-11fc64750875b988",
+    "mb-2011-14b1c5e7577220fa",
+    "mb-2011-14eb3319549bc1e1",
+    "mb-2011-15ea4b4a91fbebe4",
+    "mb-2011-1687d95ca868c679",
+    "mb-2011-16c18430bbc81e82",
+    "mb-2011-196c6b3fe88be1a8",
+    "mb-2011-1ae2fd316a722dae",
+    "mb-2011-1e2656df984d0e32",
+    "mb-2011-1fe2e2b38ddb2122",
+    "mb-2011-23deeefac4880117",
+    "mb-2011-2486e9e64470fb97",
+    "mb-2011-283d5750ca57d84e",
+    "mb-2011-2b5f6a9e94287718",
+    "mb-2011-2bc235fe36dfb219",
+    "mb-2011-2cd4163f7eb45b73"
   ],
   "verifiedAssets": {
     "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736210160&num=1": {
@@ -17815,6 +18015,28 @@
       "finalUrl": "https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736341277&num=1",
       "checkedAt": "2026-10-17T21:39:28+00:00"
     },
+    "https://www.bamca.org/pic/man/var/l_mb029-78.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "2bf841733ced0881ef623455fe3ce2389df7ec9655108198a225c6363a2c195b",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb029-78.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb029-78.jpg",
+      "thumbnailMeanError": 4.1177
+    },
+    "https://www.bamca.org/pic/man/var/l_mb029-79.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "5b4b7fdd4d36aebc9142a858b558a2df009fa197dce3f391bb63e049678edd44",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb029-79.jpg",
+      "checkedAt": "2026-10-23T21:38:01+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb029-79.jpg",
+      "thumbnailMeanError": 3.8619
+    },
     "https://www.bamca.org/pic/man/var/l_mb042-61.jpg": {
       "ok": true,
       "width": 600,
@@ -29640,6 +29862,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb1529-01.jpg",
       "thumbnailMeanError": 2.1352
     },
+    "https://www.bamca.org/pic/man/var/l_mb153-66.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "08cd09b255f74b3972dd88eab7bc5f3ef0146f487bae521ff9fc529cc46766e8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb153-66.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb153-66.jpg",
+      "thumbnailMeanError": 3.0775
+    },
+    "https://www.bamca.org/pic/man/var/l_mb153-68.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "203a8d31017207a1bcfa39fead14093770e78d1ea6c4e2074658f0cc6b832002",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb153-68.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb153-68.jpg",
+      "thumbnailMeanError": 3.0296
+    },
     "https://www.bamca.org/pic/man/var/l_mb1530-01.jpg": {
       "ok": true,
       "width": 600,
@@ -29915,6 +30159,50 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb180b-62.jpg",
       "thumbnailMeanError": 3.3974
     },
+    "https://www.bamca.org/pic/man/var/l_mb188-63.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7ed9a9401ab3af81fb546cf3a9f166895341f482a8c30438577d3828c2e41b6a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb188-63.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb188-63.jpg",
+      "thumbnailMeanError": 4.9669
+    },
+    "https://www.bamca.org/pic/man/var/l_mb222-47.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8eba14193128802ddf678185bf6927c9ce57b9f9702cb72ca0b3149043ab209e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb222-47.jpg",
+      "checkedAt": "2026-10-23T21:38:15+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb222-47.jpg",
+      "thumbnailMeanError": 4.1318
+    },
+    "https://www.bamca.org/pic/man/var/l_mb222-48.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "eb0a7157e5b25d5974deca674f9450624685e27c391c6252771d45fd1296db84",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb222-48.jpg",
+      "checkedAt": "2026-10-23T21:38:05+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb222-48.jpg",
+      "thumbnailMeanError": 4.0659
+    },
+    "https://www.bamca.org/pic/man/var/l_mb249-26.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "36e5a754a923a70d9414c4c24e73f2e5fc4b1ec9c77db3ef3c8697e8fb7fded1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb249-26.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb249-26.jpg",
+      "thumbnailMeanError": 3.8963
+    },
     "https://www.bamca.org/pic/man/var/l_mb249-27.jpg": {
       "ok": true,
       "width": 600,
@@ -29936,6 +30224,17 @@
       "checkedAt": "2026-10-23T18:26:01+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb249-29.jpg",
       "thumbnailMeanError": 4.4037
+    },
+    "https://www.bamca.org/pic/man/var/l_mb302-33.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cd2d7957812919fa633c5c40a5529f24f6705fea64de1e26cc6911094b603a92",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb302-33.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb302-33.jpg",
+      "thumbnailMeanError": 2.6695
     },
     "https://www.bamca.org/pic/man/var/l_mb302b-04.jpg": {
       "ok": true,
@@ -30113,6 +30412,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb423-33.jpg",
       "thumbnailMeanError": 2.9086
     },
+    "https://www.bamca.org/pic/man/var/l_mb436-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e6b0c321ee25016ef8945b3b21931f536e2d87ee5307fcf63a71c08d48936c1f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb436-23.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb436-23.jpg",
+      "thumbnailMeanError": 4.1375
+    },
     "https://www.bamca.org/pic/man/var/l_mb444b-02.jpg": {
       "ok": true,
       "width": 600,
@@ -30123,6 +30433,17 @@
       "checkedAt": "2026-10-23T16:45:31+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb444b-02.jpg",
       "thumbnailMeanError": 3.2589
+    },
+    "https://www.bamca.org/pic/man/var/l_mb489-25.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "edea553c7e12df9e43026bbc98c18a29db4c734822ee852eebea634b5b474dd7",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb489-25.jpg",
+      "checkedAt": "2026-10-23T21:38:19+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb489-25.jpg",
+      "thumbnailMeanError": 3.8697
     },
     "https://www.bamca.org/pic/man/var/l_mb490b-01.jpg": {
       "ok": true,
@@ -30135,6 +30456,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb490b-01.jpg",
       "thumbnailMeanError": 3.3778
     },
+    "https://www.bamca.org/pic/man/var/l_mb500-13.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f612266c0dc0300476e03dac9f980ec70eb5080e825b397e098890dda6d552c7",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb500-13.jpg",
+      "checkedAt": "2026-10-23T21:38:03+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb500-13.jpg",
+      "thumbnailMeanError": 2.854
+    },
+    "https://www.bamca.org/pic/man/var/l_mb506-19.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ee07d3d8b610aecfc933ed1da721c87aa35447feb74bbf8bc6919b2acd75f68a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb506-19.jpg",
+      "checkedAt": "2026-10-23T21:38:24+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb506-19.jpg",
+      "thumbnailMeanError": 4.5756
+    },
     "https://www.bamca.org/pic/man/var/l_mb506-21.jpg": {
       "ok": true,
       "width": 600,
@@ -30146,6 +30489,39 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb506-21.jpg",
       "thumbnailMeanError": 4.9192
     },
+    "https://www.bamca.org/pic/man/var/l_mb515-21.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ff2f6c085571ccb5bb368a027044a49c0507807d5cd302fe2388e841038216de",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb515-21.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb515-21.jpg",
+      "thumbnailMeanError": 2.5326
+    },
+    "https://www.bamca.org/pic/man/var/l_mb517-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "48ac99f87fbdebc4cbc7a7fed18c5f835a390854addaab018a5beddcd775e105",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb517-23.jpg",
+      "checkedAt": "2026-10-23T21:38:24+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb517-23.jpg",
+      "thumbnailMeanError": 3.1163
+    },
+    "https://www.bamca.org/pic/man/var/l_mb517-25.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "0e53f3058eb5bf9e9dfc9b4696f6df80705aba852943e8b961b97fdec00666b3",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb517-25.jpg",
+      "checkedAt": "2026-10-23T21:38:05+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb517-25.jpg",
+      "thumbnailMeanError": 3.9071
+    },
     "https://www.bamca.org/pic/man/var/l_mb517-26.jpg": {
       "ok": true,
       "width": 600,
@@ -30156,6 +30532,17 @@
       "checkedAt": "2026-10-23T18:25:37+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb517-26.jpg",
       "thumbnailMeanError": 2.9983
+    },
+    "https://www.bamca.org/pic/man/var/l_mb519-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d82e2c8444cb4a22bd27fdee02aa86820c40e2fbdf6f6a0bb595ea4d7e1a535f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb519-14.jpg",
+      "checkedAt": "2026-10-23T21:38:29+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb519-14.jpg",
+      "thumbnailMeanError": 3.8083
     },
     "https://www.bamca.org/pic/man/var/l_mb519-17.jpg": {
       "ok": true,
@@ -30179,6 +30566,50 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb519-d02.jpg",
       "thumbnailMeanError": 3.0192
     },
+    "https://www.bamca.org/pic/man/var/l_mb524-25.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "65b251b9fe23755b09f5de3ffe44b8824c360fb18b21ea4bee8ddd43e12bc9b8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb524-25.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb524-25.jpg",
+      "thumbnailMeanError": 3.5753
+    },
+    "https://www.bamca.org/pic/man/var/l_mb526-30.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e4c112dd66962c1a93bad4f1dc5537c72e6d0dca49933ead6a5e1a3a8384480b",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb526-30.jpg",
+      "checkedAt": "2026-10-23T21:38:05+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb526-30.jpg",
+      "thumbnailMeanError": 4.3318
+    },
+    "https://www.bamca.org/pic/man/var/l_mb536-22.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3713a6d4d406a8a36c4860d58bc873f26d5840e92a0c819d201d0fda9e962208",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb536-22.jpg",
+      "checkedAt": "2026-10-23T21:38:14+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb536-22.jpg",
+      "thumbnailMeanError": 4.234
+    },
+    "https://www.bamca.org/pic/man/var/l_mb541-20.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d1797fa19e743df7a78aa452f183ce523e4e60d9212436d851d5d7bf90379465",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb541-20.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb541-20.jpg",
+      "thumbnailMeanError": 3.8592
+    },
     "https://www.bamca.org/pic/man/var/l_mb541-21.jpg": {
       "ok": true,
       "width": 600,
@@ -30190,6 +30621,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb541-21.jpg",
       "thumbnailMeanError": 4.2681
     },
+    "https://www.bamca.org/pic/man/var/l_mb544-22.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "09d49f8dc339d352f134c95052e1d1e8ddf67f7d0de9885af0b6f4fb9bc37810",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb544-22.jpg",
+      "checkedAt": "2026-10-23T21:38:29+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb544-22.jpg",
+      "thumbnailMeanError": 2.6578
+    },
     "https://www.bamca.org/pic/man/var/l_mb546-29.jpg": {
       "ok": true,
       "width": 600,
@@ -30200,6 +30642,17 @@
       "checkedAt": "2026-10-23T18:25:35+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb546-29.jpg",
       "thumbnailMeanError": 3.4486
+    },
+    "https://www.bamca.org/pic/man/var/l_mb564-16.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "06bc4a0c8b04161f61e9aee2d10f39bb25c6cfcca66e7f7ee3250be62d1a1f8e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb564-16.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb564-16.jpg",
+      "thumbnailMeanError": 3.6495
     },
     "https://www.bamca.org/pic/man/var/l_mb564-17.jpg": {
       "ok": true,
@@ -30256,6 +30709,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb574b-02.jpg",
       "thumbnailMeanError": 4.2294
     },
+    "https://www.bamca.org/pic/man/var/l_mb575-16.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cab19d3d2656bb54d2054805f0bac3cb9cb1102ca4eb2e8944214084655a3a6e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb575-16.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb575-16.jpg",
+      "thumbnailMeanError": 4.8341
+    },
+    "https://www.bamca.org/pic/man/var/l_mb575-18.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "56590f2955f23f745792c38af68085ce1d0b8b9db6595f50b3fc9cc4da143abe",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb575-18.jpg",
+      "checkedAt": "2026-10-23T21:38:03+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb575-18.jpg",
+      "thumbnailMeanError": 4.5167
+    },
     "https://www.bamca.org/pic/man/var/l_mb579b-01.jpg": {
       "ok": true,
       "width": 600,
@@ -30300,6 +30775,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb587-19.jpg",
       "thumbnailMeanError": 3.0242
     },
+    "https://www.bamca.org/pic/man/var/l_mb589-18.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "44662dcfbaf77a0a4180be5dc6ec4918d3e58b95e2b630f785d470c1871529ca",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb589-18.jpg",
+      "checkedAt": "2026-10-23T21:38:17+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb589-18.jpg",
+      "thumbnailMeanError": 4.8263
+    },
     "https://www.bamca.org/pic/man/var/l_mb589-19.jpg": {
       "ok": true,
       "width": 600,
@@ -30310,6 +30796,17 @@
       "checkedAt": "2026-10-23T18:26:44+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb589-19.jpg",
       "thumbnailMeanError": 5.2282
+    },
+    "https://www.bamca.org/pic/man/var/l_mb595-17.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "69a2446bc66853a04ad9e629e1fbb87d7b2174a21795876ef7923b59d61dc220",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb595-17.jpg",
+      "checkedAt": "2026-10-23T21:38:10+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb595-17.jpg",
+      "thumbnailMeanError": 2.4885
     },
     "https://www.bamca.org/pic/man/var/l_mb606-26.jpg": {
       "ok": true,
@@ -30333,6 +30830,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb606-27.jpg",
       "thumbnailMeanError": 4.3934
     },
+    "https://www.bamca.org/pic/man/var/l_mb607-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "5a4c1ffa60aa5bf9aced8feaa94a726767812f944047b42c8dd1f3c405889373",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb607-05.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb607-05.jpg",
+      "thumbnailMeanError": 2.3424
+    },
+    "https://www.bamca.org/pic/man/var/l_mb610-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d37b134f07c09615fb136e36e73e069e940dffaeec25a26a9b91f26aa2d76cca",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb610-11.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb610-11.jpg",
+      "thumbnailMeanError": 2.2402
+    },
     "https://www.bamca.org/pic/man/var/l_mb611-23.jpg": {
       "ok": true,
       "width": 600,
@@ -30354,6 +30873,39 @@
       "checkedAt": "2026-10-23T16:15:22+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb611-24.jpg",
       "thumbnailMeanError": 2.7922
+    },
+    "https://www.bamca.org/pic/man/var/l_mb666-24.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7d23267adc1d0cd352d34da19a604e869dc5e1cd2981ce47e8199bcabfc1c435",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb666-24.jpg",
+      "checkedAt": "2026-10-23T21:38:37+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb666-24.jpg",
+      "thumbnailMeanError": 3.1543
+    },
+    "https://www.bamca.org/pic/man/var/l_mb666-27.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "353034f35585d5c713a4664d7a212faca1c7d4f36459bf6906e24e0173c3704c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb666-27.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb666-27.jpg",
+      "thumbnailMeanError": 3.8102
+    },
+    "https://www.bamca.org/pic/man/var/l_mb667-32.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "1b46bf72182fd8a5897ad1b9d4ae1db91654b342c90175971260bc83c25c489d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb667-32.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb667-32.jpg",
+      "thumbnailMeanError": 3.7824
     },
     "https://www.bamca.org/pic/man/var/l_mb667-34.jpg": {
       "ok": true,
@@ -30377,6 +30929,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb668-20.jpg",
       "thumbnailMeanError": 3.4765
     },
+    "https://www.bamca.org/pic/man/var/l_mb670-13.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9b1a72e3801261def6358469d382a5a5758d4353e181400b4ce16eddb7abed8d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb670-13.jpg",
+      "checkedAt": "2026-10-23T21:38:26+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb670-13.jpg",
+      "thumbnailMeanError": 3.7419
+    },
     "https://www.bamca.org/pic/man/var/l_mb670-14.jpg": {
       "ok": true,
       "width": 600,
@@ -30398,6 +30961,50 @@
       "checkedAt": "2026-10-23T18:26:13+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb670-15.jpg",
       "thumbnailMeanError": 3.8185
+    },
+    "https://www.bamca.org/pic/man/var/l_mb671-20.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "774d007271a96dd3b79f46acac9fb8162b35a77638970ba31f13afc74a638857",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb671-20.jpg",
+      "checkedAt": "2026-10-23T21:38:17+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb671-20.jpg",
+      "thumbnailMeanError": 3.2034
+    },
+    "https://www.bamca.org/pic/man/var/l_mb675-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "199e0002209ce53156e9ff6be3ffefd7a63c438d4bcf5a7c3a675e6caa68d3aa",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb675-23.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb675-23.jpg",
+      "thumbnailMeanError": 3.2355
+    },
+    "https://www.bamca.org/pic/man/var/l_mb676-25.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "63567e3a823055affb86a09e2919e8525d6f6e585c1eec1cf405d387656b0983",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb676-25.jpg",
+      "checkedAt": "2026-10-23T21:38:35+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb676-25.jpg",
+      "thumbnailMeanError": 2.7714
+    },
+    "https://www.bamca.org/pic/man/var/l_mb677-20.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "15b0ac5a42f791361c02fe716a3e27614c49d148ce43c17215762fb91767d736",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb677-20.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb677-20.jpg",
+      "thumbnailMeanError": 5.1603
     },
     "https://www.bamca.org/pic/man/var/l_mb677-21.jpg": {
       "ok": true,
@@ -30443,6 +31050,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb684-21.jpg",
       "thumbnailMeanError": 2.9997
     },
+    "https://www.bamca.org/pic/man/var/l_mb685-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4f1f2623143c5cfb2a93859059f5c13d0a852cd667a91a0a99c2f63981c8b9d8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb685-23.jpg",
+      "checkedAt": "2026-10-23T21:38:31+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb685-23.jpg",
+      "thumbnailMeanError": 3.569
+    },
     "https://www.bamca.org/pic/man/var/l_mb685-25.jpg": {
       "ok": true,
       "width": 600,
@@ -30465,6 +31083,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb685-27.jpg",
       "thumbnailMeanError": 3.617
     },
+    "https://www.bamca.org/pic/man/var/l_mb686-22.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "abb07a86dbeaf016f9ce8d01e976b0f60b341fbc56cbf5b7efcd8c4bdc3a97b3",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb686-22.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb686-22.jpg",
+      "thumbnailMeanError": 3.7463
+    },
     "https://www.bamca.org/pic/man/var/l_mb686-23.jpg": {
       "ok": true,
       "width": 600,
@@ -30475,6 +31104,17 @@
       "checkedAt": "2026-10-23T18:26:35+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb686-23.jpg",
       "thumbnailMeanError": 4.0462
+    },
+    "https://www.bamca.org/pic/man/var/l_mb687-21.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9c8ca54cf21d65ab30c42d032f597ca2e5d9c45ca1581a09484657c6951d7e44",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb687-21.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb687-21.jpg",
+      "thumbnailMeanError": 4.8921
     },
     "https://www.bamca.org/pic/man/var/l_mb687-24.jpg": {
       "ok": true,
@@ -30497,6 +31137,17 @@
       "checkedAt": "2026-10-18T17:11:59+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb687-25.jpg",
       "thumbnailMeanError": 4.2903
+    },
+    "https://www.bamca.org/pic/man/var/l_mb690-16.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bd7b2ec6e06930549f8fc9cfd8f1f3c88abd5d845f1576ccc1a4c0659856727e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb690-16.jpg",
+      "checkedAt": "2026-10-23T21:38:12+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb690-16.jpg",
+      "thumbnailMeanError": 4.4952
     },
     "https://www.bamca.org/pic/man/var/l_mb690-17.jpg": {
       "ok": true,
@@ -30530,6 +31181,17 @@
       "checkedAt": "2026-10-23T18:26:38+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb694-22.jpg",
       "thumbnailMeanError": 5.6784
+    },
+    "https://www.bamca.org/pic/man/var/l_mb695-33.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ea25bd9b30868f6add0f8e3ff7763b9296d945244a2eb82ad2cc8623e9adddbc",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb695-33.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb695-33.jpg",
+      "thumbnailMeanError": 3.6996
     },
     "https://www.bamca.org/pic/man/var/l_mb695-36.jpg": {
       "ok": true,
@@ -30597,6 +31259,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb696-22.jpg",
       "thumbnailMeanError": 2.9985
     },
+    "https://www.bamca.org/pic/man/var/l_mb697-19.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "33fcbced192559b8dc7f9c183690eddb7a2676d12e58357ac659c35428ddaa03",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb697-19.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb697-19.jpg",
+      "thumbnailMeanError": 3.962
+    },
+    "https://www.bamca.org/pic/man/var/l_mb699-24.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cb97364ad79d81702b83229738068490162a58777dd886cd803c240607c2ef95",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb699-24.jpg",
+      "checkedAt": "2026-10-23T21:38:19+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb699-24.jpg",
+      "thumbnailMeanError": 3.9079
+    },
     "https://www.bamca.org/pic/man/var/l_mb699-28.jpg": {
       "ok": true,
       "width": 600,
@@ -30607,6 +31291,28 @@
       "checkedAt": "2026-10-23T18:25:40+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb699-28.jpg",
       "thumbnailMeanError": 4.3128
+    },
+    "https://www.bamca.org/pic/man/var/l_mb702-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "74df33540653476280124e096de7d9686cd242fd902aa03693e8d1ca411fb5d2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb702-14.jpg",
+      "checkedAt": "2026-10-23T21:38:21+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb702-14.jpg",
+      "thumbnailMeanError": 4.0625
+    },
+    "https://www.bamca.org/pic/man/var/l_mb703-15.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ef62fe907af102fc53764f311cddc907c61aeace791250fb1e8e0890d7e40ab1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb703-15.jpg",
+      "checkedAt": "2026-10-23T21:38:31+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb703-15.jpg",
+      "thumbnailMeanError": 4.193
     },
     "https://www.bamca.org/pic/man/var/l_mb703-16.jpg": {
       "ok": true,
@@ -30674,6 +31380,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb704-17.jpg",
       "thumbnailMeanError": 3.2541
     },
+    "https://www.bamca.org/pic/man/var/l_mb706-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "54f31f6f52fcb1647a53a339a6e060c673df3325c4f42ada5bf1d78cb245d1e2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb706-12.jpg",
+      "checkedAt": "2026-10-23T21:38:12+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb706-12.jpg",
+      "thumbnailMeanError": 3.4156
+    },
     "https://www.bamca.org/pic/man/var/l_mb707-20.jpg": {
       "ok": true,
       "width": 600,
@@ -30684,6 +31401,17 @@
       "checkedAt": "2026-10-23T18:26:42+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb707-20.jpg",
       "thumbnailMeanError": 4.2332
+    },
+    "https://www.bamca.org/pic/man/var/l_mb709-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "764ff4219346690d52c3a40a8dd38a8216148b27cd857434fba35255fe6e1722",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb709-23.jpg",
+      "checkedAt": "2026-10-23T21:38:28+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb709-23.jpg",
+      "thumbnailMeanError": 5.534
     },
     "https://www.bamca.org/pic/man/var/l_mb709-25.jpg": {
       "ok": true,
@@ -30718,6 +31446,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb710-39.jpg",
       "thumbnailMeanError": 3.3919
     },
+    "https://www.bamca.org/pic/man/var/l_mb712-44.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "48e5af46cbde42699883c5cca9cedc20274e8e59bfb22824348ec821d41edf3d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb712-44.jpg",
+      "checkedAt": "2026-10-23T21:38:33+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb712-44.jpg",
+      "thumbnailMeanError": 5.7023
+    },
+    "https://www.bamca.org/pic/man/var/l_mb712-48.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "2ab2f72d7f82482da8bacb87fff1895e636e560ce1159f846d25a1bb07fe03c3",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb712-48.jpg",
+      "checkedAt": "2026-10-23T21:38:10+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb712-48.jpg",
+      "thumbnailMeanError": 4.7055
+    },
     "https://www.bamca.org/pic/man/var/l_mb712-49.jpg": {
       "ok": true,
       "width": 600,
@@ -30739,6 +31489,17 @@
       "checkedAt": "2026-10-23T16:45:32+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb713-42.jpg",
       "thumbnailMeanError": 2.9205
+    },
+    "https://www.bamca.org/pic/man/var/l_mb716-27.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "913ac1c565d3a94e539e3dc7f1d804f6b5c3339962a7b26f002e23b3756f70c2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb716-27.jpg",
+      "checkedAt": "2026-10-23T21:38:15+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb716-27.jpg",
+      "thumbnailMeanError": 4.2794
     },
     "https://www.bamca.org/pic/man/var/l_mb716-32.jpg": {
       "ok": true,
@@ -30784,6 +31545,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb716-35.jpg",
       "thumbnailMeanError": 5.0432
     },
+    "https://www.bamca.org/pic/man/var/l_mb720-20.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a32891e5af3fdac113f984c025a28736b051d569db7c0253dbab3fa243d15abf",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb720-20.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb720-20.jpg",
+      "thumbnailMeanError": 4.671
+    },
     "https://www.bamca.org/pic/man/var/l_mb720-25.jpg": {
       "ok": true,
       "width": 600,
@@ -30816,6 +31588,17 @@
       "checkedAt": "2026-10-23T16:45:20+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb720-28.jpg",
       "thumbnailMeanError": 3.645
+    },
+    "https://www.bamca.org/pic/man/var/l_mb723-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "54ff64d982761235295cd0c71ff7114cfc90380af83930f24676afae88777fe2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb723-14.jpg",
+      "checkedAt": "2026-10-23T21:38:31+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb723-14.jpg",
+      "thumbnailMeanError": 3.9656
     },
     "https://www.bamca.org/pic/man/var/l_mb723-18.jpg": {
       "ok": true,
@@ -30927,6 +31710,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb728-18.jpg",
       "thumbnailMeanError": 5.1039
     },
+    "https://www.bamca.org/pic/man/var/l_mb729-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "59ea27e3b32b8bfcce725802258b6c178a09cedaf070a2b3930c47bf1a103207",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb729-14.jpg",
+      "checkedAt": "2026-10-23T21:38:20+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb729-14.jpg",
+      "thumbnailMeanError": 3.4731
+    },
+    "https://www.bamca.org/pic/man/var/l_mb729-17.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "399b4ba0f446570f45438873a4f1b97f0c7627c573f536d4ab82a3d64977df5e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb729-17.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb729-17.jpg",
+      "thumbnailMeanError": 3.2794
+    },
     "https://www.bamca.org/pic/man/var/l_mb729-28.jpg": {
       "ok": true,
       "width": 600,
@@ -31026,6 +31831,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb734-34.jpg",
       "thumbnailMeanError": 4.0458
     },
+    "https://www.bamca.org/pic/man/var/l_mb736-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f2a16999be83a61ea64fa26cf9ff5adbb3b980884ebda9926c3e467e45901fb9",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb736-14.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb736-14.jpg",
+      "thumbnailMeanError": 3.4672
+    },
+    "https://www.bamca.org/pic/man/var/l_mb737-18.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "fb0b4f12d44b9915b37d1cbe71dcd5e2a33320431ce39b88573404873de36c5f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb737-18.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb737-18.jpg",
+      "thumbnailMeanError": 4.7974
+    },
     "https://www.bamca.org/pic/man/var/l_mb737-21.jpg": {
       "ok": true,
       "width": 600,
@@ -31114,6 +31941,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb738-21.jpg",
       "thumbnailMeanError": 3.6396
     },
+    "https://www.bamca.org/pic/man/var/l_mb739-15.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ea577f4b05a94c2655ca093b68bfbe4590477a320f20532303962bddc10fe5b6",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb739-15.jpg",
+      "checkedAt": "2026-10-23T21:38:39+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb739-15.jpg",
+      "thumbnailMeanError": 2.4787
+    },
     "https://www.bamca.org/pic/man/var/l_mb739-17.jpg": {
       "ok": true,
       "width": 600,
@@ -31135,6 +31973,17 @@
       "checkedAt": "2026-10-23T16:44:50+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb741-17.jpg",
       "thumbnailMeanError": 3.9753
+    },
+    "https://www.bamca.org/pic/man/var/l_mb742-14.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "24854f192366a9f2d41e16178a2f7c108dafc0377151df0cc9976f1be5265246",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb742-14.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb742-14.jpg",
+      "thumbnailMeanError": 5.0475
     },
     "https://www.bamca.org/pic/man/var/l_mb742b-01.jpg": {
       "ok": true,
@@ -31213,6 +32062,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb742b-10.jpg",
       "thumbnailMeanError": 3.8958
     },
+    "https://www.bamca.org/pic/man/var/l_mb744-13.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ea1c39691f9c813e00a973f8c2b649d2a210c6014392d880d9e79eae2bf2b004",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb744-13.jpg",
+      "checkedAt": "2026-10-23T21:38:28+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb744-13.jpg",
+      "thumbnailMeanError": 3.3286
+    },
     "https://www.bamca.org/pic/man/var/l_mb744-15.jpg": {
       "ok": true,
       "width": 600,
@@ -31223,6 +32083,39 @@
       "checkedAt": "2026-10-23T18:26:38+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb744-15.jpg",
       "thumbnailMeanError": 2.9905
+    },
+    "https://www.bamca.org/pic/man/var/l_mb745-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d7a5e52b3f69d11ba8f184b1ea42e0cb4e6e1bfc12c30be68abb7e147f8e793b",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb745-11.jpg",
+      "checkedAt": "2026-10-23T21:38:12+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb745-11.jpg",
+      "thumbnailMeanError": 4.026
+    },
+    "https://www.bamca.org/pic/man/var/l_mb745-15.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bdbc7940eeb096e649962dc3ac731f1ab44bba8a219705d40ffa5bf9aa42612f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb745-15.jpg",
+      "checkedAt": "2026-10-23T21:38:07+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb745-15.jpg",
+      "thumbnailMeanError": 4.1593
+    },
+    "https://www.bamca.org/pic/man/var/l_mb748-21.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3b4f51456bf64494fa52e814762f0c17fc8f0687ca5d08d9a03e5e42680efdd1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb748-21.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb748-21.jpg",
+      "thumbnailMeanError": 4.0915
     },
     "https://www.bamca.org/pic/man/var/l_mb748-23.jpg": {
       "ok": true,
@@ -31290,6 +32183,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb748-32.jpg",
       "thumbnailMeanError": 3.6338
     },
+    "https://www.bamca.org/pic/man/var/l_mb749-26.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b78d2234e3c29766336cba9d81b67c36b3d6d496c919902393ac9570adbf43e2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb749-26.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb749-26.jpg",
+      "thumbnailMeanError": 4.3728
+    },
+    "https://www.bamca.org/pic/man/var/l_mb750-10.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ef91ffad872d9597d8bfb5cc9e0561c98ab40fe87d164e7f45d6b8777880f0c6",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb750-10.jpg",
+      "checkedAt": "2026-10-23T21:38:15+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb750-10.jpg",
+      "thumbnailMeanError": 2.7489
+    },
     "https://www.bamca.org/pic/man/var/l_mb750-12.jpg": {
       "ok": true,
       "width": 600,
@@ -31300,6 +32215,17 @@
       "checkedAt": "2026-10-23T18:25:39+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb750-12.jpg",
       "thumbnailMeanError": 2.368
+    },
+    "https://www.bamca.org/pic/man/var/l_mb751-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a42f7911dd1498bb518ad21f5a5d2b1e9d1c36f524cbf10958b3972a2ee778de",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb751-03.jpg",
+      "checkedAt": "2026-10-23T21:38:17+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb751-03.jpg",
+      "thumbnailMeanError": 3.9422
     },
     "https://www.bamca.org/pic/man/var/l_mb751-04.jpg": {
       "ok": true,
@@ -31322,6 +32248,39 @@
       "checkedAt": "2026-10-23T18:26:33+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb751-05.jpg",
       "thumbnailMeanError": 4.2767
+    },
+    "https://www.bamca.org/pic/man/var/l_mb753-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "1959824baa49a6980e2abfd58eb31e21bc429d9b0002cec55786793a937b828a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb753-12.jpg",
+      "checkedAt": "2026-10-23T21:38:12+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb753-12.jpg",
+      "thumbnailMeanError": 3.8507
+    },
+    "https://www.bamca.org/pic/man/var/l_mb754-08.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f2d7d285a19d3b630244b30232a022f083316a5a1f60ae9eaf49ccc722be9437",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb754-08.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb754-08.jpg",
+      "thumbnailMeanError": 3.0474
+    },
+    "https://www.bamca.org/pic/man/var/l_mb755-18.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b22df7512aa6b8660be7755a7c791cb3e14a734e40daa16c5346e2866ba6f6c1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb755-18.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb755-18.jpg",
+      "thumbnailMeanError": 4.4502
     },
     "https://www.bamca.org/pic/man/var/l_mb755-20.jpg": {
       "ok": true,
@@ -31400,6 +32359,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb756-17.jpg",
       "thumbnailMeanError": 3.8016
     },
+    "https://www.bamca.org/pic/man/var/l_mb756-d01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "246f02591a86dfcf004eb92b6e2dd12cd3679abc8eee092c8b0530737e245774",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb756-d01.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb756-d01.jpg",
+      "thumbnailMeanError": 4.6748
+    },
+    "https://www.bamca.org/pic/man/var/l_mb759-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d62b1ecbbe71e699602e172f4f970e5ba4f3cc1441f040398abcf748465bb6de",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb759-12.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb759-12.jpg",
+      "thumbnailMeanError": 3.0525
+    },
     "https://www.bamca.org/pic/man/var/l_mb759-14.jpg": {
       "ok": true,
       "width": 600,
@@ -31410,6 +32391,28 @@
       "checkedAt": "2026-10-23T16:45:47+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb759-14.jpg",
       "thumbnailMeanError": 2.692
+    },
+    "https://www.bamca.org/pic/man/var/l_mb761-15.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "fd5d909be298ccab4819d1db1b211fc090683d62655d3e03057aa819ad8a73be",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb761-15.jpg",
+      "checkedAt": "2026-10-23T21:38:33+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb761-15.jpg",
+      "thumbnailMeanError": 3.3818
+    },
+    "https://www.bamca.org/pic/man/var/l_mb761-16.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "da9bd3c06f4f51598813775098348ec11afc0fc39d3a1f5f03c31ff0ceeba81d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb761-16.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb761-16.jpg",
+      "thumbnailMeanError": 2.6157
     },
     "https://www.bamca.org/pic/man/var/l_mb761-18.jpg": {
       "ok": true,
@@ -31433,6 +32436,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb761-21.jpg",
       "thumbnailMeanError": 2.9659
     },
+    "https://www.bamca.org/pic/man/var/l_mb762-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "94a8f1e01037a42a8a137386c765a0653c079a5a8fe5dcf2ec6c70edae3a641d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb762-07.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb762-07.jpg",
+      "thumbnailMeanError": 3.1605
+    },
     "https://www.bamca.org/pic/man/var/l_mb762-09.jpg": {
       "ok": true,
       "width": 600,
@@ -31443,6 +32457,17 @@
       "checkedAt": "2026-10-23T18:26:44+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb762-09.jpg",
       "thumbnailMeanError": 3.4567
+    },
+    "https://www.bamca.org/pic/man/var/l_mb763-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ea37bdc193fc60790bbdfa166b333db1e9fbde6cdde1e9c1bb07b5c31df6e135",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb763-09.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb763-09.jpg",
+      "thumbnailMeanError": 3.5919
     },
     "https://www.bamca.org/pic/man/var/l_mb763-16.jpg": {
       "ok": true,
@@ -31465,6 +32490,17 @@
       "checkedAt": "2026-10-23T16:45:48+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb763-17.jpg",
       "thumbnailMeanError": 4.9882
+    },
+    "https://www.bamca.org/pic/man/var/l_mb764-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4ece37d772a3d44751fb11abdcfd38ae9529d7b2a324bcf3a3bf9e04bfb11fe4",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb764-09.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb764-09.jpg",
+      "thumbnailMeanError": 3.9053
     },
     "https://www.bamca.org/pic/man/var/l_mb764-11.jpg": {
       "ok": true,
@@ -31565,6 +32601,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb766-03.jpg",
       "thumbnailMeanError": 2.7952
     },
+    "https://www.bamca.org/pic/man/var/l_mb767-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d60a2fb07f5449db7d2e1fca4900b766f446f316a2da89cd642b6414552fb046",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb767-11.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb767-11.jpg",
+      "thumbnailMeanError": 4.6722
+    },
     "https://www.bamca.org/pic/man/var/l_mb767-14.jpg": {
       "ok": true,
       "width": 600,
@@ -31609,6 +32656,72 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb767-18.jpg",
       "thumbnailMeanError": 4.2107
     },
+    "https://www.bamca.org/pic/man/var/l_mb768-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cddcff4af01571bd22d830325f6b40a647721fe9f7f4a659951f94be3164396d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb768-05.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb768-05.jpg",
+      "thumbnailMeanError": 3.8571
+    },
+    "https://www.bamca.org/pic/man/var/l_mb768-08.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "eaa76bb79678611cac3efe06a5206a6f91cc7bc0db20d8289293ba3c82922995",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb768-08.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb768-08.jpg",
+      "thumbnailMeanError": 3.9436
+    },
+    "https://www.bamca.org/pic/man/var/l_mb768-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "94bb48e295a39ea4005ec3558ad3c70a3cffe76d4e9080f6986a5d014db62ae5",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb768-09.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb768-09.jpg",
+      "thumbnailMeanError": 4.6454
+    },
+    "https://www.bamca.org/pic/man/var/l_mb769-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "79bf81e7eb1ed309edbca2f02890ece758168d56f58e2351da9c45db14aa155c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb769-05.jpg",
+      "checkedAt": "2026-10-23T21:38:33+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb769-05.jpg",
+      "thumbnailMeanError": 3.6255
+    },
+    "https://www.bamca.org/pic/man/var/l_mb769-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4db4d8ad10f78dc40391dabf9c0510592f00c6858f90d1a7b1baa78a25158262",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb769-06.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb769-06.jpg",
+      "thumbnailMeanError": 3.6202
+    },
+    "https://www.bamca.org/pic/man/var/l_mb771-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "83cba4e71d4ac98c07aaae87a2963cac84d016b4d6e2016d55c1006c134234e0",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb771-12.jpg",
+      "checkedAt": "2026-10-23T21:38:14+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb771-12.jpg",
+      "thumbnailMeanError": 5.0609
+    },
     "https://www.bamca.org/pic/man/var/l_mb771-13.jpg": {
       "ok": true,
       "width": 600,
@@ -31642,6 +32755,39 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb774-06.jpg",
       "thumbnailMeanError": 3.4677
     },
+    "https://www.bamca.org/pic/man/var/l_mb776-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "30074b617edc5c61723efa7b49c0c270037181d9fbd64ed4a2e1b63b2df9ec84",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb776-06.jpg",
+      "checkedAt": "2026-10-23T21:38:35+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb776-06.jpg",
+      "thumbnailMeanError": 5.2647
+    },
+    "https://www.bamca.org/pic/man/var/l_mb776-10.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b43d7d30f1785b7372c2c5bec705d67e1bab487402f2177821a7d1798b481329",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb776-10.jpg",
+      "checkedAt": "2026-10-23T21:38:29+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb776-10.jpg",
+      "thumbnailMeanError": 4.7112
+    },
+    "https://www.bamca.org/pic/man/var/l_mb776-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "66c4fac2e62be02845d0e4589c30b2ff8134a1978cfe92786e0a2046411f787f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb776-12.jpg",
+      "checkedAt": "2026-10-23T21:38:09+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb776-12.jpg",
+      "thumbnailMeanError": 4.5147
+    },
     "https://www.bamca.org/pic/man/var/l_mb777-15.jpg": {
       "ok": true,
       "width": 600,
@@ -31663,6 +32809,28 @@
       "checkedAt": "2026-10-23T16:45:07+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb777-17.jpg",
       "thumbnailMeanError": 3.1197
+    },
+    "https://www.bamca.org/pic/man/var/l_mb778-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4892f499fefc89e4006e4b1f8f9a35a271c623544cfd2339bc86ee32d8f8d9ab",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb778-05.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb778-05.jpg",
+      "thumbnailMeanError": 5.0178
+    },
+    "https://www.bamca.org/pic/man/var/l_mb778-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7b555a0314797b1bef6d5c22d83094ff157b0be040193fe3d34a277f4bf5d20a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb778-11.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb778-11.jpg",
+      "thumbnailMeanError": 5.0805
     },
     "https://www.bamca.org/pic/man/var/l_mb778b-01.jpg": {
       "ok": true,
@@ -31719,6 +32887,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb778b-05.jpg",
       "thumbnailMeanError": 6.4245
     },
+    "https://www.bamca.org/pic/man/var/l_mb780-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "fa4dd6a01fbcb45864e192dfda7205d2aafd4e3bf71780728a1837da1ed3e7af",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb780-07.jpg",
+      "checkedAt": "2026-10-23T21:38:28+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb780-07.jpg",
+      "thumbnailMeanError": 4.0111
+    },
     "https://www.bamca.org/pic/man/var/l_mb780-13.jpg": {
       "ok": true,
       "width": 600,
@@ -31729,6 +32908,17 @@
       "checkedAt": "2026-10-23T18:26:40+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb780-13.jpg",
       "thumbnailMeanError": 4.0606
+    },
+    "https://www.bamca.org/pic/man/var/l_mb781-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e46613b16b65fae2f65084d116e6af02c2bf4d31f4995b6f507bad980d3d22b2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb781-09.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb781-09.jpg",
+      "thumbnailMeanError": 3.9479
     },
     "https://www.bamca.org/pic/man/var/l_mb781-10.jpg": {
       "ok": true,
@@ -31774,6 +32964,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb781-14.jpg",
       "thumbnailMeanError": 3.3891
     },
+    "https://www.bamca.org/pic/man/var/l_mb782-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3fa749f83307e3b77e203bfd1fb6964dce5067ac3ba59ba7a2b309b46d0615d9",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb782-06.jpg",
+      "checkedAt": "2026-10-23T21:38:35+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb782-06.jpg",
+      "thumbnailMeanError": 3.4517
+    },
+    "https://www.bamca.org/pic/man/var/l_mb782-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3fa1079b5d571fba650b43abb8cc23af7fec9307d1bf88eda08f009dc986271c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb782-09.jpg",
+      "checkedAt": "2026-10-23T21:38:21+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb782-09.jpg",
+      "thumbnailMeanError": 3.9925
+    },
     "https://www.bamca.org/pic/man/var/l_mb782-10.jpg": {
       "ok": true,
       "width": 600,
@@ -31785,6 +32997,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb782-10.jpg",
       "thumbnailMeanError": 3.3139
     },
+    "https://www.bamca.org/pic/man/var/l_mb783-13.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ef6b337c4e15714f42821dff4f5a2dea79fea127da2790f1e604d26d6575d22c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb783-13.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb783-13.jpg",
+      "thumbnailMeanError": 4.0042
+    },
     "https://www.bamca.org/pic/man/var/l_mb783-14.jpg": {
       "ok": true,
       "width": 600,
@@ -31795,6 +33018,28 @@
       "checkedAt": "2026-10-23T18:26:31+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb783-14.jpg",
       "thumbnailMeanError": 3.351
+    },
+    "https://www.bamca.org/pic/man/var/l_mb784-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f723aed04d450d9889075f3a376a043204dd9c0e8d0268d01c4a0f87ba71634f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb784-09.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb784-09.jpg",
+      "thumbnailMeanError": 3.2304
+    },
+    "https://www.bamca.org/pic/man/var/l_mb784-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c9a58a143d334307d2936ea42fe87002e4359688e238e2c570d848c20495004f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb784-11.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb784-11.jpg",
+      "thumbnailMeanError": 3.7093
     },
     "https://www.bamca.org/pic/man/var/l_mb784-14.jpg": {
       "ok": true,
@@ -31873,6 +33118,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb785-20.jpg",
       "thumbnailMeanError": 2.7114
     },
+    "https://www.bamca.org/pic/man/var/l_mb786-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "205fd0a14a9b4cb6dcfd7f55d62d1e036b2c28dcf345c4c15fab6d85dfe5372c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb786-06.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb786-06.jpg",
+      "thumbnailMeanError": 2.7501
+    },
     "https://www.bamca.org/pic/man/var/l_mb786-18.jpg": {
       "ok": true,
       "width": 600,
@@ -31895,6 +33151,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb786-31.jpg",
       "thumbnailMeanError": 2.898
     },
+    "https://www.bamca.org/pic/man/var/l_mb788-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7cf7ccb0d77f86f436b947e21a3ed5f0c4be9f5cb8770c387a7d578f07971cc0",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb788-05.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb788-05.jpg",
+      "thumbnailMeanError": 3.2121
+    },
+    "https://www.bamca.org/pic/man/var/l_mb788-12.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "04f0132a403c65e123142b8de96249b07823912e5817c66f72b00391f7497fe1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb788-12.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb788-12.jpg",
+      "thumbnailMeanError": 4.3664
+    },
     "https://www.bamca.org/pic/man/var/l_mb788-13.jpg": {
       "ok": true,
       "width": 600,
@@ -31916,6 +33194,28 @@
       "checkedAt": "2026-10-23T18:26:21+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb788-14.jpg",
       "thumbnailMeanError": 4.1233
+    },
+    "https://www.bamca.org/pic/man/var/l_mb789-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9ccfd26cc4d3369b8c394f337d05ac63c04ba6de486119a0b84ce022b1330797",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb789-05.jpg",
+      "checkedAt": "2026-10-23T21:38:37+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb789-05.jpg",
+      "thumbnailMeanError": 3.6593
+    },
+    "https://www.bamca.org/pic/man/var/l_mb789-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4a621774e21c126da7a129dea798d5f3a7a7dff2b2735ae661113783be693d9b",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb789-07.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb789-07.jpg",
+      "thumbnailMeanError": 3.4489
     },
     "https://www.bamca.org/pic/man/var/l_mb789-09.jpg": {
       "ok": true,
@@ -31994,6 +33294,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb789-22.jpg",
       "thumbnailMeanError": 3.4306
     },
+    "https://www.bamca.org/pic/man/var/l_mb795-08.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9cac31185edb2ad685099e011dc1aff38a875c4edcc00792c7d67d3fd700d4d7",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb795-08.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb795-08.jpg",
+      "thumbnailMeanError": 3.905
+    },
     "https://www.bamca.org/pic/man/var/l_mb795-10.jpg": {
       "ok": true,
       "width": 600,
@@ -32060,6 +33371,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb795-16.jpg",
       "thumbnailMeanError": 4.158
     },
+    "https://www.bamca.org/pic/man/var/l_mb796-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "6918de28cfcb54e4f39da84aa9bd1ec6419c05c68c9c1f27e3ef2250ad44fb7a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb796-06.jpg",
+      "checkedAt": "2026-10-23T21:38:39+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb796-06.jpg",
+      "thumbnailMeanError": 4.9952
+    },
+    "https://www.bamca.org/pic/man/var/l_mb796-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f5648dc8ad5a843da8e89dd73138b0d8311824b549b3539673370927bbc7fdd9",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb796-11.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb796-11.jpg",
+      "thumbnailMeanError": 5.4175
+    },
     "https://www.bamca.org/pic/man/var/l_mb796-14.jpg": {
       "ok": true,
       "width": 600,
@@ -32070,6 +33403,39 @@
       "checkedAt": "2026-10-23T18:25:57+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb796-14.jpg",
       "thumbnailMeanError": 4.7516
+    },
+    "https://www.bamca.org/pic/man/var/l_mb797-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cbe7234b8d583a0bbb26dc7b026dbac2bc94eba40c2d0744d0794eadf1fd57b0",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb797-03.jpg",
+      "checkedAt": "2026-10-23T21:38:33+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb797-03.jpg",
+      "thumbnailMeanError": 3.4922
+    },
+    "https://www.bamca.org/pic/man/var/l_mb797-08.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a4a246c9d2da03dfbd27021f3276963830eb24f2a84f6a11e2a0622df080490f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb797-08.jpg",
+      "checkedAt": "2026-10-23T21:38:29+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb797-08.jpg",
+      "thumbnailMeanError": 3.3054
+    },
+    "https://www.bamca.org/pic/man/var/l_mb797-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "20498aa2edcabe100562a01778ba8cf7424dcc104174b31f72a4638bca6be6a9",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb797-11.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb797-11.jpg",
+      "thumbnailMeanError": 3.8534
     },
     "https://www.bamca.org/pic/man/var/l_mb797-12.jpg": {
       "ok": true,
@@ -32104,6 +33470,50 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb797-16.jpg",
       "thumbnailMeanError": 3.1748
     },
+    "https://www.bamca.org/pic/man/var/l_mb798-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "56b1c2fb5c88cf9d9748b9a11e69d2ed953885299383c34cfa8d53f1b01fd84d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb798-07.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb798-07.jpg",
+      "thumbnailMeanError": 5.0808
+    },
+    "https://www.bamca.org/pic/man/var/l_mb799-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "774bfddb7d03b374892bc670212a3af9d3bf628f597055671d96ffcc674e1fdf",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb799-11.jpg",
+      "checkedAt": "2026-10-23T21:38:38+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb799-11.jpg",
+      "thumbnailMeanError": 3.7657
+    },
+    "https://www.bamca.org/pic/man/var/l_mb800-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8f1e8cc37d46d7790940bd80e6f40fc1610db1e4d4b6f8572605f233d1bcb41e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb800-06.jpg",
+      "checkedAt": "2026-10-23T21:38:26+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb800-06.jpg",
+      "thumbnailMeanError": 4.1778
+    },
+    "https://www.bamca.org/pic/man/var/l_mb800-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b0d08597ea27bc26a5e582020284ec0424f83d8dc0028d0cfa54195bfccd95d0",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb800-07.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb800-07.jpg",
+      "thumbnailMeanError": 3.1439
+    },
     "https://www.bamca.org/pic/man/var/l_mb800-08.jpg": {
       "ok": true,
       "width": 600,
@@ -32114,6 +33524,17 @@
       "checkedAt": "2026-10-23T18:26:19+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb800-08.jpg",
       "thumbnailMeanError": 4.3262
+    },
+    "https://www.bamca.org/pic/man/var/l_mb801-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "33af17ffbae5a6c052e2db565c2c2cc43a11966f35413d431179f269103fa723",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb801-07.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb801-07.jpg",
+      "thumbnailMeanError": 4.5706
     },
     "https://www.bamca.org/pic/man/var/l_mb801-10.jpg": {
       "ok": true,
@@ -32137,6 +33558,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb801-11.jpg",
       "thumbnailMeanError": 4.7815
     },
+    "https://www.bamca.org/pic/man/var/l_mb802-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "09049fb0d2f4469a13729923de6f9c6e2984e62705ab3e78533735c6160ac0bb",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb802-02.jpg",
+      "checkedAt": "2026-10-23T21:38:38+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb802-02.jpg",
+      "thumbnailMeanError": 3.5601
+    },
+    "https://www.bamca.org/pic/man/var/l_mb802-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "1c8b9dc033819ffe90b7f89d2988e380f2e87f239f2ef717bb82b68ac8223ed5",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb802-05.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb802-05.jpg",
+      "thumbnailMeanError": 3.0711
+    },
     "https://www.bamca.org/pic/man/var/l_mb802-06.jpg": {
       "ok": true,
       "width": 600,
@@ -32148,6 +33591,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb802-06.jpg",
       "thumbnailMeanError": 3.013
     },
+    "https://www.bamca.org/pic/man/var/l_mb803-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "2f91730ada4d3bafd62052ff3bfcc336aa87c9a662118d204803f814abb8bcfa",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb803-04.jpg",
+      "checkedAt": "2026-10-23T21:38:37+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb803-04.jpg",
+      "thumbnailMeanError": 2.3504
+    },
+    "https://www.bamca.org/pic/man/var/l_mb803-08.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "61c2d1a60ffd3b0a7a1befba8b7323f1316c99cb0f19a65eff5fcfc69b791d24",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb803-08.jpg",
+      "checkedAt": "2026-10-23T21:38:15+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb803-08.jpg",
+      "thumbnailMeanError": 2.5463
+    },
     "https://www.bamca.org/pic/man/var/l_mb803-10.jpg": {
       "ok": true,
       "width": 600,
@@ -32158,6 +33623,39 @@
       "checkedAt": "2026-10-23T18:26:34+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb803-10.jpg",
       "thumbnailMeanError": 2.2911
+    },
+    "https://www.bamca.org/pic/man/var/l_mb804-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "41ae1dbf623a5e3524b7aa2d6503929e8478111b5b86a3cae4d1b6e9c23d201e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb804-02.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb804-02.jpg",
+      "thumbnailMeanError": 3.1633
+    },
+    "https://www.bamca.org/pic/man/var/l_mb804-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c699f17390df79f8951a592e57c259d6715557822368d95c017a56d27186b12c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb804-06.jpg",
+      "checkedAt": "2026-10-23T21:38:27+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb804-06.jpg",
+      "thumbnailMeanError": 2.8941
+    },
+    "https://www.bamca.org/pic/man/var/l_mb805-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a6a11e79089a1dd13b91d2579c237347ad21e7dc412983ac7af688948e0905ca",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb805-05.jpg",
+      "checkedAt": "2026-10-23T21:38:24+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb805-05.jpg",
+      "thumbnailMeanError": 4.8533
     },
     "https://www.bamca.org/pic/man/var/l_mb805-07.jpg": {
       "ok": true,
@@ -32192,6 +33690,39 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb805-14.jpg",
       "thumbnailMeanError": 3.7523
     },
+    "https://www.bamca.org/pic/man/var/l_mb806-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "36d51199d85cd11fcdea9472b8b98b5e80f4608cc1797b0545cf7713b82204f4",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb806-07.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb806-07.jpg",
+      "thumbnailMeanError": 2.9647
+    },
+    "https://www.bamca.org/pic/man/var/l_mb807-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c85203be1d07c6dab480b66d085a516e47093180b61c133d10602f192a04d8aa",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb807-06.jpg",
+      "checkedAt": "2026-10-23T21:38:36+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb807-06.jpg",
+      "thumbnailMeanError": 3.1862
+    },
+    "https://www.bamca.org/pic/man/var/l_mb807-13.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "36735178591c7e416b4b792610698aeb2214ab8ae2b087226ee4812aef8cb9b7",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb807-13.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb807-13.jpg",
+      "thumbnailMeanError": 3.5507
+    },
     "https://www.bamca.org/pic/man/var/l_mb807b-01.jpg": {
       "ok": true,
       "width": 600,
@@ -32214,6 +33745,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb807b-06.jpg",
       "thumbnailMeanError": 2.5183
     },
+    "https://www.bamca.org/pic/man/var/l_mb808-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "5717b7c7f247657600ba827ab9d362720d0358a97603bf331eb714c918cffe8f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb808-04.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb808-04.jpg",
+      "thumbnailMeanError": 3.8421
+    },
     "https://www.bamca.org/pic/man/var/l_mb809-02.jpg": {
       "ok": true,
       "width": 600,
@@ -32224,6 +33766,39 @@
       "checkedAt": "2026-10-23T18:25:50+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb809-02.jpg",
       "thumbnailMeanError": 2.7732
+    },
+    "https://www.bamca.org/pic/man/var/l_mb810-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "1e42101838210dda4db45017115f60a16c709b95d52dde58c6384e6cfbb3194e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb810-03.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb810-03.jpg",
+      "thumbnailMeanError": 3.0092
+    },
+    "https://www.bamca.org/pic/man/var/l_mb810-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e26497b78b1098f5c71417df8bf8e4eb882804bd5eba431f829d41b3e9e80b9d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb810-04.jpg",
+      "checkedAt": "2026-10-23T21:38:31+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb810-04.jpg",
+      "thumbnailMeanError": 3.3626
+    },
+    "https://www.bamca.org/pic/man/var/l_mb810-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "59ed833b0b670040fcac6f1cc0db267707cc562f7e1fd99062df5ad152cfea19",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb810-05.jpg",
+      "checkedAt": "2026-10-23T21:38:29+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb810-05.jpg",
+      "thumbnailMeanError": 3.3843
     },
     "https://www.bamca.org/pic/man/var/l_mb810-08.jpg": {
       "ok": true,
@@ -32247,6 +33822,39 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb810-11.jpg",
       "thumbnailMeanError": 2.897
     },
+    "https://www.bamca.org/pic/man/var/l_mb811-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ac131381c89e7a8f858a5fa7d7ab635d75ca0326d38edc612df6cd56737d64ca",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb811-01.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb811-01.jpg",
+      "thumbnailMeanError": 3.2382
+    },
+    "https://www.bamca.org/pic/man/var/l_mb812-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "79b56d4bcc93e444d1f94081945b0ccf24d3f3568bbe7aa14a463f68e29c6f20",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb812-01.jpg",
+      "checkedAt": "2026-10-23T21:38:35+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb812-01.jpg",
+      "thumbnailMeanError": 2.6905
+    },
+    "https://www.bamca.org/pic/man/var/l_mb812-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "0abb7872224654b34e068a5e8eb175f6ec403a1c39cd201ee72ac0f67aaa57ff",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb812-05.jpg",
+      "checkedAt": "2026-10-23T21:38:31+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb812-05.jpg",
+      "thumbnailMeanError": 3.6939
+    },
     "https://www.bamca.org/pic/man/var/l_mb812-13.jpg": {
       "ok": true,
       "width": 600,
@@ -32268,6 +33876,28 @@
       "checkedAt": "2026-10-23T18:26:10+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb812-16.jpg",
       "thumbnailMeanError": 2.7687
+    },
+    "https://www.bamca.org/pic/man/var/l_mb813-11.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c411076ce6b7e7d6be5126d915a36e0b8f8eee22c599d1b0be0607693ae79b0c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb813-11.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb813-11.jpg",
+      "thumbnailMeanError": 6.0437
+    },
+    "https://www.bamca.org/pic/man/var/l_mb813-16.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a39ee969cf2a02c34532d95299923e617c37f5ed74fe83280b996ca8c7016773",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb813-16.jpg",
+      "checkedAt": "2026-10-23T21:38:09+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb813-16.jpg",
+      "thumbnailMeanError": 5.3921
     },
     "https://www.bamca.org/pic/man/var/l_mb813-22.jpg": {
       "ok": true,
@@ -32345,6 +33975,50 @@
       "checkedAt": "2026-10-18T17:11:55+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb813b-07.jpg",
       "thumbnailMeanError": 2.8214
+    },
+    "https://www.bamca.org/pic/man/var/l_mb814-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a58a7a36652e4f3b2a8a29e293dc49d6a970df9b1996b7759a4a79ee4c446ac8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb814-01.jpg",
+      "checkedAt": "2026-10-23T21:38:33+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb814-01.jpg",
+      "thumbnailMeanError": 4.1429
+    },
+    "https://www.bamca.org/pic/man/var/l_mb814-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a4063b93f049a9447705f1befbabe1664f1936577dda3a4d5256f53b6e2835cb",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb814-03.jpg",
+      "checkedAt": "2026-10-23T21:38:28+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb814-03.jpg",
+      "thumbnailMeanError": 5.6837
+    },
+    "https://www.bamca.org/pic/man/var/l_mb814-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "73789179a10c418347acf460879e17212bc049b97d70ba451da6e89df00c91f8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb814-04.jpg",
+      "checkedAt": "2026-10-23T21:38:28+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb814-04.jpg",
+      "thumbnailMeanError": 4.3897
+    },
+    "https://www.bamca.org/pic/man/var/l_mb814-07.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "49b1bc7bef35bd81ed55c40304471ee0d2bafee069eb67e12005ea6ecfe86925",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb814-07.jpg",
+      "checkedAt": "2026-10-23T21:38:03+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb814-07.jpg",
+      "thumbnailMeanError": 4.5753
     },
     "https://www.bamca.org/pic/man/var/l_mb814-08.jpg": {
       "ok": true,
@@ -32433,6 +34107,28 @@
       "checkedAt": "2026-10-23T16:44:27+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb816-08.jpg",
       "thumbnailMeanError": 2.5925
+    },
+    "https://www.bamca.org/pic/man/var/l_mb817-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a6b434bab56a6ce8b9fe8b9b48d8dc50adc48d309b43227d9df19d45ba783c2e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb817-01.jpg",
+      "checkedAt": "2026-10-23T21:38:39+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb817-01.jpg",
+      "thumbnailMeanError": 3.3218
+    },
+    "https://www.bamca.org/pic/man/var/l_mb817-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b1ac48215b9453b70ae36f164ba29a52faa772f9309179352ac45cb1e9c9f430",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb817-05.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb817-05.jpg",
+      "thumbnailMeanError": 2.9193
     },
     "https://www.bamca.org/pic/man/var/l_mb817-07.jpg": {
       "ok": true,
@@ -32533,6 +34229,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb817-18.jpg",
       "thumbnailMeanError": 4.1688
     },
+    "https://www.bamca.org/pic/man/var/l_mb818-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f1016f7ee3d3c19f607ab1f2306e72a2293585c642a8ef3f17f40df6bd03b90c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb818-04.jpg",
+      "checkedAt": "2026-10-23T21:38:19+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb818-04.jpg",
+      "thumbnailMeanError": 5.0591
+    },
     "https://www.bamca.org/pic/man/var/l_mb818-07.jpg": {
       "ok": true,
       "width": 600,
@@ -32599,6 +34306,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb818-14.jpg",
       "thumbnailMeanError": 4.3994
     },
+    "https://www.bamca.org/pic/man/var/l_mb819-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c08096b910dc0abbadbf740b2b1b5beb5a832dd0723db884539f9c443e7ca119",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb819-05.jpg",
+      "checkedAt": "2026-10-23T21:38:26+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb819-05.jpg",
+      "thumbnailMeanError": 4.0197
+    },
     "https://www.bamca.org/pic/man/var/l_mb819-06.jpg": {
       "ok": true,
       "width": 600,
@@ -32620,6 +34338,39 @@
       "checkedAt": "2026-10-23T18:26:18+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb819-07.jpg",
       "thumbnailMeanError": 3.845
+    },
+    "https://www.bamca.org/pic/man/var/l_mb820-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "afccf6064738ec0c5bfee1c017bd9501b541e5c48bffd732d3b3ffe7429739c3",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb820-01.jpg",
+      "checkedAt": "2026-10-23T21:38:38+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb820-01.jpg",
+      "thumbnailMeanError": 3.4752
+    },
+    "https://www.bamca.org/pic/man/var/l_mb820-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "00e84bf905ab3ded618a88b72451304bcc41f6ee31e858b350c2398c2d2073a4",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb820-03.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb820-03.jpg",
+      "thumbnailMeanError": 4.8535
+    },
+    "https://www.bamca.org/pic/man/var/l_mb821-06.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8d52d398576f002b4f5f263200ab231d3c1c62c09c45b6d3f1705921d9c36c69",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb821-06.jpg",
+      "checkedAt": "2026-10-23T21:38:14+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb821-06.jpg",
+      "thumbnailMeanError": 2.9994
     },
     "https://www.bamca.org/pic/man/var/l_mb821-07.jpg": {
       "ok": true,
@@ -32731,6 +34482,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb821-34.jpg",
       "thumbnailMeanError": 3.2734
     },
+    "https://www.bamca.org/pic/man/var/l_mb822-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f31c74b706154eab14c3b2c54b1128cda1a3015971d0c9baf913ee51e6d0ae0e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb822-03.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb822-03.jpg",
+      "thumbnailMeanError": 4.3555
+    },
     "https://www.bamca.org/pic/man/var/l_mb822-04.jpg": {
       "ok": true,
       "width": 600,
@@ -32753,6 +34515,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb822-06.jpg",
       "thumbnailMeanError": 2.9178
     },
+    "https://www.bamca.org/pic/man/var/l_mb823-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "01e1f420b8f322d6672b84c638cf09da9ebd6389d520601c7b18e77aec82e3da",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb823-01.jpg",
+      "checkedAt": "2026-10-23T21:38:38+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb823-01.jpg",
+      "thumbnailMeanError": 3.0462
+    },
+    "https://www.bamca.org/pic/man/var/l_mb823-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e40d7282151d7aeef02c3bcfed46aa428605dcf68555a663a113c856e46550d1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb823-03.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb823-03.jpg",
+      "thumbnailMeanError": 2.9654
+    },
     "https://www.bamca.org/pic/man/var/l_mb823-05.jpg": {
       "ok": true,
       "width": 600,
@@ -32774,6 +34558,28 @@
       "checkedAt": "2026-10-23T18:26:11+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb823-06.jpg",
       "thumbnailMeanError": 2.7672
+    },
+    "https://www.bamca.org/pic/man/var/l_mb824-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "540571c8214d24a55cf2f6ddf20cec68a9d981de09cd53436c8362ba81e000a4",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb824-01.jpg",
+      "checkedAt": "2026-10-23T21:38:34+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb824-01.jpg",
+      "thumbnailMeanError": 4.0187
+    },
+    "https://www.bamca.org/pic/man/var/l_mb824-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "dba7d5e3ea01815f8d1af71a5442e5c27da9006422ea1ba386efc3dda9dbc153",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb824-03.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb824-03.jpg",
+      "thumbnailMeanError": 4.9104
     },
     "https://www.bamca.org/pic/man/var/l_mb824-04.jpg": {
       "ok": true,
@@ -32852,6 +34658,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb824-12.jpg",
       "thumbnailMeanError": 3.6151
     },
+    "https://www.bamca.org/pic/man/var/l_mb825-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "6e67befd287e8be4a2549f37aba2db6137a4910575b33429a632a87c82858400",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb825-05.jpg",
+      "checkedAt": "2026-10-23T21:38:14+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb825-05.jpg",
+      "thumbnailMeanError": 5.1098
+    },
+    "https://www.bamca.org/pic/man/var/l_mb825-09.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f88bde20bf4a32ecccdaeb81514718a6b8a4bcb6eab36e1efa7b103fe408e9c2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb825-09.jpg",
+      "checkedAt": "2026-10-23T21:38:05+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb825-09.jpg",
+      "thumbnailMeanError": 4.2672
+    },
     "https://www.bamca.org/pic/man/var/l_mb825-10.jpg": {
       "ok": true,
       "width": 600,
@@ -32907,6 +34735,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb825-18.jpg",
       "thumbnailMeanError": 4.2975
     },
+    "https://www.bamca.org/pic/man/var/l_mb826-18.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c1c771895c8e4c20a46ef41c43ab76fa0af1a511b6a2e6bffbec05e59512bb7e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb826-18.jpg",
+      "checkedAt": "2026-10-23T21:38:24+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb826-18.jpg",
+      "thumbnailMeanError": 2.6031
+    },
     "https://www.bamca.org/pic/man/var/l_mb826-19.jpg": {
       "ok": true,
       "width": 600,
@@ -32917,6 +34756,28 @@
       "checkedAt": "2026-10-23T18:26:42+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb826-19.jpg",
       "thumbnailMeanError": 2.6768
+    },
+    "https://www.bamca.org/pic/man/var/l_mb827-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "c2bb1e67393a99c1557f23b90a9e44c3324819937df57c3ecea50f749d2809f8",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb827-01.jpg",
+      "checkedAt": "2026-10-23T21:38:37+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb827-01.jpg",
+      "thumbnailMeanError": 4.3722
+    },
+    "https://www.bamca.org/pic/man/var/l_mb827-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9bee90d2392f7495d807a5c704a78106d76e4dae8b7f2f49df88844b27dc9c7c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb827-03.jpg",
+      "checkedAt": "2026-10-23T21:38:21+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb827-03.jpg",
+      "thumbnailMeanError": 4.0269
     },
     "https://www.bamca.org/pic/man/var/l_mb827-04.jpg": {
       "ok": true,
@@ -32940,6 +34801,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb827-05.jpg",
       "thumbnailMeanError": 3.8427
     },
+    "https://www.bamca.org/pic/man/var/l_mb828-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "2ca2cfe0263b4aa0b8d163231f80054b8e59a7b95940ab699d0f91933882cc65",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb828-02.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb828-02.jpg",
+      "thumbnailMeanError": 3.567
+    },
     "https://www.bamca.org/pic/man/var/l_mb828-03.jpg": {
       "ok": true,
       "width": 600,
@@ -32950,6 +34822,17 @@
       "checkedAt": "2026-10-23T16:45:50+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb828-03.jpg",
       "thumbnailMeanError": 4.0265
+    },
+    "https://www.bamca.org/pic/man/var/l_mb828-05.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8dd57bc996d81bb61a426929ba0d03202c6d9e67ca6171688aa176d220f20b0d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb828-05.jpg",
+      "checkedAt": "2026-10-23T21:38:10+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb828-05.jpg",
+      "thumbnailMeanError": 3.946
     },
     "https://www.bamca.org/pic/man/var/l_mb828-06.jpg": {
       "ok": true,
@@ -32983,6 +34866,28 @@
       "checkedAt": "2026-10-23T18:25:56+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb828-08.jpg",
       "thumbnailMeanError": 3.4697
+    },
+    "https://www.bamca.org/pic/man/var/l_mb831-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "1b4fd385c6a0a086a3954df4e8b08a94c4fcc2a12d817dc1c78c61d37a2f34c6",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb831-02.jpg",
+      "checkedAt": "2026-10-23T21:38:10+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb831-02.jpg",
+      "thumbnailMeanError": 3.3819
+    },
+    "https://www.bamca.org/pic/man/var/l_mb831-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bde305a6c91f6671a43bacb45a989d511ed766bf4203aba8c304024d5c68db0a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb831-04.jpg",
+      "checkedAt": "2026-10-23T21:38:09+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb831-04.jpg",
+      "thumbnailMeanError": 3.8761
     },
     "https://www.bamca.org/pic/man/var/l_mb831-05.jpg": {
       "ok": true,
@@ -33027,6 +34932,28 @@
       "checkedAt": "2026-10-23T16:45:16+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb831-13.jpg",
       "thumbnailMeanError": 3.1393
+    },
+    "https://www.bamca.org/pic/man/var/l_mb832-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7b74a409477aae65e0f6a619c0bbac8d5293c914caa72ea30e69681e7b5acf12",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb832-01.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb832-01.jpg",
+      "thumbnailMeanError": 4.2161
+    },
+    "https://www.bamca.org/pic/man/var/l_mb832-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4d2ec963a8a611450dbfe695084c21990f2a0601339432685ac8f9e468482a91",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb832-02.jpg",
+      "checkedAt": "2026-10-23T21:38:25+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb832-02.jpg",
+      "thumbnailMeanError": 4.6172
     },
     "https://www.bamca.org/pic/man/var/l_mb832-03.jpg": {
       "ok": true,
@@ -33094,6 +35021,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb832-13.jpg",
       "thumbnailMeanError": 4.5032
     },
+    "https://www.bamca.org/pic/man/var/l_mb833-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ba49f116b0b26a07971d830bcbbf5df71a22f34f0797a609238301dffc96c25a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb833-01.jpg",
+      "checkedAt": "2026-10-23T21:38:30+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb833-01.jpg",
+      "thumbnailMeanError": 4.7161
+    },
     "https://www.bamca.org/pic/man/var/l_mb833-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33126,6 +35064,17 @@
       "checkedAt": "2026-10-23T18:26:16+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb833-06.jpg",
       "thumbnailMeanError": 4.1677
+    },
+    "https://www.bamca.org/pic/man/var/l_mb834-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "890c1ca1bcb597e5aa1138a2e160cf2b8153749b772424c94e1fc3f15f8b1360",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb834-01.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb834-01.jpg",
+      "thumbnailMeanError": 4.8556
     },
     "https://www.bamca.org/pic/man/var/l_mb834-05.jpg": {
       "ok": true,
@@ -33160,6 +35109,39 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb834-08.jpg",
       "thumbnailMeanError": 3.8829
     },
+    "https://www.bamca.org/pic/man/var/l_mb837-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bf318e61fb1024b013a0336eb0891bbbdcd36c0dbfd79e3305023fc00b18b3ca",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb837-01.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb837-01.jpg",
+      "thumbnailMeanError": 4.6223
+    },
+    "https://www.bamca.org/pic/man/var/l_mb837-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "29ab4a671f91d78954c1b67d4e71495dd1a47410afa06b98d8ff859097aa58a4",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb837-02.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb837-02.jpg",
+      "thumbnailMeanError": 4.0953
+    },
+    "https://www.bamca.org/pic/man/var/l_mb838-23.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "df42d148577b4668645417c45e15ff44eec01d013d0355d85a08be904d4576a6",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb838-23.jpg",
+      "checkedAt": "2026-10-23T21:38:05+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb838-23.jpg",
+      "thumbnailMeanError": 5.3678
+    },
     "https://www.bamca.org/pic/man/var/l_mb838-25.jpg": {
       "ok": true,
       "width": 600,
@@ -33170,6 +35152,17 @@
       "checkedAt": "2026-10-23T18:26:31+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb838-25.jpg",
       "thumbnailMeanError": 4.0475
+    },
+    "https://www.bamca.org/pic/man/var/l_mb838-27.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "00d0b818231dce15230607524f68b5501e14aeb03336663c46234c37091f6abc",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb838-27.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb838-27.jpg",
+      "thumbnailMeanError": 5.2253
     },
     "https://www.bamca.org/pic/man/var/l_mb838-28.jpg": {
       "ok": true,
@@ -33204,6 +35197,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb838b-03.jpg",
       "thumbnailMeanError": 3.9867
     },
+    "https://www.bamca.org/pic/man/var/l_mb839-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "fd0416c88dfcbde2b1f8cf248a1d0534f493be5475f1f2f6d852c5ce02f1674f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb839-01.jpg",
+      "checkedAt": "2026-10-23T21:38:26+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb839-01.jpg",
+      "thumbnailMeanError": 4.5565
+    },
     "https://www.bamca.org/pic/man/var/l_mb839-03.jpg": {
       "ok": true,
       "width": 600,
@@ -33225,6 +35229,17 @@
       "checkedAt": "2026-10-23T18:26:18+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb839-05.jpg",
       "thumbnailMeanError": 4.9447
+    },
+    "https://www.bamca.org/pic/man/var/l_mb840-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4c4cd45f7904166c7ce790f38e6b2847a008c186f504c2867e73e7c4c2c7d5aa",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb840-01.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb840-01.jpg",
+      "thumbnailMeanError": 4.2658
     },
     "https://www.bamca.org/pic/man/var/l_mb840-02.jpg": {
       "ok": true,
@@ -33259,6 +35274,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb840-07.jpg",
       "thumbnailMeanError": 4.3742
     },
+    "https://www.bamca.org/pic/man/var/l_mb841-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "46b40490f7ce273fe27ac9edccb78634df4111ffc206fd2268f89d3970c7f78f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb841-01.jpg",
+      "checkedAt": "2026-10-23T21:38:19+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb841-01.jpg",
+      "thumbnailMeanError": 3.8882
+    },
     "https://www.bamca.org/pic/man/var/l_mb841-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33270,6 +35296,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb841-02.jpg",
       "thumbnailMeanError": 4.0621
     },
+    "https://www.bamca.org/pic/man/var/l_mb842-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "31561781fa78aa7404cba3c802d51fba7e581c6d30d2a3ed7b3a3252e9b66325",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb842-01.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb842-01.jpg",
+      "thumbnailMeanError": 4.4848
+    },
     "https://www.bamca.org/pic/man/var/l_mb842-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33280,6 +35317,50 @@
       "checkedAt": "2026-10-23T18:26:36+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb842-02.jpg",
       "thumbnailMeanError": 4.1788
+    },
+    "https://www.bamca.org/pic/man/var/l_mb843-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3c83897b2fff336066c0388b18dc24f3cdb9a506c1cc3da941949f411d2f8e36",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb843-01.jpg",
+      "checkedAt": "2026-10-23T21:38:15+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb843-01.jpg",
+      "thumbnailMeanError": 3.8171
+    },
+    "https://www.bamca.org/pic/man/var/l_mb843-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8d11d8fd652d471ce8a5165b5a5d1da9226a8399d7cb551fec8d2bd1790a0924",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb843-02.jpg",
+      "checkedAt": "2026-10-23T21:38:21+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb843-02.jpg",
+      "thumbnailMeanError": 3.9376
+    },
+    "https://www.bamca.org/pic/man/var/l_mb843-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "9a84b7e091952c69a1ed0ccadc854d54c4fe554c237a0f437f57ed858efea85a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb843-03.jpg",
+      "checkedAt": "2026-10-23T21:38:12+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb843-03.jpg",
+      "thumbnailMeanError": 3.8981
+    },
+    "https://www.bamca.org/pic/man/var/l_mb843-04.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b0d81e6411d3780e2eef8211f6e181aa4e471a25472f8a96979b8db64cad6448",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb843-04.jpg",
+      "checkedAt": "2026-10-23T21:38:18+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb843-04.jpg",
+      "thumbnailMeanError": 6.1543
     },
     "https://www.bamca.org/pic/man/var/l_mb843-06.jpg": {
       "ok": true,
@@ -33347,6 +35428,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb843-15.jpg",
       "thumbnailMeanError": 3.9564
     },
+    "https://www.bamca.org/pic/man/var/l_mb844-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "efd5d9fd3a391164199b2010235010f341f79fb35205f75e70fd48c56d486785",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb844-01.jpg",
+      "checkedAt": "2026-10-23T21:38:17+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb844-01.jpg",
+      "thumbnailMeanError": 3.3307
+    },
     "https://www.bamca.org/pic/man/var/l_mb844-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33358,6 +35450,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb844-02.jpg",
       "thumbnailMeanError": 2.7612
     },
+    "https://www.bamca.org/pic/man/var/l_mb845-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "a865108d7c05813834f6c8fa4140169dca4730ad78f5225731a94ebf2ac81248",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb845-01.jpg",
+      "checkedAt": "2026-10-23T21:38:13+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb845-01.jpg",
+      "thumbnailMeanError": 5.184
+    },
+    "https://www.bamca.org/pic/man/var/l_mb845-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ad02600f7316948a3e801da873eac2ecf57cceb794822b65407c863e38462e73",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb845-03.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb845-03.jpg",
+      "thumbnailMeanError": 5.8399
+    },
     "https://www.bamca.org/pic/man/var/l_mb845-04.jpg": {
       "ok": true,
       "width": 600,
@@ -33368,6 +35482,28 @@
       "checkedAt": "2026-10-23T18:26:20+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb845-04.jpg",
       "thumbnailMeanError": 3.9981
+    },
+    "https://www.bamca.org/pic/man/var/l_mb846-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "458d64c3b0c1e82bef201dd2b6e46b4f91fa7be6f769d58c44165cde70952b05",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb846-01.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb846-01.jpg",
+      "thumbnailMeanError": 3.1964
+    },
+    "https://www.bamca.org/pic/man/var/l_mb847-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "ff8704ce4364d0fca4706c2c6bb829515698611188852742da8387db5a8ad1c2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb847-01.jpg",
+      "checkedAt": "2026-10-23T21:38:23+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb847-01.jpg",
+      "thumbnailMeanError": 4.0534
     },
     "https://www.bamca.org/pic/man/var/l_mb847-02.jpg": {
       "ok": true,
@@ -33424,6 +35560,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb847b-01.jpg",
       "thumbnailMeanError": 3.4942
     },
+    "https://www.bamca.org/pic/man/var/l_mb850-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4efbd9f7850b16a57d637b4cd41b2561311dd1c6141744678fc2003b65fd4e6d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb850-01.jpg",
+      "checkedAt": "2026-10-23T21:38:17+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb850-01.jpg",
+      "thumbnailMeanError": 5.3301
+    },
     "https://www.bamca.org/pic/man/var/l_mb850-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33434,6 +35581,17 @@
       "checkedAt": "2026-10-23T18:26:31+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb850-02.jpg",
       "thumbnailMeanError": 4.0917
+    },
+    "https://www.bamca.org/pic/man/var/l_mb852-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e66f8eabefe3b7cc05798f4ee8bce1c7838a624aaed53c6e23304428f2e3b39e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb852-01.jpg",
+      "checkedAt": "2026-10-23T21:38:11+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb852-01.jpg",
+      "thumbnailMeanError": 3.1205
     },
     "https://www.bamca.org/pic/man/var/l_mb852-02.jpg": {
       "ok": true,
@@ -33479,6 +35637,28 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb852-06.jpg",
       "thumbnailMeanError": 3.1367
     },
+    "https://www.bamca.org/pic/man/var/l_mb853-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "db233f50affabe4dfc3947467464b0f537eb3613096f94422f674cb3e4376660",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb853-01.jpg",
+      "checkedAt": "2026-10-23T21:38:22+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb853-01.jpg",
+      "thumbnailMeanError": 3.7388
+    },
+    "https://www.bamca.org/pic/man/var/l_mb853-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 393,
+      "contentType": "image/jpeg",
+      "sha256": "4129263baf813309619c0c2ed4e240f2bc9b62b81305fdefc1640ef1888d6bd1",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb853-02.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb853-02.jpg",
+      "thumbnailMeanError": 5.1308
+    },
     "https://www.bamca.org/pic/man/var/l_mb853-05.jpg": {
       "ok": true,
       "width": 600,
@@ -33523,6 +35703,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb854-30.jpg",
       "thumbnailMeanError": 3.1758
     },
+    "https://www.bamca.org/pic/man/var/l_mb855-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f3c1519e8aef0d5facb52ba19322ba437c4bf7f960678e3625d9592b0a330ef2",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb855-01.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb855-01.jpg",
+      "thumbnailMeanError": 3.796
+    },
     "https://www.bamca.org/pic/man/var/l_mb855-03.jpg": {
       "ok": true,
       "width": 600,
@@ -33566,6 +35757,17 @@
       "checkedAt": "2026-10-23T16:45:30+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb855-08.jpg",
       "thumbnailMeanError": 3.4125
+    },
+    "https://www.bamca.org/pic/man/var/l_mb856-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "3a6a806b4ae2b34270e77fa01dfab480eeb9abb889d2ee92130c67492b72050c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb856-01.jpg",
+      "checkedAt": "2026-10-23T21:38:26+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb856-01.jpg",
+      "thumbnailMeanError": 3.936
     },
     "https://www.bamca.org/pic/man/var/l_mb856-02.jpg": {
       "ok": true,
@@ -33666,6 +35868,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb857-27.jpg",
       "thumbnailMeanError": 3.3917
     },
+    "https://www.bamca.org/pic/man/var/l_mb858-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "7b32b2480c23737227c725865e580a2f7359b8dcaee624c40c0f14383f749faf",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb858-01.jpg",
+      "checkedAt": "2026-10-23T21:38:10+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb858-01.jpg",
+      "thumbnailMeanError": 2.8126
+    },
     "https://www.bamca.org/pic/man/var/l_mb858-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33677,6 +35890,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb858-02.jpg",
       "thumbnailMeanError": 2.7422
     },
+    "https://www.bamca.org/pic/man/var/l_mb858-03.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e59b0f93de5a0a6bff67293047cade7cbaebd4f394a6282cb33e756c9c0fb41d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb858-03.jpg",
+      "checkedAt": "2026-10-23T21:38:03+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb858-03.jpg",
+      "thumbnailMeanError": 3.7713
+    },
     "https://www.bamca.org/pic/man/var/l_mb858-04.jpg": {
       "ok": true,
       "width": 600,
@@ -33687,6 +35911,17 @@
       "checkedAt": "2026-10-23T18:26:22+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb858-04.jpg",
       "thumbnailMeanError": 3.0378
+    },
+    "https://www.bamca.org/pic/man/var/l_mb860-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bdeb7902d78610f61a6aa9929005331c9e2ee2eddbae6b2e775d04b25fd414ae",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb860-01.jpg",
+      "checkedAt": "2026-10-23T21:38:16+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb860-01.jpg",
+      "thumbnailMeanError": 3.7103
     },
     "https://www.bamca.org/pic/man/var/l_mb860-02.jpg": {
       "ok": true,
@@ -33742,6 +35977,28 @@
       "checkedAt": "2026-10-23T16:45:02+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb860-10.jpg",
       "thumbnailMeanError": 3.345
+    },
+    "https://www.bamca.org/pic/man/var/l_mb861-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "e00cf293d2837333c774f10e8a0b13909531aee94947b6c19ee1369e72fe5f5a",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb861-01.jpg",
+      "checkedAt": "2026-10-23T21:38:32+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb861-01.jpg",
+      "thumbnailMeanError": 3.8877
+    },
+    "https://www.bamca.org/pic/man/var/l_mb861-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "dd8c9c0c3f966b15ac420163ac323869c30ad674170595acfa6f1de33a8183ec",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb861-02.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb861-02.jpg",
+      "thumbnailMeanError": 3.7872
     },
     "https://www.bamca.org/pic/man/var/l_mb861-04.jpg": {
       "ok": true,
@@ -33875,6 +36132,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb863-10.jpg",
       "thumbnailMeanError": 4.2936
     },
+    "https://www.bamca.org/pic/man/var/l_mb864-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "bba2f870b5c6673be32adbb29e4f1d8362834adbf9c842fefea6d0530ff8a2fe",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb864-01.jpg",
+      "checkedAt": "2026-10-23T21:38:09+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb864-01.jpg",
+      "thumbnailMeanError": 4.7892
+    },
     "https://www.bamca.org/pic/man/var/l_mb864-02.jpg": {
       "ok": true,
       "width": 600,
@@ -33907,6 +36175,17 @@
       "checkedAt": "2026-10-23T16:45:09+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb864-08.jpg",
       "thumbnailMeanError": 4.1606
+    },
+    "https://www.bamca.org/pic/man/var/l_mb865-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "8d6d2b0e5284758a6c0323835d968b8e98d7ebc3bddf7e2f77327dcae90eb545",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb865-01.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb865-01.jpg",
+      "thumbnailMeanError": 3.7782
     },
     "https://www.bamca.org/pic/man/var/l_mb865-02.jpg": {
       "ok": true,
@@ -33951,6 +36230,28 @@
       "checkedAt": "2026-10-23T18:25:34+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb865-08.jpg",
       "thumbnailMeanError": 3.7884
+    },
+    "https://www.bamca.org/pic/man/var/l_mb866-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "f9f1d057f28982c295a87715f39edaf89bd6c48a89619a531afb41b57d17dd6b",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb866-01.jpg",
+      "checkedAt": "2026-10-23T21:38:03+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb866-01.jpg",
+      "thumbnailMeanError": 5.1444
+    },
+    "https://www.bamca.org/pic/man/var/l_mb867-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "4fadfa17f60a1bb7a5b501f664a3cefaf6964bb2d5fa846feb5c85aa22bec258",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb867-02.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb867-02.jpg",
+      "thumbnailMeanError": 3.3208
     },
     "https://www.bamca.org/pic/man/var/l_mb867-03.jpg": {
       "ok": true,
@@ -34106,6 +36407,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb878-08.jpg",
       "thumbnailMeanError": 4.2108
     },
+    "https://www.bamca.org/pic/man/var/l_mb879-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "044782f5cdb183e621b5bea0b4dad882603abe0166bac107c134fcc2c42d939d",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb879-01.jpg",
+      "checkedAt": "2026-10-23T21:38:01+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb879-01.jpg",
+      "thumbnailMeanError": 4.7961
+    },
     "https://www.bamca.org/pic/man/var/l_mb881-03.jpg": {
       "ok": true,
       "width": 600,
@@ -34138,6 +36450,17 @@
       "checkedAt": "2026-10-23T18:25:45+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb881-06.jpg",
       "thumbnailMeanError": 4.7083
+    },
+    "https://www.bamca.org/pic/man/var/l_mb882-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "5de6e46327604a5bba687d7d6174a00ac1ef71f66125cbcab9da5c45b69e65ed",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb882-01.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb882-01.jpg",
+      "thumbnailMeanError": 4.5443
     },
     "https://www.bamca.org/pic/man/var/l_mb882-03.jpg": {
       "ok": true,
@@ -34216,6 +36539,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb883-d01.jpg",
       "thumbnailMeanError": 4.7889
     },
+    "https://www.bamca.org/pic/man/var/l_mb884-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "66127d5f4e7a6164d291b72dffd278f5999376259d084c8ef35194262fc6ef2e",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb884-01.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb884-01.jpg",
+      "thumbnailMeanError": 5.2373
+    },
     "https://www.bamca.org/pic/man/var/l_mb884-03.jpg": {
       "ok": true,
       "width": 600,
@@ -34237,6 +36571,17 @@
       "checkedAt": "2026-10-23T18:25:50+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb884-05.jpg",
       "thumbnailMeanError": 5.6414
+    },
+    "https://www.bamca.org/pic/man/var/l_mb885-02.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "50241c2cb14e35ccb9d1b3f9e680a0cf13090ddca65479e7d54c6df85326130c",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb885-02.jpg",
+      "checkedAt": "2026-10-23T21:38:06+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb885-02.jpg",
+      "thumbnailMeanError": 5.8873
     },
     "https://www.bamca.org/pic/man/var/l_mb885-03.jpg": {
       "ok": true,
@@ -34315,6 +36660,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb886-10.jpg",
       "thumbnailMeanError": 3.1045
     },
+    "https://www.bamca.org/pic/man/var/l_mb887-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "d2ee88f94ba09ca1d33fe998bdb56ae38f26e866a6270f171f5df7138dbb3202",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb887-01.jpg",
+      "checkedAt": "2026-10-23T21:38:02+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb887-01.jpg",
+      "thumbnailMeanError": 4.7171
+    },
     "https://www.bamca.org/pic/man/var/l_mb887-02.jpg": {
       "ok": true,
       "width": 600,
@@ -34325,6 +36681,17 @@
       "checkedAt": "2026-10-23T18:26:17+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb887-02.jpg",
       "thumbnailMeanError": 5.8447
+    },
+    "https://www.bamca.org/pic/man/var/l_mb888-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "858481767b28724d7e88421b95ba8b2113c0190c4e589eaaea1c04bcb402638f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb888-01.jpg",
+      "checkedAt": "2026-10-23T21:38:09+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb888-01.jpg",
+      "thumbnailMeanError": 3.0844
     },
     "https://www.bamca.org/pic/man/var/l_mb888-04.jpg": {
       "ok": true,
@@ -34369,6 +36736,17 @@
       "checkedAt": "2026-10-23T18:26:22+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb889-02.jpg",
       "thumbnailMeanError": 4.4428
+    },
+    "https://www.bamca.org/pic/man/var/l_mb890-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "cd70756a31846dcb807f91aecf2c69ee349da653d745228900152ca550fb3589",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb890-01.jpg",
+      "checkedAt": "2026-10-23T21:38:04+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb890-01.jpg",
+      "thumbnailMeanError": 3.4598
     },
     "https://www.bamca.org/pic/man/var/l_mb890-02.jpg": {
       "ok": true,
@@ -34689,6 +37067,17 @@
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb896-10.jpg",
       "thumbnailMeanError": 3.0114
     },
+    "https://www.bamca.org/pic/man/var/l_mb897-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "80b5ccd22a1bddbb656de609c776ca88634d5f18271b71d28836601dff3f598f",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb897-01.jpg",
+      "checkedAt": "2026-10-23T21:38:08+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb897-01.jpg",
+      "thumbnailMeanError": 5.3367
+    },
     "https://www.bamca.org/pic/man/var/l_mb897-02.jpg": {
       "ok": true,
       "width": 600,
@@ -34754,6 +37143,17 @@
       "checkedAt": "2026-10-23T18:25:59+00:00",
       "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb898-05.jpg",
       "thumbnailMeanError": 3.6411
+    },
+    "https://www.bamca.org/pic/man/var/l_mb899-01.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 360,
+      "contentType": "image/jpeg",
+      "sha256": "b4e8ee74b6004bbc11ac1f2331b5357e5146240f21f2459693aadfbd9600f545",
+      "finalUrl": "https://www.bamca.org/pic/man/var/l_mb899-01.jpg",
+      "checkedAt": "2026-10-23T21:38:07+00:00",
+      "sourceThumbnailUrl": "https://www.bamca.org/pic/man/var/s_mb899-01.jpg",
+      "thumbnailMeanError": 3.7781
     },
     "https://www.bamca.org/pic/man/var/l_mb899-02.jpg": {
       "ok": true,
@@ -42066,6 +44466,41 @@
       "releaseId": "mb-2013-5d2482d1cbbae678",
       "url": "https://www.bamca.org/pic/man/var/l_mb698-22.jpg",
       "error": "Large photo differs from cited variant thumbnail: 25.43"
+    },
+    {
+      "releaseId": "mb-2013-5d2482d1cbbae678",
+      "url": "https://www.bamca.org/pic/man/var/l_mb698-22.jpg",
+      "error": "Large photo differs from cited variant thumbnail: 25.43"
+    },
+    {
+      "releaseId": "mb-2013-daaff17d91744f3e",
+      "url": "https://www.bamca.org/pic/man/var/l_mb758-12.jpg",
+      "error": "Large photo differs from cited variant thumbnail: 21.41"
+    },
+    {
+      "releaseId": "mb-2013-e104ea91f188aa95",
+      "url": "https://www.bamca.org/pic/man/var/l_mb320-35.jpg",
+      "error": "Large photo differs from cited variant thumbnail: 12.97"
+    },
+    {
+      "releaseId": "mb-2013-e5c8d86954a2c2b6",
+      "url": "https://www.bamca.org/pic/man/var/l_mb881-01.jpg",
+      "error": "Large photo differs from cited variant thumbnail: 11.60"
+    },
+    {
+      "releaseId": "mb-2012-200b7496ddf480f1",
+      "url": "https://www.bamca.org/pic/man/var/l_mb704-14.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.bamca.org/pic/man/var/l_mb704-14.jpg"
+    },
+    {
+      "releaseId": "mb-2012-593d5be097c8fe9c",
+      "url": "https://www.bamca.org/pic/man/var/l_mb698-21.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.bamca.org/pic/man/var/l_mb698-21.jpg"
+    },
+    {
+      "releaseId": "mb-2012-71491774c96465de",
+      "url": "https://www.bamca.org/pic/man/var/l_mb707-17.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.bamca.org/pic/man/var/l_mb707-17.jpg"
     }
   ],
   "batches": [
@@ -45942,6 +48377,212 @@
         "mb-2013-84002f4aa34a3ef2",
         "mb-2013-8946c93802dd064a",
         "mb-2013-8b7e19136a2d0fa6"
+      ]
+    },
+    {
+      "id": "2026-10-23-011",
+      "limit": 200,
+      "releaseIds": [
+        "mb-2013-8e23d1fc49987be3",
+        "mb-2013-919132b944428588",
+        "mb-2013-9523bd3abad246a5",
+        "mb-2013-9a9cfaec703f01a1",
+        "mb-2013-9e03a0b99a32fc5e",
+        "mb-2013-a15e975cb9252d9a",
+        "mb-2013-a1ab483ec8488346",
+        "mb-2013-a81cdb9f6eb74c1d",
+        "mb-2013-aa12ed316279a0af",
+        "mb-2013-abfa867fc31ce2a1",
+        "mb-2013-ade07709277ff945",
+        "mb-2013-adeac068c2672613",
+        "mb-2013-aeb22e8a1e3e9d8f",
+        "mb-2013-afaaee0406463a1d",
+        "mb-2013-aff0d083552b3571",
+        "mb-2013-b2003eea59fe7f51",
+        "mb-2013-b3c7976357852682",
+        "mb-2013-b47d1a1d3f78f940",
+        "mb-2013-b5fae61395c10784",
+        "mb-2013-b75f8836fe03ee6b",
+        "mb-2013-b7d09bfd6d4eeb2f",
+        "mb-2013-ba4e66cf513c69b2",
+        "mb-2013-bae299630909547b",
+        "mb-2013-bb91a2f2cc8bcb1b",
+        "mb-2013-bca4aacd74f50de5",
+        "mb-2013-c6701011981f5d34",
+        "mb-2013-c69e38be5ae10b7e",
+        "mb-2013-c99dbbb322cd1132",
+        "mb-2013-ca59c013394f2752",
+        "mb-2013-ced6d12b41851557",
+        "mb-2013-d93e7b4ad83dbc16",
+        "mb-2013-dcbf34ff962a2be0",
+        "mb-2013-e31765894a8712b2",
+        "mb-2013-e5daaa7b92f89199",
+        "mb-2013-e77284d32a72f2b5",
+        "mb-2013-e85de9dd731a8174",
+        "mb-2013-e995f182321884ba",
+        "mb-2013-f006a6f60f4522f7",
+        "mb-2013-f0120fc02347154a",
+        "mb-2013-f26ff3a93bb20c3c",
+        "mb-2013-f28a7d687c20c8f1",
+        "mb-2013-f4c11a721a9e5dee",
+        "mb-2013-fbf91cd51cae31ad",
+        "mb-2013-fd321f723332a31d",
+        "mb-2013-ff82c6c16797f329",
+        "mb-2013-ffc36d6efbc37b1d",
+        "mb-2012-012bd6fa1aa89d35",
+        "mb-2012-026a41ad31208f48",
+        "mb-2012-0288021447db0a2b",
+        "mb-2012-02d6c1ae6e770910",
+        "mb-2012-03ae9049d29e6b7e",
+        "mb-2012-058423d732af6afa",
+        "mb-2012-06ea85465561e284",
+        "mb-2012-07a18934b31c65c7",
+        "mb-2012-08fce2199e239f86",
+        "mb-2012-09b8c134bdb384d1",
+        "mb-2012-0a864fc2ab9c4a40",
+        "mb-2012-0ac00fe7db9b25b2",
+        "mb-2012-0b6f1f300a092fb2",
+        "mb-2012-11b7a2f6cf76ecda",
+        "mb-2012-1391ba89941d2e94",
+        "mb-2012-1486380f7a9d4751",
+        "mb-2012-14c5ad32d59ef5aa",
+        "mb-2012-15f66159529cf73f",
+        "mb-2012-16c46f828a049cce",
+        "mb-2012-1716e83c98fbb597",
+        "mb-2012-189e67486365e21b",
+        "mb-2012-1a572754ba6ebb34",
+        "mb-2012-1a6ae4c3c600163e",
+        "mb-2012-1b1303a3b45bc449",
+        "mb-2012-1f65613884ec53c3",
+        "mb-2012-205ae6278027e4dc",
+        "mb-2012-20b56402dbccea8d",
+        "mb-2012-220ed63df3f0ba42",
+        "mb-2012-248c2ff4da52a29a",
+        "mb-2012-25416715a6a207b1",
+        "mb-2012-2624b78806762e7c",
+        "mb-2012-262803cd795015cd",
+        "mb-2012-268c4c1685604df7",
+        "mb-2012-2df7cd9bfb1f3293",
+        "mb-2012-327e0468f464363e",
+        "mb-2012-34d683c6122a8abe",
+        "mb-2012-36cf931e632c2386",
+        "mb-2012-37a4a190e3d385b2",
+        "mb-2012-37c7640547d4c4af",
+        "mb-2012-37d6e63216d81533",
+        "mb-2012-37eddad9c676c28c",
+        "mb-2012-39695a66d797d9f7",
+        "mb-2012-3b4de9d2c4c8746b",
+        "mb-2012-3bdb58a77265cb81",
+        "mb-2012-3c8e6a616e3af2f4",
+        "mb-2012-3f5b6366758fdb55",
+        "mb-2012-42feadb65265282b",
+        "mb-2012-449ba3b6be240cef",
+        "mb-2012-464bada8f09332b3",
+        "mb-2012-46b2f5711957f343",
+        "mb-2012-47253e513a1d4e23",
+        "mb-2012-47a263a58722c7ec",
+        "mb-2012-47a6fc39b76bd4c5",
+        "mb-2012-493c94705430b553",
+        "mb-2012-4aad2574a69871e9",
+        "mb-2012-4ac44b3d76302e60",
+        "mb-2012-4b59c512196a9d96",
+        "mb-2012-4c6e121d71da3de9",
+        "mb-2012-4ce948361401f6e8",
+        "mb-2012-4d612ef3f4afcedc",
+        "mb-2012-4f4ecf92ffce8a5e",
+        "mb-2012-4f67f123d356a488",
+        "mb-2012-5198536c6b32f2f2",
+        "mb-2012-526bc54b08394bc9",
+        "mb-2012-54d6e4b711b8f76a",
+        "mb-2012-57eac18bd2ff8715",
+        "mb-2012-58296aa9fd8e49a4",
+        "mb-2012-598b435fdebf7448",
+        "mb-2012-5d97cb3591ddd907",
+        "mb-2012-6041db7bea79bd82",
+        "mb-2012-6557a1049e14f0f2",
+        "mb-2012-6c8f8a3def7379c6",
+        "mb-2012-6d790ef563e5f651",
+        "mb-2012-6dce70dfbb686bbb",
+        "mb-2012-6f7f767c26e4daec",
+        "mb-2012-70e1ffce9e5a612e",
+        "mb-2012-73da757381ed10f0",
+        "mb-2012-75680721eb36cc24",
+        "mb-2012-762b2ea469dfa7a2",
+        "mb-2012-79c4a54afcc0f466",
+        "mb-2012-7a6d39ea5d46352e",
+        "mb-2012-7bac0bda9f7f163e",
+        "mb-2012-7e8fd4df17ad96e6",
+        "mb-2012-7e9fb325b6c2d89f",
+        "mb-2012-80a403e8e4b27479",
+        "mb-2012-82a979391571d68c",
+        "mb-2012-82ca920d90d56600",
+        "mb-2012-8356dc51349a6d9a",
+        "mb-2012-86ad00cbe2da1adf",
+        "mb-2012-8a7e5d68aafee24b",
+        "mb-2012-8bcae5911604628b",
+        "mb-2012-8c075cd81c7aa9ad",
+        "mb-2012-9b0c06a09f20a556",
+        "mb-2012-a0763764eb40e3bc",
+        "mb-2012-a1d27aa25b86503e",
+        "mb-2012-a840c219cc57b349",
+        "mb-2012-a921952bfcf0b37c",
+        "mb-2012-aba8d5b1f40a6bcc",
+        "mb-2012-b3318a06fb0dfad9",
+        "mb-2012-b8f96d4f6ccc04d3",
+        "mb-2012-bc5697226a6182e6",
+        "mb-2012-bd085416bd170fdf",
+        "mb-2012-c3cc042c46b333b0",
+        "mb-2012-c3fde7d753f96d21",
+        "mb-2012-c4f278393c5bbfa0",
+        "mb-2012-c5860bdc68e24d00",
+        "mb-2012-ca40a597b6c319dd",
+        "mb-2012-ccd52bc21e9cfa6a",
+        "mb-2012-cf5e986576557ca6",
+        "mb-2012-d04563e1417c5775",
+        "mb-2012-d34b1f66f220cb88",
+        "mb-2012-d6311015fc965d19",
+        "mb-2012-dc22db29d5ed0dc2",
+        "mb-2012-e3a6f11a3ba31af4",
+        "mb-2012-e6acb2f09cc08e45",
+        "mb-2012-e71cfcb12a18cba8",
+        "mb-2012-f2763bfbb0848f75",
+        "mb-2012-f96abb02b9cc8d93",
+        "mb-2012-fa48d9f33f499cb1",
+        "mb-2012-fc1567cd0d6cc290",
+        "mb-2012-ff8098d8ec8b59cc",
+        "mb-2012-ffc3b864d84189d6",
+        "mb-2012-fffe6c2c72d23954",
+        "mb-2011-01fa63b0b847935a",
+        "mb-2011-02a974cf6b89fb98",
+        "mb-2011-02c83433f5b39ee5",
+        "mb-2011-02e77c6aad5a9535",
+        "mb-2011-036d1e9d98734384",
+        "mb-2011-048de844c4da8b7e",
+        "mb-2011-04fc4ff901d8efe1",
+        "mb-2011-0549865525a2560d",
+        "mb-2011-05cb37a679455a00",
+        "mb-2011-086baa286ad00431",
+        "mb-2011-0b3a4df2e928eb3c",
+        "mb-2011-0eff2370b6496e96",
+        "mb-2011-0f29f4243876db66",
+        "mb-2011-102b20174d2926f7",
+        "mb-2011-116210e3c462cb55",
+        "mb-2011-11fc64750875b988",
+        "mb-2011-14b1c5e7577220fa",
+        "mb-2011-14eb3319549bc1e1",
+        "mb-2011-15ea4b4a91fbebe4",
+        "mb-2011-1687d95ca868c679",
+        "mb-2011-16c18430bbc81e82",
+        "mb-2011-196c6b3fe88be1a8",
+        "mb-2011-1ae2fd316a722dae",
+        "mb-2011-1e2656df984d0e32",
+        "mb-2011-1fe2e2b38ddb2122",
+        "mb-2011-23deeefac4880117",
+        "mb-2011-2486e9e64470fb97",
+        "mb-2011-283d5750ca57d84e",
+        "mb-2011-2b5f6a9e94287718",
+        "mb-2011-2bc235fe36dfb219",
+        "mb-2011-2cd4163f7eb45b73"
       ]
     }
   ],

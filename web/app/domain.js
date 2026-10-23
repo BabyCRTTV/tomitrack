@@ -1,5 +1,5 @@
 import {unitValue,priceScope} from './pricing.js';
-export const VERSION = '0.4.22';
+export const VERSION = '0.4.23';
 export const BRANDS = ['Mini GT','Tomica','Tomica Limited Vintage','Hot Wheels','Matchbox','Pop Race','INNO64','Auto World','Tarmac Works','Other'];
 export function cleanItem(input) {
   const text = (k, max=200) => String(input[k] ?? '').trim().slice(0,max);
