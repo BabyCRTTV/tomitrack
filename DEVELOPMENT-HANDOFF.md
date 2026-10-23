@@ -1,4 +1,10 @@
-# Development handoff · 0.4.20
+# Development handoff · 0.4.21
+
+## 0.4.21: another 425 Matchbox photos · local verification
+
+Resumed remote main `0c62c1970e9522210ab6247d5a03d801d854981f`, inspected v0.4.20 and its successful Pages/native builds. Owner authorized another 425 Matchbox photos. Batch 2026-10-23-009 adds 425 references from 2017–2021 with 425 distinct new URLs/content hashes, no overlap with earlier content. All sources 600×360; thumbnail max mean RGB error 6.2182/255; no failed candidates. Visually reviewed nine sheets (8×50 plus 25), with no placeholders or apparent casting mismatches. All 2,890 prior presentation entries preserved with SHA256 f13a74ac3b04345e8fa0d26c2bd8f9b415b513c94e0ea27d0e2760dbe3d515bd, plus every earlier archive/evidence byte. Total 3,315 photos: Matchbox 1,315; Tomica 441; TLV family 1,559. Source attribution, uncropped framing, private-photo priority, canonical IDs/data, English, pricing, personal collections and company-color logo remain unchanged.
+
+Version 0.4.21 / Android code 27 / cache advance together. Manual tool accepts 425 and retains existing verification/duplicate-URL rules; deterministic JS/SQLite builders validate nine explicit authorized batches. Verification and publication status follow below. Physical Android/Windows execution remains unverified.
 
 ## 0.4.20: another 140 Matchbox photos · published and verified
 
