@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-10-28T22:05:21+00:00",
+  "scope": "Current 2026 Matchbox Basic photographed releases and October Tomica manufacturer listings; source gaps remain explicit. Month-only current/future releases and delayed releases withheld. Existing release identities and photos unchanged.",
+  "newMatchbox": 14,
+  "newTomica": 17,
+  "newPhotos": 31,
+  "newJans": 15,
+  "excluded": [
+    {
+      "name": "No.30 三菱 デリカミニ",
+      "releaseDate": "2026-11-28",
+      "reason": "Manufacturer postponement supersedes original October announcement."
+    },
+    {
+      "name": "15 トヨタ ハイエース",
+      "releaseDate": "2026-11-28",
+      "reason": "Manufacturer postponement supersedes original October announcement."
+    },
+    {
+      "name": "LV-N292e 日野プロフィア 40ft海上コンテナトレーラ（東邦車輛TC36H1C34）（青）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2126",
+      "sourcePageSha256": "9341a58b6ce80275049046fe4deebc3e4e757c24ca4061e0743d5108e288e04f",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N379a 日産 PAO（アクアグレー）1989年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2129",
+      "sourcePageSha256": "a2597074c4ec9709f26397576904409a0b00a67224a7a978ecc9b87734db294e",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N379b 日産 PAO（テラコッタ）1989年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2130",
+      "sourcePageSha256": "5293bfda1edb8a1028654a6463c2bd36baa8ed0dcfec1c8dbd4a30f87255ccf8",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N275c ランチア テーマ 8.32 フェーズII（赤）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2131",
+      "sourcePageSha256": "0c556a0c2a67920cf062204241a9da1e76004001117fcd985b4a0bb16dd6b4a8",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N277c ランチア テーマ 8.32 フェーズI（黒）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2132",
+      "sourcePageSha256": "ef74d455ec3ef849212bd834f107dd3a7c2577fd2d64033a5e4a3f2c8f13ae15",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N378a トヨタ クラウンエステート ロイヤルサルーン （白／銀）2000年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2133",
+      "sourcePageSha256": "c7d0d031242f5a726de59183772775d1aa3c164104b2877628e7ff174d5f1612",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N378b トヨタ クラウンエステート ロイヤルサルーン（紺）2000年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2134",
+      "sourcePageSha256": "54e5a3b4bec23b0d21f58a6bdf5ccda67dd358b0b33c6d1dbca8aa7ae20d0b1d",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N380a 日産 スカイライン ハードトップ 2000GT-R RSワタナベホイール装着車（白）72年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2135",
+      "sourcePageSha256": "15330310b9dcbb96f54ee0db8e8b286ce794d283a7aa2252d60c73d333ebb0d2",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N 荻窪魂Vol.11 日産 スカイライン ハードトップ 2000GT-R（銀）1972年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2136",
+      "sourcePageSha256": "b2fff204a70345daecf500d1003c26429b70a58817eb11bef57732c2e953ead7",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "トミカラマ ヴィンテージ14a 大黒パーキングエリア マットC（日産 スカイライン GT-R カスタムホイール仕様 付属）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2137",
+      "sourcePageSha256": "aad5bf044c340fd183627e8e094285587e857e4a7ad0b537f413e055634e3ae2",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "トミカラマ ヴィンテージ15a 大黒パーキングエリア マットD（ホンダ  シビック タイプR カスタム仕様 付属）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2138",
+      "sourcePageSha256": "fc3b0a5dcd2f6f21882fd146b968af1cca9dadb8420c9ff8cb9a5a8e224aade5",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-216b トヨタ救急車 FS55V型（本田消防署）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2140",
+      "sourcePageSha256": "13dbc462c5a310757314d04b7a40c07e80135d6f93491849a72144c151867068",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    }
+  ],
+  "sourceEvidence": "../input/release-refresh-2026-10-28.json",
+  "baselineReleaseHash": "114ce491827549c3766fcd558efa76d877ba57e8225b5a1139168697cb8b383b",
+  "baselinePhotoHash": "0a6e6aa2b1e517f965965e87b305e2a0222df99f15310a58b0f495d56739ab0f",
+  "visualReview": "Two contact sheets reviewed for all candidates, plus independent full-size review of final standard F80 official-store image. No placeholders, upscaling or synthetic imagery.",
+  "pricing": "No new automatic market/MSRP values in this catalog refresh; existing price evidence is preserved."
+}

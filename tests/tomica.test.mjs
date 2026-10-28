@@ -9,9 +9,10 @@ import dataset from '../web/app/catalog/data.js';
 import {createCatalog,catalogItem,canonicalGtin} from '../web/app/catalog.js';
 import {cleanItem,validateBackup} from '../web/app/domain.js';
 const engine=createCatalog(dataset);
+const refresh=JSON.parse(readFileSync('catalog/input/release-refresh-2026-10-28.json'));
 const report=JSON.parse(readFileSync('catalog/input/tomica-fetch-report.json'));
 test('Tomica integration preserves all 13,652 recovered Mattel releases byte for byte',()=>{
- const rows=dataset.releases.filter(r=>['hot-wheels','matchbox'].includes(r.brandId));
+ const rows=dataset.releases.filter(r=>['hot-wheels','matchbox'].includes(r.brandId)&&!refresh.newReleaseIds.includes(r.id));
  assert.equal(rows.length,13652);
  assert.equal(createHash('sha256').update(JSON.stringify(rows)).digest('hex'),'699ea76a0b957cf24e1b5af58496b0539d2cccbe0b4d666f3ae37dfdd49950d5');
 });
@@ -37,7 +38,7 @@ test('unknown dates, unavailable archives and future announcements remain explic
  assert.ok(report.undatedProducts.length>100);assert.equal(report.unavailableMonthlyPages.length,72);
  assert.ok(report.futureListingsExcluded.length>50);
  assert.ok(dataset.researchGaps.tomica.notes.some(x=>x.includes('Tomica Limited')));
- for(const r of engine.releases.filter(x=>x.brandId.startsWith('tomica'))){assert.ok(r.year>=1970&&r.year<=2026);if(r.releaseDate){assert.ok(r.releaseDate<='2026-10-16');assert.notEqual(r.releaseDate,'2026-10')}}
+ for(const r of engine.releases.filter(x=>x.brandId.startsWith('tomica'))){assert.ok(r.year>=1970&&r.year<=2026);if(r.releaseDate){assert.ok(r.releaseDate<=refresh.cutoff);assert.notEqual(r.releaseDate,'2026-10')}}
  assert.ok(!engine.releases.some(x=>x.name.includes('デリカミニ')&&x.sourceRefs.some(ref=>ref.url?.endsWith('/2610.htm'))));
  const sources=JSON.parse(readFileSync('catalog/input/tomica-sources.json'));assert.ok(sources.length>80);assert.ok(sources.every(x=>/^[a-f0-9]{64}$/.test(x.sha256)));
 });

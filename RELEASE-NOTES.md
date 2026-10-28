@@ -1,7 +1,9 @@
-# TomiTrack 0.4.25 · Early access
+# TomiTrack 0.4.26 · Early access
 
-Add the final 93 photos for the existing 2026 Matchbox catalog entries. All 2,954 Matchbox references currently in TomiTrack now have an image, bringing all-brand photo coverage to 4,954. This describes the app’s existing partial catalog, not every worldwide Matchbox release or variant.
+Add 31 reviewed catalog entries with photos: 14 Matchbox references (11 mainline and three Super Chase editions) and 17 Tomica products with exact October release dates. Add 15 verified Tomica JAN barcodes and reviewed English names. Regular and first-special F80 editions remain separate.
 
-The new 600×600 package photographs retain source and photographer attribution, uncropped framing and personal-photo priority. All earlier photos and collection data are preserved. Photos load online from their source hosts.
+Catalog total: 17,951 references, including 2,968 Matchbox and 2,601 Tomica. Photo coverage: 4,985. Every earlier release and photo is preserved, along with private collections and personal-photo priority. Coverage remains partial.
 
-Android package and permanent signing identity are unchanged; versionCode 31. Android APK, Windows installer, SQLite and checksums are included.
+The Delica Mini and Premium Hiace remain excluded following their November 28 postponements. Twelve current-month TLV products still lack an exact verified release date and remain pending. Existing pricing evidence is unchanged; this update adds no new automatic values.
+
+Android package and permanent signing identity are unchanged; versionCode 32. Android APK, Windows installer, SQLite and checksums are included.

@@ -19,6 +19,10 @@ supplemental=json.loads((root/'catalog/input/matchbox-2026-images.json').read_te
 for rid,image in supplemental['images'].items():
  if rid in queue:raise ValueError('Supplemental photo replaces queued source '+rid)
  queue[rid]=image
+refresh=json.loads((root/'catalog/input/release-refresh-2026-10-28.json').read_text())
+for rid,image in refresh['images'].items():
+ if rid in queue:raise ValueError('New photo replaces queued source '+rid)
+ queue[rid]=image
 cache=root/'.cache/image-verification';cache.mkdir(parents=True,exist_ok=True)
 previous=set(published['releaseIds']);rows=[r for r in data['releases']if r['id']in queue and r['id']not in previous and (r['brandId']=='matchbox'if args.brand=='matchbox'else r['brandId']in ['tomica','tomica-limited-vintage'])]
 rows.sort(key=lambda r:(0 if r['brandId']=='tomica'else 1,-r['year'],r['id']))

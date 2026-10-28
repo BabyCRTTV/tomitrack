@@ -1,0 +1,2557 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-28T22:05:21+00:00",
+  "cutoff": "2026-10-28",
+  "baselineCommit": "5d075070ed7d09309b2c4744ea22d45a2dd53074",
+  "baselineReleaseHash": "114ce491827549c3766fcd558efa76d877ba57e8225b5a1139168697cb8b383b",
+  "baselinePhotoHash": "0a6e6aa2b1e517f965965e87b305e2a0222df99f15310a58b0f495d56739ab0f",
+  "sources": [
+    {
+      "id": "matchboyz-catalog",
+      "name": "Matchboyz.com · 2026 numbered package catalog and contributors",
+      "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+      "date": "2026-10-28",
+      "license": "Factual product references; original image rights remain with credited photographers."
+    },
+    {
+      "id": "takara-tomica-mall",
+      "name": "Takara Tomy Mall · official product dates and JANs",
+      "url": "https://takaratomymall.jp/shop/",
+      "date": "2026-10-28",
+      "license": "Official product identity, release-date and JAN facts; no product descriptions copied."
+    }
+  ],
+  "matchboxRows": [
+    {
+      "name": "1985 Porsche 911 Rally",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1185",
+      "collectorNumber": "73/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10651.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10651
+        }
+      ]
+    },
+    {
+      "name": "1997 Acura Integra TYPE R",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Super Chase",
+      "productCode": "",
+      "manNumber": "MB1498",
+      "collectorNumber": "3/4",
+      "seriesNumber": "",
+      "variant": "Super Chase",
+      "color": "",
+      "tags": [
+        "Super Chase"
+      ],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10659.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10659
+        }
+      ]
+    },
+    {
+      "name": "Morgan Plus Four",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1428",
+      "collectorNumber": "37/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/morgan-plus-four_10733.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10733
+        }
+      ]
+    },
+    {
+      "name": "Holden VF Commodore SSV",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1342",
+      "collectorNumber": "84/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/holden-vf-commodore-ssv_10735.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10735
+        }
+      ]
+    },
+    {
+      "name": "Koenigsegg Gemera",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1362",
+      "collectorNumber": "107/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/koenigsegg-gemera_10737.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10737
+        }
+      ]
+    },
+    {
+      "name": "1997 Acura Integra TYPE R",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1498",
+      "collectorNumber": "118/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10738.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10738
+        }
+      ]
+    },
+    {
+      "name": "2023 Toyota GR Supra",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1435",
+      "collectorNumber": "121/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2023-toyota-gr-supra_10739.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10739
+        }
+      ]
+    },
+    {
+      "name": "1993 FORD RANGER PRERUNNER",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1554",
+      "collectorNumber": "101/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1993-ford-ranger-prerunner_10740.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10740
+        }
+      ]
+    },
+    {
+      "name": "MBX EV School Bus",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1522",
+      "collectorNumber": "94/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/mbx-ev-school-bus_10748.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10748
+        }
+      ]
+    },
+    {
+      "name": "Freightliner M2 106",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1585",
+      "collectorNumber": "58/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/freightliner-m2-106_10732.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10732
+        }
+      ]
+    },
+    {
+      "name": "2021 Ford Bronco",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1247",
+      "collectorNumber": "102/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2021-ford-bronco_10736.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10736
+        }
+      ]
+    },
+    {
+      "name": "Volvo XC40",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Mainline",
+      "productCode": "",
+      "manNumber": "MB1359",
+      "collectorNumber": "83/125",
+      "seriesNumber": "",
+      "variant": "",
+      "color": "",
+      "tags": [],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/volvo-xc40_10734.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10734
+        }
+      ]
+    },
+    {
+      "name": "1985 Porsche 911 Rally",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Super Chase",
+      "productCode": "",
+      "manNumber": "MB1185",
+      "collectorNumber": "1/4",
+      "seriesNumber": "",
+      "variant": "Super Chase",
+      "color": "",
+      "tags": [
+        "Super Chase"
+      ],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10388.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10388
+        }
+      ]
+    },
+    {
+      "name": "1977 Jaguar XJ6C",
+      "year": 2026,
+      "brandId": "matchbox",
+      "categoryId": "mainline",
+      "seriesName": "Matchbox Super Chase",
+      "productCode": "",
+      "manNumber": "MB1424",
+      "collectorNumber": "2/4",
+      "seriesNumber": "",
+      "variant": "Super Chase",
+      "color": "",
+      "tags": [
+        "Super Chase"
+      ],
+      "regions": [],
+      "sourceRefs": [
+        {
+          "sourceId": "matchboyz-catalog",
+          "url": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1977-jaguar-xj6c_10433.html",
+          "lineupUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+          "recordId": 10433
+        }
+      ]
+    }
+  ],
+  "tomica": {
+    "releases": [
+      {
+        "id": "tm-79886dfae6f817a56acc",
+        "name": "F80",
+        "brandId": "tomica",
+        "castingId": "tm-c-377ee092c7ecc3f75148",
+        "seriesId": "tomica-2026-b7b20866bac4ca6a0b8f",
+        "year": 2026,
+        "categoryId": "mainline",
+        "productCode": "34",
+        "manNumber": "",
+        "collectorNumber": "34",
+        "seriesNumber": "34",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "F80"
+        ],
+        "releaseDate": "2026-10-17",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 2
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810950936/"
+          }
+        ]
+      },
+      {
+        "id": "tm-9441b06a4d27c125ec8e",
+        "name": "トミカスポーツカースペシャルセレクション2",
+        "brandId": "tomica",
+        "castingId": "tm-c-26427b1b8dafba35b629",
+        "seriesId": "tomica-2026-50be2676837a19d4f4c5",
+        "year": 2026,
+        "categoryId": "multipack",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Sports Car Special Selection 2"
+        ],
+        "releaseDate": "2026-10-17",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 3
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810078005/"
+          }
+        ]
+      },
+      {
+        "id": "tm-e18445740ce0bdc9aceb",
+        "name": "変形出動!スクランブルデカパトロールカー",
+        "brandId": "tomica",
+        "castingId": "tm-c-aaf1e1838272f623845b",
+        "seriesId": "tomica-2026-e5c0f6bb3df1deceb400",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Transforming Dispatch! Scramble Giant Patrol Car"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 4
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810089353/"
+          }
+        ]
+      },
+      {
+        "id": "tm-6e1526a1b6a483f4ca6b",
+        "name": "スクランブルポリスパーキング30 スペシャルセット(トミカ4台付き)",
+        "brandId": "tomica",
+        "castingId": "tm-c-b435963b9c260b0cbde3",
+        "seriesId": "tomica-2026-e5c0f6bb3df1deceb400",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Scramble Police Parking 30 Special Set (4 Tomica Cars Included)"
+        ],
+        "releaseDate": "2026-10-17",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 5
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810057543/"
+          }
+        ]
+      },
+      {
+        "id": "tm-5d95c103682f6fe2e2c0",
+        "name": "トミカ クロスレスキュー XR01 クロスレスキュードラゴン",
+        "brandId": "tomica",
+        "castingId": "tm-c-6fd29cce229ee1ace922",
+        "seriesId": "tomica-2026-e0457707e6f43735331d",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "XR01",
+        "manNumber": "",
+        "collectorNumber": "XR01",
+        "seriesNumber": "XR01",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Cross Rescue XR01 Cross Rescue Dragon"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 6
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810062387/"
+          }
+        ]
+      },
+      {
+        "id": "tm-f55de8a2e40767d29cef",
+        "name": "トミカ クロスレスキュー XR02 クロスレスキュータイガー",
+        "brandId": "tomica",
+        "castingId": "tm-c-3232a9e80e83f2467447",
+        "seriesId": "tomica-2026-e0457707e6f43735331d",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "XR02",
+        "manNumber": "",
+        "collectorNumber": "XR02",
+        "seriesNumber": "XR02",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Cross Rescue XR02 Cross Rescue Tiger"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 7
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810064053/"
+          }
+        ]
+      },
+      {
+        "id": "tm-20304a555fb3487455b3",
+        "name": "トミカ クロスレスキュー クロスレスキュードラゴン&タイガー DXセット",
+        "brandId": "tomica",
+        "castingId": "tm-c-455a63927ec2a66d5a93",
+        "seriesId": "tomica-2026-e0457707e6f43735331d",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Cross Rescue Dragon & Tiger DX Set"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 8
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810064046/"
+          }
+        ]
+      },
+      {
+        "id": "tm-e99ff2333f5862a78716",
+        "name": "トミカ クロスレスキュー クロスホバー",
+        "brandId": "tomica",
+        "castingId": "tm-c-68b6ace294ae67d9ad3a",
+        "seriesId": "tomica-2026-2679a3302a7e9e7bbdb0",
+        "year": 2026,
+        "categoryId": "other",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Cross Rescue Cross Hover"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 9
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810062004/"
+          }
+        ]
+      },
+      {
+        "id": "tm-e4e1024b424fc08ac400",
+        "name": "トミカ クロスレスキュー クロスレーザー",
+        "brandId": "tomica",
+        "castingId": "tm-c-d6844e21ce243a69461c",
+        "seriesId": "tomica-2026-2679a3302a7e9e7bbdb0",
+        "year": 2026,
+        "categoryId": "other",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Cross Rescue Cross Laser"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 10
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810061984/"
+          }
+        ]
+      },
+      {
+        "id": "tm-9dfc5070038d1408dffc",
+        "name": "トミカ ジョブレイバー TJBDX DX スカイブレイバー JAL ジェット旅客機",
+        "brandId": "tomica",
+        "castingId": "tm-c-cf1a80eb3f437a6256f0",
+        "seriesId": "tomica-2026-0a0df49f18c6f31969f1",
+        "year": 2026,
+        "categoryId": "playsets",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Jobraver TJBDX DX Sky Braver JAL Jet Airliner"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 11
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810993735/"
+          }
+        ]
+      },
+      {
+        "id": "tm-2318eeda990746a5283c",
+        "name": "TOMICA TUNES SINGLE PACKS We Love Pompompurin",
+        "brandId": "tomica",
+        "castingId": "tm-c-9b9923806db044329998",
+        "seriesId": "tomica-2026-a02edc78d3c155fe9e67",
+        "year": 2026,
+        "categoryId": "other",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "TOMICA TUNES SINGLE PACKS We Love Pompompurin"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 12
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810077848/"
+          }
+        ]
+      },
+      {
+        "id": "tm-75ab7e784dcbadedeb00",
+        "name": "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin",
+        "brandId": "tomica",
+        "castingId": "tm-c-c63639794d9221cf6f64",
+        "seriesId": "tomica-2026-a02edc78d3c155fe9e67",
+        "year": 2026,
+        "categoryId": "other",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 13
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810077855/"
+          }
+        ]
+      },
+      {
+        "id": "tm-3321c21a3dd88bab20d8",
+        "name": "トミカプレミアムunlimited 10 よろしくメカドック セリカ XX",
+        "brandId": "tomica",
+        "castingId": "tm-c-28461a7e0c6c2664a13a",
+        "seriesId": "tomica-2026-2b693e780b4b5a094a73",
+        "year": 2026,
+        "categoryId": "premium-unlimited",
+        "productCode": "10",
+        "manNumber": "",
+        "collectorNumber": "10",
+        "seriesNumber": "10",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Premium Unlimited 10 Yoroshiku Mechadoc Celica XX"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 15
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810096818/"
+          }
+        ]
+      },
+      {
+        "id": "tm-3f31822b5df01a6b0c36",
+        "name": "トミカREBORN 三菱 パジェロ メタルトップ",
+        "brandId": "tomica",
+        "castingId": "tm-c-1812637cb53273fc3caa",
+        "seriesId": "tomica-2026-ea3221d29e137bc8d153",
+        "year": 2026,
+        "categoryId": "other",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Tomica Reborn Mitsubishi Pajero Metal Top"
+        ],
+        "releaseDate": "2026-10-01",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 16
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810956563/"
+          }
+        ]
+      },
+      {
+        "id": "tm-93d6be975c43e93f1abc",
+        "name": "ヤマダデンキ オリジナル トヨタ GR 86",
+        "brandId": "tomica",
+        "castingId": "tm-c-b197ae0dc476053d61be",
+        "seriesId": "tomica-2026-ca792f8ff9666a89202b",
+        "year": 2026,
+        "categoryId": "exclusive",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Yamada Denki Original Toyota GR 86"
+        ],
+        "releaseDate": "2026-10-17",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 17
+          }
+        ]
+      },
+      {
+        "id": "tm-9bb258287dfbfefbac17",
+        "name": "ローソンオリジナルトミカ トヨタ MR2",
+        "brandId": "tomica",
+        "castingId": "tm-c-867022d39e7d88d3dfa3",
+        "seriesId": "tomica-2026-ca792f8ff9666a89202b",
+        "year": 2026,
+        "categoryId": "exclusive",
+        "productCode": "",
+        "manNumber": "",
+        "collectorNumber": "",
+        "seriesNumber": "",
+        "color": "",
+        "variant": "",
+        "aliases": [
+          "Lawson Original Tomica Toyota MR2"
+        ],
+        "releaseDate": "2026-10-24",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 18
+          }
+        ]
+      },
+      {
+        "id": "tm-358d2967241929ebcc81",
+        "name": "F80(初回特別仕様)",
+        "brandId": "tomica",
+        "castingId": "tm-c-377ee092c7ecc3f75148",
+        "seriesId": "tomica-2026-b7b20866bac4ca6a0b8f",
+        "year": 2026,
+        "categoryId": "mainline",
+        "productCode": "34",
+        "manNumber": "",
+        "collectorNumber": "34",
+        "seriesNumber": "34",
+        "color": "",
+        "variant": "First Special Edition",
+        "aliases": [
+          "F80 (First Special Edition)"
+        ],
+        "releaseDate": "2026-10-17",
+        "scale": "",
+        "tags": [
+          "Manufacturer release date verified; local availability varies"
+        ],
+        "regions": [],
+        "sourceRefs": [
+          {
+            "sourceId": "takara-tomica-new",
+            "url": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+            "row": 2
+          },
+          {
+            "sourceId": "takara-tomica-mall",
+            "url": "https://takaratomymall.jp/shop/g/g4904810950974/"
+          }
+        ]
+      }
+    ],
+    "castings": [
+      {
+        "id": "tm-c-377ee092c7ecc3f75148",
+        "brandId": "tomica",
+        "name": "F80",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-26427b1b8dafba35b629",
+        "brandId": "tomica",
+        "name": "トミカスポーツカースペシャルセレクション2",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-aaf1e1838272f623845b",
+        "brandId": "tomica",
+        "name": "変形出動!スクランブルデカパトロールカー",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-b435963b9c260b0cbde3",
+        "brandId": "tomica",
+        "name": "スクランブルポリスパーキング30 スペシャルセット(トミカ4台付き)",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-6fd29cce229ee1ace922",
+        "brandId": "tomica",
+        "name": "トミカ クロスレスキュー XR01 クロスレスキュードラゴン",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-3232a9e80e83f2467447",
+        "brandId": "tomica",
+        "name": "トミカ クロスレスキュー XR02 クロスレスキュータイガー",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-455a63927ec2a66d5a93",
+        "brandId": "tomica",
+        "name": "トミカ クロスレスキュー クロスレスキュードラゴン&タイガー DXセット",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-68b6ace294ae67d9ad3a",
+        "brandId": "tomica",
+        "name": "トミカ クロスレスキュー クロスホバー",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-d6844e21ce243a69461c",
+        "brandId": "tomica",
+        "name": "トミカ クロスレスキュー クロスレーザー",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-cf1a80eb3f437a6256f0",
+        "brandId": "tomica",
+        "name": "トミカ ジョブレイバー TJBDX DX スカイブレイバー JAL ジェット旅客機",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-9b9923806db044329998",
+        "brandId": "tomica",
+        "name": "TOMICA TUNES SINGLE PACKS We Love Pompompurin",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-c63639794d9221cf6f64",
+        "brandId": "tomica",
+        "name": "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-28461a7e0c6c2664a13a",
+        "brandId": "tomica",
+        "name": "トミカプレミアムunlimited 10 よろしくメカドック セリカ XX",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-1812637cb53273fc3caa",
+        "brandId": "tomica",
+        "name": "トミカREBORN 三菱 パジェロ メタルトップ",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-b197ae0dc476053d61be",
+        "brandId": "tomica",
+        "name": "ヤマダデンキ オリジナル トヨタ GR 86",
+        "aliases": []
+      },
+      {
+        "id": "tm-c-867022d39e7d88d3dfa3",
+        "brandId": "tomica",
+        "name": "ローソンオリジナルトミカ トヨタ MR2",
+        "aliases": []
+      }
+    ],
+    "series": [
+      {
+        "id": "tomica-2026-e0457707e6f43735331d",
+        "brandId": "tomica",
+        "year": 2026,
+        "categoryId": "playsets",
+        "name": "トミカ クロスレスキュー",
+        "family": "tomica cross rescue"
+      },
+      {
+        "id": "tomica-2026-2679a3302a7e9e7bbdb0",
+        "brandId": "tomica",
+        "year": 2026,
+        "categoryId": "other",
+        "name": "トミカ クロスレスキュー",
+        "family": "tomica cross rescue"
+      },
+      {
+        "id": "tomica-2026-a02edc78d3c155fe9e67",
+        "brandId": "tomica",
+        "year": 2026,
+        "categoryId": "other",
+        "name": "トミカチューンズ",
+        "family": "tomica tunes"
+      },
+      {
+        "id": "tomica-2026-ea3221d29e137bc8d153",
+        "brandId": "tomica",
+        "year": 2026,
+        "categoryId": "other",
+        "name": "トミカREBORN",
+        "family": "tomica reborn"
+      }
+    ],
+    "identifiers": [
+      {
+        "value": "4904810950936",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-79886dfae6f817a56acc"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950936/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810078005",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-9441b06a4d27c125ec8e"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810078005/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810089353",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-e18445740ce0bdc9aceb"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810089353/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810057543",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-6e1526a1b6a483f4ca6b"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810057543/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810062387",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-5d95c103682f6fe2e2c0"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810062387/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810064053",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-f55de8a2e40767d29cef"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810064053/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810064046",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-20304a555fb3487455b3"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810064046/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810062004",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-e99ff2333f5862a78716"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810062004/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810061984",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-e4e1024b424fc08ac400"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810061984/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810993735",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-9dfc5070038d1408dffc"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810993735/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810077848",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-2318eeda990746a5283c"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810077848/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810077855",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-75ab7e784dcbadedeb00"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810077855/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810096818",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-3321c21a3dd88bab20d8"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810096818/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810956563",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-3f31822b5df01a6b0c36"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810956563/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      },
+      {
+        "value": "4904810950974",
+        "scope": "release",
+        "brandId": "tomica",
+        "releaseIds": [
+          "tm-358d2967241929ebcc81"
+        ],
+        "sourceId": "takara-tomica-mall",
+        "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950974/",
+        "note": "Official store product number and exact release date reviewed; JAN check digit validated."
+      }
+    ]
+  },
+  "english": {
+    "F80": {
+      "text": "F80",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "Tomica Regular": {
+      "text": "Tomica Regular",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカスポーツカースペシャルセレクション2": {
+      "text": "Tomica Sports Car Special Selection 2",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "Tomica Gift Sets": {
+      "text": "Tomica Gift Sets",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "変形出動!スクランブルデカパトロールカー": {
+      "text": "Transforming Dispatch! Scramble Giant Patrol Car",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカワールド": {
+      "text": "Tomica World",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "スクランブルポリスパーキング30 スペシャルセット(トミカ4台付き)": {
+      "text": "Scramble Police Parking 30 Special Set (4 Tomica Cars Included)",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー XR01 クロスレスキュードラゴン": {
+      "text": "Tomica Cross Rescue XR01 Cross Rescue Dragon",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー": {
+      "text": "Tomica Cross Rescue",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー XR02 クロスレスキュータイガー": {
+      "text": "Tomica Cross Rescue XR02 Cross Rescue Tiger",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー クロスレスキュードラゴン&タイガー DXセット": {
+      "text": "Tomica Cross Rescue Dragon & Tiger DX Set",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー クロスホバー": {
+      "text": "Tomica Cross Rescue Cross Hover",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ クロスレスキュー クロスレーザー": {
+      "text": "Tomica Cross Rescue Cross Laser",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ ジョブレイバー TJBDX DX スカイブレイバー JAL ジェット旅客機": {
+      "text": "Tomica Jobraver TJBDX DX Sky Braver JAL Jet Airliner",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカ ジョブレイバー": {
+      "text": "Tomica Jobraver",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "TOMICA TUNES SINGLE PACKS We Love Pompompurin": {
+      "text": "TOMICA TUNES SINGLE PACKS We Love Pompompurin",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカチューンズ": {
+      "text": "Tomica Tunes",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin": {
+      "text": "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカプレミアムunlimited 10 よろしくメカドック セリカ XX": {
+      "text": "Tomica Premium Unlimited 10 Yoroshiku Mechadoc Celica XX",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "Tomica Premium Unlimited": {
+      "text": "Tomica Premium Unlimited",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカREBORN 三菱 パジェロ メタルトップ": {
+      "text": "Tomica Reborn Mitsubishi Pajero Metal Top",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "トミカREBORN": {
+      "text": "Tomica Reborn",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "ヤマダデンキ オリジナル トヨタ GR 86": {
+      "text": "Yamada Denki Original Toyota GR 86",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "Tomica Retailer Exclusives": {
+      "text": "Tomica Retailer Exclusives",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "ローソンオリジナルトミカ トヨタ MR2": {
+      "text": "Lawson Original Tomica Toyota MR2",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    },
+    "F80(初回特別仕様)": {
+      "text": "F80 (First Special Edition)",
+      "method": "editorial-review-2026-10-28",
+      "reviewRequired": false,
+      "residualPhrases": []
+    }
+  },
+  "newReleaseIds": [
+    "mb-2026-7e3ffdbec189c7ca",
+    "mb-2026-8b348d61cc8b9aca",
+    "mb-2026-d512bb3abf04a0e3",
+    "mb-2026-abfc1dd302482512",
+    "mb-2026-2864708d747c55c9",
+    "mb-2026-63e10e258d3139c4",
+    "mb-2026-514f85a003ac8e4a",
+    "mb-2026-10e513a446ad3b57",
+    "mb-2026-bd5d2857a1180d50",
+    "mb-2026-fe220cc6c51f8b3a",
+    "mb-2026-c4c35d5c56572f8e",
+    "mb-2026-1d469719b5f88947",
+    "mb-2026-7de9994ee321befd",
+    "mb-2026-cc3f373fdcbbfcaf",
+    "tm-79886dfae6f817a56acc",
+    "tm-9441b06a4d27c125ec8e",
+    "tm-e18445740ce0bdc9aceb",
+    "tm-6e1526a1b6a483f4ca6b",
+    "tm-5d95c103682f6fe2e2c0",
+    "tm-f55de8a2e40767d29cef",
+    "tm-20304a555fb3487455b3",
+    "tm-e99ff2333f5862a78716",
+    "tm-e4e1024b424fc08ac400",
+    "tm-9dfc5070038d1408dffc",
+    "tm-2318eeda990746a5283c",
+    "tm-75ab7e784dcbadedeb00",
+    "tm-3321c21a3dd88bab20d8",
+    "tm-3f31822b5df01a6b0c36",
+    "tm-93d6be975c43e93f1abc",
+    "tm-9bb258287dfbfefbac17",
+    "tm-358d2967241929ebcc81"
+  ],
+  "reviews": {
+    "mb-2026-7e3ffdbec189c7ca": {
+      "brandId": "matchbox",
+      "name": "1985 Porsche 911 Rally",
+      "year": 2026,
+      "catalogNumber": "73/125",
+      "sourceNumber": "073/125",
+      "sourceRecordId": 10651,
+      "sourcePageSha256": "8c2cddf5f45d52a80732c4b8503506e30a5fe0855fa6e6a2e3afa7be52dd4834",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10651.html",
+      "sourceName": "1985 Porsche 911 Rally",
+      "observedPackageNumber": "73/125",
+      "photoId": 10465,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-8b348d61cc8b9aca": {
+      "brandId": "matchbox",
+      "name": "1997 Acura Integra TYPE R",
+      "year": 2026,
+      "catalogNumber": "3/4",
+      "sourceNumber": "3/4",
+      "sourceRecordId": 10659,
+      "sourcePageSha256": "678327baf56536c38c366fb0d9da0a41d2ae53f0bf01f36113920e84f1a4c58a",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10659.html",
+      "sourceName": "1997 Acura Integra TYPE R",
+      "observedPackageNumber": "3/4",
+      "photoId": 10472,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-d512bb3abf04a0e3": {
+      "brandId": "matchbox",
+      "name": "Morgan Plus Four",
+      "year": 2026,
+      "catalogNumber": "37/125",
+      "sourceNumber": "037/125",
+      "sourceRecordId": 10733,
+      "sourcePageSha256": "d8f62b23fdb63acce828c2ba753c10766e004e076be611a38d095b3f2d547bdd",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/morgan-plus-four_10733.html",
+      "sourceName": "Morgan Plus Four",
+      "observedPackageNumber": "37/125",
+      "photoId": 10461,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-abfc1dd302482512": {
+      "brandId": "matchbox",
+      "name": "Holden VF Commodore SSV",
+      "year": 2026,
+      "catalogNumber": "84/125",
+      "sourceNumber": "084/125",
+      "sourceRecordId": 10735,
+      "sourcePageSha256": "edf39c5faceff1b62c5398c5286359f4ce6e05a0c563c3516b2dd5463c65e068",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/holden-vf-commodore-ssv_10735.html",
+      "sourceName": "Holden VF Commodore SSV",
+      "observedPackageNumber": "84/125",
+      "photoId": 10517,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-2864708d747c55c9": {
+      "brandId": "matchbox",
+      "name": "Koenigsegg Gemera",
+      "year": 2026,
+      "catalogNumber": "107/125",
+      "sourceNumber": "107/125",
+      "sourceRecordId": 10737,
+      "sourcePageSha256": "098730f21569c07ac736f3d541e39d3a8c2f9ec9bf0d40a5d67de4a8fd19851f",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/koenigsegg-gemera_10737.html",
+      "sourceName": "Koenigsegg Gemera",
+      "observedPackageNumber": "107/125",
+      "photoId": 10520,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-63e10e258d3139c4": {
+      "brandId": "matchbox",
+      "name": "1997 Acura Integra TYPE R",
+      "year": 2026,
+      "catalogNumber": "118/125",
+      "sourceNumber": "118/125",
+      "sourceRecordId": 10738,
+      "sourcePageSha256": "b470d049aba2aa34bc2fac5b9b1d4baa4195f1b4cd9226835a7c0f224e4fc605",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10738.html",
+      "sourceName": "1997 Acura Integra TYPE R",
+      "observedPackageNumber": "118/125",
+      "photoId": 10516,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-514f85a003ac8e4a": {
+      "brandId": "matchbox",
+      "name": "2023 Toyota GR Supra",
+      "year": 2026,
+      "catalogNumber": "121/125",
+      "sourceNumber": "121/125",
+      "sourceRecordId": 10739,
+      "sourcePageSha256": "49eaaa7dc0e0159f3f70c06878d9967979aef024110b4edfcb4f0a2f22814dc0",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2023-toyota-gr-supra_10739.html",
+      "sourceName": "2023 Toyota GR Supra",
+      "observedPackageNumber": "121/125",
+      "photoId": 10518,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-10e513a446ad3b57": {
+      "brandId": "matchbox",
+      "name": "1993 FORD RANGER PRERUNNER",
+      "year": 2026,
+      "catalogNumber": "101/125",
+      "sourceNumber": "101/125",
+      "sourceRecordId": 10740,
+      "sourcePageSha256": "2368ef63f05172932606d00b37cc5376a058d3904f5f05c4c91cb07a996714b2",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1993-ford-ranger-prerunner_10740.html",
+      "sourceName": "1993 FORD RANGER PRERUNNER",
+      "observedPackageNumber": "101/125",
+      "photoId": 10515,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-bd5d2857a1180d50": {
+      "brandId": "matchbox",
+      "name": "MBX EV School Bus",
+      "year": 2026,
+      "catalogNumber": "94/125",
+      "sourceNumber": "094/120",
+      "sourceRecordId": 10748,
+      "sourcePageSha256": "45afab2cc92fb2c708c971be57091fe4591fdb72b7b29c45868b6c3751219c01",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/mbx-ev-school-bus_10748.html",
+      "sourceName": "MBX EV School Bus",
+      "observedPackageNumber": "94/125",
+      "photoId": 10485,
+      "visualReview": "accepted",
+      "numberCorrection": "Source says 094/120; photograph clearly reads 94/125. Preserve source discrepancy without changing any published identity."
+    },
+    "mb-2026-fe220cc6c51f8b3a": {
+      "brandId": "matchbox",
+      "name": "Freightliner M2 106",
+      "year": 2026,
+      "catalogNumber": "58/125",
+      "sourceNumber": "058/125",
+      "sourceRecordId": 10732,
+      "sourcePageSha256": "9b5afce6232006342f4a30a169a96c4f9421653f851c59d0ffd384b8634a375d",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/freightliner-m2-106_10732.html",
+      "sourceName": "Freightliner M2 106",
+      "observedPackageNumber": "58/125",
+      "photoId": 10462,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-c4c35d5c56572f8e": {
+      "brandId": "matchbox",
+      "name": "2021 Ford Bronco",
+      "year": 2026,
+      "catalogNumber": "102/125",
+      "sourceNumber": "102/125",
+      "sourceRecordId": 10736,
+      "sourcePageSha256": "e3ad7aac3abfb93fe925c477fdf316a185a947b8b373484c2fee13c21761cb6b",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2021-ford-bronco_10736.html",
+      "sourceName": "2021 Ford Bronco",
+      "observedPackageNumber": "102/125",
+      "photoId": 10519,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-1d469719b5f88947": {
+      "brandId": "matchbox",
+      "name": "Volvo XC40",
+      "year": 2026,
+      "catalogNumber": "83/125",
+      "sourceNumber": "083/125",
+      "sourceRecordId": 10734,
+      "sourcePageSha256": "662b27d4209276fca2519ac3d96ab853c351684ab19baea61e4d7a522bdbce55",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/volvo-xc40_10734.html",
+      "sourceName": "Volvo XC40",
+      "observedPackageNumber": "83/125",
+      "photoId": 10495,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-7de9994ee321befd": {
+      "brandId": "matchbox",
+      "name": "1985 Porsche 911 Rally",
+      "year": 2026,
+      "catalogNumber": "1/4",
+      "sourceNumber": "1/4",
+      "sourceRecordId": 10388,
+      "sourcePageSha256": "168a3b2c29b4912ab9530a5478a812fb2e495be0b8554bafda4b76f9a6aa437b",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10388.html",
+      "sourceName": "1985 Porsche 911 Rally",
+      "observedPackageNumber": "1/4",
+      "photoId": 9836,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "mb-2026-cc3f373fdcbbfcaf": {
+      "brandId": "matchbox",
+      "name": "1977 Jaguar XJ6C",
+      "year": 2026,
+      "catalogNumber": "2/4",
+      "sourceNumber": "2/4",
+      "sourceRecordId": 10433,
+      "sourcePageSha256": "f063c9c087e9c0726d267515768a17b353d8583e83713d689996ae2170633d32",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1977-jaguar-xj6c_10433.html",
+      "sourceName": "1977 Jaguar XJ6C",
+      "observedPackageNumber": "2/4",
+      "photoId": 9885,
+      "visualReview": "accepted",
+      "numberCorrection": ""
+    },
+    "tm-79886dfae6f817a56acc": {
+      "brandId": "tomica",
+      "name": "F80",
+      "year": 2026,
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950936/",
+      "sourcePageSha256": "8463d1b494bd3afd00274a5bd5a44a4570178c71a1efdfeb86e10006ac6d5efe",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810950936",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 2
+    },
+    "tm-9441b06a4d27c125ec8e": {
+      "brandId": "tomica",
+      "name": "トミカスポーツカースペシャルセレクション2",
+      "year": 2026,
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810078005/",
+      "sourcePageSha256": "e00bc6ea5f608ebeff255655cbdb13c06078fe5a78f600bcf8d7109d84a9f87d",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810078005",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 3
+    },
+    "tm-e18445740ce0bdc9aceb": {
+      "brandId": "tomica",
+      "name": "変形出動!スクランブルデカパトロールカー",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810089353/",
+      "sourcePageSha256": "59e29169db288757299a90c7ede93aee6add90dd9b9092d0e0ba7a00964be649",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810089353",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 4
+    },
+    "tm-6e1526a1b6a483f4ca6b": {
+      "brandId": "tomica",
+      "name": "スクランブルポリスパーキング30 スペシャルセット(トミカ4台付き)",
+      "year": 2026,
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810057543/",
+      "sourcePageSha256": "ae1bb1d6ee06ae04309218635d2a0192962ba3247ab1f5d3767dc9596adc4cde",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810057543",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 5
+    },
+    "tm-5d95c103682f6fe2e2c0": {
+      "brandId": "tomica",
+      "name": "トミカ クロスレスキュー XR01 クロスレスキュードラゴン",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810062387/",
+      "sourcePageSha256": "c0915d82c9a24640d79366a1f3fb24c5b6d0d38cc725446a79103244dd99ceda",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810062387",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 6
+    },
+    "tm-f55de8a2e40767d29cef": {
+      "brandId": "tomica",
+      "name": "トミカ クロスレスキュー XR02 クロスレスキュータイガー",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810064053/",
+      "sourcePageSha256": "f65ba2e66cbe916205aaba9a69d574be8d3fe0f0183674e95ce53537635b17f5",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810064053",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 7
+    },
+    "tm-20304a555fb3487455b3": {
+      "brandId": "tomica",
+      "name": "トミカ クロスレスキュー クロスレスキュードラゴン&タイガー DXセット",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810064046/",
+      "sourcePageSha256": "3ff759e29f130feb9aad5f1aa41dbf271ca4b4c3471ba818b7e4badf22d85478",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810064046",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 8
+    },
+    "tm-e99ff2333f5862a78716": {
+      "brandId": "tomica",
+      "name": "トミカ クロスレスキュー クロスホバー",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810062004/",
+      "sourcePageSha256": "b9634d17d276b4abac7345c325e5c4d0d547270a272265ab5936d5b5f6bf013a",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810062004",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 9
+    },
+    "tm-e4e1024b424fc08ac400": {
+      "brandId": "tomica",
+      "name": "トミカ クロスレスキュー クロスレーザー",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810061984/",
+      "sourcePageSha256": "4a003087fa1c880774c7634ac8094e4ff810db797f86aae2e1c851d80d3c8b42",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810061984",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 10
+    },
+    "tm-9dfc5070038d1408dffc": {
+      "brandId": "tomica",
+      "name": "トミカ ジョブレイバー TJBDX DX スカイブレイバー JAL ジェット旅客機",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810993735/",
+      "sourcePageSha256": "ea819f13bf93ad25fd26153465500cfbb67122d81979f8fc5c6cedccebefbd07",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810993735",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 11
+    },
+    "tm-2318eeda990746a5283c": {
+      "brandId": "tomica",
+      "name": "TOMICA TUNES SINGLE PACKS We Love Pompompurin",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810077848/",
+      "sourcePageSha256": "50ad587a524a68b21c11b17426bb0548fc99bce67c6ab61c94be1eb1d37fe719",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810077848",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 12
+    },
+    "tm-75ab7e784dcbadedeb00": {
+      "brandId": "tomica",
+      "name": "TOMICA TUNES SINGLE PACKS Hard at Work Pompompurin",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810077855/",
+      "sourcePageSha256": "c56d38e7812227248e0a080926be316f768d3d1d3436678e5dba8163a3b112dc",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810077855",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 13
+    },
+    "tm-3321c21a3dd88bab20d8": {
+      "brandId": "tomica",
+      "name": "トミカプレミアムunlimited 10 よろしくメカドック セリカ XX",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810096818/",
+      "sourcePageSha256": "73ba2ea08246ed0c2d447077dd442e2689653fb5525c317c18af0d02b004069d",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810096818",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 15
+    },
+    "tm-3f31822b5df01a6b0c36": {
+      "brandId": "tomica",
+      "name": "トミカREBORN 三菱 パジェロ メタルトップ",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810956563/",
+      "sourcePageSha256": "56d5638df9e3102a81594236c531ca73035d0b4bb9913b826786e8565ee0ec12",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810956563",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": 16
+    },
+    "tm-93d6be975c43e93f1abc": {
+      "brandId": "tomica",
+      "name": "ヤマダデンキ オリジナル トヨタ GR 86",
+      "year": 2026,
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "sourcePageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "",
+      "visualReview": "accepted",
+      "dateEvidence": "Official monthly page exact retailer release date",
+      "row": 17
+    },
+    "tm-9bb258287dfbfefbac17": {
+      "brandId": "tomica",
+      "name": "ローソンオリジナルトミカ トヨタ MR2",
+      "year": 2026,
+      "releaseDate": "2026-10-24",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "sourcePageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "",
+      "visualReview": "accepted",
+      "dateEvidence": "Official monthly page exact retailer release date",
+      "row": 18
+    },
+    "tm-358d2967241929ebcc81": {
+      "brandId": "tomica",
+      "name": "F80(初回特別仕様)",
+      "year": 2026,
+      "releaseDate": "2026-10-17",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950974/",
+      "sourcePageSha256": "72a6ae1f560d07e3333ecc1744805421a6823a3491efc9cf45b0e6a9157ecae6",
+      "monthlySourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "monthlyPageSha256": "397d0f65212146e10385c9b3a5fe49c4127097b0875555c954875ea069fa4a78",
+      "jan": "4904810950974",
+      "visualReview": "accepted",
+      "dateEvidence": "Official product store exact release date",
+      "row": "first",
+      "originalVariant": "初回特別仕様"
+    }
+  },
+  "images": {
+    "mb-2026-7e3ffdbec189c7ca": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_10465_3_10651.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10651.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-8b348d61cc8b9aca": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10472_3_10659.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10659.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-d512bb3abf04a0e3": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-morgan-plus-four_10461_3_10733.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/morgan-plus-four_10733.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-abfc1dd302482512": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-holden-vf-commodore-ssv_10517_3_10735.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/holden-vf-commodore-ssv_10735.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-2864708d747c55c9": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-koenigsegg-gemera_10520_3_10737.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/koenigsegg-gemera_10737.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-63e10e258d3139c4": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10516_3_10738.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1997-acura-integra-type-r_10738.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-514f85a003ac8e4a": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-2023-toyota-gr-supra_10518_3_10739.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2023-toyota-gr-supra_10739.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-10e513a446ad3b57": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1993-ford-ranger-prerunner_10515_3_10740.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1993-ford-ranger-prerunner_10740.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-bd5d2857a1180d50": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-mbx-ev-school-bus_10485_3_10748.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/mbx-ev-school-bus_10748.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-fe220cc6c51f8b3a": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-freightliner-m2-106-plus_10462_3_10732.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/freightliner-m2-106_10732.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-c4c35d5c56572f8e": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-2021-ford-bronco_10519_3_10736.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/2021-ford-bronco_10736.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-1d469719b5f88947": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-volvo-xc40_10495_3_10734.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/volvo-xc40_10734.html",
+      "credit": "Matchboyz.com · (C) 2026 Joaquín Rodríguez | jrcollectibles.eu",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-7de9994ee321befd": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_9836_3_10388.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1985-porsche-911-rally_10388.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "mb-2026-cc3f373fdcbbfcaf": {
+      "url": "https://www.matchboyz.com/images/photos/2026/basic-1977-jaguar-xj6c_9885_3_10433.jpg",
+      "sourceUrl": "https://www.matchboyz.com/matchbox-by-year/2026/basic/1977-jaguar-xj6c_10433.html",
+      "credit": "Matchboyz.com · (C) 2026 Martin \"Admin\"",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-79886dfae6f817a56acc": {
+      "url": "https://takaratomymall.jp/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950936/",
+      "credit": "Takara Tomy · official store product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-9441b06a4d27c125ec8e": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_gift_sportscar_selection2_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-e18445740ce0bdc9aceb": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_deka_patrolcar_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-6e1526a1b6a483f4ca6b": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_policeparking_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-5d95c103682f6fe2e2c0": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr01_dragon_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-f55de8a2e40767d29cef": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr02_tiger_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-20304a555fb3487455b3": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_dragontiger_dx_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-e99ff2333f5862a78716": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosshover_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-e4e1024b424fc08ac400": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosslazer_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-9dfc5070038d1408dffc": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_jr_tjbdx_jal_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-2318eeda990746a5283c": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-75ab7e784dcbadedeb00": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_work_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-3321c21a3dd88bab20d8": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tpu_mechadoc_xx_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-3f31822b5df01a6b0c36": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_reborn_mitsubishi_pajero_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-93d6be975c43e93f1abc": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_yamada_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-9bb258287dfbfefbac17": {
+      "url": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_lawson_01.webp",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/tomica/new/2610.htm",
+      "credit": "Takara Tomy · manufacturer product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    },
+    "tm-358d2967241929ebcc81": {
+      "url": "https://takaratomymall.jp/img/goods/L/4904810950974_8a8c06650374455389dd289a317ba34f.jpg",
+      "sourceUrl": "https://takaratomymall.jp/shop/g/g4904810950974/",
+      "credit": "Takara Tomy · official store product image",
+      "kind": "release-reference",
+      "rights": "Source-hosted reference. Original image rights remain with the credited source/photographer; no reuse license asserted."
+    }
+  },
+  "verifiedAssets": {
+    "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_10465_3_10651.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "f411ef130943882e1553df9d3028dbbd97304c2e45fc2057dc1874cb38977276",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_10465_3_10651.jpg",
+      "checkedAt": "2026-10-28T22:02:56+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1985-porsche-911-rally_10465_3_10651.jpg",
+      "thumbnailSha256": "d561d491687c424bee6284d8e0f68be3c17be919af73bb97a08adb11f70ec2e1",
+      "thumbnailMeanError": 3.4109,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10472_3_10659.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "f699f67b834467e3f3b3352a7ff446b2c81885b459f28a7a1056e1b7db9c6cef",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10472_3_10659.jpg",
+      "checkedAt": "2026-10-28T22:02:56+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1997-acura-integra-type-r_10472_3_10659.jpg",
+      "thumbnailSha256": "0fd1153032effcb79873660ed1e07b79b6ad65087eca36a36632999367f29090",
+      "thumbnailMeanError": 3.6939,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-morgan-plus-four_10461_3_10733.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "8244f0fec31fe3d89fe17e13a050c6fab018979608c66fe654e6385099930ba6",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-morgan-plus-four_10461_3_10733.jpg",
+      "checkedAt": "2026-10-28T22:02:56+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-morgan-plus-four_10461_3_10733.jpg",
+      "thumbnailSha256": "985212ea8719232e89d9e433dcb0160d52f651b871595b2ed2ff3ac0d6e502e1",
+      "thumbnailMeanError": 3.283,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-holden-vf-commodore-ssv_10517_3_10735.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "07adaed4af544f3688e7e1901e94dc047295bb03ec86fcc326324647d59bf4b7",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-holden-vf-commodore-ssv_10517_3_10735.jpg",
+      "checkedAt": "2026-10-28T22:03:02+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-holden-vf-commodore-ssv_10517_3_10735.jpg",
+      "thumbnailSha256": "02634f82c4a2bf7551450544db04733a88cffc41cb1639baa56023948217bf59",
+      "thumbnailMeanError": 3.0638,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-koenigsegg-gemera_10520_3_10737.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "1f8c2c71c1be1f297cbe40645f121eff651fd2441e36510434503074bf4f5617",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-koenigsegg-gemera_10520_3_10737.jpg",
+      "checkedAt": "2026-10-28T22:03:02+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-koenigsegg-gemera_10520_3_10737.jpg",
+      "thumbnailSha256": "79bc4750587d62d20aad5a527c6c74bb59f4ef8d480f3d2eb92422326b2a286e",
+      "thumbnailMeanError": 2.8386,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10516_3_10738.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "c4f692c017a0609d0904d8c496699d73057e18645694fbb409fbb19461b222b3",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1997-acura-integra-type-r_10516_3_10738.jpg",
+      "checkedAt": "2026-10-28T22:03:02+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1997-acura-integra-type-r_10516_3_10738.jpg",
+      "thumbnailSha256": "f6dc086b7bfa63573d7a3983304fe246bcf193f2989813b39a591c81009e80c8",
+      "thumbnailMeanError": 2.9375,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-2023-toyota-gr-supra_10518_3_10739.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "c0f89297856607c4b7c210aaafef8fed7f820d7ee774d4030186ee9c01aea3ab",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-2023-toyota-gr-supra_10518_3_10739.jpg",
+      "checkedAt": "2026-10-28T22:03:08+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-2023-toyota-gr-supra_10518_3_10739.jpg",
+      "thumbnailSha256": "4ed37c12797285d05fb16a54c8dc62a4052e42240657024e1613ab28b6022e31",
+      "thumbnailMeanError": 2.7283,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-1993-ford-ranger-prerunner_10515_3_10740.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "b3f69a2769841a6a11ab2ecb811e697c3c3994a8ed0db5589cfa05dc0abd501f",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1993-ford-ranger-prerunner_10515_3_10740.jpg",
+      "checkedAt": "2026-10-28T22:03:08+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1993-ford-ranger-prerunner_10515_3_10740.jpg",
+      "thumbnailSha256": "29a3fa71a88e98290f73bb295dbafc6324fc0dc88fc67e6a5d47bbf4d78d6c39",
+      "thumbnailMeanError": 3.3671,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-mbx-ev-school-bus_10485_3_10748.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "1810856e1f3f82ea21c6833dd89a63745054fc57344af844d0ea362d2507e57f",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-mbx-ev-school-bus_10485_3_10748.jpg",
+      "checkedAt": "2026-10-28T22:03:08+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-mbx-ev-school-bus_10485_3_10748.jpg",
+      "thumbnailSha256": "e75cc000c9d140f51d57fac6a34a4a363f6a074cbd36a994617704e836fc5c70",
+      "thumbnailMeanError": 3.7244,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-freightliner-m2-106-plus_10462_3_10732.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "32f94ec1c3c8eafbd574c4d640640a898564db5b46dfe439fb4bc7e652aa94fa",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-freightliner-m2-106-plus_10462_3_10732.jpg",
+      "checkedAt": "2026-10-28T22:03:16+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-freightliner-m2-106-plus_10462_3_10732.jpg",
+      "thumbnailSha256": "cea342c5e3d78b74c39103d06a1dd8fdacb6dd508fe5fc73d56b357690c581df",
+      "thumbnailMeanError": 3.2756,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-2021-ford-bronco_10519_3_10736.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "1e7ee068353f58d053bb8c9c0fd63d8078a96e4695a10520bc6c0856e15f7155",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-2021-ford-bronco_10519_3_10736.jpg",
+      "checkedAt": "2026-10-28T22:03:16+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-2021-ford-bronco_10519_3_10736.jpg",
+      "thumbnailSha256": "3291ae8d87482eef236cd919d1e8e2805a5c610ee5de8c4c1a7f6973fe6cbe4e",
+      "thumbnailMeanError": 3.1202,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-volvo-xc40_10495_3_10734.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "40463f9cab50393abe8293d164a3bbd5db1c673dcdcac0c520884c6d93914ddc",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-volvo-xc40_10495_3_10734.jpg",
+      "checkedAt": "2026-10-28T22:03:16+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-volvo-xc40_10495_3_10734.jpg",
+      "thumbnailSha256": "34de6af5c24e794f6ca32ffaa29a7aafa358e05ebf028606b7752250d1d5b14f",
+      "thumbnailMeanError": 3.2303,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_9836_3_10388.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "cfbd1a7072cab8885d43d634d2325c5ff442c2d5b46cfa0058006bf28e0b9525",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1985-porsche-911-rally_9836_3_10388.jpg",
+      "checkedAt": "2026-10-28T22:03:24+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1985-porsche-911-rally_9836_3_10388.jpg",
+      "thumbnailSha256": "f8f33e93cad8fba8be9af0d456e6c87834858c6ccf68cb7f3c0428ad1504cdff",
+      "thumbnailMeanError": 3.745,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.matchboyz.com/images/photos/2026/basic-1977-jaguar-xj6c_9885_3_10433.jpg": {
+      "ok": true,
+      "width": 600,
+      "height": 600,
+      "contentType": "image/jpeg",
+      "sha256": "ad292024cbfb036d8dd6f31ffbf8307dc762adf9feca254026f9019671b9b25f",
+      "finalUrl": "https://www.matchboyz.com/images/photos/2026/basic-1977-jaguar-xj6c_9885_3_10433.jpg",
+      "checkedAt": "2026-10-28T22:03:24+00:00",
+      "sourceThumbnailUrl": "https://www.matchboyz.com/images/photos/2026/thumbnail/basic-1977-jaguar-xj6c_9885_3_10433.jpg",
+      "thumbnailSha256": "1b315bde9bcda8289f8ccfa51268b424eedd2051691e0ce9367d3614b80762c9",
+      "thumbnailMeanError": 3.872,
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_gift_sportscar_selection2_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "522e0b42a54e1fa4c3ad79e65c68b3700266a475a59ed018b2ab3cf56e0abebe",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_gift_sportscar_selection2_01.webp",
+      "checkedAt": "2026-10-28T22:03:31+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_deka_patrolcar_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "537eb3a41e21ddaceae1fa90ee3f3c4f53ccfb71e39935d6dadb8ff54592139c",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_deka_patrolcar_01.webp",
+      "checkedAt": "2026-10-28T22:03:31+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_policeparking_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "336befb4c0154d08816ecf72cd734223038ade5c06555b271ec0adcbaff98942",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_world_scramble_policeparking_01.webp",
+      "checkedAt": "2026-10-28T22:03:30+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr01_dragon_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "ef6001f5f57536f73e3a19510c9eafa78c5307b2115377099b2be776e791beed",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr01_dragon_01.webp",
+      "checkedAt": "2026-10-28T22:03:34+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr02_tiger_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "0719b93ee5a845fdd837b5c2f3014291b24dc9a954ff9b7b32d5b7fad2f93563",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_xr02_tiger_01.webp",
+      "checkedAt": "2026-10-28T22:03:34+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_dragontiger_dx_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "6644a680714c860cdb09c07e0d8890bf2511869cdc2802565484ed7b7eee81a7",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_dragontiger_dx_01.webp",
+      "checkedAt": "2026-10-28T22:03:34+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosshover_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "f77f785bc4dfb575b304f2ded81797809e760c9c813b09dfe31314265e21093f",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosshover_01.webp",
+      "checkedAt": "2026-10-28T22:03:37+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosslazer_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "3459886eecb94c312463e13c7e4c931432cdc56b08ebad53f5558ac6d324ab8b",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_cr_crosslazer_01.webp",
+      "checkedAt": "2026-10-28T22:03:37+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_jr_tjbdx_jal_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "83b7e302204acd892a0d1a65729b0a380abac593c031ba04b800041b9e6f4e6b",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_jr_tjbdx_jal_01.webp",
+      "checkedAt": "2026-10-28T22:03:37+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "a7d8c4983b1ca321672c0cd744ce2ba71ef2dddc06ceeb3cdd4b9977ded6b889",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_01.webp",
+      "checkedAt": "2026-10-28T22:03:40+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_work_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "47109090f283097852278273ca055f58d6c49c6d76b50708358d2c036b8324e9",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tunes_pompompurin_work_01.webp",
+      "checkedAt": "2026-10-28T22:03:40+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tpu_mechadoc_xx_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "80ad3a6505d72185ea13b2d4ead2cb8706d11a964dce9e3f62e09e590887f13a",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_tpu_mechadoc_xx_01.webp",
+      "checkedAt": "2026-10-28T22:03:40+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_reborn_mitsubishi_pajero_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "304bced001b504d1f616e4d0c514adc5c9531273243c5f16323c62cce157a04b",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_reborn_mitsubishi_pajero_01.webp",
+      "checkedAt": "2026-10-28T22:03:44+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_yamada_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "6fa7f6267af6ff697622ff778e0c5a0907973d14fe7c40855e461d19a7520b08",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_yamada_01.webp",
+      "checkedAt": "2026-10-28T22:03:44+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_lawson_01.webp": {
+      "ok": true,
+      "width": 640,
+      "height": 360,
+      "contentType": "image/webp",
+      "sha256": "294dbb547ec6a8ae56715ec5e3fd248da44bd0ca08cfc81f997e144028c1ccd0",
+      "finalUrl": "https://www.takaratomy.co.jp/products/tomica/new/images/2610/pic_so_lawson_01.webp",
+      "checkedAt": "2026-10-28T22:03:44+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://takaratomymall.jp/img/goods/L/4904810950974_8a8c06650374455389dd289a317ba34f.jpg": {
+      "ok": true,
+      "width": 1100,
+      "height": 1100,
+      "contentType": "image/jpeg",
+      "sha256": "cf3eea107cd2efc76719c1bda550100ee4702f361c8d35feb534e1a4aabfe2df",
+      "finalUrl": "https://takaratomymall.jp/img/goods/L/4904810950974_8a8c06650374455389dd289a317ba34f.jpg",
+      "checkedAt": "2026-10-28T22:03:47+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    },
+    "https://takaratomymall.jp/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg": {
+      "ok": true,
+      "width": 1100,
+      "height": 1100,
+      "contentType": "image/jpeg",
+      "sha256": "e3ddc959f91f28547c73a0293b746070af7d698eb200200375b5c33ce558b942",
+      "finalUrl": "https://takaratomymall.jp/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg",
+      "checkedAt": "2026-10-28T22:03:24+00:00",
+      "reviewMethod": "source-product-and-visual-match"
+    }
+  },
+  "excluded": [
+    {
+      "name": "No.30 三菱 デリカミニ",
+      "releaseDate": "2026-11-28",
+      "reason": "Manufacturer postponement supersedes original October announcement."
+    },
+    {
+      "name": "15 トヨタ ハイエース",
+      "releaseDate": "2026-11-28",
+      "reason": "Manufacturer postponement supersedes original October announcement."
+    },
+    {
+      "name": "LV-N292e 日野プロフィア 40ft海上コンテナトレーラ（東邦車輛TC36H1C34）（青）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2126",
+      "sourcePageSha256": "9341a58b6ce80275049046fe4deebc3e4e757c24ca4061e0743d5108e288e04f",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N379a 日産 PAO（アクアグレー）1989年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2129",
+      "sourcePageSha256": "a2597074c4ec9709f26397576904409a0b00a67224a7a978ecc9b87734db294e",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N379b 日産 PAO（テラコッタ）1989年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2130",
+      "sourcePageSha256": "5293bfda1edb8a1028654a6463c2bd36baa8ed0dcfec1c8dbd4a30f87255ccf8",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N275c ランチア テーマ 8.32 フェーズII（赤）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2131",
+      "sourcePageSha256": "0c556a0c2a67920cf062204241a9da1e76004001117fcd985b4a0bb16dd6b4a8",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N277c ランチア テーマ 8.32 フェーズI（黒）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2132",
+      "sourcePageSha256": "ef74d455ec3ef849212bd834f107dd3a7c2577fd2d64033a5e4a3f2c8f13ae15",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N378a トヨタ クラウンエステート ロイヤルサルーン （白／銀）2000年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2133",
+      "sourcePageSha256": "c7d0d031242f5a726de59183772775d1aa3c164104b2877628e7ff174d5f1612",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N378b トヨタ クラウンエステート ロイヤルサルーン（紺）2000年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2134",
+      "sourcePageSha256": "54e5a3b4bec23b0d21f58a6bdf5ccda67dd358b0b33c6d1dbca8aa7ae20d0b1d",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N380a 日産 スカイライン ハードトップ 2000GT-R RSワタナベホイール装着車（白）72年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2135",
+      "sourcePageSha256": "15330310b9dcbb96f54ee0db8e8b286ce794d283a7aa2252d60c73d333ebb0d2",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-N 荻窪魂Vol.11 日産 スカイライン ハードトップ 2000GT-R（銀）1972年式",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2136",
+      "sourcePageSha256": "b2fff204a70345daecf500d1003c26429b70a58817eb11bef57732c2e953ead7",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "トミカラマ ヴィンテージ14a 大黒パーキングエリア マットC（日産 スカイライン GT-R カスタムホイール仕様 付属）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2137",
+      "sourcePageSha256": "aad5bf044c340fd183627e8e094285587e857e4a7ad0b537f413e055634e3ae2",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "トミカラマ ヴィンテージ15a 大黒パーキングエリア マットD（ホンダ  シビック タイプR カスタム仕様 付属）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2138",
+      "sourcePageSha256": "fc3b0a5dcd2f6f21882fd146b968af1cca9dadb8420c9ff8cb9a5a8e224aade5",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    },
+    {
+      "name": "LV-216b トヨタ救急車 FS55V型（本田消防署）",
+      "sourceUrl": "https://minicar.tomytec.co.jp/product/detail.html?id=2140",
+      "sourcePageSha256": "13dbc462c5a310757314d04b7a40c07e80135d6f93491849a72144c151867068",
+      "releaseDate": "2026-10",
+      "reason": "Month-only current-month announcement; no exact elapsed release date verified."
+    }
+  ],
+  "scope": "Current 2026 Matchbox Basic photographed releases and October Tomica manufacturer listings; source gaps remain explicit. Month-only current/future releases and delayed releases withheld. Existing release identities and photos unchanged.",
+  "pricing": "No new automatic market/MSRP values in this catalog refresh; existing price evidence is preserved."
+}

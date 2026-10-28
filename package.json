@@ -1,6 +1,6 @@
 {
   "name": "tomitrack",
-  "version": "0.4.25",
+  "version": "0.4.26",
   "description": "Your diecast collection, in focus. By TomiKing.",
   "author": "TomiKing",
   "private": true,
@@ -8,7 +8,7 @@
   "main": "desktop/main.cjs",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check web/app/app.js && node --check web/app/accounts.js && node --check web/app/theme.js && node --check desktop/main.cjs && node --check desktop/preload.cjs && node --check web/app/updates.js && node --check scripts/prepare-signing.mjs && node --check scripts/verify-android-release.mjs && node --check web/app/catalog.js && node --check web/app/catalog-ui.js && node --check scripts/build-catalog.mjs && node --check scripts/build-tomica.mjs && node --check web/app/garage.js && node --check web/app/catalog-presentation.js && node --check web/app/catalog-image-policy.js && node --check scripts/build-catalog-presentation.mjs && node --check web/app/pricing.js && node --check web/app/pricing-core.js && node --check web/app/pricing-ui.js && node --check scripts/build-prices.mjs && node --check scripts/price-history.mjs && node --check scripts/audit-prices.mjs && python3 -m py_compile scripts/refresh-prices.py scripts/research-price-listings.py",
+    "check": "node --check web/app/app.js && node --check web/app/accounts.js && node --check web/app/theme.js && node --check desktop/main.cjs && node --check desktop/preload.cjs && node --check web/app/updates.js && node --check scripts/prepare-signing.mjs && node --check scripts/verify-android-release.mjs && node --check web/app/catalog.js && node --check web/app/catalog-ui.js && node --check scripts/build-catalog.mjs && node --check scripts/build-tomica.mjs && node --check web/app/garage.js && node --check web/app/catalog-presentation.js && node --check web/app/catalog-image-policy.js && node --check scripts/build-catalog-presentation.mjs && node --check web/app/pricing.js && node --check web/app/pricing-core.js && node --check web/app/pricing-ui.js && node --check scripts/build-prices.mjs && node --check scripts/price-history.mjs && node --check scripts/audit-prices.mjs && python3 -m py_compile scripts/refresh-prices.py scripts/research-price-listings.py && node --check scripts/release-refresh.mjs",
     "start": "electron .",
     "dist:win": "electron-builder --win nsis --x64 --publish never",
     "prepare:android": "node scripts/prepare-android.mjs",

@@ -2,7 +2,7 @@ plugins { id 'com.android.application' }
 android {
     namespace 'com.tomiking.tomitrack'
     compileSdk 35
-    defaultConfig { applicationId 'com.tomiking.tomitrack'; minSdk 26; targetSdk 35; versionCode 31; versionName '0.4.25' }
+    defaultConfig { applicationId 'com.tomiking.tomitrack'; minSdk 26; targetSdk 35; versionCode 32; versionName '0.4.26' }
     signingConfigs {
         permanent {
             if (System.getenv('TOMITRACK_SIGNING_STORE_FILE')) {

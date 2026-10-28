@@ -1,4 +1,14 @@
-# Development handoff · 0.4.25
+# Development handoff · 0.4.26
+
+## 0.4.26: reviewed Matchbox/Tomica new releases · local, pending publication
+
+Owner requested checking and applying new releases. Resumed remote main `5d075070ed7d09309b2c4744ea22d45a2dd53074`; inspected v0.4.25 and successful build/Pages workflows. Checked the current 2026 Matchboyz Basic catalog and exact Takara Tomy October monthly/store product dates; reviewed all twelve pending October TLV detail pages. Add 14 Matchbox references (11 mainline and three photographed Super Chase editions) plus 17 Tomica products, 15 official checksum-valid JANs and editorial English names. Do not infer a worldwide complete lineup. The Delica Mini and Premium Hiace are delayed to 2026-11-28; twelve month-only October TLV references remain withheld. Resolve sixteen prior withheld Tomica listings, leaving 72 future/date-uncertain records. Current-month month-only dates are still excluded.
+
+Incremental `catalog/input/release-refresh-2026-10-28.json` keeps source URLs, page hashes, source names/numbers, exact dates, JANs, photographer credit, English and photo evidence; source fetching remains separate from builds/startup. New school-bus source has 094/120 while its package reads 94/125; only this new reference is corrected with the discrepancy retained. Three Super Chase references stay distinct from regular mainline editions. Standard/first-special F80 entries and JANs remain separate. No existing casting links or private collection snapshots are reassigned.
+
+All 17,920 earlier releases preserve SHA256 `114ce491827549c3766fcd558efa76d877ba57e8225b5a1139168697cb8b383b`; the original full 13,652-row Mattel regression hash remains enforced on that published subset. All 4,954 earlier photo entries preserve SHA256 `0a6e6aa2b1e517f965965e87b305e2a0222df99f15310a58b0f495d56739ab0f`, with every archived proof retained. Batch `2026-10-28-014` adds 31 photos; new total 4,985. New catalog total 17,951, including Matchbox 2,968, Tomica 2,601 and TLV 1,684; English coverage 4,285. The official mall’s exact image path is added to browser/Android policies and CSP. All new images decoded, met the existing quality floor and passed visual review; fourteen Matchbox photos also match cited thumbnails.
+
+Version 0.4.26 / Android code 32 / browser cache advance together. All 95 Node tests pass, including new source/date/JAN/search/backup and full preservation checks; syntax/diff checks and deterministic SQLite integrity/foreign keys pass. Dependency resolution is unchanged. Pricing evidence/public prices JSON is unchanged; the pricing scope merely learns the new Tomica identities and does not invent values. Private storage, backup format, package/signing identity, logo and UI layout are unchanged. A reachable source checkpoint and publication verification will be recorded below. Physical installation/upgrade/folding and Windows execution remain unverified.
 
 ## 0.4.25: complete remaining 2026 Matchbox photos · published and verified
 

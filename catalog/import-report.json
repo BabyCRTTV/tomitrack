@@ -1,8 +1,8 @@
 {
-  "version": "2026.10.16.3",
-  "total": 17920,
-  "castings": 6807,
-  "series": 2311,
+  "version": "2026.10.28.1",
+  "total": 17951,
+  "castings": 6825,
+  "series": 2316,
   "duplicatesMerged": 2110,
   "tomicaReferencesMerged": 130,
   "rejected": [
@@ -349,7 +349,7 @@
     {
       "brandId": "matchbox",
       "year": 2026,
-      "releases": 93,
+      "releases": 107,
       "seriesNumbers": 0,
       "colorKnown": 0,
       "status": "partial"
@@ -805,8 +805,8 @@
     {
       "brandId": "tomica",
       "year": 2026,
-      "releases": 189,
-      "seriesNumbers": 30,
+      "releases": 206,
+      "seriesNumbers": 35,
       "colorKnown": 0,
       "status": "partial"
     },

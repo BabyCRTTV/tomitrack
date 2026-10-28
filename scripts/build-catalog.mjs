@@ -1,6 +1,7 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {appendTomica} from './build-tomica.mjs';
+import{releaseRefresh,appendReviewedTomica}from'./release-refresh.mjs';
 import {createCatalog,canonicalGtin} from '../web/app/catalog.js';
 const searchText=value=>String(value??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[’‘`']/g,'').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
 const input=name=>JSON.parse(readFileSync(`catalog/input/${name}.json`,'utf8'));
@@ -12,7 +13,8 @@ const sources=[
  {id:'hw-series-positions',name:'Hot Wheels Wiki contributors · pvwnthem series-position snapshot',url:'https://github.com/pvwnthem/Hotwheels-Data/blob/f8129cca1b34ad33a893d93ecfb0e5c0297eefe5/HotApi.json',revision:'f8129cca1b34ad33a893d93ecfb0e5c0297eefe5',date:'2022-12-25',license:'Fandom-derived facts; CC BY-SA 3.0 attribution',licenseUrl:'https://creativecommons.org/licenses/by-sa/3.0/'},
  {id:'bamca',name:'BAMCA · Dean Dierschow and database contributors',url:'https://www.bamca.org/database.php',date:'2026-10-16',license:'Factual lineup references; no photographs or site text reproduced',licenseUrl:'https://www.bamca.org/pages/about.php'},
  {id:'james-mb2026',name:'JamesDiecast.com · 2026 Matchbox Basic tracker',url:'https://jamesdiecast.com/matchbox/basic/tracker/',date:'2026-09-09',license:'Numbered product identity facts; no photos or editorial text reproduced'},
- ...input('barcodes').sources
+ ...input('barcodes').sources,
+ ...releaseRefresh.sources
 ];
 const castings=new Map(),series=new Map(),releases=new Map(),rejected=[];let duplicates=0;
 const positions=new Map(input('hot-wheels-series-numbers').map(x=>[`${x.year}|${x.toyNumber}`,x.seriesNumber]));
@@ -35,12 +37,14 @@ input('hot-wheels').forEach((x,i)=>{
 input('matchbox').forEach(x=>add({name:x.name,year:x.year,brandId:'matchbox',categoryId:x.categoryId||'mainline',seriesName:x.seriesName||'Matchbox Mainline',productCode:'',manNumber:x.manNumber,collectorNumber:x.collectorNumber,seriesNumber:'',color:clean(x.variant.split(',')[0]).slice(0,50),variant:x.variant,tags:[],regions:[x.region],sourceRefs:[{sourceId:'bamca',url:x.sourceUrl,lineupUrl:x.lineupUrl}]}));
 input('curated-releases').forEach(add);
 input('matchbox-2026').forEach(add);
+releaseRefresh.matchboxRows.forEach(add);
 const tomica=appendTomica({castings,series,releases,sources});rejected.push(...input('tomica-rejections'));
+tomica.identifiers=[...tomica.identifiers,...appendReviewedTomica({castings,series,releases})];
 const all=[...releases.values()].sort((a,b)=>a.id.localeCompare(b.id)),identifiers=[];
 for(const x of input('barcodes').identifiers){if(!canonicalGtin(x.value))throw new Error('Invalid curated GTIN');if(x.scope==='release'){
  const matches=all.filter(r=>r.brandId===x.brandId&&r.year===x.year&&(x.curatedId?r.sourceRefs.some(ref=>ref.curatedId===x.curatedId):r.productCode===x.productCode));if(!matches.length)throw new Error('Curated barcode has no release: '+x.productCode);identifiers.push({...x,releaseIds:matches.map(x=>x.id)});
  }else identifiers.push(x)}
 identifiers.push(...tomica.identifiers);
 const coverage=[];for(const brandId of ['hot-wheels','matchbox','tomica','tomica-limited-vintage'])for(let year=brandId==='tomica'?1970:brandId==='tomica-limited-vintage'?2004:2009;year<=2026;year++){const rows=all.filter(x=>x.brandId===brandId&&x.year===year);coverage.push({brandId,year,releases:rows.length,seriesNumbers:rows.filter(x=>x.seriesNumber).length,colorKnown:rows.filter(x=>x.color).length,status:rows.length?'partial':'not-imported'})}
-const data={schema:1,version:'2026.10.16.3',builtAt:'2026-10-16',scope:'Tomica 1970–2026; Hot Wheels/Matchbox 2009–2026; partial reference catalog, not every release or packaging variant',brands:[{id:'hot-wheels',name:'Hot Wheels'},{id:'matchbox',name:'Matchbox'},{id:'tomica',name:'Tomica'},{id:'tomica-limited-vintage',name:'Tomica Limited Vintage'}],researchGaps:(()=>{const r=input('tomica-fetch-report');return {tomica:{undatedProducts:r.undatedProducts.length,unavailableMonthlyPages:r.unavailableMonthlyPages.length,excludedDateListings:r.futureListingsExcluded.length,notes:['Tomica Limited: identified products lack reviewed release years; not imported yet.','Historic variants, commemoratives, regional packages and exact colors remain incomplete.','Casting links are conservative; official announcement and collector naming differences may remain separate.']}}})(),sources,castings:[...castings.values()].sort((a,b)=>a.id.localeCompare(b.id)),series:[...series.values()].sort((a,b)=>a.id.localeCompare(b.id)),releases:all,identifiers,coverage};
+const data={schema:1,version:'2026.10.28.1',builtAt:'2026-10-28',scope:'Tomica 1970–2026; Hot Wheels/Matchbox 2009–2026; partial reference catalog, not every release or packaging variant',brands:[{id:'hot-wheels',name:'Hot Wheels'},{id:'matchbox',name:'Matchbox'},{id:'tomica',name:'Tomica'},{id:'tomica-limited-vintage',name:'Tomica Limited Vintage'}],researchGaps:(()=>{const r=input('tomica-fetch-report');return {tomica:{undatedProducts:r.undatedProducts.length,unavailableMonthlyPages:r.unavailableMonthlyPages.length,excludedDateListings:r.futureListingsExcluded.length,notes:['Tomica Limited: identified products lack reviewed release years; not imported yet.','Historic variants, commemoratives, regional packages and exact colors remain incomplete.','Casting links are conservative; official announcement and collector naming differences may remain separate.']}}})(),sources,castings:[...castings.values()].sort((a,b)=>a.id.localeCompare(b.id)),series:[...series.values()].sort((a,b)=>a.id.localeCompare(b.id)),releases:all,identifiers,coverage};
 createCatalog(data);mkdirSync('web/app/catalog',{recursive:true});const json=JSON.stringify(data);writeFileSync('web/app/catalog/data.js','// Generated by npm run catalog:build. See catalog/README.md for sources and coverage.\nexport default '+json+';\n');writeFileSync('catalog/catalog.json',json+'\n');writeFileSync('catalog/import-report.json',JSON.stringify({version:data.version,total:all.length,castings:castings.size,series:series.size,duplicatesMerged:duplicates,tomicaReferencesMerged:tomica.merged,rejected,coverage},null,2)+'\n');console.log(`Catalog: ${all.length} releases, ${castings.size} castings, ${series.size} yearly series; ${rejected.length} rejected, ${duplicates} duplicate references merged.`);

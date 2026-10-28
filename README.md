@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.25 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.26 is a local-first early-access foundation.
 
 ## Use it
 
@@ -12,7 +12,7 @@ Add collection and wishlist entries by selecting a release from the catalog. Bra
 
 ## Scope and data
 
-Accounts are implemented but registration awaits backend activation. The app clearly reports this state. Until activated, data stays in IndexedDB on each device. Once enabled, account collections are isolated by user ID, and users can explicitly upload or restore a private cloud backup. There is no automatic live sync. JSON backups include photos; CSV does not. Import replaces the collection after confirmation. Collection history records effective valuation snapshots when records change or a price sync changes the total. It is not verified market performance. USD only in this first version. The public release catalog contains 17,920 attributed references: 13,652 Hot Wheels/Matchbox (2009–2026) and 4,268 Tomica-family references (1970 onward). Coverage is partial; it is not a manufacturer-verified complete catalog. Generic illustrations are used only in the collection/demo; source photos are not bundled. The demo never writes into your real collection.
+Accounts are implemented but registration awaits backend activation. The app clearly reports this state. Until activated, data stays in IndexedDB on each device. Once enabled, account collections are isolated by user ID, and users can explicitly upload or restore a private cloud backup. There is no automatic live sync. JSON backups include photos; CSV does not. Import replaces the collection after confirmation. Collection history records effective valuation snapshots when records change or a price sync changes the total. It is not verified market performance. USD only in this first version. The public release catalog contains 17,951 attributed references: 13,666 Hot Wheels/Matchbox (2009–2026) and 4,285 Tomica-family references (1970 onward). Coverage is partial; it is not a manufacturer-verified complete catalog. Generic illustrations are used only in the collection/demo; source photos are not bundled. The demo never writes into your real collection.
 
 Android 0.2.1 introduces in-app update checks, verified downloads and the Android installer. Releases require one permanent signing identity stored in encrypted GitHub Actions secrets. Android asks you to approve installation. The original 0.1.0 and 0.2.0 APKs used different, unretained development keys, so their users need a one-time backup/reinstall/restore migration. See ANDROID-UPDATES.md. Windows binaries are not publisher-code-signed and may show SmartScreen; Windows automatic updates remain future work.
 
@@ -24,7 +24,11 @@ Barcode coverage includes five specifically cited Mattel UPCs, 1,677 checksum-va
 
 ## Matchbox photo coverage
 
-All **2,954 existing Matchbox catalog references** now have a photo, including the 93 remaining 2026 entries added in 0.4.25. The latest batch uses 600×600 source-hosted package photographs from Matchboyz with individual photographer attribution. Earlier casting references remain labeled; global release/variant coverage is still partial. Across all brands, 4,954 entries have photos. Private photos take priority, and source photos require connectivity.
+All **2,968 existing Matchbox catalog references** now have a photo, including the 93 remaining 2026 entries added in 0.4.25. The latest batch uses 600×600 source-hosted package photographs from Matchboyz with individual photographer attribution. Earlier casting references remain labeled; global release/variant coverage is still partial. Across all brands, 4,985 entries have photos. Private photos take priority, and source photos require connectivity.
+
+## Latest reviewed releases
+
+Version 0.4.26 adds 14 photographed 2026 Matchbox references (11 mainline and three Super Chase editions), plus 17 Tomica products with exact official October release dates and reviewed English names. All 31 have source photos; 15 new Tomica JANs are searchable. The ordinary and first-special F80 editions remain separate. The Delica Mini and Premium Hiace are withheld until their postponed November 28 dates; 12 October TLV listings still have only month-level dates and remain pending. This is a reviewed catalog expansion, not a claim of worldwide release completeness. Existing price evidence is unchanged; new automatic prices have not been added in this catalog refresh.
 
 ## Market prices
 
@@ -65,7 +69,7 @@ TomiTrack branding, custom icon and generated hero artwork were created for this
 
 ## Historical Tomica catalog
 
-Version 0.4.25 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
+Version 0.4.26 integrates 2,601 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 72 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
 
 
 Public pricing refresh runs on a separate GitHub Actions schedule targeting every 48 hours (elapsed-time gating across month boundaries; scheduler delays are possible). It refreshes dated ECB USD conversion and exact known manufacturer evidence; changed/ambiguous Tomica pages retain prior evidence pending review. It does not infer new sales from retail stock or sold counters. The app checks the published snapshot every 48 hours while online/on resume, persists its last successful check, and backs off six hours after failure. Manual Sync price data remains available. New independent sold observations still require verifiable variant, condition, final price and exact date; no bulk eBay/Mercari feed is connected. Private collections never leave the device. Price-only snapshot refreshes redeploy Pages without repackaging installers; installed apps download the new overlay.

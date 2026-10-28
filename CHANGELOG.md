@@ -1,3 +1,10 @@
+# 0.4.26 · 2026-10-28
+
+- Add 14 Matchbox releases (11 mainline/three Super Chase), 17 exact-date Tomica products, 15 official JANs and reviewed English names.
+- Add 31 verified photos; preserve all earlier 17,920 release records, 4,954 images and thirteen archives. New totals: 17,951 catalog references, 4,985 photos.
+- Preserve delayed and date-uncertain exclusions, including Delica Mini/Premium Hiace and twelve current-month TLV products. Keep new package-number corrections and source provenance explicit.
+- Extend browser/Android image access only to the reviewed official store product-image path. Existing pricing and private collection data are unchanged.
+
 # 0.4.25 · 2026-10-28
 
 - Add 93 reviewed 600×600 Matchbox 2026 package photographs, completing images for all 2,954 Matchbox entries currently in the partial catalog; 4,954 photos across all brands.
