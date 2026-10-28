@@ -15,6 +15,10 @@ if len(set(published['releaseIds']))!=len(published['releaseIds']):raise ValueEr
 data=json.loads((root/'catalog/catalog.json').read_text());queue=json.loads((root/'catalog/input/catalog-images.json').read_text())['images']
 overrides_path=root/'catalog/input/catalog-image-overrides.json';overrides=json.loads(overrides_path.read_text())if overrides_path.exists()else {'schema':1,'images':{}}
 for rid,patch in overrides['images'].items():queue[rid]={**queue[rid],**patch}
+supplemental=json.loads((root/'catalog/input/matchbox-2026-images.json').read_text())
+for rid,image in supplemental['images'].items():
+ if rid in queue:raise ValueError('Supplemental photo replaces queued source '+rid)
+ queue[rid]=image
 cache=root/'.cache/image-verification';cache.mkdir(parents=True,exist_ok=True)
 previous=set(published['releaseIds']);rows=[r for r in data['releases']if r['id']in queue and r['id']not in previous and (r['brandId']=='matchbox'if args.brand=='matchbox'else r['brandId']in ['tomica','tomica-limited-vintage'])]
 rows.sort(key=lambda r:(0 if r['brandId']=='tomica'else 1,-r['year'],r['id']))

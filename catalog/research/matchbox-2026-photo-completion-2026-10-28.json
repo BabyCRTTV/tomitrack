@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-10-28T06:46:49+00:00",
+  "previousAudit": "matchbox-2026-photo-audit-2026-10-23.json",
+  "lineupPageSha256": "adbdfa250bd40ea6b1428a5e2b2b498195122f2f0c04a0d987945890600423fd",
+  "added": 93,
+  "releaseReferences": 93,
+  "castingReferences": 0,
+  "source": "https://www.matchboyz.com/matchbox-by-year/2026/basic",
+  "sourceRecords": 93,
+  "uniquePhotos": 93,
+  "widths": [
+    600
+  ],
+  "heights": [
+    600
+  ],
+  "maximumThumbnailMeanError": 3.8573,
+  "contactSheets": [
+    {
+      "file": "boyz-sheet-1.jpg",
+      "sha256": "f50e2dbe36fda8d2604526d8a3d64ae7621e0883eb6a21fe3ced0943ab9dfb2f",
+      "count": 24,
+      "review": "accepted"
+    },
+    {
+      "file": "boyz-sheet-2.jpg",
+      "sha256": "7cd76c0c3eafb957b732309fb617ca13111e7b87de24d8abe3fca99671781383",
+      "count": 24,
+      "review": "accepted"
+    },
+    {
+      "file": "boyz-sheet-3.jpg",
+      "sha256": "827caaaf101877c2b52e53aa7b7b775c9f9d0281ce21c64eb68497222212c62e",
+      "count": 24,
+      "review": "accepted"
+    },
+    {
+      "file": "boyz-sheet-4.jpg",
+      "sha256": "169e35afdeb8f590e5a22dd4840c735cb801e0bfa15f20c0f2494de7d0d3beb0",
+      "count": 21,
+      "review": "accepted"
+    }
+  ],
+  "alternateSourceReview": {
+    "source": "https://matchbox175.wordpress.com/2026-2/",
+    "pageSha256": "7bd3335248d75d431ca81cf3c14af1b3b26c2644696a9ce63bb4d3555847113e",
+    "decision": "Not used. One clear Lexus LC 500/Supra mismatch found. Prius Prime photograph initially questioned, then confirmed correctly labeled on closer packaging inspection. Final batch uses one consistently attributed source with per-photo identity evidence."
+  },
+  "preserved": "All 4,861 previous photos, twelve original batch archives and original evidence. Canonical release facts/IDs, English overlays, pricing, private collections and personal-photo priority unchanged.",
+  "coverage": "All 2,954 existing Matchbox catalog rows now have a photo; global release and variant coverage remains partial."
+}

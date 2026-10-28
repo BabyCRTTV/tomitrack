@@ -3,9 +3,11 @@ import {allowedCatalogImage} from '../web/app/catalog-image-policy.js';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const catalog=read('catalog/catalog.json'),english=read('catalog/input/tomica-english.json'),media=read('catalog/input/catalog-images.json');
 const overrides=read('catalog/input/catalog-image-overrides.json');for(const[id,patch]of Object.entries(overrides.images)){if(!media.images[id])throw new Error('Unknown photo override '+id);media.images[id]={...media.images[id],...patch};}
-const expectedSizes=[500,500,500,500,200,250,300,140,425,500,200,846];
+const supplemental=read('catalog/input/matchbox-2026-images.json');
+for(const[id,image]of Object.entries(supplemental.images)){if(media.images[id])throw new Error('Supplemental photo replaces queued source '+id);media.images[id]=image;}
+const expectedSizes=[500,500,500,500,200,250,300,140,425,500,200,846,93];
 const batch=read('catalog/input/catalog-image-batch.json'),activeIds=new Set(batch.releaseIds);
-if(batch.schema!==2||batch.limit!==4861||activeIds.size!==4861||batch.releaseIds.length!==4861||batch.batches?.length!==12)throw new Error('Expected four reviewed 500-entry batches and eight Matchbox batches, including the 846-entry completion batch');
+if(batch.schema!==2||batch.limit!==4954||activeIds.size!==4954||batch.releaseIds.length!==4954||batch.batches?.length!==13)throw new Error('Expected thirteen reviewed batches including the 93-entry 2026 Matchbox completion batch');
 const batchedIds=batch.batches.flatMap((b,i)=>{if(b.limit!==expectedSizes[i]||b.releaseIds.length!==b.limit||!/^\d{4}-\d{2}-\d{2}-\d{3}$/.test(b.id))throw new Error('Invalid image batch');const archive=read('catalog/input/catalog-image-batches/'+b.id+'.json');if(i>=4&&archive.brand!=='matchbox')throw new Error('Expected Matchbox photo batch');if(JSON.stringify(archive.releaseIds)!==JSON.stringify(b.releaseIds))throw new Error('Archived image batch differs');return b.releaseIds});
 if(batchedIds.length!==new Set(batchedIds).size||JSON.stringify(batchedIds)!==JSON.stringify(batch.releaseIds))throw new Error('Image batches overlap or change prior order');
 const rejected=read('catalog/input/catalog-image-rejections.json').rejectedHashes,releaseById=new Map(catalog.releases.map(r=>[r.id,r]));
@@ -28,11 +30,15 @@ for(const [id,image]of Object.entries(media.images)){
  if(!batch.verifiedAssets[image.url]?.ok)throw new Error('Unverified batch photo '+id);
  if(!ids.has(id)||!allowedCatalogImage(image.url)||image.originalUrl&&!allowedCatalogImage(image.originalUrl)||image.fallbackUrl&&!allowedCatalogImage(image.fallbackUrl))throw new Error('Invalid image reference '+id);
  if(!['release-reference','casting-reference'].includes(image.kind)||image.referenceReleaseId&&!ids.has(image.referenceReleaseId))throw new Error('Invalid image match '+id);
+ if(supplemental.images[id]){
+  const r=releaseById.get(id),proof=supplemental.reviews[id],v=batch.verifiedAssets[image.url];
+  if(r.brandId!=='matchbox'||r.year!==2026||image.kind!=='release-reference'||!proof||proof.catalogName!==r.name||proof.sourceYear!==r.year||Number(proof.sourceNumber.split('/')[0])!==Number(r.collectorNumber.split('/')[0])||!proof.sourceNumber.endsWith('/125')||proof.sourceUrl!==image.sourceUrl||proof.url!==image.url||proof.sha256!==v.sha256||proof.sourceThumbnailUrl!==v.sourceThumbnailUrl||proof.photoType!==3||proof.visualReview!=='accepted'||!/^[a-f0-9]{64}$/.test(proof.sourcePageSha256)||!/^https:\/\/www\.matchboyz\.com\/matchbox-by-year\/2026\/basic\/[a-z0-9-]+_\d+\.html$/.test(image.sourceUrl)||!image.sourceUrl.endsWith('_'+proof.sourceRecordId+'.html')||!image.url.endsWith('_'+proof.photoId+'_3_'+proof.sourceRecordId+'.jpg')||v.width<500||v.height<300||!(v.thumbnailMeanError>=0&&v.thumbnailMeanError<=8)||!image.credit)throw new Error('Invalid reviewed 2026 photo provenance '+id);
+ }
  if(image.kind==='casting-reference'){const reference=releaseById.get(image.referenceReleaseId);if(!reference||reference.castingId!==releaseById.get(id).castingId||!reference.sourceRefs.some(ref=>ref.url===image.sourceUrl))throw new Error('Invalid casting-photo provenance '+id);}
  const source=new URL(image.sourceUrl);if(source.protocol!=='https:')throw new Error('Invalid attribution link');
  images[id]={url:image.url,sourceUrl:image.sourceUrl,credit:image.credit,kind:image.kind,...(image.originalUrl?{originalUrl:image.originalUrl}:{}),...(image.fallbackUrl?{fallbackUrl:image.fallbackUrl}:{}),...(image.referenceReleaseId?{referenceReleaseId:image.referenceReleaseId}:{})};
 }
 if(Object.keys(images).length!==activeIds.size)throw new Error('Missing reviewed image references');
-const result={schema:1,version:'2026.10.23.6',translations,images,counts:Object.fromEntries(catalog.brands.map(b=>[b.id,{total:catalog.releases.filter(r=>r.brandId===b.id).length,images:catalog.releases.filter(r=>r.brandId===b.id&&images[r.id]).length}])),batchId:batch.id};
+const result={schema:1,version:'2026.10.28.1',translations,images,counts:Object.fromEntries(catalog.brands.map(b=>[b.id,{total:catalog.releases.filter(r=>r.brandId===b.id).length,images:catalog.releases.filter(r=>r.brandId===b.id&&images[r.id]).length}])),batchId:batch.id};
 writeFileSync('web/app/catalog/presentation-data.js','// Generated by npm run catalog:build; source facts and IDs are unchanged.\nexport default '+JSON.stringify(result)+';\n');
 console.log(`Presentation: ${Object.keys(translations).length} English releases, ${Object.keys(images).length} image references.`);

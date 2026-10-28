@@ -1,4 +1,12 @@
-# Development handoff · 0.4.24
+# Development handoff · 0.4.25
+
+## 0.4.25: complete remaining 2026 Matchbox photos · local, pending publication
+
+Owner requested finishing Matchbox photos on 2026-10-28. Resumed remote main `2a2c8f616704a5b5ec7e1d3db506128302b0cc25`; inspected v0.4.24 and recent successful Pages/pricing workflows. Source inspection recovered 93 exact numbered 2026 Basic package photographs from Matchboyz, completing all 2,954 existing Matchbox catalog rows. Global release/variant coverage remains partial. Batch `2026-10-28-013` adds 93 unique 600×600 photographs at native resolution, all decoded and matched to selected source thumbnails (maximum mean RGB error 3.8573/255). Four contact sheets visually checked model and package number; no casting substitutes or placeholders in this batch. Individual photographer credits and source/detail page hashes are retained in supplemental reviewed input, without changing canonical source facts or the old research queue.
+
+All 4,861 previous presentation entries preserve SHA256 `9c7253ff107aac80cfa216308244f2d8ed91edb26d2505a8ba32c847c2d806cd`; every earlier archive/proof remains unchanged. New total: Matchbox 2,954; Tomica 441; TLV 1,559; overall 4,954. Browser CSP and browser/Android image policies add only the specific Matchboyz 2026 Basic photo path. Builds remain deterministic and offline; fetching never runs in startup/CI. New regression checks cover complete Matchbox coverage, source year/number/photo linkage, photographer credit, previous-photo preservation, endpoint restrictions and SQLite parity. Native photo policy tests also cover the new endpoint and hostile variants.
+
+Version 0.4.25 / Android versionCode 31 / browser cache advance together. Permanent signing identity, package ID, private data/backup paths, canonical catalog facts/IDs, English, pricing, existing layout and logo are unchanged. All 91 Node tests and syntax/diff checks pass; deterministic catalog/SQLite rebuild passes integrity and foreign keys, with canonical/pricing projections unchanged and dependency resolution preserved. Remote checkpoint/publication verification will be recorded below. Physical device/Windows execution remains unverified.
 
 ## 0.4.24: remaining Matchbox photo coverage · published and verified
 

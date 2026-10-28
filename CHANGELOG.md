@@ -1,3 +1,9 @@
+# 0.4.25 · 2026-10-28
+
+- Add 93 reviewed 600×600 Matchbox 2026 package photographs, completing images for all 2,954 Matchbox entries currently in the partial catalog; 4,954 photos across all brands.
+- Preserve every prior photograph, batch archive and source proof; retain individual photographer credit and source-hosted, uncropped images with personal-photo priority.
+- Validate supplemental photo provenance and restrict browser/Android access to the reviewed 2026 Basic image paths. Keep canonical records, English, pricing and private collections unchanged.
+
 # 0.4.24 · 2026-10-23
 
 - Complete available Matchbox photo coverage for the catalog's 2009–2025 entries: add 846 photo entries, including 24 visibly labeled casting references.

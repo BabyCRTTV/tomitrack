@@ -1,3 +1,13 @@
+# 2026 Matchbox photo completion · app 0.4.25
+
+Batch `2026-10-28-013` adds **93 release-reference package photos** from Matchboyz, all at their native 600×600 resolution. All **2,954 existing Matchbox rows** now have images; all-brand coverage is **4,954**. This completes imagery for the imported Matchbox subset, not the worldwide lineup or all variants. The previous 2026 missing-photo audit is retained as historical evidence; newly reviewed independent sources resolve those gaps.
+
+Supplemental `input/matchbox-2026-images.json` keeps exact 2026 source records/collector numbers, catalog/source names, photo IDs, photographer credit and page/photo hashes separate from canonical facts and the existing research queue. Full-size photos match their selected source thumbnails (maximum mean RGB error 3.8573/255); four contact sheets were visually reviewed against the numbered packaging. No casting substitutes, placeholders or enlargement in this batch. All 4,861 earlier images, twelve original batch archives and verification evidence remain unchanged. See `research/matchbox-2026-photo-completion-2026-10-28.json`.
+
+Browser CSP and browser/Android image policies allow only the new explicit source photo endpoint; source fetching remains outside startup and builds. Framing, attribution, private-photo priority, collections, canonical release IDs/facts, English overlays and pricing remain unchanged. The builders validate all thirteen authorized batches and reject mismatched new photo/source evidence.
+
+The sections below retain historical batch records and counts.
+
 # Remaining Matchbox photo coverage · app 0.4.24
 
 Batch `2026-10-23-012` adds **846 photo entries**: 822 release references and 24 visibly labeled casting references. Matchbox now has **2,861 photo entries**, covering all 2009–2025 rows in this partial catalog; all brands total **4,861**. The 93 2026 rows remain pending. Every one of their cited product pages was checked and had no model image; BAMCA's 2026 lineup returned 404. This is not a claim that no 2026 photos exist elsewhere, nor complete worldwide release coverage.

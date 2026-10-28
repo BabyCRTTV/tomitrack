@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.24 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.25 is a local-first early-access foundation.
 
 ## Use it
 
@@ -21,6 +21,10 @@ Android 0.2.1 introduces in-app update checks, verified downloads and the Androi
 Search by name, series, release year, product/toy code, collector number, series position, Matchbox MAN number and known UPC/EAN. Filter by brand, year, category, series and ownership. Select a release to review its sources, add to your collection or wishlist, and browse related releases of the casting. Stable catalog IDs and release metadata survive edits and JSON backups.
 
 Barcode coverage includes five specifically cited Mattel UPCs, 1,677 checksum-valid official TOMYTEC JAN links, and two shared basic-car assortment codes. Shared codes produce candidates and never claim to identify a unique model. Missing facts remain unknown. The public catalog is bundled offline with native apps, and a searchable SQLite download is included in releases. See `catalog/README.md` for provenance, counts, coverage and maintenance.
+
+## Matchbox photo coverage
+
+All **2,954 existing Matchbox catalog references** now have a photo, including the 93 remaining 2026 entries added in 0.4.25. The latest batch uses 600×600 source-hosted package photographs from Matchboyz with individual photographer attribution. Earlier casting references remain labeled; global release/variant coverage is still partial. Across all brands, 4,954 entries have photos. Private photos take priority, and source photos require connectivity.
 
 ## Market prices
 
@@ -61,7 +65,7 @@ TomiTrack branding, custom icon and generated hero artwork were created for this
 
 ## Historical Tomica catalog
 
-Version 0.4.24 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
+Version 0.4.25 integrates 2,584 Tomica and 1,684 Limited Vintage-family references. Japanese names are retained; reviewed English search aliases support discovery. Official Takara Tomy monthly announcements and TOMYTEC product records are prioritized; older numbered editions are separately labeled collector references. All coverage is partial. Tomica Limited awaits reviewed release dates; 283 undated products, 72 unavailable monthly pages and 88 future/date-uncertain listings are tracked as research gaps. See catalog/README.md.
 
 
 Public pricing refresh runs on a separate GitHub Actions schedule targeting every 48 hours (elapsed-time gating across month boundaries; scheduler delays are possible). It refreshes dated ECB USD conversion and exact known manufacturer evidence; changed/ambiguous Tomica pages retain prior evidence pending review. It does not infer new sales from retail stock or sold counters. The app checks the published snapshot every 48 hours while online/on resume, persists its last successful check, and backs off six hours after failure. Manual Sync price data remains available. New independent sold observations still require verifiable variant, condition, final price and exact date; no bulk eBay/Mercari feed is connected. Private collections never leave the device. Price-only snapshot refreshes redeploy Pages without repackaging installers; installed apps download the new overlay.

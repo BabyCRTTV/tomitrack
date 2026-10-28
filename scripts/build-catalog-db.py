@@ -7,14 +7,26 @@ parser=argparse.ArgumentParser();parser.add_argument('--output',default=str(root
 data=json.loads((root/'catalog/catalog.json').read_text());english=json.loads((root/'catalog/input/tomica-english.json').read_text())['translations'];media=json.loads((root/'catalog/input/catalog-images.json').read_text())['images'];dest=Path(args.output);dest.parent.mkdir(parents=True,exist_ok=True)
 overrides=json.loads((root/'catalog/input/catalog-image-overrides.json').read_text())['images']
 for rid,patch in overrides.items():media[rid]={**media[rid],**patch}
-batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==4861 and len(active_ids)==len(batch['releaseIds'])==4861
-batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==12 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200,846] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==4861
+supplemental=json.loads((root/'catalog/input/matchbox-2026-images.json').read_text())
+for rid,image in supplemental['images'].items():
+ assert rid not in media;media[rid]=image
+batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==4954 and len(active_ids)==len(batch['releaseIds'])==4954
+batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==13 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200,846,93] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==4954
 for b in batch['batches']:
- assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011','2026-10-23-012'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
+ assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011','2026-10-23-012','2026-10-28-013'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
 rejected=json.loads((root/'catalog/input/catalog-image-rejections.json').read_text())['rejectedHashes'];assert all(batch['verifiedAssets'][media[rid]['url']]['sha256'] not in rejected for rid in active_ids)
-media={k:v for k,v in media.items()if k in active_ids};assert len(media)==4861 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
+media={k:v for k,v in media.items()if k in active_ids};assert len(media)==4954 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
 release_by_id={r['id']:r for r in data['releases']}
 for rid,image in media.items():
+ if rid in supplemental['images']:
+  r=release_by_id[rid];proof=supplemental['reviews'][rid];v=batch['verifiedAssets'][image['url']]
+  assert r['brandId']=='matchbox' and r['year']==2026 and image['kind']=='release-reference'
+  assert proof['catalogName']==r['name'] and proof['sourceYear']==r['year'] and int(proof['sourceNumber'].split('/')[0])==int(r['collectorNumber'].split('/')[0]) and proof['sourceNumber'].endswith('/125')
+  assert proof['sourceUrl']==image['sourceUrl'] and proof['url']==image['url'] and proof['sha256']==v['sha256'] and proof['sourceThumbnailUrl']==v['sourceThumbnailUrl']
+  assert proof['photoType']==3 and proof['visualReview']=='accepted' and len(proof['sourcePageSha256'])==64 and image['credit']
+  assert image['sourceUrl'].startswith('https://www.matchboyz.com/matchbox-by-year/2026/basic/') and image['sourceUrl'].endswith('_'+str(proof['sourceRecordId'])+'.html')
+  assert image['url'].startswith('https://www.matchboyz.com/images/photos/2026/basic-') and image['url'].endswith('_'+str(proof['photoId'])+'_3_'+str(proof['sourceRecordId'])+'.jpg')
+  assert v['width']>=500 and v['height']>=300 and 0<=v['thumbnailMeanError']<=8
  if image['kind']=='casting-reference':
   reference=release_by_id[image['referenceReleaseId']];assert reference['castingId']==release_by_id[rid]['castingId'];assert any(ref.get('url')==image['sourceUrl']for ref in reference['sourceRefs'])
 fd,temp=tempfile.mkstemp(prefix='catalog-',suffix='.sqlite',dir=dest.parent);os.close(fd)
