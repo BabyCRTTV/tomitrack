@@ -23,6 +23,10 @@ refresh=json.loads((root/'catalog/input/release-refresh-2026-10-28.json').read_t
 for rid,image in refresh['images'].items():
  if rid in queue:raise ValueError('New photo replaces queued source '+rid)
  queue[rid]=image
+mini_gt=json.loads((root/'catalog/input/mini-gt.json').read_text())
+for rid,image in mini_gt['images'].items():
+ if rid in queue:raise ValueError('MINI GT photo replaces queued source '+rid)
+ queue[rid]=image
 cache=root/'.cache/image-verification';cache.mkdir(parents=True,exist_ok=True)
 previous=set(published['releaseIds']);rows=[r for r in data['releases']if r['id']in queue and r['id']not in previous and (r['brandId']=='matchbox'if args.brand=='matchbox'else r['brandId']in ['tomica','tomica-limited-vintage'])]
 rows.sort(key=lambda r:(0 if r['brandId']=='tomica'else 1,-r['year'],r['id']))

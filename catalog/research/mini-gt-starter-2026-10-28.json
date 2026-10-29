@@ -1,0 +1,65 @@
+{
+  "reviewedAt": "2026-10-29T03:10:17+00:00",
+  "manufacturer": "https://minigt.tsm-models.com/",
+  "listingPages": 17,
+  "reviewedListings": 204,
+  "eligibleReleasedCandidates": 189,
+  "detailCandidates": 125,
+  "selected": 100,
+  "selection": "Released MGT product codes from reviewed official Full Collection pages 28–44, sorted by official SKU. First 100 distinct verified reference-image contents; no pre-orders, sets or Kaido House items. This is a starter subset, not a complete range.",
+  "sourceDetailEvidence": "../input/mini-gt.json",
+  "sourcePhotos": {
+    "uniqueUrls": 100,
+    "uniqueContents": 100,
+    "dimensions": {
+      "900x600": 98,
+      "1500x1000": 2
+    },
+    "contactSheets": [
+      {
+        "name": "review-1.jpg",
+        "sha256": "1ed47b9fa8b29b9cf96ada0fb3d58cac91a472b721301867b50955302a308f84",
+        "count": 20,
+        "review": "accepted"
+      },
+      {
+        "name": "review-2.jpg",
+        "sha256": "01da0054cf9f7b13f9490b788a5faf2675d2934ef3f96d6a3ccc5aef22519aad",
+        "count": 20,
+        "review": "accepted"
+      },
+      {
+        "name": "review-3.jpg",
+        "sha256": "fdcdbc983a1ac7dbed60e030c8e4d466849ced99dc94db18ac8710830be4b5f9",
+        "count": 20,
+        "review": "accepted"
+      },
+      {
+        "name": "review-4.jpg",
+        "sha256": "aa7daaabcac7acef8ad233cce41ca741bfd6ca8754ba5d54cb931e3193619673",
+        "count": 20,
+        "review": "accepted"
+      },
+      {
+        "name": "review-5.jpg",
+        "sha256": "5c73b699b82a79899292de391e37c4295af5ec0558824c38ff1f22f8a58f7ab2",
+        "count": 20,
+        "review": "accepted"
+      }
+    ]
+  },
+  "unknowns": [
+    "Launch year/date",
+    "Exact color field retained unknown; source product names remain searchable",
+    "Specific package/steering SKU suffixes unless in official item code",
+    "UPCs/JANs",
+    "Production quantities",
+    "Automatic market/MSRP values",
+    "Cross-edition casting links"
+  ],
+  "privateData": "No collection migration or private data upload. Existing backup schemas and manual values preserved.",
+  "logoSource": "https://minigt.tsm-models.com/img/logo_3.svg",
+  "logoSourceSha256": "4f29bb6e2b5ba8614a0548c4627c421558f232392a13dd3f36e93aaabe15c0d4",
+  "note": "Factory photos may show prototype samples, LHD/RHD examples, boxes or blisters. Manufacturer Released status applies to the listed product code; regional availability and unseen packaging configurations are not inferred.",
+  "failedImageCandidates": []
+}

@@ -17,6 +17,10 @@ public class CatalogImagePolicyTest {
   assertTrue(CatalogImagePolicy.allows("https://takaratomymall.jp/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg"));
   for(String u:new String[]{"https://takaratomymall.jp/shop/g/g4904810950936/","https://takaratomymall.jp/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg?redirect=1","https://takaratomymall.jp.evil.test/img/goods/L/4904810950936_250ef9442d0248f4bc2b5a29990801fc.jpg"})assertFalse(u,CatalogImagePolicy.allows(u));
  }
+ @Test public void allowsOnlyReviewedMiniGtPhotoPaths(){
+  assertTrue(CatalogImagePolicy.allows("https://minigt.tsm-models.com/upload/picfile_list/abc12320250101120000123.JPG"));
+  for(String u:new String[]{"https://minigt.tsm-models.com/index.php?action=product-detail&id=100","https://minigt.tsm-models.com/upload/picfile_list/car.jpg?redirect=1","https://minigt.tsm-models.com.evil.test/upload/picfile_list/car.jpg","https://user@minigt.tsm-models.com/upload/picfile_list/car.jpg","https://minigt.tsm-models.com/upload/picfile_list/%2e%2e/car.jpg"})assertFalse(u,CatalogImagePolicy.allows(u));
+ }
  @Test public void rejectsOtherNetworkAccess(){
   for(String u:new String[]{"http://www.bamca.org/pic/man/var/a.jpg","https://www.bamca.org/cgi-bin/lineup.cgi","https://www.bamca.org.evil.test/pic/man/var/a.jpg","https://user@www.bamca.org/pic/man/var/a.jpg","https://www.bamca.org:8443/pic/man/var/a.jpg","https://minicar.tomytec.co.jp/common/api/image.php?jancode=4543736340195&num=1&redirect=https://evil.test","https://www.takaratomy.co.jp/products/tomica/new/images/%2e%2e/a.jpg","javascript:alert(1)"})assertFalse(u,CatalogImagePolicy.allows(u));
  }

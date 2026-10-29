@@ -14,14 +14,22 @@ refresh=json.loads((root/'catalog/input/release-refresh-2026-10-28.json').read_t
 for rid,image in refresh['images'].items():
  assert rid not in media;media[rid]=image
 for key,value in refresh['english'].items():english.setdefault(key,value)
-batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==4985 and len(active_ids)==len(batch['releaseIds'])==4985
-batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==14 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200,846,93,31] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==4985
+mini_gt=json.loads((root/'catalog/input/mini-gt.json').read_text())
+for rid,image in mini_gt['images'].items():
+ assert rid not in media;media[rid]=image
+batch=json.loads((root/'catalog/input/catalog-image-batch.json').read_text());active_ids=set(batch['releaseIds']);assert batch['schema']==2 and batch['limit']==5085 and len(active_ids)==len(batch['releaseIds'])==5085
+batch_ids=[rid for b in batch['batches']for rid in b['releaseIds']];assert len(batch['batches'])==15 and [b['limit']for b in batch['batches']]==[500,500,500,500,200,250,300,140,425,500,200,846,93,31,100] and all(b['limit']==len(b['releaseIds'])for b in batch['batches']);assert batch_ids==batch['releaseIds'] and len(set(batch_ids))==5085
 for b in batch['batches']:
- assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011','2026-10-23-012','2026-10-28-013','2026-10-28-014'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
+ assert b['id']in ['2026-10-17-001','2026-10-18-002','2026-10-18-003','2026-10-18-004','2026-10-18-005','2026-10-18-006','2026-10-23-007','2026-10-23-008','2026-10-23-009','2026-10-23-010','2026-10-23-011','2026-10-23-012','2026-10-28-013','2026-10-28-014','2026-10-28-015'];assert json.loads((root/'catalog/input/catalog-image-batches'/(b['id']+'.json')).read_text())['releaseIds']==b['releaseIds']
 rejected=json.loads((root/'catalog/input/catalog-image-rejections.json').read_text())['rejectedHashes'];assert all(batch['verifiedAssets'][media[rid]['url']]['sha256'] not in rejected for rid in active_ids)
-media={k:v for k,v in media.items()if k in active_ids};assert len(media)==4985 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
+media={k:v for k,v in media.items()if k in active_ids};assert len(media)==5085 and all(batch['verifiedAssets'].get(v['url'],{}).get('ok') for v in media.values())
 release_by_id={r['id']:r for r in data['releases']}
 for rid,image in media.items():
+ if rid in mini_gt['images']:
+  r=release_by_id[rid];p=mini_gt['reviews'][rid];v=batch['verifiedAssets'][image['url']]
+  assert r['brandId']=='mini-gt' and r['year']is None and r['releaseStatus']=='Released' and r['productCode']==p['productCode'] and r['name']==p['name']
+  assert p['visualReview']=='accepted' and image['kind']=='release-reference' and image['sourceUrl']==p['sourceUrl'] and v['sha256']==p['imageSha256']
+  assert any(s['url']==image['sourceUrl']for s in r['sourceRefs']) and v['width']>=500 and v['height']>=300
  if rid in refresh['images']:
   r=release_by_id[rid];proof=refresh['reviews'][rid];v=batch['verifiedAssets'][image['url']]
   assert rid in refresh['newReleaseIds'] and proof['visualReview']=='accepted' and image['kind']=='release-reference'
@@ -45,15 +53,15 @@ try:
  CREATE TABLE brands(id TEXT PRIMARY KEY,name TEXT NOT NULL);
  CREATE TABLE castings(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL);
  CREATE TABLE casting_aliases(casting_id TEXT NOT NULL REFERENCES castings(id),alias TEXT NOT NULL,PRIMARY KEY(casting_id,alias));
- CREATE TABLE series(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER NOT NULL,category_id TEXT NOT NULL,name TEXT NOT NULL,family TEXT NOT NULL);
- CREATE TABLE releases(id TEXT PRIMARY KEY,casting_id TEXT NOT NULL REFERENCES castings(id),series_id TEXT NOT NULL REFERENCES series(id),brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL,year INTEGER NOT NULL,category_id TEXT NOT NULL,product_code TEXT,man_number TEXT,collector_number TEXT,series_number TEXT,color TEXT,variant TEXT,regions TEXT NOT NULL,tags TEXT NOT NULL,aliases TEXT NOT NULL,release_date TEXT NOT NULL,scale TEXT NOT NULL);
+ CREATE TABLE series(id TEXT PRIMARY KEY,brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER CHECK(year IS NOT NULL OR brand_id='mini-gt'),category_id TEXT NOT NULL,name TEXT NOT NULL,family TEXT NOT NULL);
+ CREATE TABLE releases(id TEXT PRIMARY KEY,casting_id TEXT NOT NULL REFERENCES castings(id),series_id TEXT NOT NULL REFERENCES series(id),brand_id TEXT NOT NULL REFERENCES brands(id),name TEXT NOT NULL,year INTEGER CHECK(year IS NOT NULL OR brand_id='mini-gt'),category_id TEXT NOT NULL,product_code TEXT,man_number TEXT,collector_number TEXT,series_number TEXT,color TEXT,variant TEXT,regions TEXT NOT NULL,tags TEXT NOT NULL,aliases TEXT NOT NULL,release_date TEXT NOT NULL,scale TEXT NOT NULL);
  CREATE TABLE release_english(release_id TEXT PRIMARY KEY REFERENCES releases(id),name TEXT NOT NULL,color TEXT NOT NULL,series_name TEXT NOT NULL,review_required INTEGER NOT NULL);
  CREATE TABLE release_images(release_id TEXT PRIMARY KEY REFERENCES releases(id),url TEXT NOT NULL,source_url TEXT NOT NULL,credit TEXT NOT NULL,kind TEXT NOT NULL,original_url TEXT NOT NULL,fallback_url TEXT NOT NULL,reference_release_id TEXT REFERENCES releases(id));
  CREATE TABLE sources(id TEXT PRIMARY KEY,name TEXT NOT NULL,url TEXT NOT NULL,details TEXT NOT NULL);
  CREATE TABLE release_sources(release_id TEXT NOT NULL REFERENCES releases(id),source_id TEXT NOT NULL REFERENCES sources(id),reference TEXT NOT NULL,PRIMARY KEY(release_id,source_id,reference));
  CREATE TABLE identifiers(id INTEGER PRIMARY KEY,value TEXT NOT NULL,gtin14 TEXT NOT NULL,scope TEXT NOT NULL CHECK(scope IN ('release','assortment')),brand_id TEXT REFERENCES brands(id),category_id TEXT,source_id TEXT NOT NULL REFERENCES sources(id),note TEXT NOT NULL,source_url TEXT NOT NULL);
  CREATE TABLE release_identifiers(release_id TEXT NOT NULL REFERENCES releases(id),identifier_id INTEGER NOT NULL REFERENCES identifiers(id),PRIMARY KEY(release_id,identifier_id));
- CREATE TABLE coverage(brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER NOT NULL,releases INTEGER NOT NULL,status TEXT NOT NULL,details TEXT NOT NULL,PRIMARY KEY(brand_id,year));
+ CREATE TABLE coverage(brand_id TEXT NOT NULL REFERENCES brands(id),year INTEGER CHECK(year IS NOT NULL OR brand_id='mini-gt'),releases INTEGER NOT NULL,status TEXT NOT NULL,details TEXT NOT NULL,PRIMARY KEY(brand_id,year));
  CREATE INDEX release_filters ON releases(brand_id,year,category_id);
  CREATE INDEX release_casting ON releases(casting_id);
  CREATE INDEX release_series ON releases(series_id);
@@ -73,7 +81,7 @@ try:
  for x in data['releases']:
   db.execute('INSERT INTO releases VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],x['castingId'],x['seriesId'],x['brandId'],x['name'],x['year'],x['categoryId'],x['productCode'],x['manNumber'],x['collectorNumber'],x['seriesNumber'],x['color'],x['variant'],json.dumps(x['regions']),json.dumps(x['tags']),json.dumps(x.get('aliases',[])),x.get('releaseDate',''),x.get('scale','')))
   en={k:english.get(v,{}).get('text',v) for k,v in {'name':x['name'],'color':x['color'],'seriesName':series[x['seriesId']]['name']}.items()}
-  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],en['name'],brands[x['brandId']],en['seriesName'],str(x['year']),x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],en['color'],x['variant'],' '.join([x['name'],series[x['seriesId']]['name'],x['color'],*x.get('aliases',[])])))
+  db.execute('INSERT INTO release_search VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(x['id'],en['name'],brands[x['brandId']],en['seriesName'],str(x['year'])if x['year']is not None else '',x['productCode'],x['collectorNumber'],x['seriesNumber'],x['manNumber'],en['color'],x['variant'],' '.join([x['name'],series[x['seriesId']]['name'],x['color'],*x.get('aliases',[])])))
   for ref in x['sourceRefs']:db.execute('INSERT INTO release_sources VALUES (?,?,?)',(x['id'],ref['sourceId'],json.dumps(ref,sort_keys=True)))
  for x in data['releases']:
   if x['brandId'].startswith('tomica'):

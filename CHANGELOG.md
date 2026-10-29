@@ -1,3 +1,10 @@
+# 0.4.27 · 2026-10-28
+
+- Add the MINI GT brand tile and exactly 100 official released product references with source-backed 1:64 scale, stable MGT codes and 100 reviewed photos.
+- Support explicitly unknown MINI GT launch years in catalog search, filters, details and SQLite; preserve blank release years through linked saves and v1 backups. Retain integer-year validation for all other brands.
+- Keep MINI GT values manual and package/steering suffixes, UPCs and launch dates unknown where not published. Preserve every prior release, image and verification proof.
+- Bundle the official brand mark for offline navigation; restrict new browser/Android photo access to the official manufacturer image folder.
+
 # 0.4.26 · 2026-10-28
 
 - Add 14 Matchbox releases (11 mainline/three Super Chase), 17 exact-date Tomica products, 15 official JANs and reviewed English names.

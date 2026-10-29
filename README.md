@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.26 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.27 is a local-first early-access foundation.
 
 ## Use it
 
@@ -12,7 +12,7 @@ Add collection and wishlist entries by selecting a release from the catalog. Bra
 
 ## Scope and data
 
-Accounts are implemented but registration awaits backend activation. The app clearly reports this state. Until activated, data stays in IndexedDB on each device. Once enabled, account collections are isolated by user ID, and users can explicitly upload or restore a private cloud backup. There is no automatic live sync. JSON backups include photos; CSV does not. Import replaces the collection after confirmation. Collection history records effective valuation snapshots when records change or a price sync changes the total. It is not verified market performance. USD only in this first version. The public release catalog contains 17,951 attributed references: 13,666 Hot Wheels/Matchbox (2009–2026) and 4,285 Tomica-family references (1970 onward). Coverage is partial; it is not a manufacturer-verified complete catalog. Generic illustrations are used only in the collection/demo; source photos are not bundled. The demo never writes into your real collection.
+Accounts are implemented but registration awaits backend activation. The app clearly reports this state. Until activated, data stays in IndexedDB on each device. Once enabled, account collections are isolated by user ID, and users can explicitly upload or restore a private cloud backup. There is no automatic live sync. JSON backups include photos; CSV does not. Import replaces the collection after confirmation. Collection history records effective valuation snapshots when records change or a price sync changes the total. It is not verified market performance. USD only in this first version. The public release catalog contains 18,051 attributed references: 13,666 Hot Wheels/Matchbox (2009–2026) and 4,285 Tomica-family references (1970 onward), plus 100 official MINI GT product references. Coverage is partial; it is not a manufacturer-verified complete catalog. Generic illustrations are used only in the collection/demo; source photos are not bundled. The demo never writes into your real collection.
 
 Android 0.2.1 introduces in-app update checks, verified downloads and the Android installer. Releases require one permanent signing identity stored in encrypted GitHub Actions secrets. Android asks you to approve installation. The original 0.1.0 and 0.2.0 APKs used different, unretained development keys, so their users need a one-time backup/reinstall/restore migration. See ANDROID-UPDATES.md. Windows binaries are not publisher-code-signed and may show SmartScreen; Windows automatic updates remain future work.
 
@@ -24,7 +24,13 @@ Barcode coverage includes five specifically cited Mattel UPCs, 1,677 checksum-va
 
 ## Matchbox photo coverage
 
-All **2,968 existing Matchbox catalog references** now have a photo, including the 93 remaining 2026 entries added in 0.4.25. The latest batch uses 600×600 source-hosted package photographs from Matchboyz with individual photographer attribution. Earlier casting references remain labeled; global release/variant coverage is still partial. Across all brands, 4,985 entries have photos. Private photos take priority, and source photos require connectivity.
+All **2,968 existing Matchbox catalog references** now have a photo, including the 93 remaining 2026 entries added in 0.4.25. The latest batch uses 600×600 source-hosted package photographs from Matchboyz with individual photographer attribution. Earlier casting references remain labeled; global release/variant coverage is still partial. Across all brands, 5,085 entries have photos. Private photos take priority, and source photos require connectivity.
+
+## MINI GT starter catalog
+
+MINI GT now has a dedicated catalog brand tile with **100 official manufacturer product references and photos**. Search by exact MGT code, collector number, model name or source category, then add a linked copy to your garage or wishlist. The source marks each selected product Released and publishes its 1:64 scale. Launch dates/years are not consistently supplied and stay unrecorded; vehicle/race years and image timestamps are never treated as toy release years. The year filter includes Year not recorded.
+
+Photos retain their original 900×600 or 1500×1000 resolution and load from MINI GT / TSM-Model with attribution. They may show samples or one LHD/RHD/packaging configuration. No unseen SKU suffixes, UPCs, exact color fields, quantities or automatic market/MSRP prices are invented. Product-level casting links do not imply reviewed cross-edition relationships. Coverage is partial and excludes pre-orders, Kaido House and sets from this first batch. Existing collections and portable v1 backups are preserved.
 
 ## Latest reviewed releases
 

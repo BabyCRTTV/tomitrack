@@ -1,3 +1,15 @@
+# MINI GT starter catalog · app 0.4.27
+
+Add **100 official Released MINI GT product references and 100 source photos** from MINI GT / TSM-Model. This is a deliberately limited starter subset, selected from reviewed Full Collection pages 28–44, sorted by manufacturer item code. Pre-orders, non-MGT codes, Kaido House and sets are excluded. Every imported record preserves its exact published MGT code and cited product detail page; manufacturer categories and vehicle/race years remain source text. No release year is inferred from titles or filenames.
+
+`input/mini-gt.json` contains the reviewed canonical additions, Released status, published 1:64 scale, per-product page/listing hashes, image/credit evidence and explicit date/configuration limits. Source item numbers do not imply unlisted LHD/RHD, boxed/blister or regional SKU suffixes. Exact structured color, barcode and production quantity fields remain unrecorded; MINI GT does not join the automatic pricing scope. Casting entities are product references only, with cross-edition linking deferred.
+
+Null launch years are supported explicitly for Released MINI GT records, including an unknown-year filter and truthful detail/coverage text. SQLite releases/series/coverage year columns allow NULL only for brand mini-gt; FTS does not index NULL as a fake date. Other brands’ year validation and all existing stored values are unchanged. New private copies save a blank releaseYear in the existing v1 backup format.
+
+Batch `2026-10-28-015` adds 100 distinct official reference photographs/content hashes (98 at 900×600, two at 1500×1000). All met the 500×300 floor without enlargement and were visually checked across five 20-image sheets. Prototype/sample and shown steering/configuration caveats are retained; original credits and uncropped source-hosted framing remain. The bundled official mark is used for the brand tile and offline navigation. Browser/Android policies allow only the manufacturer’s explicit `/upload/picfile_list/` image path. `research/mini-gt-starter-2026-10-28.json` records selection and verification.
+
+Totals: 18,051 references / 6,925 product or casting entities / 2,317 series groups / 5,085 photos. All 17,951 older release records and 4,985 older images preserve their complete hashes, every prior archive/proof, existing identifiers, translations and price evidence. Source fetching remains outside startup and CI. Historical sections below retain their original counts.
+
 # Reviewed new releases · app 0.4.26 · 2026-10-28
 
 Add **31 releases and photos**: 14 Matchbox (11 2026 mainline and three Super Chase editions), plus 17 Tomica products with exact official elapsed October dates. New totals: 17,951 references (10,698 Hot Wheels / 2,968 Matchbox / 2,601 Tomica / 1,684 TLV), 4,285 English Tomica-family entries and 4,985 photo entries. All existing Matchbox rows remain illustrated. Coverage remains partial; no global completeness is asserted.

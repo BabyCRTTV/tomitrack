@@ -1,8 +1,8 @@
 {
-  "version": "2026.10.28.1",
-  "total": 17951,
-  "castings": 6825,
-  "series": 2316,
+  "version": "2026.10.28.2",
+  "total": 18051,
+  "castings": 6925,
+  "series": 2317,
   "duplicatesMerged": 2110,
   "tomicaReferencesMerged": 130,
   "rejected": [
@@ -993,6 +993,15 @@
       "seriesNumbers": 63,
       "colorKnown": 40,
       "status": "partial"
+    },
+    {
+      "brandId": "mini-gt",
+      "year": null,
+      "releases": 100,
+      "seriesNumbers": 0,
+      "colorKnown": 0,
+      "status": "partial",
+      "details": "Official released products; launch years not recorded. Product-level casting links only."
     }
   ]
 }

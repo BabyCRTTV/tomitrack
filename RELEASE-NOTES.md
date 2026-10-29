@@ -1,9 +1,9 @@
-# TomiTrack 0.4.26 · Early access
+# TomiTrack 0.4.27 · Early access
 
-Add 31 reviewed catalog entries with photos: 14 Matchbox references (11 mainline and three Super Chase editions) and 17 Tomica products with exact October release dates. Add 15 verified Tomica JAN barcodes and reviewed English names. Regular and first-special F80 editions remain separate.
+Add MINI GT as a catalog brand with 100 official released product references and 100 reviewed manufacturer photos. Search by MGT product code, collector number or model name, then add to your collection or wishlist. The brand tile shows distinct releases in your garage.
 
-Catalog total: 17,951 references, including 2,968 Matchbox and 2,601 Tomica. Photo coverage: 4,985. Every earlier release and photo is preserved, along with private collections and personal-photo priority. Coverage remains partial.
+Unpublished launch years remain Year not recorded, with a matching filter. Vehicle/race years are not used as toy release years. Source photos may show prototype samples or a particular steering/packaging configuration; confirm your exact copy. This first subset excludes pre-orders, Kaido House and sets. Pricing remains manual for MINI GT.
 
-The Delica Mini and Premium Hiace remain excluded following their November 28 postponements. Twelve current-month TLV products still lack an exact verified release date and remain pending. Existing pricing evidence is unchanged; this update adds no new automatic values.
+Catalog total: 18,051 references and 5,085 photos. All earlier records, photos, private collection data and portable backups are preserved. Images remain source-hosted with attribution and uncropped framing.
 
-Android package and permanent signing identity are unchanged; versionCode 32. Android APK, Windows installer, SQLite and checksums are included.
+Android package and permanent signing identity are unchanged; versionCode 33. Android APK, Windows installer, SQLite and checksums are included.
