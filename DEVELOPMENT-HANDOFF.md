@@ -1,4 +1,8 @@
-# Development handoff · 0.4.27
+# Development handoff · 0.4.28
+
+## 0.4.28
+
+Newest-first sorting shipped on Pages at ebe4090. The native workflow refreshed the 0.4.27 downloads under their existing version. This release increments Android versionCode to 34 and the shared version to 0.4.28 so existing installations can recognize the update. Verify the published assets on the release page.
 
 ## 0.4.27: MINI GT first 100 · local, pending publication
 

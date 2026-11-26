@@ -1,3 +1,7 @@
+# 0.4.28 · 2026-11-25
+
+- Catalog browsing, brand views and search now show the newest releases first. Releases with an unknown year appear last.
+
 # 0.4.27 · 2026-10-28
 
 - Add the MINI GT brand tile and exactly 100 official released product references with source-backed 1:64 scale, stable MGT codes and 100 reviewed photos.
