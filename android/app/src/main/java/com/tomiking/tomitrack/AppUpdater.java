@@ -71,10 +71,12 @@ public final class AppUpdater {
             prefs.edit().putLong("last-check",System.currentTimeMillis()).apply();
             emit("checking","Checking the latest TomiTrack release…",0);
             try{
-                HttpURLConnection connection=connect(RELEASE_API,true);
-                String text;
-                try(InputStream in=connection.getInputStream()){text=readLimited(in,2*1024*1024);}finally{connection.disconnect();}
-                JSONObject release=new JSONObject(text);
+                JSONObject release;
+                try {
+                    release=readRelease("https://github.com/BabyCRTTV/tomitrack/releases/latest/download/android-update.json",false);
+                } catch (IOException | org.json.JSONException unavailable) {
+                    release=readRelease(RELEASE_API,true);
+                }
                 if(release.optBoolean("draft")||release.optBoolean("prerelease"))throw new IOException("No stable release is available.");
                 String version=UpdatePolicy.version(release.getString("tag_name"));latestVersion=version;
                 if(!UpdatePolicy.newer(version,installedVersion)){candidate=null;emit("current","You are using the latest version.",0);}
@@ -155,11 +157,17 @@ public final class AppUpdater {
     }
     public void resumeInstall(){activity.runOnUiThread(this::installReady);}
     public void destroy(){destroyed=true;executor.shutdownNow();}
+    private JSONObject readRelease(String url,boolean api)throws Exception{
+        HttpURLConnection connection=connect(url,api);
+        try(InputStream in=connection.getInputStream()){
+            return new JSONObject(readLimited(in,2*1024*1024));
+        }finally{connection.disconnect();}
+    }
     private HttpURLConnection connect(String address,boolean api)throws Exception{
         String url=address;
         for(int redirects=0;redirects<6;redirects++){
             if(!UpdatePolicy.downloadHost(url))throw new IOException("The update download host is not trusted.");
-            HttpURLConnection c=(HttpURLConnection)new URL(url).openConnection();c.setInstanceFollowRedirects(false);c.setConnectTimeout(15000);c.setReadTimeout(30000);c.setRequestProperty("User-Agent","TomiTrack-Android/"+installedVersion);c.setRequestProperty("Accept",api?"application/vnd.github+json":"application/octet-stream");
+            HttpURLConnection c=(HttpURLConnection)new URL(url).openConnection();c.setUseCaches(false);c.setInstanceFollowRedirects(false);c.setConnectTimeout(15000);c.setReadTimeout(30000);c.setRequestProperty("User-Agent","TomiTrack-Android/"+installedVersion);c.setRequestProperty("Accept",api?"application/vnd.github+json":"application/octet-stream");
             int code=c.getResponseCode();
             if(code>=300&&code<400){String location=c.getHeaderField("Location");c.disconnect();if(location==null)throw new IOException("Invalid update redirect.");url=new URL(new URL(url),location).toString();continue;}
             if(code!=200){c.disconnect();throw new IOException(code==403||code==429?"Update checks are temporarily rate limited. Try again later.":"Update server is unavailable. Try again later.");}

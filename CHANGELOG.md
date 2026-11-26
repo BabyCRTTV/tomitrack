@@ -1,3 +1,7 @@
+# TomiTrack 0.4.29
+
+Review update now opens the installation controls directly. Android checks the published APK manifest with a fallback to the release API, and official downloads open in the system browser.
+
 # 0.4.28 · 2026-11-25
 
 - Catalog browsing, brand views and search now show the newest releases first. Releases with an unknown year appear last.

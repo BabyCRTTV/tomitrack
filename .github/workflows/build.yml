@@ -89,8 +89,12 @@ jobs:
           version="v$(node -p "require('./package.json').version")"
           cd artifacts
           sha256sum *.apk *.exe *.sqlite > SHA256SUMS.txt
+          apk="TomiTrack-${version#v}.apk"
+          digest=$(sha256sum "$apk" | cut -d' ' -f1)
+          jq -n --arg tag "$version" --arg name "$apk" --arg digest "sha256:$digest" --argjson size "$(stat -c %s "$apk")" --arg url "https://github.com/$GITHUB_REPOSITORY/releases/download/$version/$apk" '{tag_name:$tag,assets:[{name:$name,digest:$digest,size:$size,browser_download_url:$url}]}' > android-update.json
           cd ..
           if ! gh release view "$version" >/dev/null 2>&1; then
-            gh release create "$version" --target "$GITHUB_SHA" --title "TomiTrack $version · Early access" --notes-file RELEASE-NOTES.md
+            gh release create "$version" artifacts/* --target "$GITHUB_SHA" --title "TomiTrack $version · Early access" --notes-file RELEASE-NOTES.md
+          else
+            gh release upload "$version" artifacts/* --clobber
           fi
-          gh release upload "$version" artifacts/* --clobber

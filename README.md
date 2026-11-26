@@ -1,6 +1,6 @@
 # TomiTrack by TomiKing
 
-A diecast collection tracker for Android, Windows and the web. Version 0.4.28 is a local-first early-access foundation.
+A diecast collection tracker for Android, Windows and the web. Version 0.4.29 is a local-first early-access foundation.
 
 ## Use it
 
